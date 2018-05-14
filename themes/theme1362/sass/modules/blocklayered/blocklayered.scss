@@ -1,0 +1,133 @@
+@import "../../_theme_variables";
+@import "../../_elements_variables";
+
+#layered_block_left {
+	overflow:hidden;
+	.title_block {
+		&:after {
+			display:none;
+		}
+	}
+	#layered_form {
+		.layered_subtitle {
+			color: #444;
+			font: $font-subheading;
+		}
+		#enabled_filters {
+			@include box-style;
+			ul li {
+				padding:2px 0;
+				a {
+					float: right;
+					cursor: pointer;
+				}
+			}
+		}
+		> div {
+			> div {
+				&.layered_filter {
+					border-bottom: 1px solid #e3e3e3;
+					overflow:hidden;
+					margin-bottom: 15px;
+					.layered_filter_ul.color-group {
+						@include color-pick-list;
+					}
+				}
+				&:last-child {
+					border-bottom: none!important;
+					margin-bottom: 0;
+				}
+			}
+		}
+		.layered_price {
+			ul li.layered_list {
+				float: left;
+				clear: left;
+			}
+		}
+		ul {
+			clear: both;
+			padding: 5px 0;
+			margin: 0;
+			li {
+				padding:2px 0;
+				list-style-type: none;
+				a strong{
+          font-weight: 400;
+				}
+				&.disabled {
+					color: #666;
+				}
+				&.layered_list {
+					display: block;
+					cursor: pointer;
+					&.layered_list_selected, &:hover {
+             color: #444;
+					}
+				}
+			}
+			.selector {
+				margin-bottom: 15px;
+			}
+			.layered_slider_container {
+				margin: 6px 0 6px 10px;
+				width: 89%;
+				.layered_slider {
+					margin-top:5px;
+				}
+			}
+		}
+		.color-option {
+			border: 1px solid $dark-border-color;
+			height: 16px;
+			margin-left: 0;
+			padding: 0;
+			width: 16px;
+			margin-right: 5px;
+			&.on {
+				border: 1px solid $color-warning;
+			}
+			&.disable {
+				opacity: 0.5;
+				filter:alpha(opacity=50);
+				-moz-opacity:0.5;
+			}
+		}
+		.form-group {
+			margin-top:15px;
+			margin-bottom: 0;
+			&:first-child {
+				margin-top: 0;
+			}
+			.form-label {
+				display:inline-block;
+				margin-bottom:5px;
+			}
+		}
+		.hide-action {
+			text-align: right;
+			display: block;
+			cursor: pointer;
+			&:hover {
+				font-weight: bold;
+			}
+		}
+	}
+	#layered_ajax_loader p {
+		margin: 20px 0;
+		text-align: center;
+	}
+}
+
+
+#layered_block_loader {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba($color-light, .2);
+	z-index: 3;
+}

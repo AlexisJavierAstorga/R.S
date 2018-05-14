@@ -1,0 +1,83 @@
+/*
+* @section      Sitemap Page Styles
+*/
+#sitemap h1 {
+  margin-bottom: 30px;
+  margin-top: 35px;
+  font: 500 26px/30px "Ubuntu", sans-serif;
+  color: #444444;
+  text-align: center;
+  border: none; }
+#sitemap .sitemap_block {
+  margin: 0 0 30px; }
+  #sitemap .sitemap_block ul.tree > li > a {
+    color: #444444; }
+    #sitemap .sitemap_block ul.tree > li > a:hover {
+      color: #777777; }
+  #sitemap .sitemap_block .page-subheading, #sitemap .sitemap_block ul.tree > li > a {
+    position: relative;
+    display: block;
+    font: 500 19px/22px "Ubuntu", sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0 40px 15px 0;
+    color: #444444;
+    border-bottom: 1px solid #e3e3e3; }
+    #sitemap .sitemap_block .page-subheading.accordion_current:after, #sitemap .sitemap_block ul.tree > li > a.accordion_current:after {
+      content: "\f107";
+      cursor: pointer;
+      display: block;
+      font-family: "FontAwesome";
+      font-size: 30px;
+      font-weight: normal;
+      line-height: 30px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 35px; }
+    #sitemap .sitemap_block .page-subheading.accordion_current.active:after, #sitemap .sitemap_block ul.tree > li > a.accordion_current.active:after {
+      content: "\f106"; }
+    #sitemap .sitemap_block .page-subheading a, #sitemap .sitemap_block ul.tree > li > a a {
+      color: #444444; }
+      #sitemap .sitemap_block .page-subheading a:hover, #sitemap .sitemap_block ul.tree > li > a a:hover {
+        color: #777777; }
+  #sitemap .sitemap_block .accordion_content {
+    padding-top: 18px; }
+    #sitemap .sitemap_block .accordion_content li {
+      padding: 5px 0;
+      font: 300 14px/20px "Ubuntu", sans-serif; }
+  #sitemap .sitemap_block ul.tree > li {
+    margin: 0 0 30px; }
+    #sitemap .sitemap_block ul.tree > li .accordion_content {
+      overflow: hidden; }
+      #sitemap .sitemap_block ul.tree > li .accordion_content > li {
+        width: 20%;
+        float: left;
+        padding: 0 10px 20px 0; }
+        #sitemap .sitemap_block ul.tree > li .accordion_content > li:nth-child(5n+1) {
+          clear: left; }
+        @media (min-width: 992px) and (max-width: 1199px) {
+          #sitemap .sitemap_block ul.tree > li .accordion_content > li {
+            width: 25%; }
+            #sitemap .sitemap_block ul.tree > li .accordion_content > li:nth-child(4n+1) {
+              clear: left; } }
+        @media (min-width: 630px) and (max-width: 991px) {
+          #sitemap .sitemap_block ul.tree > li .accordion_content > li {
+            width: 33.33333%; }
+            #sitemap .sitemap_block ul.tree > li .accordion_content > li:nth-child(3n+1) {
+              clear: left; } }
+        @media (max-width: 629px) {
+          #sitemap .sitemap_block ul.tree > li .accordion_content > li {
+            width: 50%; }
+            #sitemap .sitemap_block ul.tree > li .accordion_content > li:nth-child(2n+1) {
+              clear: left; } }
+        @media (max-width: 430px) {
+          #sitemap .sitemap_block ul.tree > li .accordion_content > li {
+            width: 100%; } }
+        #sitemap .sitemap_block ul.tree > li .accordion_content > li > a {
+          padding: 5px 0 10px;
+          display: inline-block;
+          font: bold 16px/26px "Ubuntu", sans-serif;
+          color: #444444; }
+          #sitemap .sitemap_block ul.tree > li .accordion_content > li > a:hover {
+            color: #777777; }

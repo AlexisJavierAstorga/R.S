@@ -1,0 +1,333 @@
+@import '../../../_theme_variables';
+@import "../../../_elements_variables";
+@import "../../../_header_modules_variables";
+
+.sdsarticleCat, #sdsblogArticle, #articleComments {
+  .title_block {
+    &:after {
+      display: none;
+    }
+  }
+}
+
+/****************************** Blog blocks styles ********************************/
+
+#latestComments, #blogPopular, #recent_article_smart_blog_block_left {
+  ul {
+    li {
+      &.last_item {
+        border: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+    }
+  }
+}
+
+#blogPopular, #recent_article_smart_blog_block_left {
+  .info {
+    display: block;
+    font-style: italic;
+  }
+}
+
+#latestComments {
+  .products-block-image {
+    border: none;
+  }
+}
+
+/*************************** end Blog blocks styles *******************************/
+
+/*************************** articles listing styles ******************************/
+.title_block_exclusive {
+  padding: 0 0 0 0;
+  margin: 0 0 20px 0;
+  font: 400 25px/1.2em $font-custom;
+  color: #555459;
+  text-transform: uppercase;
+  a {
+    color: #555459;
+    &:hover {
+      color: $link-hover-color;
+    }
+  }
+}
+
+#sdsblogCategory {
+  margin-bottom: 30px;
+  .imageFeatured {
+    float: left;
+    margin: 0 20px 10px 0;
+  }
+}
+
+#smartblogcat {
+  margin-bottom: 0;
+}
+
+.sdsarticleCat {
+  margin-bottom: 30px;
+  .articleContent {
+    .post-image {
+      @include post-image;
+      img {
+        width: 100%;
+      }
+    }
+    .sdsarticle-des {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.articleHeader {
+  overflow: hidden;
+  margin-bottom: 30px;
+  .postInfo {
+    > span {
+      padding-right: 10px;
+      padding-bottom: 3px;
+      display: inline-block;
+      &:first-child {
+        padding-left: 10px;
+      }
+    }
+    a {
+      text-decoration: underline;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+a.read-more {
+  text-decoration: underline;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.post-count {
+  float: left;
+  padding: 5px 0 0 0;
+}
+
+/*********************** end articles listing styles ******************************/
+
+/************************** article info styles ***********************************/
+
+#sdsblogArticle {
+  .post-image {
+    @include post-image;
+    img {
+      width: 100%;
+    }
+  }
+  .sdsarticle-des {
+    margin-bottom: 30px;
+  }
+  .sdstags-update {
+    margin-bottom: 30px;
+  }
+  .block-addthis {
+    margin-bottom: 30px;
+  }
+  @media (max-width: $screen-xs - 1) {
+    .addthis_default_style .addthis_counter {
+      clear: left;
+    }
+    .at-share-tbx-element a.at300b, .at-share-tbx-element a.at300b {
+      clear: left;
+      display: block;
+      margin-bottom: 10px;
+      width: auto;
+    }
+  }
+}
+
+/************************ end of article info styles ******************************/
+
+#sdsblogArticle .attention img {
+  margin: 0 10px;
+}
+
+/*************************************** Blog comments *****************************/
+#comments #commentTitle {
+  display: none;
+}
+
+#comments {
+  img.avatar {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    border: 1px solid $base-border-color;
+    @media (max-width: $screen-xs - 1) {
+      float: none;
+      margin: 0 0 15px 0;
+    }
+  }
+  li li {
+    .well {
+      margin-top: 20px;
+    }
+  }
+}
+
+#respond {
+  background: #fff;
+}
+
+#respond h4 {
+  padding: 0 0 35px;
+  position: relative;
+  &:after {
+    display: none;
+  }
+  small {
+    bottom: 15px;
+    font: 400 12px / 1 $font-family;
+    left: 0;
+    position: absolute;
+    a {
+      text-decoration: underline;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+#respond #commentInput {
+  background: #fff;
+  padding: 0 10px 10px 10px;
+}
+
+#respond #replyTitle {
+  display: none;
+}
+
+#respond table {
+  width: 100%;
+}
+
+#respond .smartblogcaptcha {
+  width: 100px;
+}
+
+#respond td {
+  padding: 3px 5px;
+  @media (max-width: $screen-sm-max) {
+    display: block;
+    padding: 0 0 5px;
+  }
+}
+
+#respond .note {
+  color: #888888;
+  display: block;
+  font-size: 10px;
+}
+
+#respond td:first-child {
+  padding-top: 6px;
+  vertical-align: top;
+}
+
+#respond .text-right {
+  padding: 10px 5px 0px;
+}
+
+#sdssearch_block_top {
+  padding-top: 0px;
+  @include search-box-style;
+}
+
+ul.commentList ul {
+  padding-left: 70px;
+  @media (max-width: $screen-md-max) {
+    padding-left: 15px;
+  }
+}
+
+.commentList {
+  .well {
+    background: #fff;
+    @include box-shadow(rgba(0, 0, 0, 0) 0 0 0);
+    @media (max-width: $screen-xs-max) {
+      position: relative;
+      padding-bottom: 50px;
+    }
+  }
+  .created, .name {
+    margin-bottom: 8px;
+  }
+  .comment-reply-link.btn {
+    font-size: 12px;
+    line-height: 15px;
+
+    &:hover, &:active, &:focus {
+
+    }
+  }
+  .pull-right {
+    @media (max-width: $screen-xs-max) {
+      position: absolute;
+      right: 5px;
+      bottom: 5px;
+      .comment-reply-link.btn {
+        font-size: 11px;
+        line-height: 14px;
+        padding: 5px 10px;
+      }
+    }
+  }
+}
+
+#articleRelated {
+  margin-bottom: 15px;
+  li {
+    padding-bottom: 15px;
+    .products-block-image {
+      @include product-image;
+    }
+    @media only screen and (min-width: $screen-md-min) {
+      &.first-in-line {
+        clear: left;
+      }
+    }
+    @media only screen and (min-width: $screen-sm) and (max-width: $screen-sm-max) {
+      &.first-item-of-tablet-line {
+        clear: left;
+      }
+    }
+    @media only screen and (min-width: $screen-xs) and (max-width: $screen-xs-max) {
+      width: 50%;
+      float: left;
+      text-align: center;
+      &.first-item-of-mobile-line {
+        clear: left;
+      }
+    }
+    @media only screen and (max-width: $screen-xs-max) {
+      .img-responsive {
+        width: 100%;
+      }
+    }
+  }
+  .products-block-image {
+    margin-bottom: 10px;
+    display: block;
+  }
+}
+
+
+#submitComment {
+  &:hover,
+  &:focus,
+  &:active {
+    background: $color-primary-second;
+  }
+}

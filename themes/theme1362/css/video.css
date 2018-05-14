@@ -1,0 +1,29 @@
+#videobox {
+width:575px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;>
+border-radius: 10px;
+background:#CCCCCC;  /* Fondo VideoBox */
+border:1px solid #5A5A5A;
+padding:10px; -moz-box-shadow: 0px 0px 30px #E3E3E3;
+-webkit-box-shadow: 0px 0px 30px #E3E3E3;
+box-shadow: 0px 0px 30px #E3E3E3;}
+.mini {
+background: #ffffff;  /* Fondo miniatura */
+-webkit-border-radius:3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+padding:5px;
+height:73px;
+width:50px;
+-moz-transition: 0.5s;
+-webkit-transition: 0.5s;
+-o-transition:0.5s;
+transition: 0.5s;
+}
+.mini:hover {
+-moz-transition: 0.5s;
+-webkit-transition: 0.5s;
+-o-transition:0.5s;
+transition: 0.5s;
+height:130px;}

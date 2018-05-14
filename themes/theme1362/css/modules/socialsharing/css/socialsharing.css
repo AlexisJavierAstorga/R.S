@@ -1,0 +1,41 @@
+/* -------*--------------------------------------------------------------------------------------------------------
+										 Social Sharing 
+------------------------------------------------------------------------------------------------------------------- */
+.btn.btn-facebook,
+.btn.btn-twitter,
+.btn.btn-google-plus,
+.btn.btn-pinterest {
+  border: 1px solid #e3e3e3;
+  display: inline-block;
+  font-size: 15px;
+  height: 35px;
+  margin: 0 0 4px;
+  padding: 2px 0 0;
+  width: 35px; }
+  .btn.btn-facebook:after,
+  .btn.btn-facebook span,
+  .btn.btn-twitter:after,
+  .btn.btn-twitter span,
+  .btn.btn-google-plus:after,
+  .btn.btn-google-plus span,
+  .btn.btn-pinterest:after,
+  .btn.btn-pinterest span {
+    display: none; }
+  .btn.btn-facebook i,
+  .btn.btn-twitter i,
+  .btn.btn-google-plus i,
+  .btn.btn-pinterest i {
+    display: none; }
+
+.extra-right .btn.btn-facebook:hover, .extra-right .btn.btn-facebook:focus,
+.extra-right .btn.btn-twitter:hover,
+.extra-right .btn.btn-twitter:focus,
+.extra-right .btn.btn-google-plus:hover,
+.extra-right .btn.btn-google-plus:focus,
+.extra-right .btn.btn-pinterest:hover,
+.extra-right .btn.btn-pinterest:focus {
+  color: white;
+  background: #f88db1; }
+
+.socialsharing_product button {
+  margin-bottom: 3px; }

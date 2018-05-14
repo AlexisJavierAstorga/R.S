@@ -1,0 +1,43 @@
+@import 'compass';
+@import 'bootstrap_lib/_variables';
+
+// ------- MAIN BUTTON STYLES -------
+
+$font-button: $font;
+$button-text-color: $link-hover-color;
+
+// ------- Buttons DEFAULT -------
+
+$btn-default-color: $button-text-color;
+$btn-default-bg: $light-background;
+$btn-default-border: $base-border-color;
+$btn-default-hover-color: $button-text-color;
+$btn-default-hover-bg: $light-background;
+$btn-default-hover-border: darken($base-border-color, 30%);
+
+$padding-base-vertical: 7px;
+$padding-base-horizontal: 20px;
+
+// ------- Buttons ADD TO CART -------
+
+$btn-atc-color: $light-text-color;
+$btn-atc-bg: $dark-background;
+$btn-atc-border: $dark-background;
+$btn-atc-hover-color: $light-text-color;
+$btn-atc-hover-bg: $primary-background;
+$btn-atc-hover-border: $primary-background;
+
+// ------- Pagination Buttons --- +/- Buttons and Input --- Pagination Buttons --------
+
+$input-label-button-size: 34px;
+// width and height for input, buttons, line-height for label
+
+// ------- Grid/List vars -------
+
+$GL-text-color: $base-body-color;
+$GL-icon-color: $dark-text-color;
+$GL-icon-color-hover: $primary-text-color;
+
+// ------- My Account List bg -------
+
+$ma-button-bg: rgba(247, 247, 247, 1);

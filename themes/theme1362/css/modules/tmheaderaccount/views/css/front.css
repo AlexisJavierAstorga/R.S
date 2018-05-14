@@ -1,0 +1,188 @@
+#header-login {
+  position: relative;
+  float: right; }
+  #header-login .header_user_info {
+    border-left: 1px solid #fff;
+    color: #444;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    min-height: 50px;
+    font-weight: bold;
+    line-height: 18px;
+    padding: 16px 18px 10px;
+    position: relative;
+    text-transform: uppercase;
+    overflow: hidden; }
+    #header-login .header_user_info:before {
+      -moz-transition: 0.3s;
+      -o-transition: 0.3s;
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      background: #fff;
+      bottom: 100%;
+      content: '';
+      height: 100%;
+      left: 0;
+      position: absolute;
+      width: 100%; }
+    #header-login .header_user_info span {
+      position: relative;
+      z-index: 1; }
+    #header-login .header_user_info.current a {
+      color: #444;
+      letter-spacing: 0.8px; }
+    #header-login .header_user_info.current:hover:before, #header-login .header_user_info.current:focus:before, #header-login .header_user_info.current.active:before {
+      bottom: 0; }
+    #header-login .header_user_info.current.active:before {
+      bottom: 0; }
+  #header-login .logout {
+    overflow: hidden;
+    padding-top: 10px;
+    margin: 0; }
+  @media (max-width: 767px) {
+    #header-login {
+      float: left;
+      width: 33.33%; }
+      #header-login .header_user_info {
+        padding: 16px 5px 10px 10px; }
+        #header-login .header_user_info.current a {
+          letter-spacing: 0; } }
+  @media (max-width: 479px) {
+    #header-login .header_user_info {
+      padding: 10px 18px 4px;
+      text-align: center; }
+      #header-login .header_user_info span {
+        display: none; }
+      #header-login .header_user_info a:before {
+        -moz-transition: 0.3s;
+        -o-transition: 0.3s;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+        content: '\e8a6';
+        font: 400 28px/1 "Material Icons";
+        position: relative;
+        z-index: 1; } }
+
+#header-login-content {
+  background: #f7f7f7;
+  color: #444;
+  display: none;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  min-width: 144px;
+  z-index: 2;
+  margin-bottom: 0;
+  padding: 20px 30px;
+  width: 270px; }
+  #header-login-content > li {
+    font: 700 14px/16px "Ubuntu", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+    #header-login-content > li a {
+      color: #444;
+      display: block;
+      padding: 15px 15px 16px 20px;
+      -moz-transition: 0.3s;
+      -o-transition: 0.3s;
+      -webkit-transition: 0.3s;
+      transition: 0.3s; }
+    #header-login-content > li + li {
+      border-top: 1px solid #ebebeb; }
+    #header-login-content > li.selected span {
+      display: block;
+      padding: 15px 15px 16px 20px; }
+    #header-login-content > li.selected, #header-login-content > li.selected a,
+    #header-login-content > li a:hover,
+    #header-login-content > li a:focus {
+      background: #ebebeb; }
+  #header-login-content .btn.btn-login-facebook {
+    border-color: #3b5998;
+    color: #3b5998; }
+    #header-login-content .btn.btn-login-facebook:active, #header-login-content .btn.btn-login-facebook:active:focus, #header-login-content .btn.btn-login-facebook:focus, #header-login-content .btn.btn-login-facebook:hover {
+      border-color: #3b5998; }
+      #header-login-content .btn.btn-login-facebook:active:after, #header-login-content .btn.btn-login-facebook:active:focus:after, #header-login-content .btn.btn-login-facebook:focus:after, #header-login-content .btn.btn-login-facebook:hover:after {
+        background: #3b5998; }
+  #header-login-content .btn.btn-login-google {
+    color: #df4a32;
+    border-color: #df4a32; }
+    #header-login-content .btn.btn-login-google:active, #header-login-content .btn.btn-login-google:active:focus, #header-login-content .btn.btn-login-google:focus, #header-login-content .btn.btn-login-google:hover {
+      border-color: #df4a32; }
+      #header-login-content .btn.btn-login-google:active:after, #header-login-content .btn.btn-login-google:active:focus:after, #header-login-content .btn.btn-login-google:focus:after, #header-login-content .btn.btn-login-google:hover:after {
+        background: #df4a32; }
+  #header-login-content .btn.btn-login-vk {
+    border-color: #6d8fb3;
+    color: #6d8fb3; }
+    #header-login-content .btn.btn-login-vk:active, #header-login-content .btn.btn-login-vk:active:focus, #header-login-content .btn.btn-login-vk:focus, #header-login-content .btn.btn-login-vk:hover {
+      border-color: #6d8fb3; }
+      #header-login-content .btn.btn-login-vk:active:after, #header-login-content .btn.btn-login-vk:active:focus:after, #header-login-content .btn.btn-login-vk:focus:after, #header-login-content .btn.btn-login-vk:hover:after {
+        background: #6d8fb3; }
+  #header-login-content li {
+    font: 700 14px/16px "Ubuntu", sans-serif;
+    letter-spacing: 1px; }
+    #header-login-content li .alert li {
+      text-transform: none !important; }
+    #header-login-content li a {
+      display: block;
+      padding: 8px 10px;
+      -moz-transition: 0.3s;
+      -o-transition: 0.3s;
+      -webkit-transition: 0.3s;
+      transition: 0.3s; }
+      #header-login-content li a.create {
+        color: #444;
+        display: inline-block;
+        margin: 5px 0 10px;
+        padding: 0;
+        text-transform: uppercase; }
+        #header-login-content li a.create:active, #header-login-content li a.create:active:focus, #header-login-content li a.create:focus
+        #header-login-content li a.create:hover {
+          background: none;
+          color: #f88db1; }
+    #header-login-content li .btn.btn-login-facebook,
+    #header-login-content li .btn.btn-login-google,
+    #header-login-content li .btn.btn-login-vk {
+      margin-right: 0; }
+    #header-login-content li + li {
+      border-top: 1px solid #ebebeb; }
+    #header-login-content li.selected, #header-login-content li.selected a,
+    #header-login-content li a:hover,
+    #header-login-content li a:focus {
+      background: #fff; }
+      #header-login-content li.selected.create, #header-login-content li.selected a.create,
+      #header-login-content li a:hover.create,
+      #header-login-content li a:focus.create {
+        background: none;
+        color: #f88db1; }
+      #header-login-content li.selected.btn.btn-login-facebook, #header-login-content li.selected a.btn.btn-login-facebook,
+      #header-login-content li a:hover.btn.btn-login-facebook,
+      #header-login-content li a:focus.btn.btn-login-facebook {
+        background: #3b5998;
+        color: #fff; }
+      #header-login-content li.selected.btn.btn-login-google, #header-login-content li.selected a.btn.btn-login-google,
+      #header-login-content li a:hover.btn.btn-login-google,
+      #header-login-content li a:focus.btn.btn-login-google {
+        background: #df4a32;
+        color: #fff; }
+      #header-login-content li.selected.btn.btn-login-vk, #header-login-content li.selected a.btn.btn-login-vk,
+      #header-login-content li a:hover.btn.btn-login-vk,
+      #header-login-content li a:focus.btn.btn-login-vk {
+        background: #6d8fb3;
+        color: #fff; }
+  #header-login-content label {
+    color: #777;
+    font-weight: 700; }
+  #header-login-content .form-control {
+    border-color: #fff; }
+  #header-login-content li ul li a i {
+    display: none; }
+  @media (max-width: 767px) {
+    #header-login-content {
+      left: 0;
+      right: auto;
+      padding: 20px; } }
+
+#create_header_account_error {
+  padding: 8px; }

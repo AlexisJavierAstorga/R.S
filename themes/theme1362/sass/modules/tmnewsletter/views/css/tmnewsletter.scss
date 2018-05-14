@@ -1,0 +1,158 @@
+@import 'compass';
+@import "../../../../_theme_variables";
+@import "../../../../_elements_variables";
+
+.newsletter-overlay {
+	@include popup-overlay-style;
+	#newsletter_popup {
+		@include popup-box-style;
+		@include transform (translate(-50%, -50%));
+
+		background: $base-background;
+		border-radius: 0;
+		left: 50%;
+		margin:0 auto;
+		max-width: 595px;
+		min-width: 290px;
+		min-height: 373px;
+		position: absolute;
+		text-align: center;
+		top: 50%;
+		width:90%;
+		.tmnewsletter-inner {
+			position: relative;
+			padding: 50px 30px 30px;
+			&:before {
+				content: '\e81f';
+				color: #444;
+				font: normal 71px / 68px $thin_icon;
+			}
+			.description {
+				color: #777;
+				font: 300 14px / 20px $font-family;
+				margin-bottom: 30px;
+				padding: 0 30px;
+			}
+			.icon.tmnewsletter-close {
+				@include popup-close-button;
+				&:before {
+					content: '\e01e';
+        	font: normal 21px / 1 $fl-icon;
+        }
+			}
+      .close {
+      	color: #f68f74;
+      	&:after {
+	        display: none;
+        }
+        &:hover {
+        	background: none;
+        	color: #444;
+        }
+      }
+			.tmnewsletter-header {
+				h4 {
+					color: #444;
+					font: 700 19px / 21px $font-family;
+					margin: 0 0 26px;
+					letter-spacing: 1px;
+					padding: 10px 0 0;
+					text-transform: uppercase;
+				}
+			}
+			.form-group {
+				font-size: 0;
+				line-height: 0;
+
+				&.email-error {
+					.form-control {
+						border-color: #ff0000;
+					}
+				}
+			}
+			.form-control {
+				background: #fff;
+				border-color: #fff;
+				border-radius: 0;
+				color: #777;
+				display: inline-block;
+				font-size: 14px;
+				height: 50px;
+				line-height: 1;
+				margin: 0 10px 15px 0;
+				padding: 8px 15px 10px;
+				width: 292px;
+				@media (max-width: $screen-xs - 1) { // max 479px
+					width: 100%;
+				}
+				&.error {
+					border-color: red;
+				}
+			}
+			.btn.btn-default {
+				background: none;
+				border-radius: 0;
+				border: 2px solid $color-primary-second;
+				color: #444;
+				display: inline-block;
+				font: 700 16px / 20px $font-family;
+				margin-bottom: 15px;
+				min-height: 50px;
+				min-width: 136px;
+				padding: 10px 8px 11px;
+				text-transform: uppercase;
+				vertical-align: -1px;
+				span {
+					position: relative;
+					z-index: 2;
+				}
+			}
+		}
+		@media (max-width: $screen-xs-max) { // max 767px
+			min-height: 300px;
+			.tmnewsletter-inner {
+				padding: 40px 25px 20px;
+				&:before {
+					font-size: 60px;
+					line-height: 60px;
+				}
+				.tmnewsletter-header {
+					h4 {
+						margin-bottom: 20px;
+					}
+				}
+				.icon.tmnewsletter-close {
+					right: 15px;
+					top: 15px;
+				}
+				.description {
+					padding: 0;
+					margin-bottom: 25px;
+				}
+			}
+		}
+		@media (max-width: $screen-xs - 1) { // max 479px
+			min-height: 300px;
+			.tmnewsletter-inner {
+				padding: 30px 20px 15px;
+				&:before {
+					font-size: 50px;
+					line-height: 35px;
+				}
+				.tmnewsletter-header {
+					h4 {
+						margin-bottom: 15px;
+					}
+				}
+				.icon.tmnewsletter-close {
+					right: 10px;
+					top: 10px;
+				}
+				.description {
+					padding: 0;
+					margin-bottom: 20px;
+				}
+			}
+		}
+	}
+}

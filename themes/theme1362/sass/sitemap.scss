@@ -1,0 +1,111 @@
+@import "_theme_variables";
+
+/*
+* @section      Sitemap Page Styles
+*/
+#sitemap {
+  h1 {
+    margin-bottom: 30px;
+    margin-top: 35px;
+    font: $font-maxheading;
+    color: $base-heading-color;
+    text-align: center;
+    border: none;
+  }
+  .sitemap_block {
+    margin: 0 0 30px;
+    ul.tree > li > a {
+      color: $base-heading-color;
+      &:hover {
+        color: $base-body-color;
+      }
+    }
+    .page-subheading, ul.tree > li > a {
+      position: relative;
+      display: block;
+      font: $font-heading;
+      text-transform: uppercase;
+      margin: 0;
+      padding: 0 40px 15px 0;
+      color: $base-heading-color;
+      border-bottom: $main_border;
+      &.accordion_current {
+        &:after {
+          content: "\f107";
+          cursor: pointer;
+          display: block;
+          font-family: $font-icon;
+          font-size: 30px;
+          font-weight: normal;
+          line-height: 30px;
+          position: absolute;
+          right: 0;
+          top: 0;
+          width: 35px;
+        }
+        &.active:after {
+          content: "\f106";
+        }
+      }
+      a {
+        color: $base-heading-color;
+        &:hover {
+          color: $base-body-color;
+        }
+      }
+    }
+    .accordion_content {
+      padding-top: 18px;
+      li {
+        padding: 5px 0;
+        font: $font;
+      }
+    }
+    ul.tree {
+      > li {
+        margin: 0 0 30px;
+        .accordion_content {
+          overflow: hidden;
+          > li {
+            width: (100%/5);
+            float: left;
+            padding: 0 10px 20px 0;
+            &:nth-child(5n+1) {
+              clear: left;
+            }
+            @media (min-width: $screen-md) and (max-width: $screen-md-max) {
+              width: (100%/4);
+              &:nth-child(4n+1) {
+                clear: left;
+              }
+            }
+            @media (min-width: $screen-xs + 150) and (max-width: $screen-sm-max) {
+              width: (100%/3);
+              &:nth-child(3n+1) {
+                clear: left;
+              }
+            }
+            @media (max-width: $screen-xs + 149) {
+              width: (100%/2);
+              &:nth-child(2n+1) {
+                clear: left;
+              }
+            }
+            @media (max-width: $screen-xs - 50) {
+              width: 100%;
+            }
+            > a {
+              padding: 5px 0 10px;
+              display: inline-block;
+              font: bold 16px / 26px $font-custom;
+              color: $base-heading-color;
+              &:hover {
+                color: $base-body-color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

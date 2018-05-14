@@ -1,0 +1,41 @@
+@import '../../../_theme_variables';
+@import "../../../_button_variables";
+
+/* -------*--------------------------------------------------------------------------------------------------------
+										 Social Sharing 
+------------------------------------------------------------------------------------------------------------------- */
+.btn.btn-facebook,
+.btn.btn-twitter,
+.btn.btn-google-plus,
+.btn.btn-pinterest {
+  border: 1px solid #e3e3e3;
+  display: inline-block;
+  font-size: 15px;
+  height: 35px;
+  margin: 0 0 4px;
+  padding: 2px 0 0;
+  width: 35px;
+	&:after,
+	span {
+		display: none;
+	}
+	i {
+		display: none;
+	}
+}
+
+.extra-right{
+  .btn.btn-facebook,
+  .btn.btn-twitter,
+  .btn.btn-google-plus,
+  .btn.btn-pinterest {
+    &:hover, &:focus {
+      color: $color-light;
+      background: $color-primary-second
+    }
+  }
+}
+
+.socialsharing_product button {
+  margin-bottom: 3px;
+}

@@ -1,0 +1,122 @@
+@import "_theme_variables";
+@import "_elements_variables";
+
+/*
+* @section   Categories Page Styles
+*/
+.content_scene_cat {
+  .content_scene_cat_bg {
+    padding: 20px 0 0 0;
+  }
+  span.category-name {
+    font: $font-maxheading;
+    color: $base-heading-color;
+    margin-bottom: 12px;
+    display: inline-block;
+    text-transform: uppercase;
+  }
+  p {
+    margin-bottom: 0;
+  }
+  a {
+    &.lnk_more {
+      font-weight: bold;
+      color: #444;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .content_scene {
+    color: $base-body-color;
+    .cat_desc {
+      padding-top: 20px;
+      a {
+        color: $link-color;
+        &:hover {
+          color: $link-hover-color;
+        }
+      }
+    }
+  }
+}
+
+/*
+* @subsection   Sub Categories Styles
+*/
+#subcategories {
+  border-top: 1px solid $base-border-color;
+  padding: 15px 0 0;
+  margin-bottom: 25px;
+  @media (max-width: $screen-sm-max) { // max 991px
+    margin-bottom: 15px;
+  }
+  p.subcategory-heading {
+    font: $font-subheading;
+    color: $base-text-color;
+    margin: 0 0 15px 0;
+  }
+  ul {
+    margin: 0 0 0 -20px;
+    @media (max-width: $screen-xs - 1) {
+      // max 479px
+      margin: 0;
+      text-align: center;
+    }
+    li {
+      float: left;
+      width: 128px;
+      margin: 0 0 13px 20px;
+      text-align: center;
+      height: 202px;
+      @media (max-width: $screen-xs - 1) {
+        // max 479px
+        width: 45%;
+        float: none;
+        margin: 0 1% 13px;
+        display: inline-block;
+        vertical-align: top;
+      }
+      .subcategory-image {
+        padding: 0 0 8px 0;
+        a {
+          display: block;
+          @include product-image;
+
+          img {
+            max-width: 100%;
+            vertical-align: top;
+            height: auto;
+            @include transition(all 0.4s ease);
+          }
+
+          &:hover {
+            img {
+              opacity: .7;
+            }
+          }
+        }
+      }
+      h5 {
+        margin: 0;
+      }
+      .subcategory-name {
+        color: #444;
+        text-transform: uppercase;
+        @include transition(.3s);
+
+        &:hover {
+          color: #777;
+        }
+      }
+      .cat_desc {
+        display: none;
+      }
+      &:hover {
+        .subcategory-image {
+
+        }
+      }
+    }
+  }
+}

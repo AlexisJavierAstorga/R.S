@@ -1,0 +1,231 @@
+/* Top hook CSS */
+#htmlcontent_top {
+  margin-bottom: 12px;
+  padding-left: 6px;
+  padding-right: 6px; }
+  @media (min-width: 768px) and (max-width: 1199px) {
+    #htmlcontent_top {
+      padding-right: 2px; } }
+  @media (min-width: 1200px) and (max-width: 1280px) {
+    #htmlcontent_top {
+      padding-right: 3px; } }
+  @media (min-width: 2090px) {
+    #htmlcontent_top {
+      padding-right: 7px; } }
+  @media (min-width: 2370px) {
+    #htmlcontent_top {
+      padding-right: 8px; } }
+  @media (min-width: 2460px) {
+    #htmlcontent_top {
+      padding-right: 9px; } }
+  @media (min-width: 2655px) {
+    #htmlcontent_top {
+      padding-right: 10px; } }
+  #htmlcontent_top ul {
+    margin-bottom: 0; }
+    #htmlcontent_top ul li {
+      float: none;
+      text-align: center;
+      width: 100%; }
+      #htmlcontent_top ul li h2 {
+        color: #fff;
+        font: 500 74px/90px "Ubuntu", sans-serif;
+        margin: 0 0 40px;
+        padding: 25% 0 0;
+        letter-spacing: 5px;
+        text-transform: uppercase; }
+        @media (max-width: 1500px) {
+          #htmlcontent_top ul li h2 {
+            font-size: 65px;
+            line-height: 75px; } }
+        @media (max-width: 1400px) {
+          #htmlcontent_top ul li h2 {
+            font-size: 60px;
+            line-height: 70px;
+            padding-top: 22%; } }
+        @media (max-width: 1300px) {
+          #htmlcontent_top ul li h2 {
+            font-size: 55px;
+            line-height: 65px;
+            padding-top: 20%;
+            letter-spacing: 4px; } }
+        @media (max-width: 1199px) {
+          #htmlcontent_top ul li h2 {
+            font-size: 45px;
+            line-height: 50px;
+            padding-top: 18%;
+            letter-spacing: 3px;
+            margin-bottom: 20px; } }
+        @media (min-width: 768px) and (max-width: 991px) {
+          #htmlcontent_top ul li h2 {
+            font-size: 40px;
+            line-height: 1;
+            padding-top: 14%;
+            margin-bottom: 25px;
+            letter-spacing: 2px; } }
+        @media (min-width: 767px) {
+          #htmlcontent_top ul li h2 span {
+            display: block; } }
+      #htmlcontent_top ul li .item-html {
+        border: 4px solid #fff;
+        display: inline-block;
+        height: 70%;
+        left: 15%;
+        position: absolute;
+        top: 15%;
+        width: 70%; }
+        #htmlcontent_top ul li .item-html button {
+          display: none; }
+      #htmlcontent_top ul li a {
+        display: block;
+        overflow: hidden;
+        position: relative; }
+        #htmlcontent_top ul li a .item-html button {
+          background: none;
+          border: none;
+          color: #f88db1;
+          display: inline-block;
+          font-size: 18px;
+          padding: 0; }
+          @media (max-width: 1199px) {
+            #htmlcontent_top ul li a .item-html button {
+              font-size: 16px; } }
+          @media (min-width: 768px) and (max-width: 991px) {
+            #htmlcontent_top ul li a .item-html button {
+              font-size: 14px; } }
+          #htmlcontent_top ul li a .item-html button:after {
+            display: none; }
+          #htmlcontent_top ul li a .item-html button:hover {
+            color: #fff; }
+        #htmlcontent_top ul li a:hover .item-html {
+          -moz-animation: 500ms linear 0s normal none 1 zoomIn;
+          -webkit-animation: 500ms linear 0s normal none 1 zoomIn;
+          animation: 500ms linear 0s normal none 1 zoomIn; }
+      #htmlcontent_top ul li img {
+        max-width: 100%;
+        height: auto;
+        width: 100%; }
+  @media (max-width: 767px) {
+    #htmlcontent_top {
+      float: none;
+      width: 100%; }
+      #htmlcontent_top ul li {
+        background: #f88db1;
+        padding-bottom: 20px;
+        padding-top: 20px; }
+        #htmlcontent_top ul li img {
+          display: none; }
+        #htmlcontent_top ul li .item-html {
+          position: static;
+          min-height: 150px; }
+          #htmlcontent_top ul li .item-html p button {
+            color: white; }
+        #htmlcontent_top ul li h2 {
+          padding-top: 9%;
+          margin-bottom: 10px; } }
+
+/* Left hook CSS */
+/* Right hook CSS */
+/* Footer hook CSS */
+#htmlcontent_footer {
+  padding: 72px 15px 53px;
+  position: relative; }
+  @media (max-width: 1199px) {
+    #htmlcontent_footer {
+      padding: 40px 15px 50px; } }
+  @media (max-width: 991px) {
+    #htmlcontent_footer {
+      padding: 30px 15px 40px; } }
+  @media (max-width: 767px) {
+    #htmlcontent_footer {
+      padding: 20px 15px 30px;
+      margin-bottom: 20px; } }
+  #htmlcontent_footer ul {
+    margin-bottom: 0; }
+    #htmlcontent_footer ul li {
+      text-align: center;
+      width: 50%; }
+      #htmlcontent_footer ul li h3 {
+        color: #444;
+        font: 700 19px/22px "Ubuntu", sans-serif;
+        margin: 0 0 26px;
+        padding: 78px 0 0;
+        letter-spacing: 0.6px;
+        position: relative;
+        text-transform: uppercase; }
+        #htmlcontent_footer ul li h3:before {
+          content: '\e84b';
+          font: normal 71px/1 "Thin-Regular";
+          position: absolute;
+          left: 50%;
+          margin-left: -34px;
+          top: 0; }
+      #htmlcontent_footer ul li p {
+        display: inline-block;
+        margin-bottom: 20px;
+        font-weight: 400; }
+        @media (min-width: 992px) {
+          #htmlcontent_footer ul li p {
+            width: 80%;
+            margin-bottom: 30px; } }
+        #htmlcontent_footer ul li p + p {
+          margin-bottom: 0; }
+        #htmlcontent_footer ul li p button {
+          background: none;
+          font-size: 16px;
+          letter-spacing: 0.6px;
+          min-height: 50px;
+          min-width: 144px;
+          padding-top: 6px; }
+      #htmlcontent_footer ul li + li {
+        margin-top: 0; }
+        #htmlcontent_footer ul li + li h3:before {
+          content: '\e854'; }
+  @media (max-width: 767px) {
+    #htmlcontent_footer {
+      float: none;
+      padding: 40px 15px 0px;
+      width: 100%;
+      margin-bottom: 0; }
+      #htmlcontent_footer ul li {
+        width: 100%; } }
+
+#htmlcontent_home {
+  text-align: center; }
+  #htmlcontent_home ul {
+    margin: 0; }
+    #htmlcontent_home ul li .item-html {
+      border: #fff solid 4px;
+      margin-bottom: 66px;
+      margin-top: 66px;
+      min-height: 328px;
+      padding: 8% 10px 20px; }
+      @media (max-width: 1199px) {
+        #htmlcontent_home ul li .item-html {
+          display: inline-block;
+          left: 5%;
+          width: 90%; } }
+    #htmlcontent_home ul li h3 {
+      color: #fff;
+      font: 500 74px/60px "Ubuntu", sans-serif;
+      letter-spacing: 8px;
+      margin: 0 0 40px;
+      padding: 0;
+      text-transform: uppercase; }
+      @media (max-width: 991px) {
+        #htmlcontent_home ul li h3 {
+          font-size: 60px;
+          line-height: 1; } }
+      @media (max-width: 767px) {
+        #htmlcontent_home ul li h3 {
+          font-size: 50px; } }
+      @media (max-width: 479px) {
+        #htmlcontent_home ul li h3 {
+          font-size: 21px;
+          margin: 0 0 65px; } }
+    #htmlcontent_home ul li button {
+      background: none;
+      color: #fff;
+      font-size: 16px;
+      min-height: 50px;
+      min-width: 144px; }

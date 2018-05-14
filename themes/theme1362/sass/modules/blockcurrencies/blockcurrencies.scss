@@ -1,0 +1,59 @@
+@import "../../_theme_variables";
+@import "../../_header_modules_variables";
+
+#currencies-block-top {
+	float: right;
+	position: relative;
+	span.firstWord {
+		display: none;
+	}
+	div.current {
+		@include hm-indent;
+		overflow: hidden;
+		&:before {
+			@include transition(.3s);
+			background: #fff;
+			bottom: 100%;
+			content: '';
+			height: 100%;
+			left: 0;
+			position: absolute;
+			width: 100%;
+		}
+		strong {
+			position: relative;
+			z-index: 1;
+		}
+		span {
+			display: none;
+		}
+		&:hover, &.active {
+			&:before {
+				bottom: 0;
+			}
+		}
+		&:after {
+			@include hm-icon;
+			position: relative;
+			z-index: 2;
+		}
+		&.active {
+			&:after {
+				@include hm-icon-hover;
+			}
+		}
+	}
+	ul {
+		@include hm-drop-down-box;
+		li {
+			&.selected, &.selected a, a:hover, a:focus {
+				color: #444;
+			}
+		}
+	}
+
+	@media (max-width: $screen-xs-max) { // max 767px
+		float: left;
+		width: 33.33%;
+	}
+}
