@@ -1,0 +1,86 @@
+@import 'compass';
+@import "animate/_attention";
+@import "animate/_bounce";
+@import "animate/_fade";
+@import "animate/_flip";
+@import "animate/_lightSpeed";
+@import "animate/_roll";
+@import "animate/_rotate";
+@import "animate/_slide";
+@import "animate/_special";
+@import "animate/_zoom";
+
+// ---------------------------------------------------------------------------
+// animate [ attention | bounce | fade | flip |
+//           lightSpeed | roll | rotate | special | all ]
+
+@mixin animate(
+  $sub        : all,
+  $class      : $default-animation-class-mode,
+  $keyframes  : $default-keyframes-output
+) {
+  $sub        : compact($sub);
+  $attention  : yepnope($sub, all attention);
+  $bounce     : yepnope($sub, all bounce);
+  $fade       : yepnope($sub, all fade);
+  $flip       : yepnope($sub, all flip);
+  $lightSpeed : yepnope($sub, all lightSpeed);
+  $roll       : yepnope($sub, all roll);
+  $rotate     : yepnope($sub, all rotate);
+  $special    : yepnope($sub, all special);
+  $zoom       : yepnope($sub, all zoom);
+  @if $attention  { @include animate-attention  (all, $class, $keyframes); }
+  @if $bounce     { @include animate-bounce     (all, $class, $keyframes); }
+  @if $fade       { @include animate-fade       (all, $class, $keyframes); }
+  @if $flip       { @include animate-flip       (all, $class, $keyframes); }
+  @if $lightSpeed { @include animate-lightSpeed (all, $class, $keyframes); }
+  @if $roll       { @include animate-roll       (all, $class, $keyframes); }
+  @if $rotate     { @include animate-rotate     (all, $class, $keyframes); }
+  @if $special    { @include animate-special    (all, $class, $keyframes); }
+  @if $zoom       { @include animate-zoom       (all, $class, $keyframes); }
+}
+
+
+// ---------------------------------------------------------------------------
+// settings
+
+// animation class mode: true | false | silent
+$default-animation-class-mode: silent !default;
+
+// keyframes output: true | false
+$default-keyframes-output: true;
+
+// ---------------------------------------------------------------------------
+// animated class for external use
+@mixin animated-class($class: $default-animation-class-mode) {
+  $selector: if($class == 'silent', '%animated', '.animated');
+  #{$selector} { @include animation(1s ease both); }
+}
+
+// ---------------------------------------------------------------------------
+// animation-class
+
+@mixin animation-class($name, $class: $default-animation-class-mode) {
+  $selector: if($class == 'silent', '%', '.') + $name;
+  @if $class {
+    #{$selector} {
+      @include animation-name($name);
+      @content;
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// yepnope
+
+// Take a $list, return true if any $args are present.
+@function yepnope($list, $args) {
+  $list     : compact($list);
+  $return   : false;
+  @each $arg in $args {
+    $return: if(index($list,$arg), true, $return);
+  }
+  @return $return;
+}
+
+@include animate-flash($class:true);

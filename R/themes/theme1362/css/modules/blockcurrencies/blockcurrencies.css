@@ -1,0 +1,85 @@
+#currencies-block-top {
+  float: right;
+  position: relative; }
+  #currencies-block-top span.firstWord {
+    display: none; }
+  #currencies-block-top div.current {
+    border-left: 1px solid #fff;
+    color: #444;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    min-height: 50px;
+    font-weight: bold;
+    line-height: 18px;
+    padding: 16px 18px 10px;
+    position: relative;
+    text-transform: uppercase;
+    overflow: hidden; }
+    #currencies-block-top div.current:before {
+      -moz-transition: 0.3s;
+      -o-transition: 0.3s;
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      background: #fff;
+      bottom: 100%;
+      content: '';
+      height: 100%;
+      left: 0;
+      position: absolute;
+      width: 100%; }
+    #currencies-block-top div.current strong {
+      position: relative;
+      z-index: 1; }
+    #currencies-block-top div.current span {
+      display: none; }
+    #currencies-block-top div.current:hover:before, #currencies-block-top div.current.active:before {
+      bottom: 0; }
+    #currencies-block-top div.current:after {
+      content: "\e034";
+      font-family: "fl-bigmug-line";
+      font-size: 14px;
+      line-height: 18px;
+      padding-left: 8px;
+      font-weight: normal;
+      position: relative;
+      z-index: 2; }
+    #currencies-block-top div.current.active:after {
+      content: "\e0c7"; }
+  #currencies-block-top ul {
+    background: #f7f7f7;
+    color: #444;
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    min-width: 144px;
+    z-index: 2; }
+    #currencies-block-top ul > li {
+      font: 700 14px/16px "Ubuntu", sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1px; }
+      #currencies-block-top ul > li a {
+        color: #444;
+        display: block;
+        padding: 15px 15px 16px 20px;
+        -moz-transition: 0.3s;
+        -o-transition: 0.3s;
+        -webkit-transition: 0.3s;
+        transition: 0.3s; }
+      #currencies-block-top ul > li + li {
+        border-top: 1px solid #ebebeb; }
+      #currencies-block-top ul > li.selected span {
+        display: block;
+        padding: 15px 15px 16px 20px; }
+      #currencies-block-top ul > li.selected, #currencies-block-top ul > li.selected a,
+      #currencies-block-top ul > li a:hover,
+      #currencies-block-top ul > li a:focus {
+        background: #ebebeb; }
+    #currencies-block-top ul li.selected, #currencies-block-top ul li.selected a, #currencies-block-top ul li a:hover, #currencies-block-top ul li a:focus {
+      color: #444; }
+  @media (max-width: 767px) {
+    #currencies-block-top {
+      float: left;
+      width: 33.33%; } }

@@ -1,0 +1,60 @@
+@import "../../_theme_variables";
+@import "../../_header_modules_variables";
+
+.shop-phone {
+	float: left;
+	font: 700 14px / 20px $font-family;
+	letter-spacing: 0.5px;
+	padding: 15px 0 10px;
+
+	@media (max-width: $screen-sm-max) { // max 991px
+		display: none;
+	}
+	strong {
+		color: $hm-text-color-primary;
+	}
+	a {
+		color: #444;
+
+		&:hover {
+			color: #777;
+		}
+	}
+}
+
+#contact-link {
+	display: none;
+	float: right;
+	a {
+		@include hm-indent;
+		border-left: none;
+		&:hover, &.active {
+			background: $hm-darken-secondary;
+		}
+	}
+}
+
+#contact_block {
+	@media (max-width: $screen-xs-max) { // max 767px
+		margin-bottom: 20px;
+	}
+	.label {
+		display: none
+	}
+	.block_content {
+		color: #888;
+	}
+	p {
+		margin-bottom: 4px;
+	}
+	p.tel {
+		font: 400 17px/21px $font-family;
+		color: $base-text-color;
+		margin-bottom: 6px;
+		i {
+			font-size: 25px;
+			vertical-align: -2px; 
+			padding-right: 10px;
+		}
+	}
+}

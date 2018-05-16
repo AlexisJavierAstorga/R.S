@@ -1,0 +1,85 @@
+.sociallogininfo .social-avatar {
+  float: left;
+  max-width: 150px;
+  margin: 10px 15px 15px 0; }
+
+.btn.btn-login-facebook, .btn.btn-login-google, .btn.btn-login-vk {
+  color: #fff;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 6px 10px;
+  position: relative;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+  .btn.btn-login-facebook span, .btn.btn-login-google span, .btn.btn-login-vk span {
+    position: relative;
+    z-index: 2; }
+  @media (min-width: 992px) {
+    .btn.btn-login-facebook:active, .btn.btn-login-facebook:active:focus, .btn.btn-login-facebook:focus, .btn.btn-login-facebook:hover, .btn.btn-login-google:active, .btn.btn-login-google:active:focus, .btn.btn-login-google:focus, .btn.btn-login-google:hover, .btn.btn-login-vk:active, .btn.btn-login-vk:active:focus, .btn.btn-login-vk:focus, .btn.btn-login-vk:hover {
+      background: #fff; } }
+  .btn.btn-login-facebook:active:before, .btn.btn-login-facebook:active:focus:before, .btn.btn-login-facebook:focus:before, .btn.btn-login-facebook:hover:before, .btn.btn-login-google:active:before, .btn.btn-login-google:active:focus:before, .btn.btn-login-google:focus:before, .btn.btn-login-google:hover:before, .btn.btn-login-vk:active:before, .btn.btn-login-vk:active:focus:before, .btn.btn-login-vk:focus:before, .btn.btn-login-vk:hover:before {
+    color: #fff; }
+  .btn.btn-login-facebook:active span, .btn.btn-login-facebook:active:focus span, .btn.btn-login-facebook:focus span, .btn.btn-login-facebook:hover span, .btn.btn-login-google:active span, .btn.btn-login-google:active:focus span, .btn.btn-login-google:focus span, .btn.btn-login-google:hover span, .btn.btn-login-vk:active span, .btn.btn-login-vk:active:focus span, .btn.btn-login-vk:focus span, .btn.btn-login-vk:hover span {
+    color: #fff; }
+
+.btn.btn-login-facebook:before, .btn.btn-login-google:before, .btn.btn-login-vk:before {
+  font-family: 'FontAwesome';
+  padding-right: 5px;
+  font-size: 15px;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+
+.btn.btn-login-facebook:before {
+  content: '\f09a'; }
+
+.btn.btn-login-facebook {
+  border-color: #3b5998;
+  color: #3b5998; }
+  .btn.btn-login-facebook:active, .btn.btn-login-facebook:active:focus, .btn.btn-login-facebook:focus, .btn.btn-login-facebook:hover {
+    background: #3b5998;
+    border-color: #3b5998; }
+    @media (min-width: 992px) {
+      .btn.btn-login-facebook:active, .btn.btn-login-facebook:active:focus, .btn.btn-login-facebook:focus, .btn.btn-login-facebook:hover {
+        background: #fff; }
+        .btn.btn-login-facebook:active:after, .btn.btn-login-facebook:active:focus:after, .btn.btn-login-facebook:focus:after, .btn.btn-login-facebook:hover:after {
+          background: #3b5998; } }
+
+.btn.btn-login-google:before {
+  content: '\f1a0'; }
+
+.btn.btn-login-google {
+  color: #df4a32;
+  border-color: #df4a32; }
+  .btn.btn-login-google:active, .btn.btn-login-google:active:focus, .btn.btn-login-google:focus, .btn.btn-login-google:hover {
+    background: #df4a32;
+    border-color: #df4a32; }
+    @media (min-width: 992px) {
+      .btn.btn-login-google:active, .btn.btn-login-google:active:focus, .btn.btn-login-google:focus, .btn.btn-login-google:hover {
+        background: #fff; }
+        .btn.btn-login-google:active:after, .btn.btn-login-google:active:focus:after, .btn.btn-login-google:focus:after, .btn.btn-login-google:hover:after {
+          background: #df4a32; } }
+
+.btn.btn-login-vk:before {
+  content: '\f189'; }
+
+.btn.btn-login-vk {
+  border-color: #6d8fb3;
+  color: #6d8fb3; }
+  .btn.btn-login-vk:active, .btn.btn-login-vk:active:focus, .btn.btn-login-vk:focus, .btn.btn-login-vk:hover {
+    border-color: #6d8fb3;
+    background: #6d8fb3; }
+    @media (min-width: 992px) {
+      .btn.btn-login-vk:active, .btn.btn-login-vk:active:focus, .btn.btn-login-vk:focus, .btn.btn-login-vk:hover {
+        background: #fff; }
+        .btn.btn-login-vk:active:after, .btn.btn-login-vk:active:focus:after, .btn.btn-login-vk:focus:after, .btn.btn-login-vk:hover:after {
+          background: #6d8fb3; } }

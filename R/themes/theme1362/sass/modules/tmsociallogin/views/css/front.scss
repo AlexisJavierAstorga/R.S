@@ -1,0 +1,113 @@
+@import "../../../../_theme_variables";
+
+.sociallogininfo .social-avatar  {
+	float: left;
+	max-width: 150px;
+	margin: 10px 15px 15px 0;
+}
+
+.btn.btn-login-facebook, .btn.btn-login-google, .btn.btn-login-vk {
+	color: #fff;
+	display: inline-block;
+	font-size: 13px;
+	font-weight:bold;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	padding: 6px 10px;
+	position: relative;
+	@include transition(.3s);
+	span {
+		position: relative;
+		z-index: 2;
+	}
+	&:active,
+	&:active:focus,
+	&:focus,
+	&:hover {
+		@media (min-width: $screen-md) { // min 992px
+      background: #fff;
+    }
+		&:before {
+			color: #fff;
+		}
+		span {
+			color: #fff;
+		}
+	}
+}
+
+.btn.btn-login-facebook:before, .btn.btn-login-google:before, .btn.btn-login-vk:before {
+	font-family:'FontAwesome';
+	padding-right:5px;
+	font-size:15px;
+	vertical-align:middle;
+	position: relative;
+	z-index: 1;
+	@include transition(.3s);
+}
+
+.btn.btn-login-facebook:before {
+	content:'\f09a';
+}
+
+.btn.btn-login-facebook {
+	border-color: #3b5998;
+	color: #3b5998;
+	&:active,
+	&:active:focus,
+	&:focus,
+	&:hover {
+		background: #3b5998;
+		border-color: #3b5998;
+		@media (min-width: $screen-md) { // min 992px
+			background: #fff;
+      &:after {
+        background: #3b5998;
+      }
+		}
+	}
+}
+
+.btn.btn-login-google:before {
+	content:'\f1a0';
+}
+
+.btn.btn-login-google {
+	color:#df4a32;
+	border-color:#df4a32;
+	&:active,
+	&:active:focus,
+	&:focus,
+	&:hover {
+		background: #df4a32;
+		border-color: #df4a32;
+    @media (min-width: $screen-md) { // min 992px
+    	background: #fff;
+      &:after {
+        background: #df4a32;
+      }
+		}
+	}
+}
+
+.btn.btn-login-vk:before {
+	content:'\f189';
+}
+
+.btn.btn-login-vk {
+	border-color: #6d8fb3;
+	color: #6d8fb3;
+	&:active,
+	&:active:focus,
+	&:focus,
+	&:hover {
+		border-color: #6d8fb3;
+		background: #6d8fb3;
+		@media (min-width: $screen-md) { // min 992px
+			background: #fff;
+      &:after {
+        background: #6d8fb3;
+      }
+    }
+  }
+}

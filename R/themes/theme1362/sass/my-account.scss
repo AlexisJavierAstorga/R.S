@@ -1,0 +1,58 @@
+@import "_theme_variables";
+@import "_button_variables";
+
+/*
+* @subsection   My-account Page Styles
+*/
+#my-account {
+  .addresses-lists {
+    margin-bottom: 30px;
+  }
+  p.info-account {
+    margin: -4px 0 24px 0;
+  }
+  ul.myaccount-link-list {
+    li {
+      overflow: hidden;
+      padding-bottom: 10px;
+
+      a {
+        @include transition(.3s);
+        background: #f7f7f7;
+        color: #444;
+        display: block;
+        font: $font-subheading;
+        overflow: hidden;
+        position: relative;
+        text-decoration: none;
+        text-transform: uppercase;
+
+        i {
+          font-size: 25px;
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 52px;
+          height: 100%;
+          padding: 10px 0 0;
+          text-align: center;
+        }
+        span {
+          @include transition(.3s);
+          display: block;
+          padding: 13px 15px 15px 17px;
+          overflow: hidden;
+          margin-left: 52px;
+          border-left: 1px solid $base-border-color;
+        }
+        &:hover {
+          background: #e3e3e3;
+
+          span {
+            border-color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

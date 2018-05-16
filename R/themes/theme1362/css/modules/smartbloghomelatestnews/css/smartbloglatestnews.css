@@ -1,0 +1,67 @@
+.blog-image {
+  margin-bottom: 30px; }
+  .blog-image a {
+    display: block;
+    overflow: hidden;
+    position: relative; }
+    .blog-image a img {
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      -webkit-transition: all 0.3s linear;
+      -moz-transition: all 0.3s linear;
+      -o-transition: all 0.3s linear;
+      -ms-transition: all 0.3s linear;
+      transition: all 0.3s linear;
+      -moz-transition: 0.3s linear;
+      -o-transition: 0.3s linear;
+      -webkit-transition: 0.3s linear;
+      transition: 0.3s linear; }
+    .blog-image a:hover img {
+      -webkit-transform: scale(1.05);
+      -moz-transform: scale(1.05);
+      -o-transform: scale(1.05);
+      -ms-transition: scale(1.05);
+      transform: scale(1.05); }
+
+#homepage-blog {
+  padding: 60px 0 0; }
+  #homepage-blog .title_block {
+    border: none;
+    margin-bottom: 40px;
+    padding: 0;
+    text-align: center; }
+    #homepage-blog .title_block:after {
+      display: none; }
+  #homepage-blog li {
+    margin-bottom: 20px; }
+    @media (min-width: 992px) {
+      #homepage-blog li.first-in-line {
+        clear: left; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      #homepage-blog li {
+        width: 50%;
+        float: left; } }
+    @media (min-width: 768px) and (max-width: 991px) {
+      #homepage-blog li.first-item-of-tablet-line {
+        clear: left; } }
+    @media only screen and (max-width: 767px) {
+      #homepage-blog li.first-item-of-mobile-line {
+        clear: left; } }
+    #homepage-blog li .post-container {
+      background: #f7f7f7; }
+    #homepage-blog li .post-content {
+      padding: 0px 20px 20px; }
+      @media (min-width: 1200px) {
+        #homepage-blog li .post-content {
+          padding-left: 30px;
+          padding-right: 30px; } }
+    #homepage-blog li .post-descr {
+      margin-bottom: 20px; }
+    #homepage-blog li .date-added {
+      border-top: 2px solid #444;
+      color: #444;
+      padding-top: 5px; }
+
+#index #homepage-blog .btn.btn-default {
+  display: none; }

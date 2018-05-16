@@ -1,0 +1,141 @@
+@import 'compass';
+@import 'bootstrap_lib/_variables';
+
+// ------- COLORS -------
+
+$hm-text-color-primary: $light-text-color;
+$hm-text-color-secondary: $color-base;
+$hm-text-hover-color-secondary: $hm-text-color-primary;
+$hm-dark-background: $color-dark;
+$hm-darken-secondary: darken($color-dark, 5%);
+$hm-lighten-secondary: lighten($color-dark, 5%);
+
+// ------- Header Modules Indents -------
+
+@mixin hm-indent {
+  border-left: 1px solid #fff;
+  color: #444;
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  min-height: 50px;
+  font-weight: bold;
+  line-height: 18px;
+  padding: 16px 18px 10px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+// ------- Header Modules Icons -------
+
+@mixin hm-icon {
+  content: "\e034";
+  font-family: "fl-bigmug-line";
+  font-size: 14px;
+  line-height: 18px;
+  padding-left: 8px;
+  font-weight: normal;
+}
+
+@mixin hm-icon-hover {
+  content: "\e0c7";
+}
+
+// ------- Header Modules Drop Down Box -------
+
+@mixin hm-drop-down-box {
+  background: #f7f7f7;
+  color: #444;
+  display: none;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  min-width: 144px;
+  z-index: 2;
+  > li {
+    font: 700 14px / 16px $font-family;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    a {
+      color: #444;
+      display: block;
+      padding: 15px 15px 16px 20px;
+      @include transition(.3s);
+    }
+    + li {
+      border-top: 1px solid #ebebeb;
+    }
+    &.selected span {
+      display: block;
+      padding: 15px 15px 16px 20px;
+    }
+    &.selected,
+    &.selected a,
+    a:hover,
+    a:focus {
+      background: #ebebeb;
+    }
+  }
+}
+
+
+// ------- SEARCH bLOCK IN HEADER AND BLOG SEARCH IN LEFT COLUMN -------
+
+@mixin search-box-style {
+  #tmsearchbox, #searchbox {
+    float: left;
+    width: 100%;
+    border: none;
+    position: relative;
+    background: $base-box-bg;
+    @include box-shadow(inset 0 0 0 1px $base-border-color);
+    .btn.button-search {
+      background: none;
+      border: none;
+      color: #444;
+      display: block;
+      height: 100%;
+      position: absolute;
+      right: 0;
+      text-align: center;
+      top: 0;
+      width: 50px;
+      span {
+        display: none;
+      }
+      &:before {
+        @include transform (translate(0, -50%));
+        content: '\e01e';
+        font-family: $flat_icon;
+        font-size: 21px;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        width: 100%;
+        z-index: 1;
+      }
+      &:hover {
+        color: $color-primary-second;
+      }
+    }
+    #tm_search_query, #search_query_top {
+      display: block;
+      padding: 12px 0 13px 13px;
+      height: 45px;
+      border: none;
+      background: none;
+      border-right: 60px solid rgba($light-border-color, 0);
+    }
+  }
+  #searchbox .btn.button-search{
+    &:before {
+      content: '\e8b6';
+      font-size: 26px;
+      font-weight: 400;
+    }
+    &:after {
+      display: none;
+    }
+  }
+}
