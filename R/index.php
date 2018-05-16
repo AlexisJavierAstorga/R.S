@@ -219,11 +219,11 @@ var wishlistProductsIds = false;
                 </head>
 
   <body id="index" class="index hide-left-column hide-right-column lang_es  one-column">
-  <!--END block for older internet explorer-->
+  <!--END block for older internet explorer
         <div id="page">
       <div id="preloader">
           <div class="cssload-dots"></div>
-      </div>
+      </div>-->
       <!--#preloader -->
       <div class="header-container">
         <header id="header">
@@ -926,28 +926,20 @@ off</h2>
 <iframe name="videog" width="990 " height="480" src="https://www.youtube.com/embed/fRSz3vJnmR8" frameborder="0" allowfullscreen></iframe>
 <div style="float:right;overflow:auto;width:130px;height:515px;">
 
-<div class="mini"><a href="http://www.youtube-nocookie.com/embed/IDVIDEO?rel=0" target="videog"><img title="Descripción video 2" alt="Descrición video 2" src="videos/r1.png" width="100px" /><td style="text-align: center;">
-Descripción Video 2
+<div class="mini"><a href="https://www.youtube.com/watch?v=FJ_zrqiO0_8" target="videog"><img title="Descripción video 2" alt="Descrición video 2" src="videos/r1.png" width="100px" /><td style="text-align: center;">
+Winter 2018
 </td></a></div>
 
-<div class="mini"><a href="http://www.youtube-nocookie.com/embed/IDVIDEO?rel=0" target="videog"><img title="Descripción video 3" alt="Descrición video 3" src="videos/r1.png" width="100px" /><td style="text-align: center;">
-Descripción Video 3
+<div class="mini"><a href="https://www.youtube.com/watch?v=m_-y_EwbNW0" target="videog"><img title="Descripción video 3" alt="Descrición video 3" src="videos/r2.png" width="100px" /><td style="text-align: center;">
+Presentación Diseños R.S Textil
 </td></a></div>
 
- <div class="mini"><a href="http://www.youtube-nocookie.com/embed/IDVIDEO?rel=0" target="videog"><img title="Descripción video 4" alt="Descrición video 4" src="videos/r1.png" width="100px" /><td style="text-align: center;">
-Descripción Video 4
+ <div class="mini"><a href="https://www.youtube.com/watch?v=H95slb_hdmI" target="videog"><img title="Descripción video 4" alt="Descrición video 4" src="videos/r3.png" width="100px" /><td style="text-align: center;">
+Intro 2 R.S Textil
 </td></a></div>
 
-<div class="mini"><a href="http://www.youtube-nocookie.com/embed/IDVIDEO?rel=0" target="videog"><img title="Descripción video 5" alt="Descrición video 5" src="videos/r1.png" width="100px" /><td style="text-align: center;">
-Descripción Video 5
-</td></a></div>
-
-<div class="mini"><a href="http://www.youtube-nocookie.com/embed/IDVIDEO?rel=0" target="videog"><img title="Descripción video 5" alt="Descrición video 5" src="videos/r1.png" width="100px" /><td style="text-align: center;">
-Descripción Video 5
-</td></a></div>
-
-<div class="mini"><a href="http://www.youtube-nocookie.com/embed/IDVIDEO?rel=0" target="videog"><img title="Descripción video 5" alt="Descrición video 5" src="videos/r1.png" width="100px" /><td style="text-align: center;">
-Descripción Video 5
+<div class="mini"><a href="https://www.youtube.com/watch?v=B23AtEVUlmE" target="videog"><img title="Descripción video 5" alt="Descrición video 5" src="videos/r4.png" width="100px" /><td style="text-align: center;">
+Intro 3 R.S Textil
 </td></a></div>
 
 </div>
