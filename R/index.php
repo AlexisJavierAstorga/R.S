@@ -289,7 +289,7 @@ var wishlistProductsIds = false;
       <div id="homepage-slider">
             <ul id="homeslider" style="max-height:812px;">
                               <li class="homeslider-container">
-              <a href="#" title="Gran marca">
+              <a href="productos.html" title="Gran marca">
                 <img src="themes/theme1362/img/index/slider/rs1.jpg" width="1920" height="812" alt="Gran marca" />
               </a>
                               <div class="homeslider-description"><h2>Grandes marcas usan nuestros diseños</h2>
@@ -297,7 +297,7 @@ var wishlistProductsIds = false;
 <p><button class="btn btn-default"><span>Cómpralo ya!</span></button></p></div>
                           </li>
                                         <li class="homeslider-container">
-              <a href="#" title="Dis estupendo">
+              <a href="productos.html" title="Dis estupendo">
                 <img src="themes/theme1362/img/index/slider/rs2.jpg" width="1920" height="812" alt="Dis estupendo" />
               </a>
                               <div class="homeslider-description"><h2>Diseños estupendos para ti</h2>
@@ -305,7 +305,7 @@ var wishlistProductsIds = false;
 <p><button class="btn btn-default"><span>Cómpralo ya!</span></button></p></div>
                           </li>
                                         <li class="homeslider-container">
-              <a href="#" title="Deseo">
+              <a href="productos.html" title="Deseo">
                 <img src="themes/theme1362/img/index/slider/rs5.jpg" width="1920" height="812" alt="Deseo" />
               </a>
                               <div class="homeslider-description"><h2>Tus deseos son realidad</h2>
@@ -320,7 +320,7 @@ var wishlistProductsIds = false;
 <div class="it_JGJRPDEGLFSK col-xs-12 col-sm-3   wrap-1-top-1-div">    <div id="htmlcontent_top">
     <ul class="htmlcontent-home clearfix row">
               <li class="htmlcontent-item-1 col-xs-4">
-                      <a href="#" class="item-link" title="">
+                      <a href="productos.html" class="item-link" title="">
                                     <img src="themes/theme1362/img/index/rs6.jpg" class="item-img" title="" alt="" width="471" height="608"/>
                                                   <div class="item-html">
                 <h2>50%
@@ -341,7 +341,7 @@ off</h2>
 
         <ul id="home-page-tabs" class="nav nav-tabs clearfix">
       <li class="homefeatured">
-  <a data-toggle="tab" href="#homefeatured" class="homefeatured"><span></span>Nuestros diseños</a>
+  <a data-toggle="tab" href="#homefeatured" class="homefeatured"><span></span>-Nuestros diseños-</a>
 </li>
     </ul>
     <div class="tab-content">
@@ -550,7 +550,6 @@ off</h2>
     </div>
     <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
   </div>
-  <a class="quick-view" href="desc_.php" data-href="desc_.php">
    <span>Cómpralo ya!</span>
   </a>
               </div>
@@ -922,23 +921,23 @@ off</h2>
                 </li>
                 </ul>
                 <!-- Products list -->
-                <div >
+                <div>
 <iframe name="videog" width="990 " height="480" src="https://www.youtube.com/embed/fRSz3vJnmR8" frameborder="0" allowfullscreen></iframe>
 <div style="float:right;overflow:auto;width:130px;height:515px;">
 
-<div class="mini"><a href="https://www.youtube.com/watch?v=FJ_zrqiO0_8" target="videog"><img title="Descripción video 2" alt="Descrición video 2" src="videos/r1.png" width="100px" /><td style="text-align: center;">
+<div class="mini"><a href="https://www.youtube.com/embed/FJ_zrqiO0_8" target="videog"><img title="Descripción video 2" alt="Descrición video 2" src="videos/r1.png" width="100px" /><td style="text-align: center;">
 Winter 2018
 </td></a></div>
 
-<div class="mini"><a href="https://www.youtube.com/watch?v=m_-y_EwbNW0" target="videog"><img title="Descripción video 3" alt="Descrición video 3" src="videos/r2.png" width="100px" /><td style="text-align: center;">
+<div class="mini"><a href="https://www.youtube.com/embed/m_-y_EwbNW0" target="videog"><img title="Descripción video 3" alt="Descrición video 3" src="videos/r2.png" width="100px" /><td style="text-align: center;">
 Presentación Diseños R.S Textil
 </td></a></div>
 
- <div class="mini"><a href="https://www.youtube.com/watch?v=H95slb_hdmI" target="videog"><img title="Descripción video 4" alt="Descrición video 4" src="videos/r3.png" width="100px" /><td style="text-align: center;">
+ <div class="mini"><a href="https://www.youtube.com/embed/H95slb_hdmI" target="videog"><img title="Descripción video 4" alt="Descrición video 4" src="videos/r3.png" width="100px" /><td style="text-align: center;">
 Intro 2 R.S Textil
 </td></a></div>
 
-<div class="mini"><a href="https://www.youtube.com/watch?v=B23AtEVUlmE" target="videog"><img title="Descripción video 5" alt="Descrición video 5" src="videos/r4.png" width="100px" /><td style="text-align: center;">
+<div class="mini"><a href="https://www.youtube.com/embed/B23AtEVUlmE" target="videog"><img title="Descripción video 5" alt="Descrición video 5" src="videos/r4.png" width="100px" /><td style="text-align: center;">
 Intro 3 R.S Textil
 </td></a></div>
 
@@ -970,12 +969,12 @@ Intro 3 R.S Textil
     <h4>Información</h4>
     <ul class="toggle-footer">
                                 <li class="item">
-          <a href="ubicacion.html" title="Nuestras tiendas">
+          <a href="terminos.html" title="Nuestras tiendas">
             Términos y condiciones
           </a>
         </li>
                     <li class="item">
-          <a href="termino.html" title="Términos y condiciones">
+          <a href="Aviso.html" title="Términos y condiciones">
             Aviso de privacidad
           </a>
         </li>
@@ -997,10 +996,7 @@ Intro 3 R.S Textil
   <div class="block_content toggle-footer">
     <ul class="bullet">
       <li>
-        <a href="factura.html" title="Mis compras" rel="nofollow">¿Quienes somos?</a>
-      </li>
-      <li>
-        <a href="factura.html" title="Mis compras" rel="nofollow">¿Qué hacemos?</a>
+        <a href="Quien y que.html" title="Mis compras" rel="nofollow">¿Quiénes somos?<br>¿Qué hacemos?</a>
       </li>
           </ul>
   </div>
