@@ -6,14 +6,14 @@
 <!--[if gt IE 8]> <html class="no-js ie9" lang="es-es"><![endif]-->
 <html lang="es-es"><head>
     <meta charset="utf-8" />
-    <title>Login - R.S. Textil</title>
-  
-  
+    <title>R.S. Textil</title>
+
+
           <meta name="description" content="Shop powered by R.S. Textil" />
             <meta name="generator" content="R.S. Textil" />
     <meta name="robots" content="index,follow" />
-    <meta name="viewport" content="width=device-width, minimum-scale=0.25, maximum-scale=1.0, initial-scale=1.0" /> 
-    <meta name="apple-mobile-web-app-capable" content="yes" /> 
+    <meta name="viewport" content="width=device-width, minimum-scale=0.25, maximum-scale=1.0, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
     <link rel="shortcut icon" type="image/x-icon" href="themes/theme1362/img/icon/logo/LOGO.ico" />
 
               <link rel="stylesheet" href="themes/theme1362/css/global.css" media="all" />
@@ -205,7 +205,7 @@ var wishlistProductsIds = false;
               <script src="themes/theme1362/js/tools/vatManagement.js"></script>
               <script src="js/jquery/plugins/jquery.typewatch.js"></script>
 
-              
+
         <script>
         $(document).ready(function(){
             var elem = $('.parallax-box-1');
@@ -231,296 +231,73 @@ var wishlistProductsIds = false;
 
                 </head>
   <body id="authentication" class="authentication show-left-column hide-right-column lang_es  two-columns">
-    <!--For older internet explorer-->
-        <div id="page">
-      <div id="preloader">
-          <div class="cssload-dots"></div>
-      </div>
-      <!-- #preloader -->
-      <div class="header-container">
-        <header id="header">
-            <div class="nav">
-              <div class="container">
-                <div class="row">
-                  <nav>
-<div id="tmsearch" class="clearfix">
-</div><!-- MODULE Block cart -->
-  <div class="cart clearfix">
-  <div class="shopping_cart">
-    <a href="carrito.html" title="Ver mi carrito de compra" rel="nofollow">
-      <span class="cart_hover">
-        <b>Carrito:</b>
-        <span class="ajax_cart_quantity unvisible">0</span>
-        <span class="ajax_cart_product_txt unvisible">producto</span>
-        <span class="ajax_cart_product_txt_s unvisible">Productos</span>
-        <span class="ajax_cart_total unvisible">
-                  </span>
-        <span class="ajax_cart_no_product">0</span>
-              </span>
-    </a>
-          <div class="cart_block block">
-        <div class="block_content">
-          <!-- block list of products -->
-          <div class="cart_block_list">
-                        <p class="cart_block_no_products">
-              Ningún producto
-            </p>
-                                    <div class="cart-prices">
-              <div class="cart-prices-line first-line  unvisible">
-                <span class="cart_block_shipping_cost ajax_cart_shipping_cost">
-                                      A determinar                                  </span>
-                <span>
-                  Transporte
-                </span>
-              </div>
-                                          <div class="cart-prices-line last-line">
-                <span class="price cart_block_total ajax_block_cart_total">$0.00</span>
-                <span>Total</span>
-              </div>
-                          </div>
-            <p class="cart-buttons">
-              <a id="button_order_cart" class="btn btn-default btn-sm icon-right" href="themes/theme1362/css/index.php" title="Confirmar" rel="nofollow">
-                <span>
-                  Confirmar
-                </span>
-              </a>
-            </p>
-          </div>
-        </div>
-      </div><!-- .cart_block -->
-      </div>
-  </div>
 
-
-
-  <div id="layer_cart">
-    <div class="clearfix">
-      <div class="layer_cart_product col-xs-12 col-md-6">
-        <span class="cross" title="Cerrar Ventana"></span>
-        <span class="title">
-          <i class="fa fa-check"></i>
-          Producto añadido correctamente a su carrito de la compra
-        </span>
-        <div class="product-image-container layer_cart_img">
-        </div>
-        <div class="layer_cart_product_info">
-          <span id="layer_cart_product_title" class="product-name"></span>
-          <span id="layer_cart_product_attributes"></span>
-          <div>
-            <strong class="dark">Cantidad</strong>
-            <span id="layer_cart_product_quantity"></span>
-          </div>
-          <div>
-            <strong class="dark">Total</strong>
-            <span id="layer_cart_product_price"></span>
-          </div>
-        </div>
-      </div>
-      <div class="layer_cart_cart col-xs-12 col-md-6">
-        <span class="title">
-          <!-- Plural Case [both cases are needed because page may be updated in Javascript] -->
-          <span class="ajax_cart_product_txt_s  unvisible">
-            Hay <span class="ajax_cart_quantity">0</span> artículos en su carrito.
-          </span>
-          <!-- Singular Case [both cases are needed because page may be updated in Javascript] -->
-          <span class="ajax_cart_product_txt ">
-            Hay 1 artículo en su cesta.
-          </span>
-        </span>
-
-        <div class="layer_cart_row">
-          <strong class="dark">
-            Total productos:
-                      </strong>
-          <span class="ajax_block_products_total">
-                      </span>
-        </div>
-
-                <div class="layer_cart_row">
-          <strong class="dark unvisible">
-            Total envío:&nbsp;          </strong>
-          <span class="ajax_cart_shipping_cost unvisible">
-                           A determinar                      </span>
-        </div>
-                <div class="layer_cart_row">  
-          <strong class="dark">
-            Total
-                      </strong>
-          <span class="ajax_block_cart_total">
-                      </span>
-        </div>
-        <div class="button-container">  
-          <span class="continue btn btn-default btn-md icon-left" title="Continuar la compra">
-            <span>
-              Continuar la compra
-            </span>
-          </span>
-          <a class="btn btn-default btn-md icon-right" href="#" title="Ir a la caja" rel="nofollow">
-            <span>
-              Ir a la caja
-            </span>
-          </a>  
-        </div>
-      </div>
-    </div>
-    <div class="crossseling"></div>
-  </div> <!-- #layer_cart -->
-  <div class="layer_cart_overlay"></div>
-
-<!-- /Block currencies module --><!-- Block languages module -->
-  <div id="languages-block-top" class="languages-block">
-                                                <div class="current">
-          <span>es</span>
-        </div>
-                        <ul id="first-languages" class="languages-block_ul toogle_content">
-              <li >
-                                                <a href="themes/theme1362/css/modules/blocklanguages/index.php" title="English (United States)" rel="alternate" hreflang="en">
-                                      <span>English</span>
-                      </a>
-              <li class="selected">
-                          <span>Español</span>
-                  </li>
-              
-          </ul>
-  </div>
-
-<div id="header-login">
-    <div class="current header_user_info"><a href="#" onclick="return false;">Iniciar sesión</a></div>
-    <ul id="header-login-content" class="toogle_content">
-                    <li>
-                <form action="validarCliente.php" method="post" id="header_login_form">
-                    <div id="create_header_account_error" class="alert alert-danger" style="display:none;"></div>
-                    <div class="form_content clearfix">
-                        <div class="form-group">
-                            <label for="header-email">Correo electrónico</label>
-                            <input class="is_required validate account_input form-control" data-validate="isEmail" type="text" id="header-email" name="header-email" value="" />
-                        </div>
-                        <div class="form-group">
-                            <label for="header-passwd">Contraseña</label>
-                            <span><input class="is_required validate account_input form-control" type="password" data-validate="isPasswd" id="header-passwd" name="header-passwd" value="" autocomplete="off" /></span>
-                        </div>
-                        <p class="submit">
-                            <button type="button" id="HeaderSubmitLogin" name="HeaderSubmitLogin" class="btn btn-default btn-sm">
-                                <i class="fa fa-lock left"></i> 
-                                    Iniciar sesión
-                            </button>
-                        </p>
-                        <div class="clearfix">
-                          
-    <a class="btn btn-default btn-sm btn-login-facebook" href="#" title="Connectez-vous avec votre compte Facebook">
-         Facebook Login
-    </a>
-
-                        </div>
-                    </div>
-                </form>
-            </li>
-            </ul>
-</div></nav>
-                </div>
-              </div>
-            </div>
-                    <div class="top">
+    <div class="header-container">
+      <header id="header">
+          <div class="nav">
             <div class="container">
               <div class="row">
-                <div id="header_logo">
-                  <a href="index.php" title="R.S. Textil">
-                    <img class="logo img-responsive" src="themes/theme1362/img/icon/logo/LOGO.jpg" alt="R.S. Textil" width="275" height="71"/>
-                  </a>
-                </div>
-                
- 
-            <div class="top_menu top-level rs">
-            <div class="menu-title tmmegamenu_item">Menú</div>
-            <!-- Inicia Menu desplegable-->
-            <ul class="menu clearfix top-level-menu tmmegamenu_item">
-              <li class=" top-level-menu-li tmmegamenu_item it_22797818">
-                <a class="it_22797818 top-level-menu-li-a tmmegamenu_item" href="index.php">Inicio </a>
-              </li>
-              <li class=" top-level-menu-li tmmegamenu_item it_06944254">
-                <!-- Comienza primer nav-->
-                <a class="it_06944254 top-level-menu-li-a tmmegamenu_item" href="#">Compras</a>
-              </li>
+                <nav>
+<div id="tmsearch" class="clearfix">
+</div>
+<div id="header-login">
+  <div class="current header_user_info"><a href="#" onclick="return false;">Iniciar sesión</a></div>
+  <ul id="header-login-content" class="toogle_content">
+                  <li>
+              <form action="existe.php" method="post">
+                  <div id="create_header_account_error" class="alert alert-danger" style="display:none;"></div>
+                  <div class="form_content clearfix">
+                      <div class="form_content clearfix">
 
-              <!-- Comienza segundo nav-->
-              <li class=" top-level-menu-li tmmegamenu_item it_19773019">
-              <a class="it_19773019 top-level-menu-li-a tmmegamenu_item" href="productos.html">Productos</a>
-              <div class="is-megamenu tmmegamenu_item first-level-menu it_19773019">
-                <div id="megamenu-row-2-1" class="megamenu-row row megamenu-row-1">
-                  <div id="column-2-1-1" class="megamenu-col megamenu-col-1-1 col-sm-3 ">
-                    <ul class="content">
-                      <li class="category">
-                        <a href="#" title="Primavera">Estaciones</a>
-                        <ul>
-                          <li class="category">
-                            <a href="#" title="Verano">Primavera</a>
-                          </li>
-                          <li class="category">
-                            <a href="#" title="Verano">Verano</a>
-                          </li>
-                          <li class="category">
-                            <a href="#" title="Otoño">Otoño</a>
-                          </li>
-                          <li class="category">
-                            <a href="#" title="Invierno">Invierno</a>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" name="email" maxlength="32" id="email" placeholder="example@hotmail.com" required>
+<br/><br/>
+
+        <label for="password">Password:</label><br>
+        <input type="password" name="password" maxlength="8" dir="password"  placeholder="............" required>
+<br/><br/>
+</div>
+                      <input type="hidden" class="hidden" name="back" value="my-account" />
+                      <button type="submit" id="SubmitLogin" name="SubmitLogin" class="btn btn-default btn-md">
+            <span>
+              <i class="fa fa-lock left"></i>
+              Iniciar sesi&oacute;n
+            </span>
+          </button>
+          <br><br>
+          <p>
+                        <a href="login.php" class="create">Crear una cuenta</a>
                   </div>
-                  <div id="column-2-1-2" class="megamenu-col megamenu-col-1-2 col-sm-3 ">
-                    <ul class="content">
-                      <li class="custom_block html">
-                            <h3>Custom_block1</h3>
-                            <h4>Otoño Invierno 2016</h4>
-<h5>Su más reciente antología, intitulada Time, conjuga de manera asertiva la riqueza cultural mexicana y la sofisticación contemporánea partiendo de una prenda tradicional icónica: el sarape.</h5>
-<p>Al brindarle un sitio destacado al sarape, el objetivo del diseñador era mostrar todas las posibilidades actuales de una prenda que dice mucho acerca de la cultura de México.</p> <p>“Puedo ver esta pieza en los destinos de invierno más estimados e influyentes". </p>
-</li>
-</ul>
-</div>
-<div id="column-2-1-3" class="megamenu-col megamenu-col-1-3 col-sm-3 ">
-  <ul class="content">
-    <li class="custom_block html">
-                            <h3>Custom_block2</h3>
-                            <h4>Cualidades</h4>
-<h5>Ricardo Seco es una marca de ropa diseñada con hombres y mujeres en mente.</h5>
-<p>Los diseños son fácilmente reconocidos por su estilo único, la limpieza del detalle de la tela, los patrones y fit sofisticado. La moda de Ricardo Seco busca captivar y seducir el público mientras destaca su México nativo internacionalmente.</p>
-</li>
-</ul>
-</div>
-
-<div id="column-2-1-4" class="megamenu-col megamenu-col-1-4 col-sm-3 "><ul class="content">
-  <li class="megamenu_banner">
-      <a href="index.php?id_category=26&amp;controller=category" >
-          <img class="img-responsive" src="themes/theme1362/img/index/rs1.jpg" alt="Banner3" />
-                                      <div class="description">
-                <h2>50%<span>Off</span></h2>
-<p><button type="button">Cómpralo ya!</button></p>
-                </div>
-                    </a>
-    </li>
-</ul></div></div></div></li>
-<li class=" top-level-menu-li tmmegamenu_item it_22797818">
-  <a class="it_22797818 top-level-menu-li-a tmmegamenu_item" href="#">Facturación </a>
-</li>
-<li class=" top-level-menu-li tmmegamenu_item it_29705307"><a class="it_29705307 top-level-menu-li-a tmmegamenu_item" href="#"> Perfil</a></li></ul>
-    
-            </div>
+              </form>
+          </li>
+          </ul>
+</div></nav>
               </div>
             </div>
           </div>
-        </header>
-      </div>
+                  <div class="top">
+          <div class="container">
+            <div class="row">
+              <div id="header_logo">
+                <a href="index.php" title="R.S. Textil">
+                  <img class="logo img-responsive" src="themes/theme1362/img/icon/logo/LOGO.jpg" alt="R.S. Textil" width="275" height="71"/>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
 
       <div class="columns-container">
-                                                                
+
         <div id="columns" class="container">
                       <!-- Breadcrumb -->
-  
+
 <div class="breadcrumb clearfix">
   <ul>
     <li class="home">
-      <a class="home" href="index.html" title="Volver a Inicio">
+      <a class="home" href="index.php" title="Volver a Inicio">
         <i class="fa fa-home"></i>
       </a>
     </li>
@@ -533,55 +310,56 @@ var wishlistProductsIds = false;
             <div class="large-left col-sm-12">
               <div class="row">
                 <div id="center_column" class="center_column col-xs-12 col-sm-9">
-  
-  
+
+
 <h1 class="page-heading">Autenticaci&oacute;n</h1>
 
-  
+
   <div class="row">
-    <div class="col-sm-6">
+    <div class="col-sm-5">
 
         <form action="registrar.php" method="post" class="box">
-                            <h3>Crea una cuenta</h3>
+                            <h3>Crea una cuenta</h3><br>
+<label for="email">Correo electrónico:</label><br> <input type="email" name="email" maxlength="32" id="email" autofocus required></td><br><br>
+<label for="username">Nombre(s):</label><br> <input type="text" name="username" maxlength="32" id="username" autofocus required><br><br>
+<label for="apellidoPat">Apellido paterno:</label><br> <input type="text" name="apellidoPat" maxlength="32" id="apellidoPat" autofocus required><br><br>
+<label for="apellidoPat">Apellido materno:</label><br> <input type="text" name="apellidoPat" maxlength="32" id="apellidoPat" autofocus required><br><br>
+<label for="fech">Fecha de nacimiento:</label><br> <input type="date" name="date_control" autofocus required /><br><br>
+<label for="password">Password:</label><br> <input type="password" name="password" maxlength="8" dir="password" autofocus required><br><br>
 
+ <br>
+ <h3>Dirección</h3><br>
+ <label for="estado">Estado:</label><br> <select name="estados">
+         <option value="0">Selecciona tu estado</option>
+         <option value="1">Estado de mexico</option>
+     </select><br><br>
+
+     <label for="delegacion">Delegación:</label><br> <select name="delegacion">
+           <option value="0">Selecciona tu delegación</option>
+           <option value="1">Álvaro Obregón</option>
+           <option value="2">Azcapotzalco</option>
+           <option value="3">Benito Juárez</option>
+           <option value="4">Coyoacán</option>
+           <option value="5">Cuajimalpa</option>
+           <option value="6">Cuauhtémoc</option>
+           <option value="7">Gustavo A. Madero</option>
+           <option value="8">Iztacalco</option>
+           <option value="9">Iztapalapa</option>
+           <option value="10">Magdalena Contreras</option>
+           <option value="11">Miguel Hidalgo</option>
+           <option value="12">Milpa Alta</option>
+           <option value="13">Tláhuac</option>
+           <option value="14">Tlalpan</option>
+           <option value="15">Venustiano Carranza</option>
+           <option value="16">Xochimilco</option>
+       </select><br><br>
+
+<label for="colonia">Colonia:</label><br> <input type="text" name="colonia" maxlength="32" id="colonia" autofocus required><br><br>
+<label for="calle">Calle:</label><br> <input type="text" name="calle" maxlength="32" id="calle" autofocus required><br><br>
+<label for="numex">Número exterior:</label><br> <input type="number" name="numex" maxlength="5" id="numex" autofocus required><br><br>
+<label for="numin">Número interior:</label><br> <input type="number" name="numin" maxlength="5" id="numin" autofocus required><br><br>
+<label for="postal">Código postal:</label><br> <input type="number" name="postal" maxlength="5" id="postal" autofocus required><br><br>
  <!--Nombre Usuario-->
- <label for="email">Correo electrónico:</label><br>
- <input type="email" name="email" maxlength="32" id="email" required>
- <br/><br/>
- <label for="username">Nombre:</label><br>
- <input type="text" name="username" maxlength="32" id="username" required>
- <br/><br/>
- <label for="apellidoPat">Apellido paterno:</label><br>
- <input type="text" name="apellidoPat" maxlength="32" id="apellidoPat" required>
- <br/><br/>
- <label for="apellidoMat">Apellido materno:</label><br>
- <input type="text" name="apellidoMat" maxlength="32" id="apellidoMat" required>
- <br/><br/>
-  <label for="fecha1">Fecha de nacimiento:</label><br>
-  <table  cellspacing="0" cellpadding="0">
-      <tr >
-        <td >
-          <input type="text" id="cal-field-1" name="fecha1" placeholder="yy/mm/dd" id="fecha1" required/>
-          <button type="submit" id="cal-button-1">...</button>
-          <script type="text/javascript">
-            Calendar.setup({
-              inputField    : "cal-field-1",
-              button        : "cal-button-1",
-              align         : "Tr",
-            });
-          </script>
-        </td>
-      </tr>
-    </table> 
-    
- <label for="direccion">Dirección:</label><br>
- <input type="text" name="direccion" maxlength="32" id="direccion" required>
- <br/><br/>
- <!--Password-->
- <label for="password">Password:</label><br>
- <input type="password" name="password" maxlength="8" dir="password" required>
-
- <br/><br/>
                           <input type="hidden" class="hidden" name="back" value="my-account" />
                         <button type="submit" id="SubmitLogin" name="SubmitLogin" class="btn btn-default btn-md">
               <span>
@@ -601,7 +379,7 @@ var wishlistProductsIds = false;
           <label for="password">Password:</label><br>
  <input type="password" name="password" maxlength="8" dir="password" required>
  <br/><br/>
-         
+
                           <input type="hidden" class="hidden" name="back" value="my-account" />
                         <button type="submit" id="SubmitLogin" name="SubmitLogin" class="btn btn-default btn-md">
               <span>
@@ -609,13 +387,13 @@ var wishlistProductsIds = false;
                 Iniciar sesi&oacute;n
               </span>
             </button>
-          
+
         </div>
       </form>
     </div>
   </div>
 
-  
+
 
               </div><!-- #center_column -->
                           <div id="left_column" class="column col-xs-12 col-sm-3">  <!-- Block CMS module -->
@@ -627,18 +405,19 @@ var wishlistProductsIds = false;
       <div class="block_content list-block">
         <ul>
                                               <li>
-                <a href="#" title="Terminos y condiciones">
+                <a href="terminos.html" title="Terminos y condiciones">
                   Términos y condiciones
                 </a>
               </li>
                                                 <li>
-                <a href="#" title="Acerca de nosotros">
-                  Acerca de nosotros
+                <a href="Aviso.html" title="Aviso de privacidad">
+                  Aviso de privacidad
                 </a>
               </li>
                                             <li>
-              <a href="#" title="Nuestras tiendas">
-                Nuestras tiendas
+              <a href="Quien y que.html" title="Quienes somos">
+                ¿Quiénes somos?<br>
+                ¿Qué hacemos?
               </a>
             </li>
                   </ul>
@@ -652,188 +431,105 @@ var wishlistProductsIds = false;
                     </div><!-- .row -->
         </div><!-- #columns -->
                                                 </div><!-- .columns-container -->
-                          <div class="footer-container">
-                                    <div id="footer">
-                        
-<div class="wrapper it_JADNISTKBNNA footer-1">
-<div class="row it_ZIWFFSDESZUD full-width">
-<div class="it_OTDNUESIOQFX col-xs-12    container">
-<div class="row it_TMLVSLJZPFCD ">
-<div class="it_YDIZQZQNWRBK col-xs-12 col-sm-8   ">    <div id="htmlcontent_footer">
-    <ul class="htmlcontent-home clearfix row">
-              <li class="htmlcontent-item-1 col-xs-4">
-                      <a href="termino.html" class="item-link" title="">
-                                                            <div class="item-html">
-                <h3>Términos y Condiciones</h3>
-<p>En este espacio lo que se pretende es establecer de manera muy clara los términos y condiciones de uso que el usuario puede dar a los contenidos, servicios y herramientas de las que dispone el sitio que está visitando. También, se utiliza para aclarar al usuario el uso y manejo que se le dará a la información que nos proporcione en el sitio.</p>
-<p><button class="btn btn-default" type="button"><span>Leer más</span></button></p>
-              </div>
-                                  </a>
-                  </li>
-              <li class="htmlcontent-item-2 col-xs-4">
-                      <a href="pago.html" class="item-link" title="">
-                                                            <div class="item-html">
-                <h3>Método de pago</h3>
-<p>Es igualmente importante elegir la solución que ofrece PayPal para el método de pago ya que es el más popular en el mercado objetivo de los comerciantes. Puede leer sobre estos términos en "Términos y condiciones".</p>
-<p><button class="btn btn-default" type="button"><span>Leer más</span></button></p>
-              </div>
-                                  </a>
-                  </li>
-          </ul>
-  </div>
-</div>
-<div class="it_PJDXUTGNSNJE col-xs-12 col-sm-4   "><!-- Block Newsletter module-->
-<div id="newsletter_block_left">
-  <h4>Boletín</h4>
-  <div class="block_content">
-    <form action="index.htmlcontent-home" method="post">
-      <div class="form-group" >
-        <input class="inputNew form-control grey newsletter-input" id="newsletter-input" type="text" name="email" size="18" value="Introduzca su dirección de correo electrónico" />
-        <button type="submit" name="submitNewsletter" class="btn btn-default btn-sm">
-          <span>OK</span>
-        </button>
-        <input type="hidden" name="action" value="0" />
-      </div>
-    </form>
-  </div>
+                                                <div class="footer-container">
+                                                          <div id="footer">
 
-  
-</div>
-<!-- /Block Newsletter module-->
-</div></div></div></div></div>
-<div class="wrapper it_YEWVYNBVYLBM ">
-<div class="row it_KSMNOOTVQKYH full-width">
-<div class="it_DZDNDVWOMRPR col-xs-12    container cms-info">
-<div class="row it_WZIBFUDLWJVN ">
-<div class="it_YTSDYTDROFCP col-xs-12 col-sm-4 col-md-4  cms-info">  <!-- Block CMS module footer -->
-  <section class="footer-block" id="block_various_links_footer">
-    <h4>Información</h4>
-    <ul class="toggle-footer">
-                                <li class="item">
-          <a href="ubicacion.html" title="Nuestras tiendas">
-            Nuestras tiendas
-          </a>
-        </li>
-                    <li class="item">
-          <a href="termino.html" title="Términos y condiciones">
-            Términos y condiciones
-          </a>
-        </li>
-                              <li class="item">
-            <a href="pago.html" title="Método de pago">
-              Método de pago
-            </a>
-          </li>                                
-    </ul>
-    
-  </section>
-      <div class="bottom-footer">
-      <div class="container">
-        <a class="_blank" href="index.html"> © 2017 - R.S. Textil </a>
-      </div>
-    </div>
-    <!-- /Block CMS module footer -->
-</div>
-<div class="it_CGFNKPAEBTMT col-xs-12 col-sm-4   "><!-- Block myaccount module -->
-<section class="footer-block">
-  <h4>
-    <a href="#" title="Administrar mi cuenta de cliente" rel="nofollow">Mi cuenta</a>
-  </h4>
-  <div class="block_content toggle-footer">
-    <ul class="bullet">
-      <li>
-        <a href="factura.html" title="Mis compras" rel="nofollow">Factura</a>
-      </li>  
-          </ul>
-  </div>
-</section>
-<!-- /Block myaccount module --></div>
-<div class="it_PVMULUPUDNYH col-xs-12 col-sm-4 col-md-4  "><!-- MODULE Block contact infos -->
-<section id="block_contact_infos" class="footer-block">
-  <div>
-    <h4>Información sobre la tienda</h4>
-    <ul class="toggle-footer">
-              <li>
-          <i class="marker"></i>
-          Av. Lomas Verdes centro Ezequiel 089K
-                    </li>
-                    <li>
-          <i class="phone"></i>
-           
-          <span>
-            <a href="tel:0123-456-789">
-              0123-456-789
-            </a>
-          </span>
-        </li>
-                    <li>
-          <i class="envelope"></i>
-          Email: 
-          <span><a href="#" >r.s.textil@hotmail.com</a></span>
-        </li>
-          </ul>
-  </div>
-</section>
-<!-- /MODULE Block contact infos --><section id="social_block">
-  <ul>
-          <li class="facebook">
-        <a target="_blank" href="https://www.facebook.com/TemplateMonster/" title="Facebook">
-          <span>Facebook</span>
-        </a>
-      </li>
-              <li class="twitter">
-        <a target="_blank" href="https://twitter.com/TemplateMonster" title="Twitter">
-          <span>Twitter</span>
-        </a>
-      </li>
-              <li class="youtube">
-        <a target="_blank" href="https://www.youtube.com/user/TemplateMonsterCo" title="Youtube">
-          <span>Youtube</span>
-        </a>
-      </li>
-                  <li class="instagram">
-        <a class="_blank" href="https://www.instagram.com/template_monster/">
-          <span>Instagram</span>
-        </a>
-      </li>
-      </ul>
-  <h4>Síganos</h4>
-</section>
-<div class="clearfix"></div></div></div></div></div></div>
-<div class="wrapper it_BBNZRPDZHJXZ ">
-<div class="row it_RTICFYJVLNIL ">
-<div class="it_LNTHOJLQFGRA col-xs-12    footer_hidden">
-<!-- begin olark code -->
-<script data-cfasync="false" type='text/javascript'>
-/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
-f[z]=function(){
-(a.s=a.s||[]).push(arguments)};var a=f[z]._={
-},q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
-f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
-0:+new Date};a.P=function(u){
-a.p[u]=new Date-a.p[0]};function s(){
-a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
-hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
-return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
-b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
-b.contentWindow[g].open()}catch(w){
-c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
-var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
-b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
-loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
+                      <div class="wrapper it_JADNISTKBNNA footer-1">
+                      <div class="row it_ZIWFFSDESZUD full-width">
+                      <div class="it_OTDNUESIOQFX col-xs-12    container">
+                      <div class="row it_TMLVSLJZPFCD ">
+                      <div class="it_YDIZQZQNWRBK col-xs-12 col-sm-8   ">
+                      </div>
+                      </div></div></div></div>
+                      <div class="wrapper it_YEWVYNBVYLBM ">
+                      <div class="row it_KSMNOOTVQKYH full-width">
+                      <div class="it_DZDNDVWOMRPR col-xs-12    container cms-info">
+                      <div class="row it_WZIBFUDLWJVN ">
+                      <div class="it_YTSDYTDROFCP col-xs-12 col-sm-4 col-md-4  cms-info">  <!-- Block CMS module footer -->
+                        <section class="footer-block" id="block_various_links_footer">
+                          <h4>Información</h4>
+                          <ul class="toggle-footer">
+                                                      <li class="item">
+                                <a href="terminos.html" title="Nuestras tiendas">
+                                  Términos y condiciones
+                                </a>
+                              </li>
+                                          <li class="item">
+                                <a href="Aviso.html" title="Términos y condiciones">
+                                  Aviso de privacidad
+                                </a>
+                              </li>
+                          </ul>
 
-/* custom configuration goes here (www.olark.com/documentation) */
-
-olark.identify('7830-582-10-3714');
-
-
-
-/*]]>*/</script>
-<!-- end olark code --></div></div></div>
-                    </div>
+                        </section>
+                            <div class="bottom-footer">
+                            <div class="container">
+                              <a class="_blank" href="index.html"> © 2017 - R.S. Textil </a>
                             </div>
-            </div><!-- #page -->
-  
-  
-<script type="text/javascript" src="themes/theme1362/js/ga.js"></script>
-</body><!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');</script><!-- End Google Tag Manager --></html>
+                          </div>
+                          <!-- /Block CMS module footer -->
+                      </div>
+                      <div class="it_CGFNKPAEBTMT col-xs-12 col-sm-4   "><!-- Block myaccount module -->
+                      <section class="footer-block">
+                        <h4>
+                          Notros
+                        </h4>
+                        <div class="block_content toggle-footer">
+                          <ul class="bullet">
+                            <li>
+                              <a href="Quien y que.html" title="Mis compras" rel="nofollow">¿Quiénes somos?<br>¿Qué hacemos?</a>
+                            </li>
+                                </ul>
+                        </div>
+                      </section>
+                      <!-- /Block myaccount module --></div>
+                      <div class="it_CGFNKPAEBTMT col-xs-12 col-sm-4   "><!-- Block myaccount module -->
+                      <section class="footer-block">
+
+                      </section>
+                      <!-- /Block myaccount module --></div>
+                      <div class="it_PVMULUPUDNYH col-xs-12 col-sm-4 col-md-4  "><!-- MODULE Block contact infos -->
+                      <section id="block_contact_infos" class="footer-block">
+                        <div>
+                          <h4>Redes sociales</h4>
+                        </div>
+                      </section>
+                      <!-- /MODULE Block contact infos --><section id="social_block">
+                        <ul>
+                                <li class="facebook">
+                              <a target="_blank" href="https://www.facebook.com/TemplateMonster/" title="Facebook">
+                                <span>Facebook</span>
+                              </a>
+                            </li>
+                                    <li class="twitter">
+                              <a target="_blank" href="https://twitter.com/TemplateMonster" title="Twitter">
+                                <span>Twitter</span>
+                              </a>
+                            </li>
+                                    <li class="youtube">
+                              <a target="_blank" href="https://www.youtube.com/user/TemplateMonsterCo" title="Youtube">
+                                <span>Youtube</span>
+                              </a>
+                            </li>
+                                        <li class="instagram">
+                              <a class="_blank" href="https://www.instagram.com/template_monster/">
+                                <span>Instagram</span>
+                              </a>
+                            </li>
+                            </ul>
+                        <h4>Síganos</h4>
+                      </section>
+                      <div class="clearfix"></div></div></div></div></div></div>
+                      <div class="wrapper it_BBNZRPDZHJXZ ">
+                      <div class="row it_RTICFYJVLNIL ">
+                      <div class="it_LNTHOJLQFGRA col-xs-12    footer_hidden">
+                      <!-- begin olark code -->
+
+                      <!-- end olark code --></div></div></div>
+                                          </div>
+                                                  </div>
+                                  </div><!-- #page -->
+
+
+                      <script type="text/javascript" src="themes/theme1362/js/ga.js"></script>
+                      </body><!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');</script><!-- End Google Tag Manager --></html>
