@@ -17,6 +17,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="themes/theme1362/img/icon/logo/LOGO.ico" />
 
               <link rel="stylesheet" href="themes/theme1362/css/global.css" media="all" />
+              <link rel="stylesheet" href="themes/theme1362/css/youtube-responsive.css" media="all" />
               <link rel="stylesheet" href="themes/theme1362/css/autoload/highdpi.css" media="all" />
               <link rel="stylesheet" href="themes/theme1362/css/autoload/jquery.bxslider.css" media="all" />
               <link rel="stylesheet" href="themes/theme1362/css/autoload/responsive-tables.css" media="all" />
@@ -219,11 +220,11 @@ var wishlistProductsIds = false;
                 </head>
 
   <body id="index" class="index hide-left-column hide-right-column lang_es  one-column">
-  <!--END block for older internet explorer
+  <!--END block for older internet explorer-->
         <div id="page">
       <div id="preloader">
           <div class="cssload-dots"></div>
-      </div>-->
+      </div>
       <!--#preloader -->
       <div class="header-container">
         <header id="header">
@@ -903,51 +904,134 @@ off</h2>
         </div><!-- .product-container> -->
       </li>
       </ul>
-                    </section>
-		    </div></div></div></div></div>
 
+		    </div></div></div></div>
 
-                </div><!-- .columns-container -->
-
-                <div  class="container">
-                            <div class="row">
-                    <div >
+        <div class="wrapper it_WSZEAMICCDQE ">
+        <div class="row it_XABPLTZITKHO full-width">
+        <div class="it_MYDZOWWEWFDG col-xs-12    container">
+        <div class="row it_YELMHJGLDMBI ">
+        <div class="it_IZEJKBTRTUFS col-xs-12    second_home">	    	    	<section id="block-category-1_27" class="block category-block">
+          <div id="columns" class="container">
                       <div class="row">
-                        <div class="center_column col-xs-12 col-sm-12">
+              <div class="large-left col-sm-12">
+                <div class="row">
+                  <div id="center_column" class="center_column col-xs-12 col-sm-12">
 
-                <ul id="home-page-tabs" >
-                <li>
-                <a href="#homefeatured" ><span></span>-Publicidad-</a>
-                </li>
-                </ul>
-                <!-- Products list -->
-                <div>
-<iframe name="videog" width="990 " height="480" src="https://www.youtube.com/embed/fRSz3vJnmR8" frameborder="0" allowfullscreen></iframe>
-<div style="float:right;overflow:auto;width:130px;height:515px;">
+          <ul id="home-page-tabs" class="nav nav-tabs clearfix">
+        <li class="homefeatured">
+    <a data-toggle="tab" href="#homefeatured" class="homefeatured"><span></span>-Publicidad-</a>
+  </li>
+          </ul>
+          <div class="tab-content">
+          <!-- Products list -->
+          <pre><div class="video-responsive">
+<iframe name="videog" width="990 " height="450" src="https://www.youtube.com/embed/fRSz3vJnmR8" frameborder="0" allowfullscreen></iframe>
+<div class="video-responsive" style="float:right;overflow:auto;width:100px;height:415px;">
 
-<div class="mini"><a href="https://www.youtube.com/embed/FJ_zrqiO0_8" target="videog"><img title="Descripción video 2" alt="Descrición video 2" src="videos/r1.png" width="100px" /><td style="text-align: center;">
+<div class="mini"><a href="https://www.youtube.com/embed/FJ_zrqiO0_8" target="videog"><img title="Descripción video 2" alt="Descrición video 2" src="videos/r1.png" width="90px" /><td style="text-align: center;">
 Winter 2018
 </td></a></div>
 
-<div class="mini"><a href="https://www.youtube.com/embed/m_-y_EwbNW0" target="videog"><img title="Descripción video 3" alt="Descrición video 3" src="videos/r2.png" width="100px" /><td style="text-align: center;">
+<div class="mini"><a href="https://www.youtube.com/embed/m_-y_EwbNW0" target="videog"><img title="Descripción video 3" alt="Descrición video 3" src="videos/r2.png" width="90px" /><td style="text-align: center;">
 Presentación Diseños R.S Textil
 </td></a></div>
 
- <div class="mini"><a href="https://www.youtube.com/embed/H95slb_hdmI" target="videog"><img title="Descripción video 4" alt="Descrición video 4" src="videos/r3.png" width="100px" /><td style="text-align: center;">
+<div class="mini"><a href="https://www.youtube.com/embed/H95slb_hdmI" target="videog"><img title="Descripción video 4" alt="Descrición video 4" src="videos/r3.png" width="90px" /><td style="text-align: center;">
 Intro 2 R.S Textil
 </td></a></div>
 
-<div class="mini"><a href="https://www.youtube.com/embed/B23AtEVUlmE" target="videog"><img title="Descripción video 5" alt="Descrición video 5" src="videos/r4.png" width="100px" /><td style="text-align: center;">
+<div class="mini"><a href="https://www.youtube.com/embed/B23AtEVUlmE" target="videog"><img title="Descripción video 5" alt="Descrición video 5" src="videos/r4.png" width="90px" /><td style="text-align: center;">
 Intro 3 R.S Textil
 </td></a></div>
 
 </div>
 </div>
+</pre>
 </div>
 </div>
 </div>
 </div>
 </div>
+
+</section>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        setNbCatItems();
+        tmCategoryCarousel1_27 = $('#block-category-1_27 > ul').bxSlider({
+            responsive:true,
+            useCSS: false,
+            minSlides: tm_cps_carousel_nb_new,
+            maxSlides: tm_cps_carousel_nb_new,
+            slideWidth: tm_cps_carousel_slide_width,
+            slideMargin: tm_cps_carousel_slide_margin,
+            infiniteLoop: tm_cps_carousel_loop,
+            hideControlOnEnd: tm_cps_carousel_hide_control,
+            randomStart: tm_cps_carousel_random,
+            moveSlides: tm_cps_carousel_item_scroll,
+            pager: tm_cps_carousel_pager,
+            autoHover: tm_cps_carousel_auto_hover,
+            auto: tm_cps_carousel_auto,
+            speed: tm_cps_carousel_speed,
+            pause: tm_cps_carousel_auto_pause,
+            controls: tm_cps_carousel_control,
+            autoControls: tm_cps_carousel_auto_control,
+            startText:'',
+            stopText:'',
+        });
+
+        var tm_cps_doit;
+        $(window).resize(function () {
+            clearTimeout(tm_cps_doit);
+            tm_cps_doit = setTimeout(function() {
+                resizedwtm_cps1_27();
+            }, 201);
+        });
+    });
+    function resizedwtm_cps1_27(){
+        setNbCatItems();
+        tmCategoryCarousel1_27.reloadSlider({
+            responsive:true,
+            useCSS: false,
+            minSlides: tm_cps_carousel_nb_new,
+            maxSlides: tm_cps_carousel_nb_new,
+            slideWidth: tm_cps_carousel_slide_width,
+            slideMargin: tm_cps_carousel_slide_margin,
+            infiniteLoop: tm_cps_carousel_loop,
+            hideControlOnEnd: tm_cps_carousel_hide_control,
+            randomStart: tm_cps_carousel_random,
+            moveSlides: tm_cps_carousel_item_scroll,
+            pager: tm_cps_carousel_pager,
+            autoHover: tm_cps_carousel_auto_hover,
+            auto: tm_cps_carousel_auto,
+            speed: tm_cps_carousel_speed,
+            pause: tm_cps_carousel_auto_pause,
+            controls: tm_cps_carousel_control,
+            autoControls: tm_cps_carousel_auto_control,
+            startText:'',
+            stopText:'',
+        });
+}
+
+function setNbCatItems()
+{
+    if ($('.category-block').width() < 400)
+        tm_cps_carousel_nb_new = 1;
+    if ($('.category-block').width() >= 400)
+        tm_cps_carousel_nb_new = 2;
+    if ($('.category-block').width() >= 560)
+        tm_cps_carousel_nb_new = 3;
+    if($('.category-block').width() > 840)
+        tm_cps_carousel_nb_new = tm_cps_carousel_nb;
+    }
+</script>
+
+</div></div></div></div></div>
+
+
+                </div><!-- .columns-container -->
+
 
 
                           <div class="footer-container">
