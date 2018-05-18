@@ -1,7 +1,8 @@
 .video-responsive {
+background: #ffffff;
 position: relative;
-padding-bottom: 56.25%; /* 16/9 ratio */
-padding-top: 5px; /* IE6 workaround*/
+padding-bottom: 60%; /* 16/9 ratio */
+padding-top: 0%; /* IE6 workaround*/
 height: 0;
 overflow: hidden;
 }
@@ -10,8 +11,8 @@ overflow: hidden;
 .video-responsive object,
 .video-responsive embed {
 position: absolute;
-top: 0;
-left: 0;
+top: 9%;
+left: 1%;
 width: 75%;
 height: 80%;
 }
