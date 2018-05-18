@@ -17,6 +17,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="themes/theme1362/img/icon/logo/LOGO.ico" />
 
               <link rel="stylesheet" href="themes/theme1362/css/global.css" media="all" />
+              <link rel="stylesheet" href="themes/theme1362/css/video.css" media="all" />
               <link rel="stylesheet" href="themes/theme1362/css/youtube-responsive.css" media="all" />
               <link rel="stylesheet" href="themes/theme1362/css/autoload/highdpi.css" media="all" />
               <link rel="stylesheet" href="themes/theme1362/css/autoload/jquery.bxslider.css" media="all" />
@@ -358,7 +359,7 @@ off</h2>
 
               </a>
 
-                                            <a class="sale-box" href="#">
+                                            <a class="sale-box">
                   <span class="sale-label">&iexcl;Oferta!</span>
                 </a>
                           </div>
@@ -366,7 +367,7 @@ off</h2>
           </div>
           <div class="right-block">
             <h5 itemprop="name">
-                            <a class="product-name" title="Cuadrib" itemprop="url" >
+                            <a class="product-name" title="Cuadrib" itemprop="url" href="desc.html">
                 <span class="list-name">Cuadrib</span>
                 <span class="grid-name">Cuadrib</span>
               </a>
@@ -400,16 +401,17 @@ off</h2>
     <div class="star_content clearfix">
                                 <div class="star star_on"></div>
                                 <div class="star star_on"></div>
-                                <div class="star star_on"></div>
+                                 <div class="star star_on"></div>
                                 <div class="star"></div>
                                 <div class="star"></div>
                     <meta itemprop="worstRating" content = "0" />
       <meta itemprop="ratingValue" content = "3" />
       <meta itemprop="bestRating" content = "5" />
-    </div>
-    <a class="quick-view" href="desc.html" data-href="desc.html">
-     <span>Cómpralo ya!</span>
-   </a>
+    </div><br>
+<button>
+    <a href="desc.html">Cómpralo ya!</a>
+</button>
+
   </div>
 </div>
 </div>
@@ -904,50 +906,45 @@ off</h2>
         </div><!-- .product-container> -->
       </li>
       </ul>
-
+</section>
 		    </div></div></div></div>
 
-        <div class="wrapper it_WSZEAMICCDQE ">
-        <div class="row it_XABPLTZITKHO full-width">
-        <div class="it_MYDZOWWEWFDG col-xs-12    container">
-        <div class="row it_YELMHJGLDMBI ">
-        <div class="it_IZEJKBTRTUFS col-xs-12    second_home">	    	    	<section id="block-category-1_27" class="block category-block">
-          <div id="columns" class="container">
-                      <div class="row">
-              <div class="large-left col-sm-12">
-                <div class="row">
-                  <div id="center_column" class="center_column col-xs-12 col-sm-12">
+        </div><!-- .columns-container -->
 
-          <ul id="home-page-tabs" class="nav nav-tabs clearfix">
-        <li class="homefeatured">
-    <a data-toggle="tab" href="#homefeatured" class="homefeatured"><span></span>-Publicidad-</a>
-  </li>
-          </ul>
-          <div class="tab-content">
+        <div  class="container">
+                           <div class="row">
+                   <div >
+                     <div class="row">
+                       <div class="center_column col-xs-12 col-sm-12">
+
+               <ul id="home-page-tabs" >
+               <li>
+               <a href="#homefeatured" ><span></span>-Publicidad-</a>
+               </li>
+               </ul>
           <!-- Products list -->
           <pre><div class="video-responsive">
-<iframe name="videog" width="990 " height="450" src="https://www.youtube.com/embed/fRSz3vJnmR8" frameborder="0" allowfullscreen></iframe>
-<div class="video-responsive" style="float:right;overflow:auto;width:100px;height:415px;">
+<iframe name="videog" width="100 " height="100" src="https://www.youtube.com/embed/fRSz3vJnmR8" frameborder="1" allowfullscreen></iframe>
+<div class="video-responsive" style="float:right;overflow:auto;width:100px;height:400px;position: relative;">
 
 <div class="mini"><a href="https://www.youtube.com/embed/FJ_zrqiO0_8" target="videog"><img title="Descripción video 2" alt="Descrición video 2" src="videos/r1.png" width="90px" /><td style="text-align: center;">
 Winter 2018
 </td></a></div>
 
 <div class="mini"><a href="https://www.youtube.com/embed/m_-y_EwbNW0" target="videog"><img title="Descripción video 3" alt="Descrición video 3" src="videos/r2.png" width="90px" /><td style="text-align: center;">
-Presentación Diseños R.S Textil
+Diseños
 </td></a></div>
 
 <div class="mini"><a href="https://www.youtube.com/embed/H95slb_hdmI" target="videog"><img title="Descripción video 4" alt="Descrición video 4" src="videos/r3.png" width="90px" /><td style="text-align: center;">
-Intro 2 R.S Textil
+Intro 2
 </td></a></div>
 
 <div class="mini"><a href="https://www.youtube.com/embed/B23AtEVUlmE" target="videog"><img title="Descripción video 5" alt="Descrición video 5" src="videos/r4.png" width="90px" /><td style="text-align: center;">
-Intro 3 R.S Textil
+Intro 3
 </td></a></div>
 
 </div>
 </div>
-</pre>
 </div>
 </div>
 </div>
@@ -956,81 +953,9 @@ Intro 3 R.S Textil
 
 </section>
 
-<script type="text/javascript">
-    $(document).ready(function(){
-        setNbCatItems();
-        tmCategoryCarousel1_27 = $('#block-category-1_27 > ul').bxSlider({
-            responsive:true,
-            useCSS: false,
-            minSlides: tm_cps_carousel_nb_new,
-            maxSlides: tm_cps_carousel_nb_new,
-            slideWidth: tm_cps_carousel_slide_width,
-            slideMargin: tm_cps_carousel_slide_margin,
-            infiniteLoop: tm_cps_carousel_loop,
-            hideControlOnEnd: tm_cps_carousel_hide_control,
-            randomStart: tm_cps_carousel_random,
-            moveSlides: tm_cps_carousel_item_scroll,
-            pager: tm_cps_carousel_pager,
-            autoHover: tm_cps_carousel_auto_hover,
-            auto: tm_cps_carousel_auto,
-            speed: tm_cps_carousel_speed,
-            pause: tm_cps_carousel_auto_pause,
-            controls: tm_cps_carousel_control,
-            autoControls: tm_cps_carousel_auto_control,
-            startText:'',
-            stopText:'',
-        });
-
-        var tm_cps_doit;
-        $(window).resize(function () {
-            clearTimeout(tm_cps_doit);
-            tm_cps_doit = setTimeout(function() {
-                resizedwtm_cps1_27();
-            }, 201);
-        });
-    });
-    function resizedwtm_cps1_27(){
-        setNbCatItems();
-        tmCategoryCarousel1_27.reloadSlider({
-            responsive:true,
-            useCSS: false,
-            minSlides: tm_cps_carousel_nb_new,
-            maxSlides: tm_cps_carousel_nb_new,
-            slideWidth: tm_cps_carousel_slide_width,
-            slideMargin: tm_cps_carousel_slide_margin,
-            infiniteLoop: tm_cps_carousel_loop,
-            hideControlOnEnd: tm_cps_carousel_hide_control,
-            randomStart: tm_cps_carousel_random,
-            moveSlides: tm_cps_carousel_item_scroll,
-            pager: tm_cps_carousel_pager,
-            autoHover: tm_cps_carousel_auto_hover,
-            auto: tm_cps_carousel_auto,
-            speed: tm_cps_carousel_speed,
-            pause: tm_cps_carousel_auto_pause,
-            controls: tm_cps_carousel_control,
-            autoControls: tm_cps_carousel_auto_control,
-            startText:'',
-            stopText:'',
-        });
-}
-
-function setNbCatItems()
-{
-    if ($('.category-block').width() < 400)
-        tm_cps_carousel_nb_new = 1;
-    if ($('.category-block').width() >= 400)
-        tm_cps_carousel_nb_new = 2;
-    if ($('.category-block').width() >= 560)
-        tm_cps_carousel_nb_new = 3;
-    if($('.category-block').width() > 840)
-        tm_cps_carousel_nb_new = tm_cps_carousel_nb;
-    }
-</script>
-
 </div></div></div></div></div>
 
 
-                </div><!-- .columns-container -->
 
 
 
@@ -1100,22 +1025,22 @@ function setNbCatItems()
 <!-- /MODULE Block contact infos --><section id="social_block">
   <ul>
           <li class="facebook">
-        <a target="_blank" href="https://www.facebook.com/TemplateMonster/" title="Facebook">
+        <a target="_blank" href="https://m.facebook.com/AstorgusAsociados/?ref=content_filter" title="Facebook">
           <span>Facebook</span>
         </a>
       </li>
               <li class="twitter">
-        <a target="_blank" href="https://twitter.com/TemplateMonster" title="Twitter">
+        <a target="_blank" href="https://mobile.twitter.com/rs_textil" title="Twitter">
           <span>Twitter</span>
         </a>
       </li>
               <li class="youtube">
-        <a target="_blank" href="https://www.youtube.com/user/TemplateMonsterCo" title="Youtube">
+        <a target="_blank" href="https://m.youtube.com/channel/UCl7PpI7rt27vB8qBAPXlA8g" title="Youtube">
           <span>Youtube</span>
         </a>
       </li>
                   <li class="instagram">
-        <a class="_blank" href="https://www.instagram.com/template_monster/">
+        <a class="_blank" href="https://www.instagram.com/astorgusasociados/">
           <span>Instagram</span>
         </a>
       </li>
