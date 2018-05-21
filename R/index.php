@@ -408,10 +408,8 @@ off</h2>
       <meta itemprop="ratingValue" content = "3" />
       <meta itemprop="bestRating" content = "5" />
     </div><br>
-<button>
-    <a href="desc.html">Cómpralo ya!</a>
-</button>
-
+    <a href="desc.html">
+<p><button class="btn btn-default"><span>Cómpralo ya!</span></button></p></a>
   </div>
 </div>
 </div>
@@ -481,9 +479,8 @@ off</h2>
     </div>
     <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
   </div>
-  <a class="quick-view" href="desc_.php" data-href="desc_.php">
-   <span>Cómpralo ya!</span>
-  </a>
+  <a href="desc1.html">
+<p><button class="btn btn-default"><span>Cómpralo ya!</span></button></p></a>
               </div>
                                     </div>
 
@@ -553,8 +550,8 @@ off</h2>
     </div>
     <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
   </div>
-   <span>Cómpralo ya!</span>
-  </a>
+  <a href="desc2.html">
+<p><button class="btn btn-default"><span>Cómpralo ya!</span></button></p></a>
               </div>
 
 
@@ -626,9 +623,8 @@ off</h2>
     </div>
     <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
   </div>
-  <a class="quick-view" href="desc_.php" data-href="desc_.php">
-   <span>Cómpralo ya!</span>
-  </a>
+  <a href="desc3.html">
+<p><button class="btn btn-default"><span>Cómpralo ya!</span></button></p></a>
               </div>
 
 
@@ -694,9 +690,8 @@ off</h2>
     </div>
     <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
   </div>
-  <a class="quick-view" href="desc_.php" data-href="desc_.php">
-   <span>Cómpralo ya!</span>
-  </a>
+  <a href="desc4.html">
+<p><button class="btn btn-default"><span>Cómpralo ya!</span></button></p></a>
               </div>
 
 
@@ -762,9 +757,8 @@ off</h2>
     </div>
     <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
   </div>
-  <a class="quick-view" href="desc_.php" data-href="desc_.php">
-   <span>Cómpralo ya!</span>
-  </a>
+  <a href="desc5.html">
+<p><button class="btn btn-default"><span>Cómpralo ya!</span></button></p></a>
               </div>
                                     </div>
 
@@ -828,9 +822,8 @@ off</h2>
     </div>
     <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
   </div>
-  <a class="quick-view" href="desc_.php" data-href="desc_.php">
-   <span>Cómpralo ya!</span>
-  </a>
+  <a href="desc6.html">
+<p><button class="btn btn-default"><span>Cómpralo ya!</span></button></p></a>
               </div>
 
 
@@ -896,9 +889,8 @@ off</h2>
     </div>
     <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
   </div>
-  <a class="quick-view" href="desc_.php" data-href="desc_.php">
-   <span>Cómpralo ya!</span>
-  </a>
+  <a href="desc7.html">
+<p><button class="btn btn-default"><span>Cómpralo ya!</span></button></p></a>
               </div>
                                     </div>
 
@@ -923,10 +915,9 @@ off</h2>
                </li>
                </ul>
           <!-- Products list -->
-          <pre><div class="video-responsive">
+          <div class="video-responsive">
 <iframe name="videog" width="100 " height="100" src="https://www.youtube.com/embed/fRSz3vJnmR8" frameborder="1" allowfullscreen></iframe>
 <div class="video-responsive" style="float:right;overflow:auto;width:100px;height:400px;position: relative;">
-
 <div class="mini"><a href="https://www.youtube.com/embed/FJ_zrqiO0_8" target="videog"><img title="Descripción video 2" alt="Descrición video 2" src="videos/r1.png" width="90px" /><td style="text-align: center;">
 Winter 2018
 </td></a></div>
@@ -1020,12 +1011,19 @@ Intro 3
 <section id="block_contact_infos" class="footer-block">
   <div>
     <h4>Redes sociales</h4>
+    <div class="block_content toggle-footer">
+      <ul class="bullet">
+        <li>
+          <a title="Mis compras" rel="nofollow">Síguenos en nuestras redes sociales y dales LIKE</a>
+        </li>
+            </ul>
+    </div>
   </div>
 </section>
 <!-- /MODULE Block contact infos --><section id="social_block">
   <ul>
           <li class="facebook">
-        <a target="_blank" href="https://m.facebook.com/AstorgusAsociados/?ref=content_filter" title="Facebook">
+        <a target="_blank" href="https://www.facebook.com/AstorgusAsociados/" title="Facebook">
           <span>Facebook</span>
         </a>
       </li>
