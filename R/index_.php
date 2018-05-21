@@ -5,6 +5,10 @@
 <!--[if IE 8]><html class="no-js lt-ie9 ie8" lang="es-es"><![endif]-->
 <!--[if gt IE 8]> <html class="no-js ie9" lang="es-es"><![endif]-->
 <html lang="es-es"><head>
+  <?php
+  include("conexion.php");
+  session_start();
+  ?>
     <meta charset="utf-8" />
     <title>R.S. Textil</title>
 
@@ -217,7 +221,6 @@ var wishlistProductsIds = false;
             });
         });
     </script>
-
                 </head>
                 <!--Confirmed session-->
   <body id="index" class="index hide-left-column hide-right-column lang_es  one-column">
@@ -235,6 +238,9 @@ var wishlistProductsIds = false;
                   <nav>
 
 <div id="header-login">
+  <?php
+      echo $_SESSION['u_usuario'];
+  ?>
     <div class="current header_user_info"><a href="#" onclick="return false;"> Tu cuenta </a></div>
     <ul id="header-login-content" class="toogle_content">
                     <li>
@@ -242,7 +248,9 @@ var wishlistProductsIds = false;
                     <div id="create_header_account_error" class="alert alert-danger" style="display:none;"></div>
                     <div class="form_content clearfix">
                         <p>
-                        	<a href="index.php" class="create">Salir de tu cuenta</a>
+                        <?php
+                            echo "<br><br><a href='salir.php' class='create'>Salir de tu cuenta</a>";
+                        ?>
                         </p>
                         <div class="clearfix">
 
@@ -259,7 +267,7 @@ var wishlistProductsIds = false;
             <div class="container">
               <div class="row">
                 <div id="header_logo">
-                  <a href="index.php" title="R.S. Textil">
+                  <a href="index_.php" title="R.S. Textil">
                     <img class="logo img-responsive" src="themes/theme1362/img/icon/logo/LOGO.jpg" alt="R.S. Textil" width="275" height="71"/>
                   </a>
                 </div>
@@ -270,21 +278,21 @@ var wishlistProductsIds = false;
             <!-- Inicia Menu desplegable-->
             <ul class="menu clearfix top-level-menu tmmegamenu_item">
               <li class=" top-level-menu-li tmmegamenu_item it_22797818">
-                <a class="it_22797818 top-level-menu-li-a tmmegamenu_item" href="index.php">Inicio </a>
+                <a class="it_22797818 top-level-menu-li-a tmmegamenu_item" href="index_.php">Inicio </a>
               </li>
               <li class=" top-level-menu-li tmmegamenu_item it_06944254">
                 <!-- Comienza primer nav-->
-                <a class="it_06944254 top-level-menu-li-a tmmegamenu_item" href="#">Compras</a>
+                <a class="it_06944254 top-level-menu-li-a tmmegamenu_item" href="compraslog.php">Compras</a>
               </li>
 
               <!-- Comienza segundo nav-->
               <li class=" top-level-menu-li tmmegamenu_item it_19773019">
-              <a class="it_19773019 top-level-menu-li-a tmmegamenu_item" href="productos.php">Productos</a>
+              <a class="it_19773019 top-level-menu-li-a tmmegamenu_item" href="productoslog.php">Productos</a>
               </li>
 <li class=" top-level-menu-li tmmegamenu_item it_22797818">
   <a class="it_22797818 top-level-menu-li-a tmmegamenu_item" href="#">Facturación </a>
 </li>
-<li class=" top-level-menu-li tmmegamenu_item it_29705307"><a class="it_29705307 top-level-menu-li-a tmmegamenu_item" href="#"> Perfil</a></li></ul>
+<li class=" top-level-menu-li tmmegamenu_item it_29705307"><a class="it_29705307 top-level-menu-li-a tmmegamenu_item" href="perfillog.php"> Perfil</a></li></ul>
 
             </div>
               </div>
@@ -300,7 +308,7 @@ var wishlistProductsIds = false;
       <div id="homepage-slider">
             <ul id="homeslider" style="max-height:812px;">
                               <li class="homeslider-container">
-              <a href="productos.php" title="Gran marca">
+              <a href="productoslog.php" title="Gran marca">
                 <img src="themes/theme1362/img/index/slider/rs1.jpg" width="1920" height="812" alt="Gran marca" />
               </a>
                               <div class="homeslider-description"><h2>Grandes marcas usan nuestros diseños</h2>
@@ -308,7 +316,7 @@ var wishlistProductsIds = false;
 <p><button class="btn btn-default"><span>Cómpralo ya!</span></button></p></div>
                           </li>
                                         <li class="homeslider-container">
-              <a href="productos.php" title="Dis estupendo">
+              <a href="productoslog.php" title="Dis estupendo">
                 <img src="themes/theme1362/img/index/slider/rs2.jpg" width="1920" height="812" alt="Dis estupendo" />
               </a>
                               <div class="homeslider-description"><h2>Diseños estupendos para ti</h2>
@@ -316,7 +324,7 @@ var wishlistProductsIds = false;
 <p><button class="btn btn-default"><span>Cómpralo ya!</span></button></p></div>
                           </li>
                                         <li class="homeslider-container">
-              <a href="productos.php" title="Deseo">
+              <a href="productoslog.php" title="Deseo">
                 <img src="themes/theme1362/img/index/slider/rs5.jpg" width="1920" height="812" alt="Deseo" />
               </a>
                               <div class="homeslider-description"><h2>Tus deseos son realidad</h2>
@@ -331,7 +339,7 @@ var wishlistProductsIds = false;
 <div class="it_JGJRPDEGLFSK col-xs-12 col-sm-3   wrap-1-top-1-div">    <div id="htmlcontent_top">
     <ul class="htmlcontent-home clearfix row">
               <li class="htmlcontent-item-1 col-xs-4">
-                      <a href="productos.php" class="item-link" title="">
+                      <a href="productoslog.php" class="item-link" title="">
                                     <img src="themes/theme1362/img/index/rs6.jpg" class="item-img" title="" alt="" width="471" height="608"/>
                                                   <div class="item-html">
                 <h2>50%

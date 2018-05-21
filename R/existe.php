@@ -1,32 +1,22 @@
 <?php
-	require ('conexion.php');
+session_start();
 
-	session_start();
+$usuario=$_POST['email'];
+$password=$_POST['password'];
 
-	if(isset($_SESSION["id_usuario"])){
-		header("Location: index_.php");
-	}
+include("conexion.php");
 
-	if(!empty($_POST))
-	{
-		$usuario = mysqli_real_escape_string($mysqli,$_POST['email']);
-		$password = mysqli_real_escape_string($mysqli,$_POST['password']);
-		$error = '';
+$proceso = $con->query("SELECT correo,password FROM tbl_clientes WHERE correo = '$usuario' AND password = '$password' ");
 
-		$sha1_pass = sha1($password);
+if($resultado = mysqli_fetch_array($proceso)){
+  $_SESSION['u_usuario'] = $usuario;
 
-		$conexion = "SELECT email, password FROM prueba1 WHERE email = '$usuario' AND password = '$sha1_pass'";
-		$result=$mysqli -> query ($sql);
-		$rows = $result ->num_rows;
+  header("Location: index_.php");
+    //echo "<script>alert('Bienvenido $usuario')</script>";
 
-		if($rows > 0) {
-			$row = $result -> fetch_assoc ();
-			$_SESSION['id_usuario'] = $row['email'];
-			$_SESSION['tipo_usuario'] = $row['password'];
+}else{
+  header("Location: index.php");
+  //echo"<script>alert('El correo o contraseña son incorrectos, vuelve a intentar')</script>";
 
-			header("location: index_.php");
-			} else {
-			$error = "El nombre o contraseña son incorrectos";
-		}
-	}
-?>
+}
+ ?>
