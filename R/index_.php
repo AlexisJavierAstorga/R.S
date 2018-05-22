@@ -6,9 +6,14 @@
 <!--[if gt IE 8]> <html class="no-js ie9" lang="es-es"><![endif]-->
 <html lang="es-es"><head>
   <?php
-  include("conexion.php");
   session_start();
+  if(isset($_SESSION['u_usuario'])){
+    echo "<script>alert('Bienvenido, ya puedes realizar tus compras!!')</script>";
+  }else{
+    header("Location: index.php");
+  }
   ?>
+  
     <meta charset="utf-8" />
     <title>R.S. Textil</title>
 

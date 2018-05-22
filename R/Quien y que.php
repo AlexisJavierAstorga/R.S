@@ -213,9 +213,12 @@ var wishlistProductsIds = false;
 
                 </head>
   <body id="cms" class="cms cms-1 cms-delivery hide-left-column hide-right-column lang_en  one-column">
-  <!--END block for older internet explorer-->
-
-      <!-- #preloader -->
+    <!--END block for older internet explorer-->
+        <div id="page">
+        <div id="preloader">
+            <div class="cssload-dots"></div>
+        </div>
+        <!--#preloader -->
       <div class="header-container">
         <header id="header">
             <div class="nav">
@@ -280,7 +283,7 @@ var wishlistProductsIds = false;
 <div class="breadcrumb clearfix">
   <ul>
     <li class="home">
-      <a class="home" href="index.html" title="Return to Home">
+      <a class="home" href="index.php" title="Return to Home">
         <i class="fa fa-home"></i>
       </a>
     </li>
@@ -350,12 +353,12 @@ var wishlistProductsIds = false;
                           <h4>Información</h4>
                           <ul class="toggle-footer">
                                                       <li class="item">
-                                <a href="terminos.html" title="Nuestras tiendas">
+                                <a href="terminos.php" title="Nuestras tiendas">
                                   Términos y condiciones
                                 </a>
                               </li>
                                           <li class="item">
-                                <a href="Aviso.html" title="Términos y condiciones">
+                                <a href="Aviso.php" title="Términos y condiciones">
                                   Aviso de privacidad
                                 </a>
                               </li>
@@ -364,7 +367,7 @@ var wishlistProductsIds = false;
                         </section>
                             <div class="bottom-footer">
                             <div class="container">
-                              <a class="_blank" href="index.html"> © 2017 - R.S. Textil </a>
+                              <a class="_blank" href="index.php"> © 2017 - R.S. Textil </a>
                             </div>
                           </div>
                           <!-- /Block CMS module footer -->
@@ -377,7 +380,7 @@ var wishlistProductsIds = false;
                         <div class="block_content toggle-footer">
                           <ul class="bullet">
                             <li>
-                              <a href="Quien y que.html" title="Mis compras" rel="nofollow">¿Quiénes somos?<br>¿Qué hacemos?</a>
+                              <a href="Quien y que.php" title="Mis compras" rel="nofollow">¿Quiénes somos?<br>¿Qué hacemos?</a>
                             </li>
                                 </ul>
                         </div>
@@ -392,27 +395,34 @@ var wishlistProductsIds = false;
                       <section id="block_contact_infos" class="footer-block">
                         <div>
                           <h4>Redes sociales</h4>
+                          <div class="block_content toggle-footer">
+                            <ul class="bullet">
+                              <li>
+                                <a title="Mis compras" rel="nofollow">Síguenos en nuestras redes sociales y dales LIKE</a>
+                              </li>
+                                  </ul>
+                          </div>
                         </div>
                       </section>
                       <!-- /MODULE Block contact infos --><section id="social_block">
                         <ul>
                                 <li class="facebook">
-                              <a target="_blank" href="https://www.facebook.com/TemplateMonster/" title="Facebook">
+                              <a target="_blank" href="https://www.facebook.com/AstorgusAsociados/" title="Facebook">
                                 <span>Facebook</span>
                               </a>
                             </li>
                                     <li class="twitter">
-                              <a target="_blank" href="https://twitter.com/TemplateMonster" title="Twitter">
+                              <a target="_blank" href="https://mobile.twitter.com/rs_textil" title="Twitter">
                                 <span>Twitter</span>
                               </a>
                             </li>
                                     <li class="youtube">
-                              <a target="_blank" href="https://www.youtube.com/user/TemplateMonsterCo" title="Youtube">
+                              <a target="_blank" href="https://m.youtube.com/channel/UCl7PpI7rt27vB8qBAPXlA8g" title="Youtube">
                                 <span>Youtube</span>
                               </a>
                             </li>
                                         <li class="instagram">
-                              <a class="_blank" href="https://www.instagram.com/template_monster/">
+                              <a class="_blank" href="https://www.instagram.com/astorgusasociados/">
                                 <span>Instagram</span>
                               </a>
                             </li>
@@ -432,4 +442,5 @@ var wishlistProductsIds = false;
 
 
                       <script type="text/javascript" src="themes/theme1362/js/ga.js"></script>
-                      </body><!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');</script><!-- End Google Tag Manager --></html>
+                      </body><!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.php?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');</script><!-- End Google Tag Manager -->
+                      </html>

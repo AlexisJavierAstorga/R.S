@@ -16,7 +16,7 @@ if($resultado = mysqli_fetch_array($proceso)){
 
 }else{
   header("Location: index.php");
-  //echo"<script>alert('El correo o contraseña son incorrectos, vuelve a intentar')</script>";
+  echo"<script>alert('El correo o contraseña son incorrectos, vuelve a intentar')</script>";
 
 }
  ?>

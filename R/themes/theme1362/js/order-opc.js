@@ -731,7 +731,7 @@ function saveAddress(type) {
   params = params.substr(0, params.length-1);
 
   var result = false;
-  
+
   $.ajax({
     type: 'POST',
     headers: {'cache-control': 'no-cache'},
@@ -955,7 +955,7 @@ function bindInputs() {
   $('#gift_message').on('change', function() {
     updateCarrierSelectionAndGift();
   });
-  
+
   // Term Of Service (TOS)
   $('#cgv').on('click', function(e) {
     updatePaymentMethodsDisplay();
@@ -1051,7 +1051,7 @@ function multishippingMode(it) {
     }
 
     $('.address_add a').attr('href', addressUrl);
-    
+
     // Disable multi address shipping
     $.ajax({
       type: 'POST',

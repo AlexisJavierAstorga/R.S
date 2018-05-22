@@ -408,8 +408,9 @@ off</h2>
       <meta itemprop="ratingValue" content = "3" />
       <meta itemprop="bestRating" content = "5" />
     </div><br>
-    <a href="desc.php">
-<p><button class="btn btn-default"><span>Cómpralo ya!</span></button></p></a>
+    <?php
+        echo "<a href='noregistrado.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    ?>
   </div>
 </div>
 </div>

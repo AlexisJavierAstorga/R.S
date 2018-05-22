@@ -76,7 +76,6 @@ var blocking_popup = '1';
 var comparator_max_item = 2;
 var comparedProductsIds = [];
 var contentOnly = false;
-var countries = {"21":{"id_country":"21","id_lang":"4","name":"United States","id_zone":"2","id_currency":"0","iso_code":"US","call_prefix":"1","active":"1","contains_states":"1","need_identification_number":"0","need_zip_code":"1","zip_code_format":"NNNNN","display_tax_label":"0","country":"United States","zone":"North America","states":[{"id_state":"1","id_country":"21","id_zone":"2","name":"Alabama","iso_code":"AL","tax_behavior":"0","active":"1"},{"id_state":"2","id_country":"21","id_zone":"2","name":"Alaska","iso_code":"AK","tax_behavior":"0","active":"1"},{"id_state":"3","id_country":"21","id_zone":"2","name":"Arizona","iso_code":"AZ","tax_behavior":"0","active":"1"},{"id_state":"4","id_country":"21","id_zone":"2","name":"Arkansas","iso_code":"AR","tax_behavior":"0","active":"1"},{"id_state":"5","id_country":"21","id_zone":"2","name":"California","iso_code":"CA","tax_behavior":"0","active":"1"},{"id_state":"6","id_country":"21","id_zone":"2","name":"Colorado","iso_code":"CO","tax_behavior":"0","active":"1"},{"id_state":"7","id_country":"21","id_zone":"2","name":"Connecticut","iso_code":"CT","tax_behavior":"0","active":"1"},{"id_state":"8","id_country":"21","id_zone":"2","name":"Delaware","iso_code":"DE","tax_behavior":"0","active":"1"},{"id_state":"53","id_country":"21","id_zone":"2","name":"District of Columbia","iso_code":"DC","tax_behavior":"0","active":"1"},{"id_state":"9","id_country":"21","id_zone":"2","name":"Florida","iso_code":"FL","tax_behavior":"0","active":"1"},{"id_state":"10","id_country":"21","id_zone":"2","name":"Georgia","iso_code":"GA","tax_behavior":"0","active":"1"},{"id_state":"11","id_country":"21","id_zone":"2","name":"Hawaii","iso_code":"HI","tax_behavior":"0","active":"1"},{"id_state":"12","id_country":"21","id_zone":"2","name":"Idaho","iso_code":"ID","tax_behavior":"0","active":"1"},{"id_state":"13","id_country":"21","id_zone":"2","name":"Illinois","iso_code":"IL","tax_behavior":"0","active":"1"},{"id_state":"14","id_country":"21","id_zone":"2","name":"Indiana","iso_code":"IN","tax_behavior":"0","active":"1"},{"id_state":"15","id_country":"21","id_zone":"2","name":"Iowa","iso_code":"IA","tax_behavior":"0","active":"1"},{"id_state":"16","id_country":"21","id_zone":"2","name":"Kansas","iso_code":"KS","tax_behavior":"0","active":"1"},{"id_state":"17","id_country":"21","id_zone":"2","name":"Kentucky","iso_code":"KY","tax_behavior":"0","active":"1"},{"id_state":"18","id_country":"21","id_zone":"2","name":"Louisiana","iso_code":"LA","tax_behavior":"0","active":"1"},{"id_state":"19","id_country":"21","id_zone":"2","name":"Maine","iso_code":"ME","tax_behavior":"0","active":"1"},{"id_state":"20","id_country":"21","id_zone":"2","name":"Maryland","iso_code":"MD","tax_behavior":"0","active":"1"},{"id_state":"21","id_country":"21","id_zone":"2","name":"Massachusetts","iso_code":"MA","tax_behavior":"0","active":"1"},{"id_state":"22","id_country":"21","id_zone":"2","name":"Michigan","iso_code":"MI","tax_behavior":"0","active":"1"},{"id_state":"23","id_country":"21","id_zone":"2","name":"Minnesota","iso_code":"MN","tax_behavior":"0","active":"1"},{"id_state":"24","id_country":"21","id_zone":"2","name":"Mississippi","iso_code":"MS","tax_behavior":"0","active":"1"},{"id_state":"25","id_country":"21","id_zone":"2","name":"Missouri","iso_code":"MO","tax_behavior":"0","active":"1"},{"id_state":"26","id_country":"21","id_zone":"2","name":"Montana","iso_code":"MT","tax_behavior":"0","active":"1"},{"id_state":"27","id_country":"21","id_zone":"2","name":"Nebraska","iso_code":"NE","tax_behavior":"0","active":"1"},{"id_state":"28","id_country":"21","id_zone":"2","name":"Nevada","iso_code":"NV","tax_behavior":"0","active":"1"},{"id_state":"29","id_country":"21","id_zone":"2","name":"New Hampshire","iso_code":"NH","tax_behavior":"0","active":"1"},{"id_state":"30","id_country":"21","id_zone":"2","name":"New Jersey","iso_code":"NJ","tax_behavior":"0","active":"1"},{"id_state":"31","id_country":"21","id_zone":"2","name":"New Mexico","iso_code":"NM","tax_behavior":"0","active":"1"},{"id_state":"32","id_country":"21","id_zone":"2","name":"New York","iso_code":"NY","tax_behavior":"0","active":"1"},{"id_state":"33","id_country":"21","id_zone":"2","name":"North Carolina","iso_code":"NC","tax_behavior":"0","active":"1"},{"id_state":"34","id_country":"21","id_zone":"2","name":"North Dakota","iso_code":"ND","tax_behavior":"0","active":"1"},{"id_state":"35","id_country":"21","id_zone":"2","name":"Ohio","iso_code":"OH","tax_behavior":"0","active":"1"},{"id_state":"36","id_country":"21","id_zone":"2","name":"Oklahoma","iso_code":"OK","tax_behavior":"0","active":"1"},{"id_state":"37","id_country":"21","id_zone":"2","name":"Oregon","iso_code":"OR","tax_behavior":"0","active":"1"},{"id_state":"38","id_country":"21","id_zone":"2","name":"Pennsylvania","iso_code":"PA","tax_behavior":"0","active":"1"},{"id_state":"51","id_country":"21","id_zone":"2","name":"Puerto Rico","iso_code":"PR","tax_behavior":"0","active":"1"},{"id_state":"39","id_country":"21","id_zone":"2","name":"Rhode Island","iso_code":"RI","tax_behavior":"0","active":"1"},{"id_state":"40","id_country":"21","id_zone":"2","name":"South Carolina","iso_code":"SC","tax_behavior":"0","active":"1"},{"id_state":"41","id_country":"21","id_zone":"2","name":"South Dakota","iso_code":"SD","tax_behavior":"0","active":"1"},{"id_state":"42","id_country":"21","id_zone":"2","name":"Tennessee","iso_code":"TN","tax_behavior":"0","active":"1"},{"id_state":"43","id_country":"21","id_zone":"2","name":"Texas","iso_code":"TX","tax_behavior":"0","active":"1"},{"id_state":"52","id_country":"21","id_zone":"2","name":"US Virgin Islands","iso_code":"VI","tax_behavior":"0","active":"1"},{"id_state":"44","id_country":"21","id_zone":"2","name":"Utah","iso_code":"UT","tax_behavior":"0","active":"1"},{"id_state":"45","id_country":"21","id_zone":"2","name":"Vermont","iso_code":"VT","tax_behavior":"0","active":"1"},{"id_state":"46","id_country":"21","id_zone":"2","name":"Virginia","iso_code":"VA","tax_behavior":"0","active":"1"},{"id_state":"47","id_country":"21","id_zone":"2","name":"Washington","iso_code":"WA","tax_behavior":"0","active":"1"},{"id_state":"48","id_country":"21","id_zone":"2","name":"West Virginia","iso_code":"WV","tax_behavior":"0","active":"1"},{"id_state":"49","id_country":"21","id_zone":"2","name":"Wisconsin","iso_code":"WI","tax_behavior":"0","active":"1"},{"id_state":"50","id_country":"21","id_zone":"2","name":"Wyoming","iso_code":"WY","tax_behavior":"0","active":"1"}]}};
 var currency = {"id":1,"name":"Dollar","iso_code":"USD","iso_code_num":"840","sign":"$","blank":"0","conversion_rate":"1.000000","deleted":"0","format":"1","decimals":"1","active":"1","prefix":"$ ","suffix":"","id_shop_list":null,"force_id":false};
 var currencyBlank = 0;
 var currencyFormat = 1;
@@ -231,7 +230,12 @@ var wishlistProductsIds = false;
 
                 </head>
   <body id="authentication" class="authentication show-left-column hide-right-column lang_es  two-columns">
-
+    <!--END block for older internet explorer-->
+        <div id="page">
+        <div id="preloader">
+            <div class="cssload-dots"></div>
+        </div>
+        <!--#preloader -->
     <div class="header-container">
       <header id="header">
           <div class="nav">
@@ -318,23 +322,32 @@ var wishlistProductsIds = false;
   <div class="row">
     <div class="col-sm-5">
 
-        <form action="registrar.php" method="post" class="box">
+        <form action="registrar.php" method="post" class="box" name="formulario">
                             <h3>Crea una cuenta</h3><br>
-<label for="email">Correo electrónico:</label><br> <input type="email" name="email" maxlength="32" id="email" autofocus required></td><br><br>
-<label for="username">Nombre(s):</label><br> <input type="text" name="username" maxlength="32" id="username" autofocus required><br><br>
-<label for="apellidoPat">Apellido paterno:</label><br> <input type="text" name="apellidoPat" maxlength="32" id="apellidoPat" autofocus required><br><br>
-<label for="apellidoPat">Apellido materno:</label><br> <input type="text" name="apellidoPat" maxlength="32" id="apellidoPat" autofocus required><br><br>
-<label for="fech">Fecha de nacimiento:</label><br> <input type="date" name="date_control" autofocus required /><br><br>
-<label for="password">Password:</label><br> <input type="password" name="password" maxlength="8" dir="password" autofocus required><br><br>
+<label for="email">Correo electrónico:</label><br> <input type="email" name="email" id="email" placeholder="example@hotmail.com" autofocus required></td><br><br>
+
+<label for="username">Nombre(s):</label><br> <input type="text" name="username" maxlength="20" id="username" placeholder="Escribe tu nombre" autofocus required><br><br>
+
+<label for="apellidoPat">Apellido paterno:</label><br> <input type="text" maxlength="20" name="apellidoPat" maxlength="32" id="apellidoPat" placeholder="Escribe tu apellido paterno" autofocus required><br><br>
+
+<label for="apellidoMat">Apellido materno:</label><br> <input type="text" maxlength="20" name="apellidoMat" maxlength="32" id="apellidoMat" placeholder="Escribe tu apellido materno" autofocus required><br><br>
+
+<label for="fech">Fecha de nacimiento:</label><br> <input type="date" name="fecha" autofocus required /><br><br>
+
+<label for="password">Password:</label><br> <input type="password" name="password" maxlength="8" dir="password" placeholder="............" autofocus required><br><br>
 
  <br>
  <h3>Dirección</h3><br>
- <label for="estado">Estado:</label><br> <select name="estados">
+ <label for="estado">Estado:</label><br>
+ <select name="estados" onchange="if(this.value=='2') {document.getElementById('municipio').disabled = false} else {document.getElementById('municipio').disabled = true}">
          <option value="0">Selecciona tu estado</option>
-         <option value="1">Estado de mexico</option>
+         <option value="1">CDMX</option>
+         <option value="2">Estado de mexico</option>
      </select><br><br>
 
-     <label for="delegacion">Delegación:</label><br> <select name="delegacion">
+     <label for="municipio">Municipio:</label><br> <input type="text" name="municipio" maxlength="32" id="municipio" placeholder="Escribe tu municipio" autofocus required disabled><br><br>
+
+     <label for="delegacion">Delegación:</label><br> <select name="delegacion" id='delegacion' autofocus required>
            <option value="0">Selecciona tu delegación</option>
            <option value="1">Álvaro Obregón</option>
            <option value="2">Azcapotzalco</option>
@@ -354,19 +367,30 @@ var wishlistProductsIds = false;
            <option value="16">Xochimilco</option>
        </select><br><br>
 
-<label for="colonia">Colonia:</label><br> <input type="text" name="colonia" maxlength="32" id="colonia" autofocus required><br><br>
-<label for="calle">Calle:</label><br> <input type="text" name="calle" maxlength="32" id="calle" autofocus required><br><br>
-<label for="numex">Número exterior:</label><br> <input type="number" name="numex" maxlength="5" id="numex" autofocus required><br><br>
-<label for="numin">Número interior:</label><br> <input type="number" name="numin" maxlength="5" id="numin" autofocus required><br><br>
-<label for="postal">Código postal:</label><br> <input type="number" name="postal" maxlength="5" id="postal" autofocus required><br><br>
+<label for="colonia">Colonia:</label><br> <input type="text" name="colonia" maxlength="32" id="colonia" placeholder="Escribe tu colonia" autofocus required><br><br>
+
+<label for="calle">Calle:</label><br> <input type="text" name="calle" maxlength="32" id="calle" placeholder="Escribe la calle" autofocus required><br><br>
+
+<label for="numex">Número exterior:</label><br> <input type="number" name="numex" maxlength="5" id="numex" placeholder="Num. exterior" autofocus required><br><br>
+
+<label for="numin">Número interior:</label><br> <input type="number" name="numin" maxlength="5" id="numin" placeholder="Num. interior" autofocus required><br><br>
+
+<label for="postal">Código postal:</label><br> <input type="number" name="postal" maxlength="5" id="postal" placeholder="05069" autofocus required><br><br>
  <!--Nombre Usuario-->
                           <input type="hidden" class="hidden" name="back" value="my-account" />
                         <button type="submit" id="SubmitLogin" name="SubmitLogin" class="btn btn-default btn-md">
               <span>
-                <i class="fa fa-lock left"></i>
+                <i class="fa left"></i>
                 Registrar
               </span>
             </button>
+
+            <button type="reset" class="btn btn-default btn-md">
+           <span>
+           <i class="fa left"></i>
+           Limpiar
+           </span>
+           </button>
       </form>
     </div>
     <div class="col-sm-6">
@@ -374,10 +398,10 @@ var wishlistProductsIds = false;
         <h3>Ya estás registrado?</h3>
         <div class="form_content clearfix">
           <label for="email">Correo electrónico:</label><br>
- <input type="email" name="email" maxlength="32" id="email" required>
+ <input type="email" name="email" maxlength="32" id="email" placeholder="example@hotmail.com" autofocus required>
  <br/><br/>
           <label for="password">Password:</label><br>
- <input type="password" name="password" maxlength="8" dir="password" required>
+ <input type="password" name="password" maxlength="8" dir="password" placeholder="............" autofocus required>
  <br/><br/>
 
                           <input type="hidden" class="hidden" name="back" value="my-account" />
@@ -450,12 +474,12 @@ var wishlistProductsIds = false;
                           <h4>Información</h4>
                           <ul class="toggle-footer">
                                                       <li class="item">
-                                <a href="terminos.html" title="Nuestras tiendas">
+                                <a href="terminoslog.php" title="Nuestras tiendas">
                                   Términos y condiciones
                                 </a>
                               </li>
                                           <li class="item">
-                                <a href="Aviso.html" title="Términos y condiciones">
+                                <a href="Avisolog.php" title="Términos y condiciones">
                                   Aviso de privacidad
                                 </a>
                               </li>
@@ -464,7 +488,7 @@ var wishlistProductsIds = false;
                         </section>
                             <div class="bottom-footer">
                             <div class="container">
-                              <a class="_blank" href="index.html"> © 2017 - R.S. Textil </a>
+                              <a class="_blank" href="index_.php"> © 2017 - R.S. Textil </a>
                             </div>
                           </div>
                           <!-- /Block CMS module footer -->
@@ -477,7 +501,7 @@ var wishlistProductsIds = false;
                         <div class="block_content toggle-footer">
                           <ul class="bullet">
                             <li>
-                              <a href="Quien y que.html" title="Mis compras" rel="nofollow">¿Quiénes somos?<br>¿Qué hacemos?</a>
+                              <a href="Quien y quelog.php" title="Mis compras" rel="nofollow">¿Quiénes somos?<br>¿Qué hacemos?</a>
                             </li>
                                 </ul>
                         </div>
@@ -492,27 +516,34 @@ var wishlistProductsIds = false;
                       <section id="block_contact_infos" class="footer-block">
                         <div>
                           <h4>Redes sociales</h4>
+                          <div class="block_content toggle-footer">
+                            <ul class="bullet">
+                              <li>
+                                <a title="Mis compras" rel="nofollow">Síguenos en nuestras redes sociales y dales LIKE</a>
+                              </li>
+                                  </ul>
+                          </div>
                         </div>
                       </section>
                       <!-- /MODULE Block contact infos --><section id="social_block">
                         <ul>
                                 <li class="facebook">
-                              <a target="_blank" href="https://www.facebook.com/TemplateMonster/" title="Facebook">
+                              <a target="_blank" href="https://www.facebook.com/AstorgusAsociados/" title="Facebook">
                                 <span>Facebook</span>
                               </a>
                             </li>
                                     <li class="twitter">
-                              <a target="_blank" href="https://twitter.com/TemplateMonster" title="Twitter">
+                              <a target="_blank" href="https://mobile.twitter.com/rs_textil" title="Twitter">
                                 <span>Twitter</span>
                               </a>
                             </li>
                                     <li class="youtube">
-                              <a target="_blank" href="https://www.youtube.com/user/TemplateMonsterCo" title="Youtube">
+                              <a target="_blank" href="https://m.youtube.com/channel/UCl7PpI7rt27vB8qBAPXlA8g" title="Youtube">
                                 <span>Youtube</span>
                               </a>
                             </li>
                                         <li class="instagram">
-                              <a class="_blank" href="https://www.instagram.com/template_monster/">
+                              <a class="_blank" href="https://www.instagram.com/astorgusasociados/">
                                 <span>Instagram</span>
                               </a>
                             </li>
@@ -532,4 +563,5 @@ var wishlistProductsIds = false;
 
 
                       <script type="text/javascript" src="themes/theme1362/js/ga.js"></script>
-                      </body><!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');</script><!-- End Google Tag Manager --></html>
+                      </body><!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.php?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');</script><!-- End Google Tag Manager -->
+                      </html>
