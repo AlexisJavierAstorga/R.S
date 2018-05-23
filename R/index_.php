@@ -1,19 +1,18 @@
-
+<?php
+session_start();
+if(isset($_SESSION['u_usuario'])){
+  echo "<script>alert('Bienvenido, ya puedes realizar tus compras!!')</script>";
+}else{
+  header("Location: index.php");
+}
+?>
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="es-es"><![endif]-->
 <!--[if IE 7]><html class="no-js lt-ie9 lt-ie8 ie7" lang="es-es"><![endif]-->
 <!--[if IE 8]><html class="no-js lt-ie9 ie8" lang="es-es"><![endif]-->
 <!--[if gt IE 8]> <html class="no-js ie9" lang="es-es"><![endif]-->
 <html lang="es-es"><head>
-  <?php
-  session_start();
-  if(isset($_SESSION['u_usuario'])){
-    echo "<script>alert('Bienvenido, ya puedes realizar tus compras!!')</script>";
-  }else{
-    header("Location: index.php");
-  }
-  ?>
-  
+
     <meta charset="utf-8" />
     <title>R.S. Textil</title>
 

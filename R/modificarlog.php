@@ -161,6 +161,12 @@ var wishlistProductsIds = false;
 </script>
 
 
+              <script src="js/combo.js"></script>
+              <script src="js/jquery.js"></script>
+              <script src="js/emailvalidar.js"></script>
+              <script src="js/limiteinput.js"></script>
+              <script src="js/split.js"></script>
+              <script src="js/pasar.js"></script>
               <script src="js/jquery/jquery-1.11.0.min.js"></script>
               <script src="js/jquery/jquery-migrate-1.2.1.min.js"></script>
               <script src="js/jquery/plugins/jquery.easing.js"></script>
@@ -340,91 +346,64 @@ var wishlistProductsIds = false;
   <div class="row">
     <div class="col-sm-5">
 
-        <form action=".php" method="post" class="box">
+        <form action="update.php" method="post" class="box" name="formulario">
 
 <label for="email">Correo electrónico:</label><br>
 <?php
     echo $_SESSION['u_usuario'];
 ?>
 
-<br><br>
-<label for="username">Nombre(s):</label><br>
-<?php
-  echo $_SESSION['nombre'];
- ?>
-<br><br>
-<label for="apellidoPat">Apellido paterno:</label><br>
-<?php
-  echo $_SESSION['apellidoPat'];
- ?>
-<br><br>
-<label for="apellidoMat">Apellido materno:</label><br>
-<?php
-  echo $_SESSION['apellidoMat'];
- ?>
-<br><br>
-<label for="fech">Fecha de nacimiento:</label><br>
-<?php
-  echo $_SESSION['fecha'];
- ?>
-<br><br>
-<label for="password">Password:</label><br>
-<?php
-  echo "............";
- ?>
- <br><br>
-
- <br>
+<br>
  <h3>Dirección</h3><br>
  <label for="estado">Estado:</label><br>
- <?php
-   echo $_SESSION['estado'];
-  ?>
-  <br><br>
+ <select name="estados" onChange="habilitar(this.form)">
+         <option value="0">Selecciona tu estado</option>
+         <option value="1">CDMX</option>
+         <option value="2">Estado de mexico</option>
+     </select><br><br>
 
-     <label for="delegacion">Delegación:</label><br>
-     <?php
-       echo $_SESSION['delegacion'];
-      ?>
-     <br><br>
+     <label for="municipio">Municipio:</label><br> <input type="text" name="municipio" maxlength="32" id="municipio" placeholder="Escribe tu municipio" autofocus required disabled><br><br>
 
-<label for="colonia">Colonia:</label><br>
-<?php
-  echo $_SESSION['colonia'];
- ?>
-<br><br>
-<label for="calle">Calle:</label><br>
-<?php
-  echo $_SESSION['calle'];
- ?>
-<br><br>
+     <label for="delegacion">Delegación:</label><br><select name="delegacion" id='delegacion' autofocus required disabled>
+           <option value="0">Selecciona tu delegación</option>
+           <option value="1">Álvaro Obregón</option>
+           <option value="2">Azcapotzalco</option>
+           <option value="3">Benito Juárez</option>
+           <option value="4">Coyoacán</option>
+           <option value="5">Cuajimalpa</option>
+           <option value="6">Cuauhtémoc</option>
+           <option value="7">Gustavo A. Madero</option>
+           <option value="8">Iztacalco</option>
+           <option value="9">Iztapalapa</option>
+           <option value="10">Magdalena Contreras</option>
+           <option value="11">Miguel Hidalgo</option>
+           <option value="12">Milpa Alta</option>
+           <option value="13">Tláhuac</option>
+           <option value="14">Tlalpan</option>
+           <option value="15">Venustiano Carranza</option>
+           <option value="16">Xochimilco</option>
+       </select><br><br>
+
+<label for="colonia">Colonia:</label><br> <input type="text" name="colonia" maxlength="32" id="colonia" placeholder="Escribe tu colonia" autofocus required disabled><br><br>
+
+<label for="calle">Calle:</label><br> <input type="text" name="calle" maxlength="32" id="calle" placeholder="Escribe la calle" autofocus required><br><br>
+
 <label for="numex">Número exterior:</label><br>
-<?php
-  echo $_SESSION['numex'];
- ?>
-<br><br>
-<label for="numin">Número interior:</label><br>
-<?php
-  echo $_SESSION['numin'];
- ?>
-<br><br>
-<label for="postal">Código postal:</label><br>
-<?php
-  echo $_SESSION['postal'];
- ?>
-<br><br>
+ <input type="text" name="numex" size="20" maxlength="5" id="numex" placeholder="Num. exterior" autofocus required onkeypress="return valida(event)"><br><br>
+
+<label for="numin">Número interior:</label><br> <input type="text" name="numin" maxlength="5" id="numin" placeholder="Num. interior" autofocus required onkeypress="return valida(event)"><br><br>
+
+<label for="postal">Código postal:</label><br> <input type="text" name="postal" maxlength="5" id="postal" placeholder="05069" autofocus required onkeypress="return valida(event)"><br><br>
  <!--Nombre Usuario-->
                           <input type="hidden" class="hidden" name="back" value="my-account" />
-                        <button type="submit" id="SubmitLogin" name="SubmitLogin" class="btn btn-default btn-md">
+                        <button type="submit" id="SubmitModificar" name="SubmitModificar" class="btn btn-default btn-md">
               <span>
                 <i class="fa left"></i>
-                Registrar
+                Modificar
               </span>
             </button>
+
       </form>
-      <?php
-          echo "<a href='modificar.php'><button class='btn btn-default'><span>Modificar</span></button></a>";
-      ?>
     </div>
   </div>
 

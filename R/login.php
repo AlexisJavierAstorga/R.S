@@ -153,7 +153,12 @@ var usingSecureMode = true;
 var wishlistProductsIds = false;
 </script>
 
-
+              <script src="js/combo.js"></script>
+              <script src="js/jquery.js"></script>
+              <script src="js/emailvalidar.js"></script>
+              <script src="js/limiteinput.js"></script>
+              <script src="js/split.js"></script>
+              <script src="js/pasar.js"></script>
               <script src="js/jquery/jquery-1.11.0.min.js"></script>
               <script src="js/jquery/jquery-migrate-1.2.1.min.js"></script>
               <script src="js/jquery/plugins/jquery.easing.js"></script>
@@ -227,6 +232,7 @@ var wishlistProductsIds = false;
             });
         });
     </script>
+
 
                 </head>
   <body id="authentication" class="authentication show-left-column hide-right-column lang_es  two-columns">
@@ -324,7 +330,7 @@ var wishlistProductsIds = false;
 
         <form action="registrar.php" method="post" class="box" name="formulario">
                             <h3>Crea una cuenta</h3><br>
-<label for="email">Correo electrónico:</label><br> <input type="email" name="email" id="email" placeholder="example@hotmail.com" autofocus required></td><br><br>
+<label for="email">Correo electrónico:</label><br> <input type="email" name="email" id="email" placeholder="example@hotmail.com" autofocus required onkeypress="validar_email(email)"></td><br><br>
 
 <label for="username">Nombre(s):</label><br> <input type="text" name="username" maxlength="20" id="username" placeholder="Escribe tu nombre" autofocus required><br><br>
 
@@ -339,7 +345,7 @@ var wishlistProductsIds = false;
  <br>
  <h3>Dirección</h3><br>
  <label for="estado">Estado:</label><br>
- <select name="estados" onchange="if(this.value=='2') {document.getElementById('municipio').disabled = false} else {document.getElementById('municipio').disabled = true}">
+ <select name="estados" onChange="habilitar(this.form)">
          <option value="0">Selecciona tu estado</option>
          <option value="1">CDMX</option>
          <option value="2">Estado de mexico</option>
@@ -347,7 +353,7 @@ var wishlistProductsIds = false;
 
      <label for="municipio">Municipio:</label><br> <input type="text" name="municipio" maxlength="32" id="municipio" placeholder="Escribe tu municipio" autofocus required disabled><br><br>
 
-     <label for="delegacion">Delegación:</label><br> <select name="delegacion" id='delegacion' autofocus required>
+     <label for="delegacion">Delegación:</label><br><select name="delegacion" id='delegacion' autofocus required disabled>
            <option value="0">Selecciona tu delegación</option>
            <option value="1">Álvaro Obregón</option>
            <option value="2">Azcapotzalco</option>
@@ -367,18 +373,19 @@ var wishlistProductsIds = false;
            <option value="16">Xochimilco</option>
        </select><br><br>
 
-<label for="colonia">Colonia:</label><br> <input type="text" name="colonia" maxlength="32" id="colonia" placeholder="Escribe tu colonia" autofocus required><br><br>
+<label for="colonia">Colonia:</label><br> <input type="text" name="colonia" maxlength="32" id="colonia" placeholder="Escribe tu colonia" autofocus required disabled><br><br>
 
 <label for="calle">Calle:</label><br> <input type="text" name="calle" maxlength="32" id="calle" placeholder="Escribe la calle" autofocus required><br><br>
 
-<label for="numex">Número exterior:</label><br> <input type="number" name="numex" maxlength="5" id="numex" placeholder="Num. exterior" autofocus required><br><br>
+<label for="numex">Número exterior:</label><br>
+ <input type="text" name="numex" size="20" maxlength="5" id="numex" placeholder="Num. exterior" autofocus required onkeypress="return valida(event)"><br><br>
 
-<label for="numin">Número interior:</label><br> <input type="number" name="numin" maxlength="5" id="numin" placeholder="Num. interior" autofocus required><br><br>
+<label for="numin">Número interior:</label><br> <input type="text" name="numin" maxlength="5" id="numin" placeholder="Num. interior" autofocus required onkeypress="return valida(event)"><br><br>
 
-<label for="postal">Código postal:</label><br> <input type="number" name="postal" maxlength="5" id="postal" placeholder="05069" autofocus required><br><br>
+<label for="postal">Código postal:</label><br> <input type="text" name="postal" maxlength="5" id="postal" placeholder="05069" autofocus required onkeypress="return valida(event)"><br><br>
  <!--Nombre Usuario-->
                           <input type="hidden" class="hidden" name="back" value="my-account" />
-                        <button type="submit" id="SubmitLogin" name="SubmitLogin" class="btn btn-default btn-md">
+                        <button type="submit" id="SubmitLogin" name="SubmitLogin" class="btn btn-default btn-md" onClick="pruebaemail(email.value);">
               <span>
                 <i class="fa left"></i>
                 Registrar
@@ -474,12 +481,12 @@ var wishlistProductsIds = false;
                           <h4>Información</h4>
                           <ul class="toggle-footer">
                                                       <li class="item">
-                                <a href="terminoslog.php" title="Nuestras tiendas">
+                                <a href="terminos.php" title="Nuestras tiendas">
                                   Términos y condiciones
                                 </a>
                               </li>
                                           <li class="item">
-                                <a href="Avisolog.php" title="Términos y condiciones">
+                                <a href="Aviso.php" title="Términos y condiciones">
                                   Aviso de privacidad
                                 </a>
                               </li>
@@ -488,7 +495,7 @@ var wishlistProductsIds = false;
                         </section>
                             <div class="bottom-footer">
                             <div class="container">
-                              <a class="_blank" href="index_.php"> © 2017 - R.S. Textil </a>
+                              <a class="_blank" href="index.php"> © 2017 - R.S. Textil </a>
                             </div>
                           </div>
                           <!-- /Block CMS module footer -->
@@ -501,7 +508,7 @@ var wishlistProductsIds = false;
                         <div class="block_content toggle-footer">
                           <ul class="bullet">
                             <li>
-                              <a href="Quien y quelog.php" title="Mis compras" rel="nofollow">¿Quiénes somos?<br>¿Qué hacemos?</a>
+                              <a href="Quien y que.php" title="Mis compras" rel="nofollow">¿Quiénes somos?<br>¿Qué hacemos?</a>
                             </li>
                                 </ul>
                         </div>

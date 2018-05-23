@@ -1,0 +1,10 @@
+var direccion = (String) tbl_clientes.getValueAt(fila, 6);
+String[] parts = direccion.split(",");
+estados.setText((String)) parts[0]);
+municipio.setText((String)) parts[1]);
+delegacion.setText((String)) parts[2]);
+colonia.setText((String)) parts[3]);
+calle.setText((String)) parts[4]);
+numex.setText((String)) parts[5]);
+numin.setText((String)) parts[6]);
+postal.setText((String)) parts[7]);
