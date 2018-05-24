@@ -481,12 +481,12 @@ var wishlistProductsIds = false;
                           <h4>Información</h4>
                           <ul class="toggle-footer">
                                                       <li class="item">
-                                <a href="terminos.php" title="Nuestras tiendas">
+                                <a href="terminoslog.php" title="Nuestras tiendas">
                                   Términos y condiciones
                                 </a>
                               </li>
                                           <li class="item">
-                                <a href="Aviso.php" title="Términos y condiciones">
+                                <a href="Avisolog.php" title="Términos y condiciones">
                                   Aviso de privacidad
                                 </a>
                               </li>
@@ -495,7 +495,7 @@ var wishlistProductsIds = false;
                         </section>
                             <div class="bottom-footer">
                             <div class="container">
-                              <a class="_blank" href="index.php"> © 2017 - R.S. Textil </a>
+                              <a class="_blank" href="index_.php"> © 2017 - R.S. Textil </a>
                             </div>
                           </div>
                           <!-- /Block CMS module footer -->
@@ -508,7 +508,7 @@ var wishlistProductsIds = false;
                         <div class="block_content toggle-footer">
                           <ul class="bullet">
                             <li>
-                              <a href="Quien y que.php" title="Mis compras" rel="nofollow">¿Quiénes somos?<br>¿Qué hacemos?</a>
+                              <a href="Quien y quelog.php" title="Mis compras" rel="nofollow">¿Quiénes somos?<br>¿Qué hacemos?</a>
                             </li>
                                 </ul>
                         </div>
