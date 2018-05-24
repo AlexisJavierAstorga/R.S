@@ -19,7 +19,8 @@ $numin = $_POST["numin"];
 $postal = $_POST["postal"];
 //mysqli_select_db('rs') or die ("Error al conectar con la base de datos");
 
-	$modificar = " UPDATE tbl_clientes SET estado='$estado',municipio='$municipio',delegacion='$delegacion',colonia='$colonia',calle='$calle',numeroExterior='$numex',numeroInterior'$numin',codigoPostal='$postal' WHERE -------";
+
+	$modificar = " UPDATE tbl_clientes SET estado='$estado',municipio='$municipio',delegacion='$delegacion',colonia='$colonia',calle='$calle',numeroExterior='$numex',numeroInterior'$numin',codigoPostal='$postal' WHERE correo='$usuario'";
 
 	$resultado = mysqli_query($con, $modificar);
 	if (!$resultado) {
