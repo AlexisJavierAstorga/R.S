@@ -35,7 +35,7 @@ $postal = $_POST["postal"];
 		alert("Error al registrarse");
 		window.history.go(-1);
 		</script>';
-		$borrar = mysqli_query($con,"DELETE FROM tbl_clientes WHERE IDCLI=null");
+		$borrar = mysqli_query($con,"DELETE FROM tbl_clientes WHERE IDCLI='' ");
 
 	}else{
 		echo '<script>
