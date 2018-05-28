@@ -16,48 +16,52 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <link rel="shortcut icon" type="image/x-icon" href="themes/theme1362/img/icon/logo/LOGO.ico" />
 
-              <link rel="stylesheet" href="themes/theme1362/css/global.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/autoload/highdpi.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/autoload/jquery.bxslider.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/autoload/responsive-tables.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/autoload/uniform.default.css" media="all" />
-              <link rel="stylesheet" href="js/jquery/plugins/fancybox/jquery.fancybox.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/product_list.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/modules/blockcategories/blockcategories.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/modules/blockcurrencies/blockcurrencies.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/modules/blocklanguages/blocklanguages.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/modules/blockcontact/blockcontact.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/modules/blocknewsletter/blocknewsletter.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/modules/blocktags/blocktags.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/modules/blockviewed/blockviewed.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/modules/homeslider/homeslider.css" media="all" />
-              <link rel="stylesheet" href="js/jquery/plugins/bxslider/jquery.bxslider.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/modules/themeconfigurator/css/hooks.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/modules/blockpermanentlinks/blockpermanentlinks.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/modules/smartblog/css/smartblogstyle.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/modules/smartbloghomelatestnews/css/smartbloglatestnews.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/modules/smartblogtag/css/smartblogtags.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/modules/tmmegamenu/views/css/tmmegamenu.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/modules/tmsociallogin/views/css/front.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/modules/tmsearch/views/css/tmsearch.css" media="all" />
-              <link rel="stylesheet" href="js/jquery/plugins/autocomplete/jquery.autocomplete.css" media="all" />
-              <link rel="stylesheet" href="modules/tmrelatedproducts/views/css/tmrelatedproducts.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/modules/blockcart/blockcart.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/modules/tmhtmlcontent/css/hooks.css" media="all" />
-              <link rel="stylesheet" href="modules/tmcategoryproducts/views/css/tmcategoryproducts.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/modules/tmproductsslider/views/css/tmproductsslider.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/modules/tmnewsletter/views/css/tmnewsletter.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/modules/blockwishlist/blockwishlist.css" media="all" />
-              <link rel="stylesheet" href="modules/tmsocialfeeds/views/css/hook.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/modules/productcomments/productcomments.css" media="all" />
-              <link rel="stylesheet" href="modules/tmproductvideos/views/css/video/video-js.css" media="all" />
-              <link rel="stylesheet" href="modules/tmproductvideos/views/css/tmproductvideos.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/modules/tmmegalayout/views/css/tmmegalayout.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/modules/themeconfigurator/css/live_configurator.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/modules/themeconfiglink/views/css/themeconfiglink.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/modules/tmmediaparallax/views/css/tmmediaparallax.css" media="all" />
-              <link rel="stylesheet" href="modules/tmmediaparallax/views/css/rd-parallax.css" media="all" />
-              <link rel="stylesheet" href="themes/theme1362/css/modules/tmheaderaccount/views/css/front.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/video.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/youtube-responsive.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/global.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/video.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/youtube-responsive.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/autoload/highdpi.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/autoload/jquery.bxslider.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/autoload/responsive-tables.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/autoload/uniform.default.css" media="all" />
+    <link rel="stylesheet" href="js/jquery/plugins/fancybox/jquery.fancybox.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/product_list.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/modules/blockcategories/blockcategories.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/modules/blockcurrencies/blockcurrencies.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/modules/blocklanguages/blocklanguages.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/modules/blockcontact/blockcontact.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/modules/blocknewsletter/blocknewsletter.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/modules/blocktags/blocktags.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/modules/blockviewed/blockviewed.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/modules/homeslider/homeslider.css" media="all" />
+    <link rel="stylesheet" href="js/jquery/plugins/bxslider/jquery.bxslider.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/modules/themeconfigurator/css/hooks.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/modules/blockpermanentlinks/blockpermanentlinks.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/modules/smartblog/css/smartblogstyle.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/modules/smartbloghomelatestnews/css/smartbloglatestnews.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/modules/smartblogtag/css/smartblogtags.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/modules/tmmegamenu/views/css/tmmegamenu.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/modules/tmsociallogin/views/css/front.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/modules/tmsearch/views/css/tmsearch.css" media="all" />
+    <link rel="stylesheet" href="js/jquery/plugins/autocomplete/jquery.autocomplete.css" media="all" />
+    <link rel="stylesheet" href="modules/tmrelatedproducts/views/css/tmrelatedproducts.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/modules/blockcart/blockcart.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/modules/tmhtmlcontent/css/hooks.css" media="all" />
+    <link rel="stylesheet" href="modules/tmcategoryproducts/views/css/tmcategoryproducts.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/modules/tmproductsslider/views/css/tmproductsslider.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/modules/tmnewsletter/views/css/tmnewsletter.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/modules/blockwishlist/blockwishlist.css" media="all" />
+    <link rel="stylesheet" href="modules/tmsocialfeeds/views/css/hook.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/modules/productcomments/productcomments.css" media="all" />
+    <link rel="stylesheet" href="modules/tmproductvideos/views/css/video/video-js.css" media="all" />
+    <link rel="stylesheet" href="modules/tmproductvideos/views/css/tmproductvideos.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/modules/tmmegalayout/views/css/tmmegalayout.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/modules/themeconfigurator/css/live_configurator.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/modules/themeconfiglink/views/css/themeconfiglink.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/modules/tmmediaparallax/views/css/tmmediaparallax.css" media="all" />
+    <link rel="stylesheet" href="modules/tmmediaparallax/views/css/rd-parallax.css" media="all" />
+    <link rel="stylesheet" href="themes/theme1362/css/modules/tmheaderaccount/views/css/front.css" media="all" />
 
 <script type="text/javascript">
 var CUSTOMIZE_TEXTFIELD = 1;
@@ -147,51 +151,51 @@ var usingSecureMode = true;
 var wishlistProductsIds = false;
 </script>
 
-              <script src="js/jquery/jquery-1.11.0.min.js"></script>
-              <script src="js/jquery/jquery-migrate-1.2.1.min.js"></script>
-              <script src="js/jquery/plugins/jquery.easing.js"></script>
-              <script src="js/tools.js"></script>
-              <script src="themes/theme1362/js/global.js"></script>
-              <script src="themes/theme1362/js/autoload/10-bootstrap.min.js"></script>
-              <script src="themes/theme1362/js/autoload/14-device.min.js"></script>
-              <script src="themes/theme1362/js/autoload/15-jquery.total-storage.min.js"></script>
-              <script src="themes/theme1362/js/autoload/15-jquery.uniform-modified.js"></script>
-              <script src="themes/theme1362/js/autoload/16-jquery.scrollmagic.min.js"></script>
-              <script src="themes/theme1362/js/autoload/17-jquery.scrollmagic.debug.js"></script>
-              <script src="themes/theme1362/js/autoload/18-TimelineMax.min.js"></script>
-              <script src="themes/theme1362/js/autoload/19-TweenMax.min.js"></script>
-              <script src="themes/theme1362/js/autoload/20-jquery.bxslider.js"></script>
-              <script src="themes/theme1362/js/autoload/20-modernizr_v2_7_2.min.js"></script>
-              <script src="js/jquery/plugins/fancybox/jquery.fancybox.js"></script>
-              <script src="themes/theme1362/js/products-comparison.js"></script>
-              <script src="themes/theme1362/js/tools/treeManagement.js"></script>
-              <script src="themes/theme1362/js/modules/blocknewsletter/blocknewsletter.js"></script>
-              <script src="themes/theme1362/js/modules/homeslider/js/homeslider.js"></script>
-              <script src="js/jquery/plugins/bxslider/jquery.bxslider.js"></script>
-              <script src="modules/tmmegamenu/views/js/hoverIntent.js"></script>
-              <script src="modules/tmmegamenu/views/js/superfish.js"></script>
-              <script src="themes/theme1362/js/modules/tmmegamenu/views/js/tmmegamenu.js"></script>
-              <script src="modules/tmsociallogin/views/js/front.js"></script>
-              <script src="js/jquery/plugins/autocomplete/jquery.autocomplete.js"></script>
-              <script src="themes/theme1362/js/modules/tmsearch/views/js/tmsearch.js"></script>
-              <script src="themes/theme1362/js/modules/tmrelatedproducts/views/js/tmrelatedproducts.js"></script>
-              <script src="themes/theme1362/js/modules/blockcart/ajax-cart.js"></script>
-              <script src="js/jquery/plugins/jquery.scrollTo.js"></script>
-              <script src="js/jquery/plugins/jquery.serialScroll.js"></script>
-              <script src="modules/tmproductsslider/views/js/tmproductsslider.js"></script>
-              <script src="js/validate.js"></script>
-              <script src="modules/tmnewsletter/views/js/tmnewsletter.js"></script>
-              <script src="themes/theme1362/js/modules/blockwishlist/js/ajax-wishlist.js"></script>
-              <script src="modules/tmsocialfeeds/views/js/tmsocialfeeds.js"></script>
-              <script src="modules/tmproductvideos/views/js/video/video.js"></script>
-              <script src="themes/theme1362/js/modules/tmmegalayout/views/js/tmmegalayout.js"></script>
-              <script src="modules/themeconfiglink/views/js/themeconfiglink.js"></script>
-              <script src="modules/tmmediaparallax/views/js/jquery.rd-parallax.min.js"></script>
-              <script src="modules/tmmediaparallax/views/js/jquery.youtubebackground.js"></script>
-              <script src="modules/tmmediaparallax/views/js/jquery.vide.min.js"></script>
-              <script src="modules/tmmediaparallax/views/js/tmmediaparallax.js"></script>
-              <script src="modules/tmheaderaccount/views/js/front.js"></script>
-              <script src="themes/theme1362/js/index.js"></script>
+<script src="js/jquery/jquery-1.11.0.min.js"></script>
+<script src="js/jquery/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/jquery/plugins/jquery.easing.js"></script>
+<script src="js/tools.js"></script>
+<script src="themes/theme1362/js/global.js"></script>
+<script src="themes/theme1362/js/autoload/10-bootstrap.min.js"></script>
+<script src="themes/theme1362/js/autoload/14-device.min.js"></script>
+<script src="themes/theme1362/js/autoload/15-jquery.total-storage.min.js"></script>
+<script src="themes/theme1362/js/autoload/15-jquery.uniform-modified.js"></script>
+<script src="themes/theme1362/js/autoload/16-jquery.scrollmagic.min.js"></script>
+<script src="themes/theme1362/js/autoload/17-jquery.scrollmagic.debug.js"></script>
+<script src="themes/theme1362/js/autoload/18-TimelineMax.min.js"></script>
+<script src="themes/theme1362/js/autoload/19-TweenMax.min.js"></script>
+<script src="themes/theme1362/js/autoload/20-jquery.bxslider.js"></script>
+<script src="themes/theme1362/js/autoload/20-modernizr_v2_7_2.min.js"></script>
+<script src="js/jquery/plugins/fancybox/jquery.fancybox.js"></script>
+<script src="themes/theme1362/js/products-comparison.js"></script>
+<script src="themes/theme1362/js/tools/treeManagement.js"></script>
+<script src="themes/theme1362/js/modules/blocknewsletter/blocknewsletter.js"></script>
+<script src="themes/theme1362/js/modules/homeslider/js/homeslider.js"></script>
+<script src="js/jquery/plugins/bxslider/jquery.bxslider.js"></script>
+<script src="modules/tmmegamenu/views/js/hoverIntent.js"></script>
+<script src="modules/tmmegamenu/views/js/superfish.js"></script>
+<script src="themes/theme1362/js/modules/tmmegamenu/views/js/tmmegamenu.js"></script>
+<script src="modules/tmsociallogin/views/js/front.js"></script>
+<script src="js/jquery/plugins/autocomplete/jquery.autocomplete.js"></script>
+<script src="themes/theme1362/js/modules/tmsearch/views/js/tmsearch.js"></script>
+<script src="themes/theme1362/js/modules/tmrelatedproducts/views/js/tmrelatedproducts.js"></script>
+<script src="themes/theme1362/js/modules/blockcart/ajax-cart.js"></script>
+<script src="js/jquery/plugins/jquery.scrollTo.js"></script>
+<script src="js/jquery/plugins/jquery.serialScroll.js"></script>
+<script src="modules/tmproductsslider/views/js/tmproductsslider.js"></script>
+<script src="js/validate.js"></script>
+<script src="modules/tmnewsletter/views/js/tmnewsletter.js"></script>
+<script src="themes/theme1362/js/modules/blockwishlist/js/ajax-wishlist.js"></script>
+<script src="modules/tmsocialfeeds/views/js/tmsocialfeeds.js"></script>
+<script src="modules/tmproductvideos/views/js/video/video.js"></script>
+<script src="themes/theme1362/js/modules/tmmegalayout/views/js/tmmegalayout.js"></script>
+<script src="modules/themeconfiglink/views/js/themeconfiglink.js"></script>
+<script src="modules/tmmediaparallax/views/js/jquery.rd-parallax.min.js"></script>
+<script src="modules/tmmediaparallax/views/js/jquery.youtubebackground.js"></script>
+<script src="modules/tmmediaparallax/views/js/jquery.vide.min.js"></script>
+<script src="modules/tmmediaparallax/views/js/tmmediaparallax.js"></script>
+<script src="modules/tmheaderaccount/views/js/front.js"></script>
+<script src="themes/theme1362/js/index.js"></script>
 
         <script>
         $(document).ready(function(){
@@ -233,158 +237,22 @@ var wishlistProductsIds = false;
                   <nav>
 <div id="tmsearch" class="clearfix">
 </div><!-- MODULE Block cart -->
-  <div class="cart clearfix">
-  <div class="shopping_cart">
-    <a href="carrito.html" title="Ver mi carrito de compra" rel="nofollow">
-      <span class="cart_hover">
-        <b>Carrito:</b>
-        <span class="ajax_cart_quantity unvisible">0</span>
-        <span class="ajax_cart_product_txt unvisible">producto</span>
-        <span class="ajax_cart_product_txt_s unvisible">Productos</span>
-        <span class="ajax_cart_total unvisible">
-                  </span>
-        <span class="ajax_cart_no_product">0</span>
-              </span>
-    </a>
-          <div class="cart_block block">
-        <div class="block_content">
-          <!-- block list of products -->
-          <div class="cart_block_list">
-                        <p class="cart_block_no_products">
-              Ningún producto
-            </p>
-                                    <div class="cart-prices">
-              <div class="cart-prices-line first-line  unvisible">
-                <span class="cart_block_shipping_cost ajax_cart_shipping_cost">
-                                      A determinar                                  </span>
-                <span>
-                  Transporte
-                </span>
-              </div>
-                                          <div class="cart-prices-line last-line">
-                <span class="price cart_block_total ajax_block_cart_total">$0.00</span>
-                <span>Total</span>
-              </div>
-                          </div>
-            <p class="cart-buttons">
-              <a id="button_order_cart" class="btn btn-default btn-sm icon-right" href="themes/theme1362/css/index.php" title="Confirmar" rel="nofollow">
-                <span>
-                  Confirmar
-                </span>
-              </a>
-            </p>
-          </div>
-        </div>
-      </div><!-- .cart_block -->
-      </div>
-  </div>
-
-
-
-  <div id="layer_cart">
-    <div class="clearfix">
-      <div class="layer_cart_product col-xs-12 col-md-6">
-        <span class="cross" title="Cerrar Ventana"></span>
-        <span class="title">
-          <i class="fa fa-check"></i>
-          Producto añadido correctamente a su carrito de la compra
-        </span>
-        <div class="product-image-container layer_cart_img">
-        </div>
-        <div class="layer_cart_product_info">
-          <span id="layer_cart_product_title" class="product-name"></span>
-          <span id="layer_cart_product_attributes"></span>
-          <div>
-            <strong class="dark">Cantidad</strong>
-            <span id="layer_cart_product_quantity"></span>
-          </div>
-          <div>
-            <strong class="dark">Total</strong>
-            <span id="layer_cart_product_price"></span>
-          </div>
-        </div>
-      </div>
-      <div class="layer_cart_cart col-xs-12 col-md-6">
-        <span class="title">
-          <!-- Plural Case [both cases are needed because page may be updated in Javascript] -->
-          <span class="ajax_cart_product_txt_s  unvisible">
-            Hay <span class="ajax_cart_quantity">0</span> artículos en su carrito.
-          </span>
-          <!-- Singular Case [both cases are needed because page may be updated in Javascript] -->
-          <span class="ajax_cart_product_txt ">
-            Hay 1 artículo en su cesta.
-          </span>
-        </span>
-
-        <div class="layer_cart_row">
-          <strong class="dark">
-            Total productos:
-                      </strong>
-          <span class="ajax_block_products_total">
-                      </span>
-        </div>
-
-                <div class="layer_cart_row">
-          <strong class="dark unvisible">
-            Total envío:&nbsp;          </strong>
-          <span class="ajax_cart_shipping_cost unvisible">
-                           A determinar                      </span>
-        </div>
-                <div class="layer_cart_row">
-          <strong class="dark">
-            Total
-                      </strong>
-          <span class="ajax_block_cart_total">
-                      </span>
-        </div>
-        <div class="button-container">
-          <span class="continue btn btn-default btn-md icon-left" title="Continuar la compra">
-            <span>
-              Continuar la compra
-            </span>
-          </span>
-          <a class="btn btn-default btn-md icon-right" href="#" title="Ir a la caja" rel="nofollow">
-            <span>
-              Ir a la caja
-            </span>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="crossseling"></div>
-  </div> <!-- #layer_cart -->
-  <div class="layer_cart_overlay"></div>
-
-<!-- /Block currencies module --><!-- Block languages module -->
-  <div id="languages-block-top" class="languages-block">
-                                                <div class="current">
-          <span>es</span>
-        </div>
-                        <ul id="first-languages" class="languages-block_ul toogle_content">
-              <li >
-                                                <a href="themes/theme1362/css/modules/blocklanguages/index.php" title="English (United States)" rel="alternate" hreflang="en">
-                                      <span>English</span>
-                      </a>
-              <li class="selected">
-                          <span>Español</span>
-                  </li>
-
-          </ul>
-  </div>
 
 <div id="header-login">
     <div class="current header_user_info"><a href="#" onclick="return false;">Iniciar sesión</a></div>
     <ul id="header-login-content" class="toogle_content">
                     <li>
-                <form action="existe.php" method="post" id="header_login_form">
+                <form action="existe.php" method="post">
                     <div id="create_header_account_error" class="alert alert-danger" style="display:none;"></div>
                     <div class="form_content clearfix">
                         <div class="form_content clearfix">
-          <label for="email">Correo electrónico:</label><br>
- <input type="email" name="email" maxlength="32" id="email" required>
+
+          <label for="email">Correo:</label><br>
+          <input type="email" name="email" maxlength="32" id="email" placeholder="example@hotmail.com" required>
  <br/><br/>
+
           <label for="password">Password:</label><br>
- <input type="password" name="password" maxlength="8" dir="password" required>
+          <input type="password" name="password" maxlength="8" dir="password"  placeholder="............" required>
  <br/><br/>
 </div>
                         <input type="hidden" class="hidden" name="back" value="my-account" />
@@ -397,14 +265,6 @@ var wishlistProductsIds = false;
             <br><br>
             <p>
                           <a href="login.php" class="create">Crear una cuenta</a>
-                        </p>
-                        <div class="clearfix">
-
-    <a class="btn btn-default btn-sm btn-login-facebook" href="#" title="Connectez-vous avec votre compte Facebook">
-         Facebook Login
-    </a>
-
-                        </div>
                     </div>
                 </form>
             </li>
@@ -421,1309 +281,1281 @@ var wishlistProductsIds = false;
                     <img class="logo img-responsive" src="themes/theme1362/img/icon/logo/LOGO.jpg" alt="R.S. Textil" width="275" height="71"/>
                   </a>
                 </div>
-
-
-            <div class="top_menu top-level rs">
-            <div class="menu-title tmmegamenu_item">Menú</div>
-            <!-- Inicia Menu desplegable-->
-            <ul class="menu clearfix top-level-menu tmmegamenu_item">
-              <li class=" top-level-menu-li tmmegamenu_item it_22797818">
-                <a class="it_22797818 top-level-menu-li-a tmmegamenu_item" href="index.php">Inicio </a>
-              </li>
-              <li class=" top-level-menu-li tmmegamenu_item it_06944254">
-                <!-- Comienza primer nav-->
-                <a class="it_06944254 top-level-menu-li-a tmmegamenu_item" href="#">Compras</a>
-              </li>
-
-              <!-- Comienza segundo nav-->
-              <li class=" top-level-menu-li tmmegamenu_item it_19773019">
-              <a class="it_19773019 top-level-menu-li-a tmmegamenu_item" href="productos.html">Productos</a>
-              </li>
-<li class=" top-level-menu-li tmmegamenu_item it_22797818">
-  <a class="it_22797818 top-level-menu-li-a tmmegamenu_item" href="#">Facturación </a>
-</li>
-<li class=" top-level-menu-li tmmegamenu_item it_29705307"><a class="it_29705307 top-level-menu-li-a tmmegamenu_item" href="#"> Perfil</a></li></ul>
-
-            </div>
               </div>
             </div>
           </div>
         </header>
       </div>
-
+      <div class="columns-container">
 
         <div id="columns" class="container">
                     <div class="row">
             <div class="large-left col-sm-12">
               <div class="row">
                 <div id="center_column" class="center_column col-xs-12 col-sm-12">
-
-        <ul id="home-page-tabs" class="nav nav-tabs clearfix">
-      <li class="homefeatured">
-  <a data-toggle="tab" href="#homefeatured" class="homefeatured"><span></span>Productos</a>
-</li>
-    </ul>
     <div class="tab-content">
+
 
   <!-- Products list -->
   <ul id="homefeatured" class=" product_list grid row homefeatured tab-pane">
-      <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line">
-        <div class="product-container">
-          <div class="left-block">
-            <div class="product-image-container">
-              <a title="Cuadrib" itemprop="url">
-                <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c1.jpg" alt="Cuadrib" title="Cuadrib" itemprop="image" />
 
+    <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line">
+      <div class="product-container">
+        <div class="left-block">
+          <div class="product-image-container">
+            <a title="Cuadrib" itemprop="url">
+              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c1.jpg" alt="Cuadrib" title="Cuadrib" itemprop="image" />
+
+            </a>
+
+                                          <a class="sale-box" href="#">
+                <span class="sale-label">&iexcl;Oferta!</span>
               </a>
+                        </div>
 
-                                            <a class="sale-box" href="#">
-                  <span class="sale-label">&iexcl;Oferta!</span>
-                </a>
-                          </div>
+        </div>
+        <div class="right-block">
+          <h5 itemprop="name">
+                          <a class="product-name" title="Cuadrib" itemprop="url" >
+              <span class="list-name">Cuadrib</span>
+              <span class="grid-name">Cuadrib</span>
+            </a>
+          </h5>
+                      <p class="product-desc" itemprop="description">
+            <span class="list-desc">Vete elegante a cualquier parte con nuestra moda huichol.</span>
+            <span class="grid-desc">Vete elegante a cualquier parte...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Cantidad: ...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Tallas: S, M, L, XL</span>
+          </p>
+                        <div class="content_price">
 
-          </div>
-          <div class="right-block">
-            <h5 itemprop="name">
-                            <a class="product-name" title="Cuadrib" itemprop="url" >
-                <span class="list-name">Cuadrib</span>
-                <span class="grid-name">Cuadrib</span>
+                <span class="price product-price product-price-new">
+                  $19.20                  </span>
+
+                  <span class="old-price product-price">
+                    $24.00
+                  </span>
+
+                                        <span class="price-percent-reduction">-20%</span>
+
+
+
+                            </div>
+                                    <div class="hook-reviews">
+              <div class="comments_note" itemprop="aggregateRating">
+  <div class="star_content clearfix">
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star"></div>
+                              <div class="star"></div>
+                  <meta itemprop="worstRating" content = "0" />
+    <meta itemprop="ratingValue" content = "3" />
+    <meta itemprop="bestRating" content = "5" />
+  </div><br>
+  <?php
+      echo "<a href='desc.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+  ?>
+</div>
+</div>
+</div>
+</div><!-- .product-container> -->
+    </li>
+
+
+
+
+                      <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 last-item-of-mobile-line">
+      <div class="product-container">
+        <div class="left-block">
+          <div class="product-image-container">
+            <a  href="desc1.html" title="Tappib" itemprop="url">
+              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c2.jpg" alt="Tappib" title="Tappib" itemprop="image" />
+
+            </a>
+
+                                          <a class="sale-box" href="#">
+                <span class="sale-label">&iexcl;Oferta!</span>
               </a>
-            </h5>
-                        <p class="product-desc" itemprop="description">
-              <span class="list-desc">Vete elegante a cualquier parte con nuestra moda huichol.</span>
-              <span class="grid-desc">Vete elegante a cualquier parte...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Cantidad: ...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Tallas: S, M, L, XL</span>
-            </p>
-                          <div class="content_price">
+                        </div>
 
-                  <span class="price product-price product-price-new">
-                    $19.20                  </span>
+        </div>
+        <div class="right-block">
+          <h5 itemprop="name">
+                          <a class="product-name" href="#" title="Tappib" itemprop="url" >
+              <span class="list-name">Tappib</span>
+              <span class="grid-name">Tappib</span>
+            </a>
+          </h5>
+                      <p class="product-desc" itemprop="description">
+            <span class="list-desc">A que no sabías que podemos ser más frescos con nuestros nuevos modelos de huichol.</span>
+            <span class="grid-desc">A que no sabías que podemos ser más frescos...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Cantidad: ...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Tallas: S, M, L, XL</span>
+          </p>
+                        <div class="content_price">
 
-                    <span class="old-price product-price">
-                      $24.00
-                    </span>
+                <span class="price product-price product-price-new">
+                  $32.00                  </span>
 
-                                          <span class="price-percent-reduction">-20%</span>
+                  <span class="old-price product-price">
+                    $40.00
+                  </span>
+
+                                        <span class="price-percent-reduction">-20%</span>
 
 
 
-                              </div>
-                                      <div class="hook-reviews">
-                <div class="comments_note" itemprop="aggregateRating">
-    <div class="star_content clearfix">
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star"></div>
-                                <div class="star"></div>
-                    <meta itemprop="worstRating" content = "0" />
-      <meta itemprop="ratingValue" content = "3" />
-      <meta itemprop="bestRating" content = "5" />
-    </div>
-    <a class="quick-view" href="desc.html" data-href="desc.html">
-     <span>Cómpralo ya!</span>
-   </a>
+                            </div>
+                                    <div class="hook-reviews">
+              <div class="comments_note" itemprop="aggregateRating">
+  <div class="star_content clearfix">
+                      <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star"></div>
+                  <meta itemprop="worstRating" content = "0" />
+    <meta itemprop="ratingValue" content = "4" />
+    <meta itemprop="bestRating" content = "5" />
   </div>
+  <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+</div><br>
+<?php
+    echo "<a href='desc1.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+?>
+            </div>
+                                  </div>
+
+
+      </div><!-- .product-container> -->
+    </li>
+
+
+
+                      <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 last-item-of-tablet-line first-item-of-mobile-line">
+      <div class="product-container">
+        <div class="left-block">
+          <div class="product-image-container">
+            <a  href="desc2.html" title="Casual Hollow Lace" itemprop="url">
+              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c3.jpg" alt="Casual Hollow Lace" title="Casual Hollow Lace" itemprop="image" />
+
+            </a>
+
+                                          <a class="sale-box" href="desc2.html">
+                <span class="sale-label">&iexcl;Oferta!</span>
+              </a>
+                        </div>
+
+        </div>
+        <div class="right-block">
+          <h5 itemprop="name">
+                          <a class="product-name" href="desc2.html" title="Casual Hollow Lace" itemprop="url" >
+              <span class="list-name">Casual Hollow Lace</span>
+              <span class="grid-name">Casual Hollow Lace</span>
+            </a>
+          </h5>
+                      <p class="product-desc" itemprop="description">
+            <span class="list-desc">La prenda más popular para estar a la moda.</span>
+            <span class="grid-desc">La prenda más popular para...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Cantidad: ...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Tallas: S, M, L, XL</span>
+          </p>
+                        <div class="content_price">
+
+                <span class="price product-price product-price-new">
+                  $28.00                  </span>
+
+                  <span class="old-price product-price">
+                    $35.00
+                  </span>
+
+                                        <span class="price-percent-reduction">-20%</span>
+
+
+
+                            </div>
+                                    <div class="hook-reviews">
+              <div class="comments_note" itemprop="aggregateRating">
+  <div class="star_content clearfix">
+                      <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star"></div>
+                              <div class="star"></div>
+                  <meta itemprop="worstRating" content = "0" />
+    <meta itemprop="ratingValue" content = "3" />
+    <meta itemprop="bestRating" content = "5" />
   </div>
+  <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+</div><br>
+<?php
+    echo "<a href='desc2.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+?>
+            </div>
+
+
+                                  </div>
+
+
+      </div><!-- .product-container> -->
+    </li>
+
+
+
+                      <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 last-in-line first-item-of-tablet-line last-item-of-mobile-line">
+      <div class="product-container">
+        <div class="left-block">
+          <div class="product-image-container">
+            <a  href="desc3.html" title="Loose Floral" itemprop="url">
+              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c4.jpg" alt="Loose Floral" title="Loose Floral" itemprop="image" />
+
+            </a>
+
+                                          <a class="sale-box" href="desc3.html">
+                <span class="sale-label">&iexcl;Oferta!</span>
+              </a>
+                        </div>
+
+        </div>
+        <div class="right-block">
+          <h5 itemprop="name">
+                          <a class="product-name" href="desc3.html" title="Loose Floral" itemprop="url" >
+              <span class="list-name">Loose Floral</span>
+              <span class="grid-name">Loose Floral</span>
+            </a>
+          </h5>
+                      <p class="product-desc" itemprop="description">
+            <span class="list-desc">Lo nuevo que Ricardo Seco tiene solo para ti.</span>
+            <span class="grid-desc">Lo nuevo que Ricardo Seco...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Cantidad: ...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Tallas: S, M, L, XL</span>
+          </p>
+                        <div class="content_price">
+
+                <span class="price product-price product-price-new">
+                  $16.00                  </span>
+
+                  <span class="old-price product-price">
+                    $20.00
+                  </span>
+
+                                        <span class="price-percent-reduction">-20%</span>
+
+
+
+                            </div>
+                                    <div class="hook-reviews">
+              <div class="comments_note" itemprop="aggregateRating">
+  <div class="star_content clearfix">
+                      <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                  <meta itemprop="worstRating" content = "0" />
+    <meta itemprop="ratingValue" content = "5" />
+    <meta itemprop="bestRating" content = "5" />
   </div>
-  </div><!-- .product-container> -->
-      </li>
+  <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+</div><br>
+<?php
+    echo "<a href='desc3.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+?>
+            </div>
+
+
+                                  </div>
+
+
+      </div><!-- .product-container> -->
+    </li>
 
 
 
+                      <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line last-line first-item-of-mobile-line">
+      <div class="product-container">
+        <div class="left-block">
+          <div class="product-image-container">
+            <a  href="desc4.html" title="Blusa azul con cenefa" itemprop="url">
+              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c5.jpg" alt="Blusa azul con cenefa" title="Blusa azul con cenefa" itemprop="image" />
 
-                        <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 last-item-of-mobile-line">
-        <div class="product-container">
-          <div class="left-block">
-            <div class="product-image-container">
-              <a  href="desc1.html" title="Tappib" itemprop="url">
-                <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c2.jpg" alt="Tappib" title="Tappib" itemprop="image" />
+            </a>
 
+                                          <a class="sale-box" href="desc4.html">
+                <span class="sale-label">&iexcl;Oferta!</span>
               </a>
+                        </div>
 
-                                            <a class="sale-box" href="#">
-                  <span class="sale-label">&iexcl;Oferta!</span>
-                </a>
-                          </div>
+        </div>
+        <div class="right-block">
+          <h5 itemprop="name">
+                          <a class="product-name" href="desc4.html" title="Blusa azul con cenefa" itemprop="url" >
+              <span class="list-name">Blusa azul con cenefa</span>
+              <span class="grid-name">Blusa azul con cenefa</span>
+            </a>
+          </h5>
+                      <p class="product-desc" itemprop="description">
+            <span class="list-desc">Luce elegante con esta blusa.</span>
+            <span class="grid-desc">Luce elegante con...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Cantidad: ...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Tallas: S, M, L, XL</span>
+          </p>
+                        <div class="content_price">
 
-          </div>
-          <div class="right-block">
-            <h5 itemprop="name">
-                            <a class="product-name" href="#" title="Tappib" itemprop="url" >
-                <span class="list-name">Tappib</span>
-                <span class="grid-name">Tappib</span>
-              </a>
-            </h5>
-                        <p class="product-desc" itemprop="description">
-              <span class="list-desc">A que no sabías que podemos ser más frescos con nuestros nuevos modelos de huichol.</span>
-              <span class="grid-desc">A que no sabías que podemos ser más frescos...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Cantidad: ...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Tallas: S, M, L, XL</span>
-            </p>
-                          <div class="content_price">
-
-                  <span class="price product-price product-price-new">
-                    $32.00                  </span>
-
-                    <span class="old-price product-price">
-                      $40.00
-                    </span>
-
-                                          <span class="price-percent-reduction">-20%</span>
+                <span class="price product-price">
+                  $27.00                  </span>
 
 
 
-                              </div>
-                                      <div class="hook-reviews">
-                <div class="comments_note" itemprop="aggregateRating">
-    <div class="star_content clearfix">
-                        <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star"></div>
-                    <meta itemprop="worstRating" content = "0" />
-      <meta itemprop="ratingValue" content = "4" />
-      <meta itemprop="bestRating" content = "5" />
-    </div>
-    <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+                            </div>
+                                    <div class="hook-reviews">
+              <div class="comments_note" itemprop="aggregateRating">
+  <div class="star_content clearfix">
+                      <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star"></div>
+                  <meta itemprop="worstRating" content = "0" />
+    <meta itemprop="ratingValue" content = "4" />
+    <meta itemprop="bestRating" content = "5" />
   </div>
-  <a class="quick-view" href="desc_.php" data-href="desc_.php">
-   <span>Cómpralo ya!</span>
-  </a>
-              </div>
-                                    </div>
+  <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+</div><br>
+<?php
+    echo "<a href='desc4.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+?>
+            </div>
 
 
-        </div><!-- .product-container> -->
-      </li>
+                                  </div>
+
+
+      </div><!-- .product-container> -->
+    </li>
 
 
 
-                        <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 last-item-of-tablet-line first-item-of-mobile-line">
-        <div class="product-container">
-          <div class="left-block">
-            <div class="product-image-container">
-              <a  href="desc2.html" title="Casual Hollow Lace" itemprop="url">
-                <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c3.jpg" alt="Casual Hollow Lace" title="Casual Hollow Lace" itemprop="image" />
+                      <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 last-line last-item-of-tablet-line last-item-of-mobile-line">
+      <div class="product-container">
+        <div class="left-block">
+          <div class="product-image-container">
+            <a  href="desc5.html" title="Lady Flor" itemprop="url">
+              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c6.jpg" alt="Lady Flor" title="Lady Flor" itemprop="image" />
 
+            </a>
+
+                                          <a class="sale-box" href="desc5.html">
+                <span class="sale-label">&iexcl;Oferta!</span>
               </a>
+                        </div>
 
-                                            <a class="sale-box" href="desc2.html">
-                  <span class="sale-label">&iexcl;Oferta!</span>
-                </a>
-                          </div>
+        </div>
+        <div class="right-block">
+          <h5 itemprop="name">
+                          <a class="product-name" href="desc5.html" title="Lady Flor" itemprop="url" >
+              <span class="list-name">Lady Flor</span>
+              <span class="grid-name">Lady Flor</span>
+            </a>
+          </h5>
+                      <p class="product-desc" itemprop="description">
+            <span class="list-desc">Esta blusa te hará sentir más fashion.</span>
+            <span class="grid-desc">Esta blusa te hará...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Cantidad: ...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Tallas: S, M, L, XL</span>
+          </p>
+                        <div class="content_price">
 
-          </div>
-          <div class="right-block">
-            <h5 itemprop="name">
-                            <a class="product-name" href="desc2.html" title="Casual Hollow Lace" itemprop="url" >
-                <span class="list-name">Casual Hollow Lace</span>
-                <span class="grid-name">Casual Hollow Lace</span>
-              </a>
-            </h5>
-                        <p class="product-desc" itemprop="description">
-              <span class="list-desc">La prenda más popular para estar a la moda.</span>
-              <span class="grid-desc">La prenda más popular para...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Cantidad: ...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Tallas: S, M, L, XL</span>
-            </p>
-                          <div class="content_price">
-
-                  <span class="price product-price product-price-new">
-                    $28.00                  </span>
-
-                    <span class="old-price product-price">
-                      $35.00
-                    </span>
-
-                                          <span class="price-percent-reduction">-20%</span>
+                <span class="price product-price">
+                  $40.00                  </span>
 
 
 
-                              </div>
-                                      <div class="hook-reviews">
-                <div class="comments_note" itemprop="aggregateRating">
-    <div class="star_content clearfix">
-                        <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star"></div>
-                                <div class="star"></div>
-                    <meta itemprop="worstRating" content = "0" />
-      <meta itemprop="ratingValue" content = "3" />
-      <meta itemprop="bestRating" content = "5" />
-    </div>
-    <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+                            </div>
+                                    <div class="hook-reviews">
+              <div class="comments_note" itemprop="aggregateRating">
+  <div class="star_content clearfix">
+                      <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star"></div>
+                  <meta itemprop="worstRating" content = "0" />
+    <meta itemprop="ratingValue" content = "4" />
+    <meta itemprop="bestRating" content = "5" />
   </div>
-  <a class="quick-view" href="desc_.php" data-href="desc_.php">
-   <span>Cómpralo ya!</span>
-  </a>
-              </div>
+  <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+</div><br>
+<?php
+    echo "<a href='desc5.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+?>
+            </div>
+                                  </div>
 
 
-                                    </div>
-
-
-        </div><!-- .product-container> -->
-      </li>
+      </div><!-- .product-container> -->
+    </li>
 
 
 
-                        <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 last-in-line first-item-of-tablet-line last-item-of-mobile-line">
-        <div class="product-container">
-          <div class="left-block">
-            <div class="product-image-container">
-              <a  href="desc3.html" title="Loose Floral" itemprop="url">
-                <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c4.jpg" alt="Loose Floral" title="Loose Floral" itemprop="image" />
+                      <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 last-line first-item-of-tablet-line first-item-of-mobile-line last-mobile-line">
+      <div class="product-container">
+        <div class="left-block">
+          <div class="product-image-container">
+            <a  href="desc6.hmtl" title="Bleu" itemprop="url">
+              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c7.jpg" alt="Bleu" title="Bleu" itemprop="image" />
 
+            </a>
+
+                                          <a class="sale-box" href="desc6.html">
+                <span class="sale-label">&iexcl;Oferta!</span>
               </a>
+                        </div>
 
-                                            <a class="sale-box" href="desc3.html">
-                  <span class="sale-label">&iexcl;Oferta!</span>
-                </a>
-                          </div>
+        </div>
+        <div class="right-block">
+          <h5 itemprop="name">
+                          <a class="product-name" href="desc6.html" title="Bleu" itemprop="url" >
+              <span class="list-name">Bleu</span>
+              <span class="grid-name">Bleu</span>
+            </a>
+          </h5>
+                      <p class="product-desc" itemprop="description">
+            <span class="list-desc">Luce esta blusa para estar primaveral.</span>
+            <span class="grid-desc">Luce esta blusa para...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Cantidad: ...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Tallas: S, M, L, XL</span>
+          </p>
+                        <div class="content_price">
 
-          </div>
-          <div class="right-block">
-            <h5 itemprop="name">
-                            <a class="product-name" href="desc3.html" title="Loose Floral" itemprop="url" >
-                <span class="list-name">Loose Floral</span>
-                <span class="grid-name">Loose Floral</span>
-              </a>
-            </h5>
-                        <p class="product-desc" itemprop="description">
-              <span class="list-desc">Lo nuevo que Ricardo Seco tiene solo para ti.</span>
-              <span class="grid-desc">Lo nuevo que Ricardo Seco...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Cantidad: ...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Tallas: S, M, L, XL</span>
-            </p>
-                          <div class="content_price">
-
-                  <span class="price product-price product-price-new">
-                    $16.00                  </span>
-
-                    <span class="old-price product-price">
-                      $20.00
-                    </span>
-
-                                          <span class="price-percent-reduction">-20%</span>
+                <span class="price product-price">
+                  $34.00                  </span>
 
 
 
-                              </div>
-                                      <div class="hook-reviews">
-                <div class="comments_note" itemprop="aggregateRating">
-    <div class="star_content clearfix">
-                        <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                    <meta itemprop="worstRating" content = "0" />
-      <meta itemprop="ratingValue" content = "5" />
-      <meta itemprop="bestRating" content = "5" />
-    </div>
-    <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+                            </div>
+                                    <div class="hook-reviews">
+              <div class="comments_note" itemprop="aggregateRating">
+  <div class="star_content clearfix">
+                      <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star"></div>
+                              <div class="star"></div>
+                  <meta itemprop="worstRating" content = "0" />
+    <meta itemprop="ratingValue" content = "3" />
+    <meta itemprop="bestRating" content = "5" />
   </div>
-  <a class="quick-view" href="desc_.php" data-href="desc_.php">
-   <span>Cómpralo ya!</span>
-  </a>
-              </div>
+  <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+</div><br>
+<?php
+    echo "<a href='desc6.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+?>
+            </div>
 
 
-                                    </div>
+                                  </div>
 
 
-        </div><!-- .product-container> -->
-      </li>
+      </div><!-- .product-container> -->
+    </li>
 
 
 
-                        <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line last-line first-item-of-mobile-line">
-        <div class="product-container">
-          <div class="left-block">
-            <div class="product-image-container">
-              <a  href="desc4.html" title="Blusa azul con cenefa" itemprop="url">
-                <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c5.jpg" alt="Blusa azul con cenefa" title="Blusa azul con cenefa" itemprop="image" />
+                      <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 last-in-line last-line last-item-of-mobile-line last-mobile-line">
+      <div class="product-container">
+        <div class="left-block">
+          <div class="product-image-container">
+            <a  href="desc7.html" title="Canesú Jean" itemprop="url">
+              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c8.jpg" alt="Canesú Jean" title="Canesú Jean" itemprop="image" />
 
+            </a>
+
+                                          <a class="sale-box" href="desc7.html">
+                <span class="sale-label">&iexcl;Oferta!</span>
               </a>
+                        </div>
 
-                                            <a class="sale-box" href="desc4.html">
-                  <span class="sale-label">&iexcl;Oferta!</span>
-                </a>
-                          </div>
+        </div>
+        <div class="right-block">
+          <h5 itemprop="name">
+                          <a class="product-name" href="desc7.html" title="Canesú Jean" itemprop="url" >
+              <span class="list-name">Canesú Jean</span>
+              <span class="grid-name">Canesú Jean</span>
+            </a>
+          </h5>
+                      <p class="product-desc" itemprop="description">
+            <span class="list-desc">Tan única como coqueta.</span>
+            <span class="grid-desc">Tan única como...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Cantidad: ...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Tallas: S, M, L, XL</span>
+          </p>
+                        <div class="content_price">
 
-          </div>
-          <div class="right-block">
-            <h5 itemprop="name">
-                            <a class="product-name" href="desc4.html" title="Blusa azul con cenefa" itemprop="url" >
-                <span class="list-name">Blusa azul con cenefa</span>
-                <span class="grid-name">Blusa azul con cenefa</span>
-              </a>
-            </h5>
-                        <p class="product-desc" itemprop="description">
-              <span class="list-desc">Luce elegante con esta blusa.</span>
-              <span class="grid-desc">Luce elegante con...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Cantidad: ...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Tallas: S, M, L, XL</span>
-            </p>
-                          <div class="content_price">
-
-                  <span class="price product-price">
-                    $27.00                  </span>
+                <span class="price product-price">
+                  $30.00                  </span>
 
 
 
-                              </div>
-                                      <div class="hook-reviews">
-                <div class="comments_note" itemprop="aggregateRating">
-    <div class="star_content clearfix">
-                        <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star"></div>
-                    <meta itemprop="worstRating" content = "0" />
-      <meta itemprop="ratingValue" content = "4" />
-      <meta itemprop="bestRating" content = "5" />
-    </div>
-    <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+                            </div>
+                                    <div class="hook-reviews">
+              <div class="comments_note" itemprop="aggregateRating">
+  <div class="star_content clearfix">
+                      <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star"></div>
+                  <meta itemprop="worstRating" content = "0" />
+    <meta itemprop="ratingValue" content = "4" />
+    <meta itemprop="bestRating" content = "5" />
   </div>
-  <a class="quick-view" href="desc_.php" data-href="desc_.php">
-   <span>Cómpralo ya!</span>
-  </a>
-              </div>
+  <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+</div><br>
+<?php
+    echo "<a href='desc7.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+?>
+            </div>
+                                  </div>
 
 
-                                    </div>
+      </div><!-- .product-container> -->
+    </li>
 
+                      <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line">
+      <div class="product-container">
+        <div class="left-block">
+          <div class="product-image-container">
+            <a href="desc8.html" title="Floral Tex" itemprop="url">
+              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c9.jpg" alt="Floral Tex" title="Floral Tex" itemprop="image" />
 
-        </div><!-- .product-container> -->
-      </li>
+            </a>
 
-
-
-                        <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 last-line last-item-of-tablet-line last-item-of-mobile-line">
-        <div class="product-container">
-          <div class="left-block">
-            <div class="product-image-container">
-              <a  href="desc5.html" title="Lady Flor" itemprop="url">
-                <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c6.jpg" alt="Lady Flor" title="Lady Flor" itemprop="image" />
-
+                            <a class="new-box" href="desc8.html">
+                <span class="new-label">Nuevo</span>
               </a>
+                                      </div>
 
-                                            <a class="sale-box" href="desc5.html">
-                  <span class="sale-label">&iexcl;Oferta!</span>
-                </a>
-                          </div>
+        </div>
+        <div class="right-block">
+          <h5 itemprop="name">
+                          <a class="product-name" href="desc8.html" title="Floral Tex" itemprop="url" >
+              <span class="list-name">Floral Tex</span>
+              <span class="grid-name">Floral Tex</span>
+            </a>
+          </h5>
+                      <p class="product-desc" itemprop="description">
+            <span class="list-desc">Las flores son lo de hoy, no te quedes atrás.</span>
+            <span class="grid-desc">Las flores son lo de hoy...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Cantidad: ...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Tallas: S, M, L, XL</span>
+          </p>
+                        <div class="content_price">
 
-          </div>
-          <div class="right-block">
-            <h5 itemprop="name">
-                            <a class="product-name" href="desc5.html" title="Lady Flor" itemprop="url" >
-                <span class="list-name">Lady Flor</span>
-                <span class="grid-name">Lady Flor</span>
-              </a>
-            </h5>
-                        <p class="product-desc" itemprop="description">
-              <span class="list-desc">Esta blusa te hará sentir más fashion.</span>
-              <span class="grid-desc">Esta blusa te hará...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Cantidad: ...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Tallas: S, M, L, XL</span>
-            </p>
-                          <div class="content_price">
-
-                  <span class="price product-price">
-                    $40.00                  </span>
+                <span class="price product-price">
+                  $90.00                  </span>
 
 
 
-                              </div>
-                                      <div class="hook-reviews">
-                <div class="comments_note" itemprop="aggregateRating">
-    <div class="star_content clearfix">
-                        <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star"></div>
-                    <meta itemprop="worstRating" content = "0" />
-      <meta itemprop="ratingValue" content = "4" />
-      <meta itemprop="bestRating" content = "5" />
-    </div>
-    <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+                            </div>
+                                    <div class="hook-reviews">
+              <div class="comments_note" itemprop="aggregateRating">
+  <div class="star_content clearfix">
+                      <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                  <meta itemprop="worstRating" content = "0" />
+    <meta itemprop="ratingValue" content = "5" />
+    <meta itemprop="bestRating" content = "5" />
   </div>
-  <a class="quick-view" href="desc_.php" data-href="desc_.php">
-   <span>Cómpralo ya!</span>
-  </a>
-              </div>
-                                    </div>
+  <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+</div><br>
+<?php
+    echo "<a href='desc8.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+?>
+            </div>
 
 
-        </div><!-- .product-container> -->
-      </li>
+                                  </div>
+
+
+      </div><!-- .product-container> -->
+    </li>
 
 
 
-                        <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 last-line first-item-of-tablet-line first-item-of-mobile-line last-mobile-line">
-        <div class="product-container">
-          <div class="left-block">
-            <div class="product-image-container">
-              <a  href="desc6.hmtl" title="Bleu" itemprop="url">
-                <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c7.jpg" alt="Bleu" title="Bleu" itemprop="image" />
+                      <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 last-item-of-mobile-line">
+      <div class="product-container">
+        <div class="left-block">
+          <div class="product-image-container">
+            <a href="desc9.html" title="Urban Long Sleeve Shirt" itemprop="url">
+              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c10.jpg" alt="Urban Long Sleeve Shirt" title="Urban Long Sleeve Shirt" itemprop="image" />
 
+            </a>
+
+                            <a class="new-box" href="desc9.html">
+                <span class="new-label">Nuevo</span>
               </a>
+                                      </div>
 
-                                            <a class="sale-box" href="desc6.html">
-                  <span class="sale-label">&iexcl;Oferta!</span>
-                </a>
-                          </div>
+        </div>
+        <div class="right-block">
+          <h5 itemprop="name">
+                          <a class="product-name" href="desc9.html" title="Urban Long Sleeve Shirt" itemprop="url" >
+              <span class="list-name">Urban Long Sleeve Shirt</span>
+              <span class="grid-name">Urban Long Sleeve Shirt</span>
+            </a>
+          </h5>
+                      <p class="product-desc" itemprop="description">
+            <span class="list-desc">Atrévete a lucirlos.</span>
+            <span class="grid-desc">Atrévete a...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Cantidad: ...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Tallas: S, M, L, XL</span>
+          </p>
+                        <div class="content_price">
 
-          </div>
-          <div class="right-block">
-            <h5 itemprop="name">
-                            <a class="product-name" href="desc6.html" title="Bleu" itemprop="url" >
-                <span class="list-name">Bleu</span>
-                <span class="grid-name">Bleu</span>
-              </a>
-            </h5>
-                        <p class="product-desc" itemprop="description">
-              <span class="list-desc">Luce esta blusa para estar primaveral.</span>
-              <span class="grid-desc">Luce esta blusa para...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Cantidad: ...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Tallas: S, M, L, XL</span>
-            </p>
-                          <div class="content_price">
-
-                  <span class="price product-price">
-                    $34.00                  </span>
+                <span class="price product-price">
+                  $110.00                  </span>
 
 
 
-                              </div>
-                                      <div class="hook-reviews">
-                <div class="comments_note" itemprop="aggregateRating">
-    <div class="star_content clearfix">
-                        <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star"></div>
-                                <div class="star"></div>
-                    <meta itemprop="worstRating" content = "0" />
-      <meta itemprop="ratingValue" content = "3" />
-      <meta itemprop="bestRating" content = "5" />
-    </div>
-    <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+                            </div>
+                                    <div class="hook-reviews">
+              <div class="comments_note" itemprop="aggregateRating">
+  <div class="star_content clearfix">
+                      <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star"></div>
+                  <meta itemprop="worstRating" content = "0" />
+    <meta itemprop="ratingValue" content = "4" />
+    <meta itemprop="bestRating" content = "5" />
   </div>
-  <a class="quick-view" href="desc_.php" data-href="desc_.php">
-   <span>Cómpralo ya!</span>
-  </a>
-              </div>
+  <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+</div><br>
+<?php
+    echo "<a href='desc9.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+?>
+            </div>
 
 
-                                    </div>
+                                  </div>
 
 
-        </div><!-- .product-container> -->
-      </li>
+      </div><!-- .product-container> -->
+    </li>
 
 
 
-                        <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 last-in-line last-line last-item-of-mobile-line last-mobile-line">
-        <div class="product-container">
-          <div class="left-block">
-            <div class="product-image-container">
-              <a  href="desc7.html" title="Canesú Jean" itemprop="url">
-                <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c8.jpg" alt="Canesú Jean" title="Canesú Jean" itemprop="image" />
+                      <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 last-item-of-tablet-line first-item-of-mobile-line">
+      <div class="product-container">
+        <div class="left-block">
+          <div class="product-image-container">
+            <a href="desc10.html" title="Swag T-Shirt" itemprop="url">
+              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c11.jpg" alt="Swag T-Shirt" title="Swag T-Shirt" itemprop="image" />
 
+            </a>
+
+                            <a class="new-box" href="desc10.html">
+                <span class="new-label">Nuevo</span>
               </a>
+                                      </div>
 
-                                            <a class="sale-box" href="desc7.html">
-                  <span class="sale-label">&iexcl;Oferta!</span>
-                </a>
-                          </div>
+        </div>
+        <div class="right-block">
+          <h5 itemprop="name">
+                          <a class="product-name" href="desc10.html" title="Swag T-Shirt" itemprop="url" >
+              <span class="list-name">Swag T-Shirt</span>
+              <span class="grid-name">Swag T-Shirt</span>
+            </a>
+          </h5>
+                      <p class="product-desc" itemprop="description">
+            <span class="list-desc">Algo simple es algo elegante.</span>
+            <span class="grid-desc">Algo simple es...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Cantidad: ...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Tallas: S, M, L, XL</span>
+          </p>
+                        <div class="content_price">
 
-          </div>
-          <div class="right-block">
-            <h5 itemprop="name">
-                            <a class="product-name" href="desc7.html" title="Canesú Jean" itemprop="url" >
-                <span class="list-name">Canesú Jean</span>
-                <span class="grid-name">Canesú Jean</span>
-              </a>
-            </h5>
-                        <p class="product-desc" itemprop="description">
-              <span class="list-desc">Tan única como coqueta.</span>
-              <span class="grid-desc">Tan única como...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Cantidad: ...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Tallas: S, M, L, XL</span>
-            </p>
-                          <div class="content_price">
-
-                  <span class="price product-price">
-                    $30.00                  </span>
+                <span class="price product-price">
+                  $80.00                  </span>
 
 
 
-                              </div>
-                                      <div class="hook-reviews">
-                <div class="comments_note" itemprop="aggregateRating">
-    <div class="star_content clearfix">
-                        <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star"></div>
-                    <meta itemprop="worstRating" content = "0" />
-      <meta itemprop="ratingValue" content = "4" />
-      <meta itemprop="bestRating" content = "5" />
-    </div>
-    <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+                            </div>
+                                    <div class="hook-reviews">
+              <div class="comments_note" itemprop="aggregateRating">
+  <div class="star_content clearfix">
+                      <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star"></div>
+                              <div class="star"></div>
+                  <meta itemprop="worstRating" content = "0" />
+    <meta itemprop="ratingValue" content = "3" />
+    <meta itemprop="bestRating" content = "5" />
   </div>
-  <a class="quick-view" href="desc_.php" data-href="desc_.php">
-   <span>Cómpralo ya!</span>
-  </a>
-              </div>
-                                    </div>
+  <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+</div><br>
+<?php
+    echo "<a href='desc10.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+?>
+            </div>
 
 
-        </div><!-- .product-container> -->
-      </li>
+                                  </div>
 
-                        <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line">
-        <div class="product-container">
-          <div class="left-block">
-            <div class="product-image-container">
-              <a href="desc8.html" title="Floral Tex" itemprop="url">
-                <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c9.jpg" alt="Floral Tex" title="Floral Tex" itemprop="image" />
 
+      </div><!-- .product-container> -->
+    </li>
+
+
+
+                      <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 last-in-line first-item-of-tablet-line last-item-of-mobile-line">
+      <div class="product-container">
+        <div class="left-block">
+          <div class="product-image-container">
+            <a href="desc11.html" title="Urban Shirty M02" itemprop="url">
+              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c12.jpg" alt="Urban Shirty M02" title="Urban Shirty M02" itemprop="image" />
+
+            </a>
+
+                            <a class="new-box" href="desc11.html">
+                <span class="new-label">Nuevo</span>
               </a>
+                                      </div>
 
-                              <a class="new-box" href="desc8.html">
-                  <span class="new-label">Nuevo</span>
-                </a>
-                                        </div>
+        </div>
+        <div class="right-block">
+          <h5 itemprop="name">
+                          <a class="product-name" href="desc11.html" title="Urban Shirty M02" itemprop="url" >
+              <span class="list-name">Urban Shirty M02</span>
+              <span class="grid-name">Urban Shirty M02</span>
+            </a>
+          </h5>
+                      <p class="product-desc" itemprop="description">
+            <span class="list-desc">Para una ocasión </span>
+            <span class="grid-desc">Para una...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Cantidad: ...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Tallas: S, M, L, XL</span>
+          </p>
+                        <div class="content_price">
 
-          </div>
-          <div class="right-block">
-            <h5 itemprop="name">
-                            <a class="product-name" href="desc8.html" title="Floral Tex" itemprop="url" >
-                <span class="list-name">Floral Tex</span>
-                <span class="grid-name">Floral Tex</span>
-              </a>
-            </h5>
-                        <p class="product-desc" itemprop="description">
-              <span class="list-desc">Las flores son lo de hoy, no te quedes atrás.</span>
-              <span class="grid-desc">Las flores son lo de hoy...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Cantidad: ...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Tallas: S, M, L, XL</span>
-            </p>
-                          <div class="content_price">
-
-                  <span class="price product-price">
-                    $90.00                  </span>
+                <span class="price product-price">
+                  $20.00                  </span>
 
 
 
-                              </div>
-                                      <div class="hook-reviews">
-                <div class="comments_note" itemprop="aggregateRating">
-    <div class="star_content clearfix">
-                        <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                    <meta itemprop="worstRating" content = "0" />
-      <meta itemprop="ratingValue" content = "5" />
-      <meta itemprop="bestRating" content = "5" />
-    </div>
-    <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+                            </div>
+                                    <div class="hook-reviews">
+              <div class="comments_note" itemprop="aggregateRating">
+  <div class="star_content clearfix">
+                      <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                  <meta itemprop="worstRating" content = "0" />
+    <meta itemprop="ratingValue" content = "5" />
+    <meta itemprop="bestRating" content = "5" />
   </div>
-  <a class="quick-view" href="desc_.php" data-href="desc_.php">
-   <span>Cómpralo ya!</span>
-  </a>
-              </div>
+  <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+</div><br>
+<?php
+    echo "<a href='desc11.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+?>
+            </div>
 
 
-                                    </div>
+                                  </div>
 
 
-        </div><!-- .product-container> -->
-      </li>
+      </div><!-- .product-container> -->
+    </li>
+
+<!-- Products list -->
 
 
 
-                        <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 last-item-of-mobile-line">
-        <div class="product-container">
-          <div class="left-block">
-            <div class="product-image-container">
-              <a href="desc9.html" title="Urban Long Sleeve Shirt" itemprop="url">
-                <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c10.jpg" alt="Urban Long Sleeve Shirt" title="Urban Long Sleeve Shirt" itemprop="image" />
+                      <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line">
+      <div class="product-container">
+        <div class="left-block">
+          <div class="product-image-container">
+            <a href="desc12.html" title="Hui Black" itemprop="url">
+              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c13.jpg" alt="Hui Black" title="Hui Black" itemprop="image" />
 
+            </a>
+
+                                          <a class="sale-box" href="desc12.html">
+                <span class="sale-label">&iexcl;Oferta!</span>
               </a>
+                        </div>
 
-                              <a class="new-box" href="desc9.html">
-                  <span class="new-label">Nuevo</span>
-                </a>
-                                        </div>
+        </div>
+        <div class="right-block">
+          <h5 itemprop="name">
+                          <a class="product-name" href="desc12.html" title="Hui Black" itemprop="url" >
+              <span class="list-name">Hui Black</span>
+              <span class="grid-name">Hui Black</span>
+            </a>
+          </h5>
+                      <p class="product-desc" itemprop="description">
+            <span class="list-desc">Luce una de las colecciones limitadas del diseñador.</span>
+            <span class="grid-desc">Luce una de las colecciones...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Cantidad: ...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Tallas: S, M, L, XL</span>
+          </p>
+                        <div class="content_price">
 
-          </div>
-          <div class="right-block">
-            <h5 itemprop="name">
-                            <a class="product-name" href="desc9.html" title="Urban Long Sleeve Shirt" itemprop="url" >
-                <span class="list-name">Urban Long Sleeve Shirt</span>
-                <span class="grid-name">Urban Long Sleeve Shirt</span>
-              </a>
-            </h5>
-                        <p class="product-desc" itemprop="description">
-              <span class="list-desc">Atrévete a lucirlos.</span>
-              <span class="grid-desc">Atrévete a...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Cantidad: ...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Tallas: S, M, L, XL</span>
-            </p>
-                          <div class="content_price">
+                <span class="price product-price product-price-new">
+                  $28.00                  </span>
 
-                  <span class="price product-price">
-                    $110.00                  </span>
+                  <span class="old-price product-price">
+                    $35.00
+                  </span>
+
+                                        <span class="price-percent-reduction">-20%</span>
 
 
 
-                              </div>
-                                      <div class="hook-reviews">
-                <div class="comments_note" itemprop="aggregateRating">
-    <div class="star_content clearfix">
-                        <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star"></div>
-                    <meta itemprop="worstRating" content = "0" />
-      <meta itemprop="ratingValue" content = "4" />
-      <meta itemprop="bestRating" content = "5" />
-    </div>
-    <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+                            </div>
+                                    <div class="hook-reviews">
+              <div class="comments_note" itemprop="aggregateRating">
+  <div class="star_content clearfix">
+                      <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star"></div>
+                              <div class="star"></div>
+                  <meta itemprop="worstRating" content = "0" />
+    <meta itemprop="ratingValue" content = "3" />
+    <meta itemprop="bestRating" content = "5" />
   </div>
-  <a class="quick-view" href="desc_.php" data-href="desc_.php">
-   <span>Cómpralo ya!</span>
-  </a>
-              </div>
+  <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+</div><br>
+<?php
+    echo "<a href='desc12.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+?>
+            </div>
 
 
-                                    </div>
+                                  </div>
 
 
-        </div><!-- .product-container> -->
-      </li>
+      </div><!-- .product-container> -->
+    </li>
 
 
 
-                        <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 last-item-of-tablet-line first-item-of-mobile-line">
-        <div class="product-container">
-          <div class="left-block">
-            <div class="product-image-container">
-              <a href="desc10.html" title="Swag T-Shirt" itemprop="url">
-                <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c11.jpg" alt="Swag T-Shirt" title="Swag T-Shirt" itemprop="image" />
+                      <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 last-item-of-mobile-line">
+      <div class="product-container">
+        <div class="left-block">
+          <div class="product-image-container">
+            <a href="desc13.html" title="Globalmerce" itemprop="url">
+              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c14.jpg" alt="Globalmerce" title="Globalmerce" itemprop="image" />
 
+            </a>
+
+                                          <a class="sale-box" href="desc13.html">
+                <span class="sale-label">&iexcl;Oferta!</span>
               </a>
+                        </div>
 
-                              <a class="new-box" href="desc10.html">
-                  <span class="new-label">Nuevo</span>
-                </a>
-                                        </div>
+        </div>
+        <div class="right-block">
+          <h5 itemprop="name">
+                          <a class="product-name" href="desc13.html" title="Globalmerce" itemprop="url" >
+              <span class="list-name">Globalmerce</span>
+              <span class="grid-name">Globalmerce</span>
+            </a>
+          </h5>
+                      <p class="product-desc" itemprop="description">
+            <span class="list-desc">¡Lúcelo! en una fiesta.</span>
+            <span class="grid-desc">¡Lúcelo! en...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Cantidad: ...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Tallas: S, M, L, XL</span>
+          </p>
+                        <div class="content_price">
 
-          </div>
-          <div class="right-block">
-            <h5 itemprop="name">
-                            <a class="product-name" href="desc10.html" title="Swag T-Shirt" itemprop="url" >
-                <span class="list-name">Swag T-Shirt</span>
-                <span class="grid-name">Swag T-Shirt</span>
-              </a>
-            </h5>
-                        <p class="product-desc" itemprop="description">
-              <span class="list-desc">Algo simple es algo elegante.</span>
-              <span class="grid-desc">Algo simple es...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Cantidad: ...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Tallas: S, M, L, XL</span>
-            </p>
-                          <div class="content_price">
+                <span class="price product-price product-price-new">
+                  $16.00                  </span>
 
-                  <span class="price product-price">
-                    $80.00                  </span>
+                  <span class="old-price product-price">
+                    $20.00
+                  </span>
+
+                                        <span class="price-percent-reduction">-20%</span>
 
 
 
-                              </div>
-                                      <div class="hook-reviews">
-                <div class="comments_note" itemprop="aggregateRating">
-    <div class="star_content clearfix">
-                        <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star"></div>
-                                <div class="star"></div>
-                    <meta itemprop="worstRating" content = "0" />
-      <meta itemprop="ratingValue" content = "3" />
-      <meta itemprop="bestRating" content = "5" />
-    </div>
-    <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+                            </div>
+                                    <div class="hook-reviews">
+              <div class="comments_note" itemprop="aggregateRating">
+  <div class="star_content clearfix">
+                      <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                  <meta itemprop="worstRating" content = "0" />
+    <meta itemprop="ratingValue" content = "5" />
+    <meta itemprop="bestRating" content = "5" />
   </div>
-  <a class="quick-view" href="desc_.php" data-href="desc_.php">
-   <span>Cómpralo ya!</span>
-  </a>
-              </div>
+  <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+</div><br>
+<?php
+    echo "<a href='desc13.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+?>
+            </div>
 
 
-                                    </div>
+                                  </div>
 
 
-        </div><!-- .product-container> -->
-      </li>
+      </div><!-- .product-container> -->
+    </li>
 
 
 
-                        <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 last-in-line first-item-of-tablet-line last-item-of-mobile-line">
-        <div class="product-container">
-          <div class="left-block">
-            <div class="product-image-container">
-              <a href="desc11.html" title="Urban Shirty M02" itemprop="url">
-                <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c12.jpg" alt="Urban Shirty M02" title="Urban Shirty M02" itemprop="image" />
+                      <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 last-item-of-tablet-line first-item-of-mobile-line">
+      <div class="product-container">
+        <div class="left-block">
+          <div class="product-image-container">
+            <a href="desc14.html" title="Vino 02" itemprop="url">
+              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c15.jpg" alt="Vino 02" title="Vino 02" itemprop="image" />
 
+            </a>
+
+                            <a class="new-box" href="desc14.html">
+                <span class="new-label">Nuevo</span>
               </a>
+                                      </div>
 
-                              <a class="new-box" href="desc11.html">
-                  <span class="new-label">Nuevo</span>
-                </a>
-                                        </div>
+        </div>
+        <div class="right-block">
+          <h5 itemprop="name">
+                          <a class="product-name" href="desc14.html" title="Vino 02" itemprop="url" >
+              <span class="list-name">Vino 02</span>
+              <span class="grid-name">Vino 02</span>
+            </a>
+          </h5>
+                      <p class="product-desc" itemprop="description">
+            <span class="list-desc">Presume tu figura con esta prenda.</span>
+            <span class="grid-desc">Presume tu figura con...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Cantidad: ...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Tallas: S, M, L, XL</span>
+          </p>
+                        <div class="content_price">
 
-          </div>
-          <div class="right-block">
-            <h5 itemprop="name">
-                            <a class="product-name" href="desc11.html" title="Urban Shirty M02" itemprop="url" >
-                <span class="list-name">Urban Shirty M02</span>
-                <span class="grid-name">Urban Shirty M02</span>
-              </a>
-            </h5>
-                        <p class="product-desc" itemprop="description">
-              <span class="list-desc">Para una ocasión </span>
-              <span class="grid-desc">Para una...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Cantidad: ...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Tallas: S, M, L, XL</span>
-            </p>
-                          <div class="content_price">
-
-                  <span class="price product-price">
-                    $20.00                  </span>
+                <span class="price product-price">
+                  $27.00                  </span>
 
 
 
-                              </div>
-                                      <div class="hook-reviews">
-                <div class="comments_note" itemprop="aggregateRating">
-    <div class="star_content clearfix">
-                        <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                    <meta itemprop="worstRating" content = "0" />
-      <meta itemprop="ratingValue" content = "5" />
-      <meta itemprop="bestRating" content = "5" />
-    </div>
-    <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+                            </div>
+                                    <div class="hook-reviews">
+              <div class="comments_note" itemprop="aggregateRating">
+  <div class="star_content clearfix">
+                      <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star"></div>
+                  <meta itemprop="worstRating" content = "0" />
+    <meta itemprop="ratingValue" content = "4" />
+    <meta itemprop="bestRating" content = "5" />
   </div>
-  <a class="quick-view" href="desc_.php" data-href="desc_.php">
-   <span>Cómpralo ya!</span>
-  </a>
-              </div>
+  <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+</div><br>
+<?php
+    echo "<a href='desc14.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+?>
+            </div>
 
 
-                                    </div>
+                                  </div>
 
 
-        </div><!-- .product-container> -->
-      </li>
-
-  <!-- Products list -->
+      </div><!-- .product-container> -->
+    </li>
 
 
 
-                        <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line">
-        <div class="product-container">
-          <div class="left-block">
-            <div class="product-image-container">
-              <a href="desc12.html" title="Hui Black" itemprop="url">
-                <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c13.jpg" alt="Hui Black" title="Hui Black" itemprop="image" />
+                      <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 last-in-line first-item-of-tablet-line last-item-of-mobile-line">
+      <div class="product-container">
+        <div class="left-block">
+          <div class="product-image-container">
+            <a href="desc15.html" title="Huichol moderno" itemprop="url">
+              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c16.jpg" alt="Huichol moderno" title="Huichol moderno" itemprop="image" />
 
+            </a>
+
+                            <a class="new-box" href="desc15.html">
+                <span class="new-label">Nuevo</span>
               </a>
+                                      </div>
 
-                                            <a class="sale-box" href="desc12.html">
-                  <span class="sale-label">&iexcl;Oferta!</span>
-                </a>
-                          </div>
+        </div>
+        <div class="right-block">
+          <h5 itemprop="name">
+                          <a class="product-name" href="desc15.html" title="Huichol moderno" itemprop="url" >
+              <span class="list-name">Huichol moderno</span>
+              <span class="grid-name">Huichol moderno</span>
+            </a>
+          </h5>
+                      <p class="product-desc" itemprop="description">
+            <span class="list-desc">Luce más delgada con este vestido.</span>
+            <span class="grid-desc">Luce más delgada...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Cantidad: ...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Tallas: S, M, L, XL</span>
+          </p>
+                        <div class="content_price">
 
-          </div>
-          <div class="right-block">
-            <h5 itemprop="name">
-                            <a class="product-name" href="desc12.html" title="Hui Black" itemprop="url" >
-                <span class="list-name">Hui Black</span>
-                <span class="grid-name">Hui Black</span>
-              </a>
-            </h5>
-                        <p class="product-desc" itemprop="description">
-              <span class="list-desc">Luce una de las colecciones limitadas del diseñador.</span>
-              <span class="grid-desc">Luce una de las colecciones...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Cantidad: ...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Tallas: S, M, L, XL</span>
-            </p>
-                          <div class="content_price">
-
-                  <span class="price product-price product-price-new">
-                    $28.00                  </span>
-
-                    <span class="old-price product-price">
-                      $35.00
-                    </span>
-
-                                          <span class="price-percent-reduction">-20%</span>
+                <span class="price product-price">
+                  $26.00                  </span>
 
 
 
-                              </div>
-                                      <div class="hook-reviews">
-                <div class="comments_note" itemprop="aggregateRating">
-    <div class="star_content clearfix">
-                        <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star"></div>
-                                <div class="star"></div>
-                    <meta itemprop="worstRating" content = "0" />
-      <meta itemprop="ratingValue" content = "3" />
-      <meta itemprop="bestRating" content = "5" />
-    </div>
-    <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+                            </div>
+                                    <div class="hook-reviews">
+              <div class="comments_note" itemprop="aggregateRating">
+  <div class="star_content clearfix">
+                      <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star"></div>
+                              <div class="star"></div>
+                  <meta itemprop="worstRating" content = "0" />
+    <meta itemprop="ratingValue" content = "3" />
+    <meta itemprop="bestRating" content = "5" />
   </div>
-  <a class="quick-view" href="desc_.php" data-href="desc_.php">
-   <span>Cómpralo ya!</span>
-  </a>
-              </div>
+  <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+</div><br>
+<?php
+    echo "<a href='desc15.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+?>
+            </div>
 
 
-                                    </div>
+                                  </div>
 
 
-        </div><!-- .product-container> -->
-      </li>
+      </div><!-- .product-container> -->
+    </li>
 
 
+                      <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line last-line first-item-of-tablet-line first-item-of-mobile-line">
+      <div class="product-container">
+        <div class="left-block">
+          <div class="product-image-container">
+            <a href="desc16.html" title="Estampado Líneas" itemprop="url">
+              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c17.jpg" alt="Estampado Líneas" title="Estampado Líneas" itemprop="image" />
 
-                        <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 last-item-of-mobile-line">
-        <div class="product-container">
-          <div class="left-block">
-            <div class="product-image-container">
-              <a href="desc13.html" title="Globalmerce" itemprop="url">
-                <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c14.jpg" alt="Globalmerce" title="Globalmerce" itemprop="image" />
+            </a>
 
-              </a>
+                                      </div>
 
-                                            <a class="sale-box" href="desc13.html">
-                  <span class="sale-label">&iexcl;Oferta!</span>
-                </a>
-                          </div>
+        </div>
+        <div class="right-block">
+          <h5 itemprop="name">
+                          <a class="product-name" href="desc16.html" title="Estampado Líneas" itemprop="url" >
+              <span class="list-name">Estampado Líneas</span>
+              <span class="grid-name">Estampado Líneas</span>
+            </a>
+          </h5>
+                      <p class="product-desc" itemprop="description">
+            <span class="list-desc">Para todo tipo de ocasión.</span>
+            <span class="grid-desc">Para todo tipo...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Cantidad: ...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Tallas: S, M, L, XL</span>
+          </p>
+                        <div class="content_price">
 
-          </div>
-          <div class="right-block">
-            <h5 itemprop="name">
-                            <a class="product-name" href="desc13.html" title="Globalmerce" itemprop="url" >
-                <span class="list-name">Globalmerce</span>
-                <span class="grid-name">Globalmerce</span>
-              </a>
-            </h5>
-                        <p class="product-desc" itemprop="description">
-              <span class="list-desc">¡Lúcelo! en una fiesta.</span>
-              <span class="grid-desc">¡Lúcelo! en...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Cantidad: ...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Tallas: S, M, L, XL</span>
-            </p>
-                          <div class="content_price">
+                <span class="price product-price product-price-new">
+                  $48.00                  </span>
 
-                  <span class="price product-price product-price-new">
-                    $16.00                  </span>
+                  <span class="old-price product-price">
+                    $60.00
+                  </span>
 
-                    <span class="old-price product-price">
-                      $20.00
-                    </span>
-
-                                          <span class="price-percent-reduction">-20%</span>
+                                        <span class="price-percent-reduction">-20%</span>
 
 
 
-                              </div>
-                                      <div class="hook-reviews">
-                <div class="comments_note" itemprop="aggregateRating">
-    <div class="star_content clearfix">
-                        <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                    <meta itemprop="worstRating" content = "0" />
-      <meta itemprop="ratingValue" content = "5" />
-      <meta itemprop="bestRating" content = "5" />
-    </div>
-    <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+                            </div>
+                                    <div class="hook-reviews">
+              <div class="comments_note" itemprop="aggregateRating">
+  <div class="star_content clearfix">
+                      <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                  <meta itemprop="worstRating" content = "0" />
+    <meta itemprop="ratingValue" content = "5" />
+    <meta itemprop="bestRating" content = "5" />
   </div>
-  <a class="quick-view" href="desc_.php" data-href="desc_.php">
-   <span>Cómpralo ya!</span>
-  </a>
-              </div>
+  <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+</div><br>
+<?php
+    echo "<a href='desc16.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+?>
+            </div>
 
 
-                                    </div>
+                                  </div>
 
 
-        </div><!-- .product-container> -->
-      </li>
+      </div><!-- .product-container> -->
+    </li>
 
 
 
-                        <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 last-item-of-tablet-line first-item-of-mobile-line">
-        <div class="product-container">
-          <div class="left-block">
-            <div class="product-image-container">
-              <a href="desc14.html" title="Vino 02" itemprop="url">
-                <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c15.jpg" alt="Vino 02" title="Vino 02" itemprop="image" />
+                      <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 last-line last-item-of-mobile-line">
+      <div class="product-container">
+        <div class="left-block">
+          <div class="product-image-container">
+            <a href="desc17.html" title="Fashion Style" itemprop="url">
+              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c18.jpg" alt="Fashion Style" title="Fashion Style" itemprop="image" />
 
+            </a>
+
+                                          <a class="sale-box" href="desc17.html">
+                <span class="sale-label">&iexcl;Oferta!</span>
               </a>
+                        </div>
 
-                              <a class="new-box" href="desc14.html">
-                  <span class="new-label">Nuevo</span>
-                </a>
-                                        </div>
+        </div>
+        <div class="right-block">
+          <h5 itemprop="name">
+                          <a class="product-name" href="desc17.html" title="Fashion Style" itemprop="url" >
+              <span class="list-name">Fashion Style</span>
+              <span class="grid-name">Fashion Style</span>
+            </a>
+          </h5>
+                      <p class="product-desc" itemprop="description">
+            <span class="list-desc">Demuestra que tienes estilo para vestir.</span>
+            <span class="grid-desc">Demuestra que tienes...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Cantidad: ...</span>
+          </p>
+          <p>
+            <span class="grid-desc">Tallas: S, M, L, XL</span>
+          </p>
+                        <div class="content_price">
 
-          </div>
-          <div class="right-block">
-            <h5 itemprop="name">
-                            <a class="product-name" href="desc14.html" title="Vino 02" itemprop="url" >
-                <span class="list-name">Vino 02</span>
-                <span class="grid-name">Vino 02</span>
-              </a>
-            </h5>
-                        <p class="product-desc" itemprop="description">
-              <span class="list-desc">Presume tu figura con esta prenda.</span>
-              <span class="grid-desc">Presume tu figura con...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Cantidad: ...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Tallas: S, M, L, XL</span>
-            </p>
-                          <div class="content_price">
+                <span class="price product-price product-price-new">
+                  $32.00                  </span>
 
-                  <span class="price product-price">
-                    $27.00                  </span>
+                  <span class="old-price product-price">
+                    $40.00
+                  </span>
+
+                                        <span class="price-percent-reduction">-20%</span>
 
 
 
-                              </div>
-                                      <div class="hook-reviews">
-                <div class="comments_note" itemprop="aggregateRating">
-    <div class="star_content clearfix">
-                        <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star"></div>
-                    <meta itemprop="worstRating" content = "0" />
-      <meta itemprop="ratingValue" content = "4" />
-      <meta itemprop="bestRating" content = "5" />
-    </div>
-    <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+                            </div>
+                                    <div class="hook-reviews">
+              <div class="comments_note" itemprop="aggregateRating">
+  <div class="star_content clearfix">
+                      <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star star_on"></div>
+                              <div class="star"></div>
+                  <meta itemprop="worstRating" content = "0" />
+    <meta itemprop="ratingValue" content = "4" />
+    <meta itemprop="bestRating" content = "5" />
   </div>
-  <a class="quick-view" href="desc_.php" data-href="desc_.php">
-   <span>Cómpralo ya!</span>
-  </a>
-              </div>
+  <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+</div><br>
+<?php
+    echo "<a href='desc17.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+?>
+            </div>
 
 
-                                    </div>
+                                  </div>
 
 
-        </div><!-- .product-container> -->
-      </li>
+      </div><!-- .product-container> -->
+    </li>
 
-
-
-                        <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 last-in-line first-item-of-tablet-line last-item-of-mobile-line">
-        <div class="product-container">
-          <div class="left-block">
-            <div class="product-image-container">
-              <a href="desc15.html" title="Huichol moderno" itemprop="url">
-                <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c16.jpg" alt="Huichol moderno" title="Huichol moderno" itemprop="image" />
-
-              </a>
-
-                              <a class="new-box" href="desc15.html">
-                  <span class="new-label">Nuevo</span>
-                </a>
-                                        </div>
-
-          </div>
-          <div class="right-block">
-            <h5 itemprop="name">
-                            <a class="product-name" href="desc15.html" title="Huichol moderno" itemprop="url" >
-                <span class="list-name">Huichol moderno</span>
-                <span class="grid-name">Huichol moderno</span>
-              </a>
-            </h5>
-                        <p class="product-desc" itemprop="description">
-              <span class="list-desc">Luce más delgada con este vestido.</span>
-              <span class="grid-desc">Luce más delgada...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Cantidad: ...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Tallas: S, M, L, XL</span>
-            </p>
-                          <div class="content_price">
-
-                  <span class="price product-price">
-                    $26.00                  </span>
-
-
-
-                              </div>
-                                      <div class="hook-reviews">
-                <div class="comments_note" itemprop="aggregateRating">
-    <div class="star_content clearfix">
-                        <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star"></div>
-                                <div class="star"></div>
-                    <meta itemprop="worstRating" content = "0" />
-      <meta itemprop="ratingValue" content = "3" />
-      <meta itemprop="bestRating" content = "5" />
-    </div>
-    <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
-  </div>
-  <a class="quick-view" href="desc_.php" data-href="desc_.php">
-   <span>Cómpralo ya!</span>
-  </a>
-              </div>
-
-
-                                    </div>
-
-
-        </div><!-- .product-container> -->
-      </li>
-
-
-                        <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line last-line first-item-of-tablet-line first-item-of-mobile-line">
-        <div class="product-container">
-          <div class="left-block">
-            <div class="product-image-container">
-              <a href="desc16.html" title="Estampado Líneas" itemprop="url">
-                <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c17.jpg" alt="Estampado Líneas" title="Estampado Líneas" itemprop="image" />
-
-              </a>
-
-                                        </div>
-
-          </div>
-          <div class="right-block">
-            <h5 itemprop="name">
-                            <a class="product-name" href="desc16.html" title="Estampado Líneas" itemprop="url" >
-                <span class="list-name">Estampado Líneas</span>
-                <span class="grid-name">Estampado Líneas</span>
-              </a>
-            </h5>
-                        <p class="product-desc" itemprop="description">
-              <span class="list-desc">Para todo tipo de ocasión.</span>
-              <span class="grid-desc">Para todo tipo...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Cantidad: ...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Tallas: S, M, L, XL</span>
-            </p>
-                          <div class="content_price">
-
-                  <span class="price product-price product-price-new">
-                    $48.00                  </span>
-
-                    <span class="old-price product-price">
-                      $60.00
-                    </span>
-
-                                          <span class="price-percent-reduction">-20%</span>
-
-
-
-                              </div>
-                                      <div class="hook-reviews">
-                <div class="comments_note" itemprop="aggregateRating">
-    <div class="star_content clearfix">
-                        <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                    <meta itemprop="worstRating" content = "0" />
-      <meta itemprop="ratingValue" content = "5" />
-      <meta itemprop="bestRating" content = "5" />
-    </div>
-    <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
-  </div>
-  <a class="quick-view" href="desc_.php" data-href="desc_.php">
-   <span>Cómpralo ya!</span>
-  </a>
-              </div>
-
-
-                                    </div>
-
-
-        </div><!-- .product-container> -->
-      </li>
-
-
-
-                        <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 last-line last-item-of-mobile-line">
-        <div class="product-container">
-          <div class="left-block">
-            <div class="product-image-container">
-              <a href="desc17.html" title="Fashion Style" itemprop="url">
-                <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c18.jpg" alt="Fashion Style" title="Fashion Style" itemprop="image" />
-
-              </a>
-
-                                            <a class="sale-box" href="desc17.html">
-                  <span class="sale-label">&iexcl;Oferta!</span>
-                </a>
-                          </div>
-
-          </div>
-          <div class="right-block">
-            <h5 itemprop="name">
-                            <a class="product-name" href="desc17.html" title="Fashion Style" itemprop="url" >
-                <span class="list-name">Fashion Style</span>
-                <span class="grid-name">Fashion Style</span>
-              </a>
-            </h5>
-                        <p class="product-desc" itemprop="description">
-              <span class="list-desc">Demuestra que tienes estilo para vestir.</span>
-              <span class="grid-desc">Demuestra que tienes...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Cantidad: ...</span>
-            </p>
-            <p>
-              <span class="grid-desc">Tallas: S, M, L, XL</span>
-            </p>
-                          <div class="content_price">
-
-                  <span class="price product-price product-price-new">
-                    $32.00                  </span>
-
-                    <span class="old-price product-price">
-                      $40.00
-                    </span>
-
-                                          <span class="price-percent-reduction">-20%</span>
-
-
-
-                              </div>
-                                      <div class="hook-reviews">
-                <div class="comments_note" itemprop="aggregateRating">
-    <div class="star_content clearfix">
-                        <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star star_on"></div>
-                                <div class="star"></div>
-                    <meta itemprop="worstRating" content = "0" />
-      <meta itemprop="ratingValue" content = "4" />
-      <meta itemprop="bestRating" content = "5" />
-    </div>
-    <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
-  </div>
-  <a class="quick-view" href="desc_.php" data-href="desc_.php">
-   <span>Cómpralo ya!</span>
-  </a>
-              </div>
-
-
-                                    </div>
-
-
-        </div><!-- .product-container> -->
-      </li>
-
-      <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 last-item-of-tablet-line first-item-of-mobile-line">
+    <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 last-item-of-tablet-line first-item-of-mobile-line">
 <div class="product-container">
 <div class="left-block">
 <div class="product-image-container">
@@ -1732,64 +1564,64 @@ var wishlistProductsIds = false;
 
 </a>
 
-                          <a class="sale-box" href="desc18.html">
+                        <a class="sale-box" href="desc18.html">
 <span class="sale-label">&iexcl;Oferta!</span>
 </a>
-        </div>
+      </div>
 
 </div>
 <div class="right-block">
 <h5 itemprop="name">
-          <a class="product-name" href="desc18.html" title="Cebra-hui" itemprop="url" >
+        <a class="product-name" href="desc18.html" title="Cebra-hui" itemprop="url" >
 <span class="list-name">Cebra-hui</span>
 <span class="grid-name">Cebra-hui</span>
 </a>
 </h5>
-      <p class="product-desc" itemprop="description">
+    <p class="product-desc" itemprop="description">
 <span class="list-desc">La moda está en el blanco y negro.</span>
 <span class="grid-desc">La moda está en...</span>
 </p>
 <p>
-  <span class="grid-desc">Cantidad: ...</span>
+<span class="grid-desc">Cantidad: ...</span>
 </p>
 <p>
-  <span class="grid-desc">Tallas: S, M, L, XL</span>
+<span class="grid-desc">Tallas: S, M, L, XL</span>
 </p>
-        <div class="content_price">
+      <div class="content_price">
 
 <span class="price product-price product-price-new">
-  $19.20                  </span>
+$19.20                  </span>
 
-  <span class="old-price product-price">
-    $24.00
-  </span>
+<span class="old-price product-price">
+  $24.00
+</span>
 
-                        <span class="price-percent-reduction">-20%</span>
+                      <span class="price-percent-reduction">-20%</span>
 
 
 
-            </div>
-                    <div class="hook-reviews">
+          </div>
+                  <div class="hook-reviews">
 <div class="comments_note" itemprop="aggregateRating">
 <div class="star_content clearfix">
-      <div class="star star_on"></div>
-              <div class="star star_on"></div>
-              <div class="star star_on"></div>
-              <div class="star"></div>
-              <div class="star"></div>
-  <meta itemprop="worstRating" content = "0" />
+    <div class="star star_on"></div>
+            <div class="star star_on"></div>
+            <div class="star star_on"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+<meta itemprop="worstRating" content = "0" />
 <meta itemprop="ratingValue" content = "3" />
 <meta itemprop="bestRating" content = "5" />
 </div>
 <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
-</div>
-<a class="quick-view" href="desc_.php" data-href="desc_.php">
- <span>Cómpralo ya!</span>
-</a>
+</div><br>
+<?php
+    echo "<a href='desc18.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+?>
 </div>
 
 
-                  </div>
+                </div>
 
 
 </div><!-- .product-container> -->
@@ -1803,15 +1635,15 @@ var wishlistProductsIds = false;
 
 </a>
 
-                    <a class="sale-box" href="desc19.html">
+                  <a class="sale-box" href="desc19.html">
 <span class="sale-label">&iexcl;Oferta!</span>
 </a>
-  </div>
+</div>
 
 </div>
 <div class="right-block">
 <h5 itemprop="name">
-    <a class="product-name" href="desc19.html" title="Fashion Style" itemprop="url" >
+  <a class="product-name" href="desc19.html" title="Fashion Style" itemprop="url" >
 <span class="list-name">Fashion Style</span>
 <span class="grid-name">Fashion Style</span>
 </a>
@@ -1821,12 +1653,12 @@ var wishlistProductsIds = false;
 <span class="grid-desc">Elegante y sutil a cualquier lado...</span>
 </p>
 <p>
-  <span class="grid-desc">Cantidad: ...</span>
+<span class="grid-desc">Cantidad: ...</span>
 </p>
 <p>
-  <span class="grid-desc">Tallas: S, M, L, XL</span>
+<span class="grid-desc">Tallas: S, M, L, XL</span>
 </p>
-  <div class="content_price">
+<div class="content_price">
 
 <span class="price product-price product-price-new">
 $32.00                  </span>
@@ -1835,30 +1667,30 @@ $32.00                  </span>
 $40.00
 </span>
 
-                  <span class="price-percent-reduction">-20%</span>
+                <span class="price-percent-reduction">-20%</span>
 
 
 
-      </div>
-              <div class="hook-reviews">
+    </div>
+            <div class="hook-reviews">
 <div class="comments_note" itemprop="aggregateRating">
 <div class="star_content clearfix">
 <div class="star star_on"></div>
-        <div class="star star_on"></div>
-        <div class="star star_on"></div>
-        <div class="star star_on"></div>
-        <div class="star"></div>
+      <div class="star star_on"></div>
+      <div class="star star_on"></div>
+      <div class="star star_on"></div>
+      <div class="star"></div>
 <meta itemprop="worstRating" content = "0" />
 <meta itemprop="ratingValue" content = "4" />
 <meta itemprop="bestRating" content = "5" />
 </div>
 <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
+</div><br>
+<?php
+    echo "<a href='desc19.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+?>
 </div>
-<a class="quick-view" href="desc_.php" data-href="desc_.php">
- <span>Cómpralo ya!</span>
-</a>
-</div>
-            </div>
+          </div>
 
 
 </div><!-- .product-container> -->
@@ -1874,140 +1706,219 @@ $40.00
                     </div><!-- .row -->
         </div><!-- #columns -->
 
-                    </section>
+<div class="wrapper it_WSZEAMICCDQE ">
+<div class="row it_XABPLTZITKHO full-width">
+<div class="it_MYDZOWWEWFDG col-xs-12    container">
+<div class="row it_YELMHJGLDMBI ">
+<div class="it_IZEJKBTRTUFS col-xs-12    second_home">
 
-                    </div></div></div></div></div>
+                <script type="text/javascript">
+                    $(document).ready(function(){
+                        setNbCatItems();
+                        tmCategoryCarousel1_27 = $('#block-category-1_27 > ul').bxSlider({
+                            responsive:true,
+                            useCSS: false,
+                            minSlides: tm_cps_carousel_nb_new,
+                            maxSlides: tm_cps_carousel_nb_new,
+                            slideWidth: tm_cps_carousel_slide_width,
+                            slideMargin: tm_cps_carousel_slide_margin,
+                            infiniteLoop: tm_cps_carousel_loop,
+                            hideControlOnEnd: tm_cps_carousel_hide_control,
+                            randomStart: tm_cps_carousel_random,
+                            moveSlides: tm_cps_carousel_item_scroll,
+                            pager: tm_cps_carousel_pager,
+                            autoHover: tm_cps_carousel_auto_hover,
+                            auto: tm_cps_carousel_auto,
+                            speed: tm_cps_carousel_speed,
+                            pause: tm_cps_carousel_auto_pause,
+                            controls: tm_cps_carousel_control,
+                            autoControls: tm_cps_carousel_auto_control,
+                            startText:'',
+                            stopText:'',
+                        });
+
+                        var tm_cps_doit;
+                        $(window).resize(function () {
+                            clearTimeout(tm_cps_doit);
+                            tm_cps_doit = setTimeout(function() {
+                                resizedwtm_cps1_27();
+                            }, 201);
+                        });
+                    });
+                    function resizedwtm_cps1_27(){
+                        setNbCatItems();
+                        tmCategoryCarousel1_27.reloadSlider({
+                            responsive:true,
+                            useCSS: false,
+                            minSlides: tm_cps_carousel_nb_new,
+                            maxSlides: tm_cps_carousel_nb_new,
+                            slideWidth: tm_cps_carousel_slide_width,
+                            slideMargin: tm_cps_carousel_slide_margin,
+                            infiniteLoop: tm_cps_carousel_loop,
+                            hideControlOnEnd: tm_cps_carousel_hide_control,
+                            randomStart: tm_cps_carousel_random,
+                            moveSlides: tm_cps_carousel_item_scroll,
+                            pager: tm_cps_carousel_pager,
+                            autoHover: tm_cps_carousel_auto_hover,
+                            auto: tm_cps_carousel_auto,
+                            speed: tm_cps_carousel_speed,
+                            pause: tm_cps_carousel_auto_pause,
+                            controls: tm_cps_carousel_control,
+                            autoControls: tm_cps_carousel_auto_control,
+                            startText:'',
+                            stopText:'',
+                        });
+                }
+
+                function setNbCatItems()
+                {
+                    if ($('.category-block').width() < 400)
+                        tm_cps_carousel_nb_new = 1;
+                    if ($('.category-block').width() >= 400)
+                        tm_cps_carousel_nb_new = 2;
+                    if ($('.category-block').width() >= 560)
+                        tm_cps_carousel_nb_new = 3;
+                    if($('.category-block').width() > 840)
+                        tm_cps_carousel_nb_new = tm_cps_carousel_nb;
+                    }
+                </script>
+		    </div></div></div></div></div>
+                </div><!-- .columns-container -->
 
 
-                    </div><!-- .columns-container -->
 
-<!-- container footer -------------------------------------------------------------------------------------------------------------------->
+
+
+
                           <div class="footer-container">
                                     <div id="footer">
+                                      <div class="wrapper it_JADNISTKBNNA footer-1">
+                                      <div class="row it_ZIWFFSDESZUD full-width">
+                                      <div class="it_OTDNUESIOQFX col-xs-12    container">
+                                      <div class="row it_TMLVSLJZPFCD ">
+                                      <div class="it_YDIZQZQNWRBK col-xs-12 col-sm-8   ">
+                                      </div>
+                                      </div></div></div></div>
+<div class="wrapper it_YEWVYNBVYLBM ">
+<div class="row it_KSMNOOTVQKYH full-width">
+<div class="it_DZDNDVWOMRPR col-xs-12    container cms-info">
+<div class="row it_WZIBFUDLWJVN ">
+<div class="it_YTSDYTDROFCP col-xs-12 col-sm-4 col-md-4  cms-info">  <!-- Block CMS module footer -->
+                                        <section class="footer-block" id="block_various_links_footer">
+                                          <h4>Información</h4>
+                                          <ul class="toggle-footer">
+                                                                      <li class="item">
+                                                <a href="terminos.php" title="Nuestras tiendas">
+                                                  Términos y condiciones
+                                                </a>
+                                              </li>
+                                                          <li class="item">
+                                                <a href="Aviso.php" title="Términos y condiciones">
+                                                  Aviso de privacidad
+                                                </a>
+                                              </li>
+                                          </ul>
 
-                    <div class="wrapper it_JADNISTKBNNA footer-1">
-                    <div class="row it_ZIWFFSDESZUD full-width">
-                    <div class="it_OTDNUESIOQFX col-xs-12    container">
-                    <div class="row it_TMLVSLJZPFCD ">
-                    <div class="it_YDIZQZQNWRBK col-xs-12 col-sm-8   ">
-                    </div>
-                    </div></div></div></div>
-                    <div class="wrapper it_YEWVYNBVYLBM ">
-                    <div class="row it_KSMNOOTVQKYH full-width">
-                    <div class="it_DZDNDVWOMRPR col-xs-12    container cms-info">
-                    <div class="row it_WZIBFUDLWJVN ">
-                    <div class="it_YTSDYTDROFCP col-xs-12 col-sm-4 col-md-4  cms-info">  <!-- Block CMS module footer -->
-                    <section class="footer-block" id="block_various_links_footer">
-                    <h4>Información</h4>
-                    <ul class="toggle-footer">
-                                <li class="item">
-                    <a href="ubicacion.html" title="Nuestras tiendas">
-                    Términos y condiciones
-                    </a>
-                    </li>
-                    <li class="item">
-                    <a href="termino.html" title="Términos y condiciones">
-                    Aviso de privacidad
-                    </a>
-                    </li>
-                    </ul>
+                                        </section>
+                                            <div class="bottom-footer">
+                                            <div class="container">
+                                              <a class="_blank" href="index.php"> © 2017 - R.S. Textil </a>
+                                            </div>
+                                          </div>
+                                          <!-- /Block CMS module footer -->
+                                      </div>
+                                      <div class="it_CGFNKPAEBTMT col-xs-12 col-sm-4   "><!-- Block myaccount module -->
+                                      <section class="footer-block">
+                                        <h4>
+                                          Notros
+                                        </h4>
+                                        <div class="block_content toggle-footer">
+                                          <ul class="bullet">
+                                            <li>
+                                              <a href="Quien y que.php" title="Mis compras" rel="nofollow">¿Quiénes somos?<br>¿Qué hacemos?</a>
+                                            </li>
+                                                </ul>
+                                        </div>
+                                      </section>
+                                      <!-- /Block myaccount module --></div>
+                                      <div class="it_CGFNKPAEBTMT col-xs-12 col-sm-4   "><!-- Block myaccount module -->
+                                      <section class="footer-block">
 
-                    </section>
-                    <div class="bottom-footer">
-                    <div class="container">
-                    <a class="_blank" href="index.html"> © 2017 - R.S. Textil </a>
-                    </div>
-                    </div>
-                    <!-- /Block CMS module footer -->
-                    </div>
-                    <div class="it_CGFNKPAEBTMT col-xs-12 col-sm-4   "><!-- Block myaccount module -->
-                    <section class="footer-block">
-                      <h4>
-                        Notros
-                      </h4>
-                      <div class="block_content toggle-footer">
-                        <ul class="bullet">
-                          <li>
-                            <a href="factura.html" title="Mis compras" rel="nofollow">¿Quienes somos?</a>
-                          </li>
-                          <li>
-                            <a href="factura.html" title="Mis compras" rel="nofollow">¿Qué hacemos?</a>
-                          </li>
-                              </ul>
-                      </div>
-                    </section>
-                    <!-- /Block myaccount module --></div>
-                    <div class="it_CGFNKPAEBTMT col-xs-12 col-sm-4   "><!-- Block myaccount module -->
-                    <section class="footer-block">
+                                      </section>
+                                      <!-- /Block myaccount module --></div>
+                                      <div class="it_PVMULUPUDNYH col-xs-12 col-sm-4 col-md-4  "><!-- MODULE Block contact infos -->
+                                      <section id="block_contact_infos" class="footer-block">
+                                        <div>
+                                          <h4>Redes sociales</h4>
+                                          <div class="block_content toggle-footer">
+                                            <ul class="bullet">
+                                              <li>
+                                                <a title="Mis compras" rel="nofollow">Síguenos en nuestras redes sociales y dales LIKE</a>
+                                              </li>
+                                                  </ul>
+                                          </div>
+                                        </div>
+                                      </section>
+                                      <!-- /MODULE Block contact infos --><section id="social_block">
+                                        <ul>
+                                                <li class="facebook">
+                                              <a target="_blank" href="https://www.facebook.com/AstorgusAsociados/" title="Facebook">
+                                                <span>Facebook</span>
+                                              </a>
+                                            </li>
+                                                    <li class="twitter">
+                                              <a target="_blank" href="https://mobile.twitter.com/rs_textil" title="Twitter">
+                                                <span>Twitter</span>
+                                              </a>
+                                            </li>
+                                                    <li class="youtube">
+                                              <a target="_blank" href="https://m.youtube.com/channel/UCl7PpI7rt27vB8qBAPXlA8g" title="Youtube">
+                                                <span>Youtube</span>
+                                              </a>
+                                            </li>
+                                                        <li class="instagram">
+                                              <a class="_blank" href="https://www.instagram.com/astorgusasociados/">
+                                                <span>Instagram</span>
+                                              </a>
+                                            </li>
+                                            </ul>
+                                        <h4>Síganos</h4>
+                                      </section>
+                                      <div class="clearfix"></div></div></div></div></div></div>
+                                      <div class="wrapper it_BBNZRPDZHJXZ ">
+                                      <div class="row it_RTICFYJVLNIL ">
+                                      <div class="it_LNTHOJLQFGRA col-xs-12    footer_hidden">
+                                      <!-- begin olark code -->
+                                      <script data-cfasync="false" type='text/javascript'>
+                                      /*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
+                                      f[z]=function(){
+                                      (a.s=a.s||[]).push(arguments)};var a=f[z]._={
+                                      },q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
+                                      f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
+                                      0:+new Date};a.P=function(u){
+                                      a.p[u]=new Date-a.p[0]};function s(){
+                                      a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
+                                      hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
+                                      return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
+                                      b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
+                                      b.contentWindow[g].open()}catch(w){
+                                      c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
+                                      var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
+                                      b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
+                                      loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
 
-                    </section>
-                    <!-- /Block myaccount module --></div>
-                    <div class="it_PVMULUPUDNYH col-xs-12 col-sm-4 col-md-4  "><!-- MODULE Block contact infos -->
-                    <section id="block_contact_infos" class="footer-block">
-                    <div>
-                    <h4>Redes sociales</h4>
-                    </div>
-                    </section>
-                    <!-- /MODULE Block contact infos --><section id="social_block">
-                    <ul>
-                    <li class="facebook">
-                    <a target="_blank" href="https://www.facebook.com/TemplateMonster/" title="Facebook">
-                    <span>Facebook</span>
-                    </a>
-                    </li>
-                    <li class="twitter">
-                    <a target="_blank" href="https://twitter.com/TemplateMonster" title="Twitter">
-                    <span>Twitter</span>
-                    </a>
-                    </li>
-                    <li class="youtube">
-                    <a target="_blank" href="https://www.youtube.com/user/TemplateMonsterCo" title="Youtube">
-                    <span>Youtube</span>
-                    </a>
-                    </li>
-                    <li class="instagram">
-                    <a class="_blank" href="https://www.instagram.com/template_monster/">
-                    <span>Instagram</span>
-                    </a>
-                    </li>
-                    </ul>
-                    <h4>Síganos</h4>
-                    </section>
-                    <div class="clearfix"></div></div></div></div></div></div>
-                    <div class="wrapper it_BBNZRPDZHJXZ ">
-                    <div class="row it_RTICFYJVLNIL ">
-                    <div class="it_LNTHOJLQFGRA col-xs-12    footer_hidden">
-                    <!-- begin olark code -->
-                    <script data-cfasync="false" type='text/javascript'>
-                    /*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
-                    f[z]=function(){
-                    (a.s=a.s||[]).push(arguments)};var a=f[z]._={
-                    },q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
-                    f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
-                    0:+new Date};a.P=function(u){
-                    a.p[u]=new Date-a.p[0]};function s(){
-                    a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
-                    hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
-                    return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
-                    b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
-                    b.contentWindow[g].open()}catch(w){
-                    c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
-                    var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
-                    b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
-                    loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
+                                      /* custom configuration goes here (www.olark.com/documentation) */
 
-                    /* custom configuration goes here (www.olark.com/documentation) */
-
-                    olark.identify('7830-582-10-3714');
-
-
-
-                    /*]]>*/</script>
-                    <!-- end olark code --></div></div></div>
-                    </div>
-                            </div>
-                    </div><!-- #page -->
+                                      olark.identify('7830-582-10-3714');
 
 
-                    <script type="text/javascript" src="themes/theme1362/js/ga.js"></script>
-                    </body><!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');</script><!-- End Google Tag Manager --></html>
+
+                                      /*]]>*/</script>
+                                      <!-- end olark code --></div></div></div>
+                                                          </div>
+                                                                  </div>
+                                                  </div><!-- #page -->
+
+
+                                      <script type="text/javascript" src="themes/theme1362/js/ga.js"></script>
+                                      </body><!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');</script><!-- End Google Tag Manager --></html>

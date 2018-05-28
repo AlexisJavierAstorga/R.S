@@ -354,7 +354,6 @@ off</h2>
 
   <!-- Products list -->
   <ul id="homefeatured" class=" product_list grid row homefeatured tab-pane">
-
     <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line">
       <div class="product-container">
         <div class="left-block">
@@ -364,7 +363,7 @@ off</h2>
 
             </a>
 
-                                          <a class="sale-box">
+                                          <a class="sale-box" href="#">
                 <span class="sale-label">&iexcl;Oferta!</span>
               </a>
                         </div>
@@ -372,7 +371,7 @@ off</h2>
         </div>
         <div class="right-block">
           <h5 itemprop="name">
-                          <a class="product-name" title="Cuadrib" itemprop="url" href="desc.php">
+                          <a class="product-name" title="Cuadrib" itemprop="url" >
               <span class="list-name">Cuadrib</span>
               <span class="grid-name">Cuadrib</span>
             </a>
@@ -406,7 +405,7 @@ off</h2>
   <div class="star_content clearfix">
                               <div class="star star_on"></div>
                               <div class="star star_on"></div>
-                               <div class="star star_on"></div>
+                              <div class="star star_on"></div>
                               <div class="star"></div>
                               <div class="star"></div>
                   <meta itemprop="worstRating" content = "0" />
@@ -414,7 +413,7 @@ off</h2>
     <meta itemprop="bestRating" content = "5" />
   </div><br>
   <?php
-      echo "<a href='noregistrado.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+      echo "<a href='desc.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
   ?>
 </div>
 </div>
@@ -429,7 +428,7 @@ off</h2>
       <div class="product-container">
         <div class="left-block">
           <div class="product-image-container">
-            <a  href="desc1.php" title="Tappib" itemprop="url">
+            <a  href="desc1.html" title="Tappib" itemprop="url">
               <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c2.jpg" alt="Tappib" title="Tappib" itemprop="image" />
 
             </a>
@@ -484,9 +483,10 @@ off</h2>
     <meta itemprop="bestRating" content = "5" />
   </div>
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
-</div>
-<a href="desc1.php">
-<p><button class="btn btn-default"><span>Cómpralo ya!</span></button></p></a>
+</div><br>
+<?php
+    echo "<a href='desc1.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+?>
             </div>
                                   </div>
 
@@ -500,12 +500,12 @@ off</h2>
       <div class="product-container">
         <div class="left-block">
           <div class="product-image-container">
-            <a  href="desc2.php" title="Casual Hollow Lace" itemprop="url">
+            <a  href="desc2.html" title="Casual Hollow Lace" itemprop="url">
               <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c3.jpg" alt="Casual Hollow Lace" title="Casual Hollow Lace" itemprop="image" />
 
             </a>
 
-                                          <a class="sale-box" href="desc2.php">
+                                          <a class="sale-box" href="desc2.html">
                 <span class="sale-label">&iexcl;Oferta!</span>
               </a>
                         </div>
@@ -513,7 +513,7 @@ off</h2>
         </div>
         <div class="right-block">
           <h5 itemprop="name">
-                          <a class="product-name" href="desc2.php" title="Casual Hollow Lace" itemprop="url" >
+                          <a class="product-name" href="desc2.html" title="Casual Hollow Lace" itemprop="url" >
               <span class="list-name">Casual Hollow Lace</span>
               <span class="grid-name">Casual Hollow Lace</span>
             </a>
@@ -555,9 +555,10 @@ off</h2>
     <meta itemprop="bestRating" content = "5" />
   </div>
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
-</div>
-<a href="desc2.php">
-<p><button class="btn btn-default"><span>Cómpralo ya!</span></button></p></a>
+</div><br>
+<?php
+    echo "<a href='desc2.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+?>
             </div>
 
 
@@ -573,12 +574,12 @@ off</h2>
       <div class="product-container">
         <div class="left-block">
           <div class="product-image-container">
-            <a  href="desc3.php" title="Loose Floral" itemprop="url">
+            <a  href="desc3.html" title="Loose Floral" itemprop="url">
               <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c4.jpg" alt="Loose Floral" title="Loose Floral" itemprop="image" />
 
             </a>
 
-                                          <a class="sale-box" href="desc3.php">
+                                          <a class="sale-box" href="desc3.html">
                 <span class="sale-label">&iexcl;Oferta!</span>
               </a>
                         </div>
@@ -586,7 +587,7 @@ off</h2>
         </div>
         <div class="right-block">
           <h5 itemprop="name">
-                          <a class="product-name" href="desc3.php" title="Loose Floral" itemprop="url" >
+                          <a class="product-name" href="desc3.html" title="Loose Floral" itemprop="url" >
               <span class="list-name">Loose Floral</span>
               <span class="grid-name">Loose Floral</span>
             </a>
@@ -628,9 +629,10 @@ off</h2>
     <meta itemprop="bestRating" content = "5" />
   </div>
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
-</div>
-<a href="desc3.php">
-<p><button class="btn btn-default"><span>Cómpralo ya!</span></button></p></a>
+</div><br>
+<?php
+    echo "<a href='desc3.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+?>
             </div>
 
 
@@ -646,12 +648,12 @@ off</h2>
       <div class="product-container">
         <div class="left-block">
           <div class="product-image-container">
-            <a  href="desc4.php" title="Blusa azul con cenefa" itemprop="url">
+            <a  href="desc4.html" title="Blusa azul con cenefa" itemprop="url">
               <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c5.jpg" alt="Blusa azul con cenefa" title="Blusa azul con cenefa" itemprop="image" />
 
             </a>
 
-                                          <a class="sale-box" href="desc4.php">
+                                          <a class="sale-box" href="desc4.html">
                 <span class="sale-label">&iexcl;Oferta!</span>
               </a>
                         </div>
@@ -659,7 +661,7 @@ off</h2>
         </div>
         <div class="right-block">
           <h5 itemprop="name">
-                          <a class="product-name" href="desc4.php" title="Blusa azul con cenefa" itemprop="url" >
+                          <a class="product-name" href="desc4.html" title="Blusa azul con cenefa" itemprop="url" >
               <span class="list-name">Blusa azul con cenefa</span>
               <span class="grid-name">Blusa azul con cenefa</span>
             </a>
@@ -695,9 +697,10 @@ off</h2>
     <meta itemprop="bestRating" content = "5" />
   </div>
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
-</div>
-<a href="desc4.php">
-<p><button class="btn btn-default"><span>Cómpralo ya!</span></button></p></a>
+</div><br>
+<?php
+    echo "<a href='desc4.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+?>
             </div>
 
 
@@ -713,12 +716,12 @@ off</h2>
       <div class="product-container">
         <div class="left-block">
           <div class="product-image-container">
-            <a  href="desc5.php" title="Lady Flor" itemprop="url">
+            <a  href="desc5.html" title="Lady Flor" itemprop="url">
               <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c6.jpg" alt="Lady Flor" title="Lady Flor" itemprop="image" />
 
             </a>
 
-                                          <a class="sale-box" href="desc5.php">
+                                          <a class="sale-box" href="desc5.html">
                 <span class="sale-label">&iexcl;Oferta!</span>
               </a>
                         </div>
@@ -726,7 +729,7 @@ off</h2>
         </div>
         <div class="right-block">
           <h5 itemprop="name">
-                          <a class="product-name" href="desc5.php" title="Lady Flor" itemprop="url" >
+                          <a class="product-name" href="desc5.html" title="Lady Flor" itemprop="url" >
               <span class="list-name">Lady Flor</span>
               <span class="grid-name">Lady Flor</span>
             </a>
@@ -762,9 +765,10 @@ off</h2>
     <meta itemprop="bestRating" content = "5" />
   </div>
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
-</div>
-<a href="desc5.php">
-<p><button class="btn btn-default"><span>Cómpralo ya!</span></button></p></a>
+</div><br>
+<?php
+    echo "<a href='desc5.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+?>
             </div>
                                   </div>
 
@@ -783,7 +787,7 @@ off</h2>
 
             </a>
 
-                                          <a class="sale-box" href="desc6.php">
+                                          <a class="sale-box" href="desc6.html">
                 <span class="sale-label">&iexcl;Oferta!</span>
               </a>
                         </div>
@@ -791,7 +795,7 @@ off</h2>
         </div>
         <div class="right-block">
           <h5 itemprop="name">
-                          <a class="product-name" href="desc6.php" title="Bleu" itemprop="url" >
+                          <a class="product-name" href="desc6.html" title="Bleu" itemprop="url" >
               <span class="list-name">Bleu</span>
               <span class="grid-name">Bleu</span>
             </a>
@@ -827,9 +831,10 @@ off</h2>
     <meta itemprop="bestRating" content = "5" />
   </div>
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
-</div>
-<a href="desc6.php">
-<p><button class="btn btn-default"><span>Cómpralo ya!</span></button></p></a>
+</div><br>
+<?php
+    echo "<a href='desc6.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+?>
             </div>
 
 
@@ -845,12 +850,12 @@ off</h2>
       <div class="product-container">
         <div class="left-block">
           <div class="product-image-container">
-            <a  href="desc7.php" title="Canesú Jean" itemprop="url">
+            <a  href="desc7.html" title="Canesú Jean" itemprop="url">
               <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c8.jpg" alt="Canesú Jean" title="Canesú Jean" itemprop="image" />
 
             </a>
 
-                                          <a class="sale-box" href="desc7.php">
+                                          <a class="sale-box" href="desc7.html">
                 <span class="sale-label">&iexcl;Oferta!</span>
               </a>
                         </div>
@@ -858,7 +863,7 @@ off</h2>
         </div>
         <div class="right-block">
           <h5 itemprop="name">
-                          <a class="product-name" href="desc7.php" title="Canesú Jean" itemprop="url" >
+                          <a class="product-name" href="desc7.html" title="Canesú Jean" itemprop="url" >
               <span class="list-name">Canesú Jean</span>
               <span class="grid-name">Canesú Jean</span>
             </a>
@@ -894,9 +899,10 @@ off</h2>
     <meta itemprop="bestRating" content = "5" />
   </div>
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
-</div>
-<a href="desc7.php">
-<p><button class="btn btn-default"><span>Cómpralo ya!</span></button></p></a>
+</div><br>
+<?php
+    echo "<a href='desc7.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+?>
             </div>
                                   </div>
 
@@ -1038,6 +1044,13 @@ off</h2>
 
                           <div class="footer-container">
                                     <div id="footer">
+                                      <div class="wrapper it_JADNISTKBNNA footer-1">
+                                      <div class="row it_ZIWFFSDESZUD full-width">
+                                      <div class="it_OTDNUESIOQFX col-xs-12    container">
+                                      <div class="row it_TMLVSLJZPFCD ">
+                                      <div class="it_YDIZQZQNWRBK col-xs-12 col-sm-8   ">
+                                      </div>
+                                      </div></div></div></div>
 <div class="wrapper it_YEWVYNBVYLBM ">
 <div class="row it_KSMNOOTVQKYH full-width">
 <div class="it_DZDNDVWOMRPR col-xs-12    container cms-info">

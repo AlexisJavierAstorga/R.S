@@ -1,12 +1,12 @@
+<?php
+session_start();
+?>
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="es-es"><![endif]-->
 <!--[if IE 7]><html class="no-js lt-ie9 lt-ie8 ie7" lang="es-es"><![endif]-->
 <!--[if IE 8]><html class="no-js lt-ie9 ie8" lang="es-es"><![endif]-->
 <!--[if gt IE 8]> <html class="no-js ie9" lang="es-es"><![endif]-->
 <html lang="es-es"><head>
-  <?php
-  echo '<script> alert("No puedes realizar tus compras hasta que tengas una cuenta"); </script>';
-  ?>
 
     <meta charset="utf-8" />
     <title>R.S. Textil</title>
@@ -324,36 +324,27 @@ var wishlistProductsIds = false;
 <div id="tmsearch" class="clearfix">
 </div>
 <div id="header-login">
-<div class="current header_user_info"><a href="#" onclick="return false;">Iniciar sesión</a></div>
-<ul id="header-login-content" class="toogle_content">
-                <li>
-            <form action="existe.php" method="post">
-                <div id="create_header_account_error" class="alert alert-danger" style="display:none;"></div>
-                <div class="form_content clearfix">
+  <?php
+      echo $_SESSION['u_usuario'];
+  ?>
+    <div class="current header_user_info"><a href="#" onclick="return false;"> Tu cuenta </a></div>
+    <ul id="header-login-content" class="toogle_content">
+                    <li>
+                <form action="existe.php" method="post" id="header_login_form">
+                    <div id="create_header_account_error" class="alert alert-danger" style="display:none;"></div>
                     <div class="form_content clearfix">
+                        <p>
+                        <?php
+                            echo "<br><br><a href='salir.php' class='create'>Salir de tu cuenta</a>";
+                        ?>
+                        </p>
+                        <div class="clearfix">
 
-      <label for="email">Correo:</label><br>
-      <input type="email" name="email" maxlength="32" id="email" placeholder="example@hotmail.com" required>
-<br/><br/>
-
-      <label for="password">Password:</label><br>
-      <input type="password" name="password" maxlength="8" dir="password"  placeholder="............" required>
-<br/><br/>
-</div>
-                    <input type="hidden" class="hidden" name="back" value="my-account" />
-                    <button type="submit" id="SubmitLogin" name="SubmitLogin" class="btn btn-default btn-md">
-          <span>
-            <i class="fa fa-lock left"></i>
-            Iniciar sesi&oacute;n
-          </span>
-        </button>
-        <br><br>
-        <p>
-                      <a href="login.php" class="create">Crear una cuenta</a>
-                </div>
-            </form>
-        </li>
-        </ul>
+                        </div>
+                    </div>
+                </form>
+            </li>
+            </ul>
 </div></nav>
             </div>
           </div>
@@ -447,16 +438,18 @@ var wishlistProductsIds = false;
 
 
  <!--Nombre Usuario-->
- <label for="email">Correo electrónico:</label><br> <input type="email" name="email" id="email" placeholder="example@hotmail.com" autofocus required disabled></td><br>
+ <label for="email">Correo electrónico:</label><br> <?php
+     echo $_SESSION['u_usuario'];
+ ?><br>
  <h3>Dirección</h3><br>
  <label for="estado">Estado:</label><br>
- <select name="estados" onChange="habilitar(this.form)" disabled>
+ <select name="estados" onChange="habilitar(this.form)" >
          <option value="0">Selecciona tu estado</option>
      </select><br><br>
 
-     <label for="municipio">Municipio:</label><br> <input type="text" name="municipio" maxlength="32" id="municipio" placeholder="Escribe tu municipio" autofocus required disabled><br><br>
+     <label for="municipio">Municipio:</label><br> <input type="text" name="municipio" maxlength="32" id="municipio" placeholder="Escribe tu municipio" autofocus required ><br><br>
 
-     <label for="delegacion">Delegación:</label><br><select name="delegacion" id='delegacion' autofocus required disabled>
+     <label for="delegacion">Delegación:</label><br><select name="delegacion" id='delegacion' autofocus required >
            <option value="0">Selecciona tu delegación</option>
            <option value="1">Álvaro Obregón</option>
            <option value="2">Azcapotzalco</option>
@@ -476,19 +469,19 @@ var wishlistProductsIds = false;
            <option value="16">Xochimilco</option>
        </select><br><br>
 
-<label for="colonia">Colonia:</label><br> <input type="text" name="colonia" maxlength="32" id="colonia" placeholder="Escribe tu colonia" autofocus required disabled><br><br>
+<label for="colonia">Colonia:</label><br> <input type="text" name="colonia" maxlength="32" id="colonia" placeholder="Escribe tu colonia" autofocus required ><br><br>
 
-<label for="calle">Calle:</label><br> <input type="text" name="calle" maxlength="32" id="calle" placeholder="Escribe la calle" autofocus required disabled><br><br>
+<label for="calle">Calle:</label><br> <input type="text" name="calle" maxlength="32" id="calle" placeholder="Escribe la calle" autofocus required ><br><br>
 
 <label for="numex">Número exterior:</label><br>
- <input type="text" name="numex" size="20" maxlength="5" id="numex" placeholder="Num. exterior" autofocus required onkeypress="return valida(event)" disabled><br><br>
+ <input type="text" name="numex" size="20" maxlength="5" id="numex" placeholder="Num. exterior" autofocus required onkeypress="return valida(event)" ><br><br>
 
-<label for="numin">Número interior:</label><br> <input type="text" name="numin" maxlength="5" id="numin" placeholder="Num. interior" autofocus required onkeypress="return valida(event)" disabled><br><br>
+<label for="numin">Número interior:</label><br> <input type="text" name="numin" maxlength="5" id="numin" placeholder="Num. interior" autofocus required onkeypress="return valida(event)" ><br><br>
 
-<label for="postal">Código postal:</label><br> <input type="text" name="postal" maxlength="5" id="postal" placeholder="05069" autofocus required onkeypress="return valida(event)" disabled><br><br>
+<label for="postal">Código postal:</label><br> <input type="text" name="postal" maxlength="5" id="postal" placeholder="05069" autofocus required onkeypress="return valida(event)" ><br><br>
  <!--Password-->
  <label for="Cantidad">Cantidad:</label>
-    <p><input type="text" id="txtNumero1" name="txtNumero1" disabled/><input type="text" id="txtNumero2" value="19.20" readonly="" disabled/></p>
+    <p><input type="text" id="txtNumero1" name="txtNumero1" /><input type="text" id="txtNumero2" value="19.20" readonly="" /></p>
     <br/>
     <label for="direccion">Total $:</label><br>
     <input type="text" id="totalsuma" name="totalsuma" readonly="" />
@@ -498,7 +491,7 @@ var wishlistProductsIds = false;
                                                             <div class="attribute_list">
 
                           <input type="hidden" class="hidden" name="back" value="my-account" />
-                        <button type="submit" id="SubmitLogin" name="SubmitLogin" class="btn btn-default btn-md" disabled>
+                        <button type="submit" id="SubmitLogin" name="SubmitLogin" class="btn btn-default btn-md" >
               <span>
 
                 Confirmar compra

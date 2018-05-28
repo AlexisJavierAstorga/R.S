@@ -359,7 +359,7 @@ var wishlistProductsIds = false;
 
 </div>
 
-<br />
+<br/>
 
 
               </div><!-- #center_column -->

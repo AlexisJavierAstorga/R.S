@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="es-es"><![endif]-->
 <!--[if IE 7]><html class="no-js lt-ie9 lt-ie8 ie7" lang="es-es"><![endif]-->
@@ -7,12 +8,11 @@
   <?php
   echo '<script> alert("No puedes realizar tus compras hasta que tengas una cuenta"); </script>';
   ?>
-
     <meta charset="utf-8" />
     <title>R.S. Textil</title>
 
 
-          <meta name="description" content="Vete elegante a cualquier parte con nuestra moda huichol." />
+          <meta name="description" content="A que no sabías que podemos ser más frescos con nuestros nuevos modelos de huichol." />
             <meta name="generator" content="R.S. Textil" />
     <meta name="robots" content="index,follow" />
     <meta name="viewport" content="width=device-width, minimum-scale=0.25, maximum-scale=1.0, initial-scale=1.0" />
@@ -180,7 +180,7 @@ var search_url = 'buscar.php';
 var search_url_local = 'buscar.php';
 var secure_key = 'd1052f713ccedf4a5c6cc87e8510dcbd';
 var sharing_img = 'themes/theme1362/img/index/cata/c1.jpg';
-var sharing_name = 'Cuadrib';
+var sharing_name = 'Tappib';
 var sharing_url = 'desc.php';
 var specific_currency = false;
 var specific_price = -1;
@@ -281,7 +281,6 @@ var wishlistProductsIds = false;
               <script src="js/jquery/plugins/jqzoom/jquery.jqzoom.js"></script>
               <script src="themes/theme1362/js/product.js"></script>
               <script src="js/jquery/plugins/jquery.idTabs.js"></script>
-              <script src="sumar.js"></script>
 
 
         <script>
@@ -310,68 +309,68 @@ var wishlistProductsIds = false;
                 </head>
 
   <body id="index" class="index hide-left-column hide-right-column lang_es  one-column">
-    <div id="page">
-  <div id="preloader">
-      <div class="cssload-dots"></div>
-  </div>
-  <!-- #preloader -->
-  <div class="header-container">
-    <header id="header">
-        <div class="nav">
-          <div class="container">
-            <div class="row">
-              <nav>
+  <!--END block for older internet explorer-->
+  <div id="page">
+<div id="preloader">
+    <div class="cssload-dots"></div>
+</div>
+<!-- #preloader -->
+<div class="header-container">
+  <header id="header">
+      <div class="nav">
+        <div class="container">
+          <div class="row">
+            <nav>
 <div id="tmsearch" class="clearfix">
 </div>
 <div id="header-login">
 <div class="current header_user_info"><a href="#" onclick="return false;">Iniciar sesión</a></div>
 <ul id="header-login-content" class="toogle_content">
-                <li>
-            <form action="existe.php" method="post">
-                <div id="create_header_account_error" class="alert alert-danger" style="display:none;"></div>
-                <div class="form_content clearfix">
-                    <div class="form_content clearfix">
+              <li>
+          <form action="existe.php" method="post">
+              <div id="create_header_account_error" class="alert alert-danger" style="display:none;"></div>
+              <div class="form_content clearfix">
+                  <div class="form_content clearfix">
 
-      <label for="email">Correo:</label><br>
-      <input type="email" name="email" maxlength="32" id="email" placeholder="example@hotmail.com" required>
+    <label for="email">Correo electrónico:</label><br>
+    <input type="email" name="email" maxlength="32" id="email" placeholder="example@hotmail.com" required>
 <br/><br/>
 
-      <label for="password">Password:</label><br>
-      <input type="password" name="password" maxlength="8" dir="password"  placeholder="............" required>
+    <label for="password">Password:</label><br>
+    <input type="password" name="password" maxlength="8" dir="password"  placeholder="............" required>
 <br/><br/>
 </div>
-                    <input type="hidden" class="hidden" name="back" value="my-account" />
-                    <button type="submit" id="SubmitLogin" name="SubmitLogin" class="btn btn-default btn-md">
-          <span>
-            <i class="fa fa-lock left"></i>
-            Iniciar sesi&oacute;n
-          </span>
-        </button>
-        <br><br>
-        <p>
-                      <a href="login.php" class="create">Crear una cuenta</a>
-                </div>
-            </form>
-        </li>
-        </ul>
+                  <input type="hidden" class="hidden" name="back" value="my-account" />
+                  <button type="submit" id="SubmitLogin" name="SubmitLogin" class="btn btn-default btn-md">
+        <span>
+          <i class="fa fa-lock left"></i>
+          Iniciar sesi&oacute;n
+        </span>
+      </button>
+      <br><br>
+      <p>
+                    <a href="login.php" class="create">Crear una cuenta</a>
+              </div>
+          </form>
+      </li>
+      </ul>
 </div></nav>
-            </div>
-          </div>
-        </div>
-                <div class="top">
-        <div class="container">
-          <div class="row">
-            <div id="header_logo">
-              <a href="index.php" title="R.S. Textil">
-                <img class="logo img-responsive" src="themes/theme1362/img/icon/logo/LOGO.jpg" alt="R.S. Textil" width="275" height="71"/>
-              </a>
-            </div>
           </div>
         </div>
       </div>
-    </header>
-  </div>
-
+              <div class="top">
+      <div class="container">
+        <div class="row">
+          <div id="header_logo">
+            <a href="index.php" title="R.S. Textil">
+              <img class="logo img-responsive" src="themes/theme1362/img/icon/logo/LOGO.jpg" alt="R.S. Textil" width="275" height="71"/>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+        </header>
+      </div>
       <div class="columns-container">
 
         <div id="columns" class="container">
@@ -384,7 +383,7 @@ var wishlistProductsIds = false;
         <i class="fa fa-home"></i>
       </a>
     </li>
-                  <li class="last">Cuadrib</li>
+                  <li class="last">Tappib</li>
             </ul>
 </div>
 
@@ -410,8 +409,8 @@ var wishlistProductsIds = false;
                 <span class="sale-label">&iexcl;Oferta!</span>
               </span>
                                       <span id="view_full_size">
-                                  <a class="jqzoom" title="Cuadrib" rel="c1" href="#">
-                    <img itemprop="image" src="themes/theme1362/img/index/cata/c1.jpg" title="Cuadrib" alt="Cuadrib"/>
+                                  <a class="jqzoom" title="Tappib" rel="c1" href="#">
+                    <img itemprop="image" src="themes/theme1362/img/index/cata/c2.jpg" title="Tappib" alt="Tappib"/>
                   </a>
 
                                   </span>
@@ -431,11 +430,11 @@ var wishlistProductsIds = false;
         <div class="pb-right-column col-sm-6 col-md-6 col-lg-4">
           <div class="product-info-line">
                         <form action="comprar.php" method="post" class="box">
-                            <h1 itemprop="name">Cuadrib</h1>
+                            <h1 itemprop="name">Tappib</h1>
                   <div class="all-price-info">
                         <p class="our_price_display" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-                          <link itemprop="availability" href="https://schema.org/InStock"/><span id="our_price_display" itemprop="price" content="19.2">$19.20</span><meta itemprop="priceCurrency" content="USD" />                        </p>
-                        <p id="old_price"><span id="old_price_display"><span class="price">$24.00</span></span>                        </p>
+                          <link itemprop="availability" href="https://schema.org/InStock"/><span id="our_price_display" itemprop="price" content="19.2">$40.00</span><meta itemprop="priceCurrency" content="USD" />                        </p>
+                        <p id="old_price"><span id="old_price_display"><span class="price">$32.00</span></span>                        </p>
                           <p id="reduction_percent" >
                             <span id="reduction_percent_display">-20%</span>
                           </p>
@@ -528,7 +527,7 @@ var wishlistProductsIds = false;
           </ul>
           <div class="tab-content col-sm-9 col-md-9 col-lg-9">
                          <div id="product-description-tab-content" class="product-description-tab-content tab-pane">
-                <div class="rte"><p>Vete elegante a cualquier parte con nuestra moda huichol.</p></div>
+                <div class="rte"><p>A que no sabías que podemos ser más frescos con nuestros nuevos modelos de huichol.</p></div>
              </div>
                         <!-- quantity discount -->
                                       <!-- Data sheet -->
@@ -536,19 +535,19 @@ var wishlistProductsIds = false;
                 <table class="table-data-sheet">
                                       <tr class="odd">
                                               <td>Alto</td>
-                        <td>19 pounds</td>
+                        <td>14 pounds</td>
                                           </tr>
                                       <tr class="even">
                                               <td>Envío</td>
-                        <td>$15</td>
+                        <td>$115</td>
                                           </tr>
                                       <tr class="even">
                                               <td>Estilo</td>
-                        <td>Centerpiece</td>
+                        <td>Colorpiece</td>
                                           </tr>
                                       <tr class="odd">
                                               <td>Ancho</td>
-                        <td>3 pounds</td>
+                        <td>6 pounds</td>
                                           </tr>
                                       <tr class="even">
                                               <td>Accesorios</td>
@@ -575,146 +574,154 @@ var wishlistProductsIds = false;
 
                   <!--Accessories -->
 
-              </div> <!-- itemscope product wrapper -->
+
+                <!-- description & features -->
+
+                    <!--Accessories -->
 
 
 
 
-              </div><!-- #center_column -->
-                        </div><!--.large-left-->
-          </div><!--.row-->
-                    </div><!-- .row -->
-        </div><!-- #columns -->
-                                                </div><!-- .columns-container -->
-                                                <div class="footer-container">
-                                                          <div id="footer">
-                                                            <div class="wrapper it_JADNISTKBNNA footer-1">
-                                                            <div class="row it_ZIWFFSDESZUD full-width">
-                                                            <div class="it_OTDNUESIOQFX col-xs-12    container">
-                                                            <div class="row it_TMLVSLJZPFCD ">
-                                                            <div class="it_YDIZQZQNWRBK col-xs-12 col-sm-8   ">
-                                                            </div>
-                                                            </div></div></div></div>
-                      <div class="wrapper it_YEWVYNBVYLBM ">
-                      <div class="row it_KSMNOOTVQKYH full-width">
-                      <div class="it_DZDNDVWOMRPR col-xs-12    container cms-info">
-                      <div class="row it_WZIBFUDLWJVN ">
-                      <div class="it_YTSDYTDROFCP col-xs-12 col-sm-4 col-md-4  cms-info">  <!-- Block CMS module footer -->
-                                                              <section class="footer-block" id="block_various_links_footer">
-                                                                <h4>Información</h4>
-                                                                <ul class="toggle-footer">
-                                                                                            <li class="item">
-                                                                      <a href="terminos.php" title="Nuestras tiendas">
-                                                                        Términos y condiciones
-                                                                      </a>
-                                                                    </li>
-                                                                                <li class="item">
-                                                                      <a href="Aviso.php" title="Términos y condiciones">
-                                                                        Aviso de privacidad
-                                                                      </a>
-                                                                    </li>
-                                                                </ul>
+                </div> <!-- itemscope product wrapper -->
 
-                                                              </section>
-                                                                  <div class="bottom-footer">
-                                                                  <div class="container">
-                                                                    <a class="_blank" href="index.php"> © 2017 - R.S. Textil </a>
-                                                                  </div>
-                                                                </div>
-                                                                <!-- /Block CMS module footer -->
-                                                            </div>
-                                                            <div class="it_CGFNKPAEBTMT col-xs-12 col-sm-4   "><!-- Block myaccount module -->
-                                                            <section class="footer-block">
-                                                              <h4>
-                                                                Notros
-                                                              </h4>
-                                                              <div class="block_content toggle-footer">
-                                                                <ul class="bullet">
-                                                                  <li>
-                                                                    <a href="Quien y que.php" title="Mis compras" rel="nofollow">¿Quiénes somos?<br>¿Qué hacemos?</a>
-                                                                  </li>
-                                                                      </ul>
+
+
+
+                </div><!-- #center_column -->
+                          </div><!--.large-left-->
+                </div><!--.row-->
+                      </div><!-- .row -->
+                </div><!-- #columns -->
+                                                  </div><!-- .columns-container -->
+                                                  <div class="footer-container">
+                                                            <div id="footer">
+                                                              <div class="wrapper it_JADNISTKBNNA footer-1">
+                                                              <div class="row it_ZIWFFSDESZUD full-width">
+                                                              <div class="it_OTDNUESIOQFX col-xs-12    container">
+                                                              <div class="row it_TMLVSLJZPFCD ">
+                                                              <div class="it_YDIZQZQNWRBK col-xs-12 col-sm-8   ">
                                                               </div>
-                                                            </section>
-                                                            <!-- /Block myaccount module --></div>
-                                                            <div class="it_CGFNKPAEBTMT col-xs-12 col-sm-4   "><!-- Block myaccount module -->
-                                                            <section class="footer-block">
+                                                              </div></div></div></div>
+                        <div class="wrapper it_YEWVYNBVYLBM ">
+                        <div class="row it_KSMNOOTVQKYH full-width">
+                        <div class="it_DZDNDVWOMRPR col-xs-12    container cms-info">
+                        <div class="row it_WZIBFUDLWJVN ">
+                        <div class="it_YTSDYTDROFCP col-xs-12 col-sm-4 col-md-4  cms-info">  <!-- Block CMS module footer -->
+                                                                <section class="footer-block" id="block_various_links_footer">
+                                                                  <h4>Información</h4>
+                                                                  <ul class="toggle-footer">
+                                                                                              <li class="item">
+                                                                        <a href="terminos.php" title="Nuestras tiendas">
+                                                                          Términos y condiciones
+                                                                        </a>
+                                                                      </li>
+                                                                                  <li class="item">
+                                                                        <a href="Aviso.php" title="Términos y condiciones">
+                                                                          Aviso de privacidad
+                                                                        </a>
+                                                                      </li>
+                                                                  </ul>
 
-                                                            </section>
-                                                            <!-- /Block myaccount module --></div>
-                                                            <div class="it_PVMULUPUDNYH col-xs-12 col-sm-4 col-md-4  "><!-- MODULE Block contact infos -->
-                                                            <section id="block_contact_infos" class="footer-block">
-                                                              <div>
-                                                                <h4>Redes sociales</h4>
+                                                                </section>
+                                                                    <div class="bottom-footer">
+                                                                    <div class="container">
+                                                                      <a class="_blank" href="index.php"> © 2017 - R.S. Textil </a>
+                                                                    </div>
+                                                                  </div>
+                                                                  <!-- /Block CMS module footer -->
+                                                              </div>
+                                                              <div class="it_CGFNKPAEBTMT col-xs-12 col-sm-4   "><!-- Block myaccount module -->
+                                                              <section class="footer-block">
+                                                                <h4>
+                                                                  Notros
+                                                                </h4>
                                                                 <div class="block_content toggle-footer">
                                                                   <ul class="bullet">
                                                                     <li>
-                                                                      <a title="Mis compras" rel="nofollow">Síguenos en nuestras redes sociales y dales LIKE</a>
+                                                                      <a href="Quien y que.php" title="Mis compras" rel="nofollow">¿Quiénes somos?<br>¿Qué hacemos?</a>
                                                                     </li>
                                                                         </ul>
                                                                 </div>
-                                                              </div>
-                                                            </section>
-                                                            <!-- /MODULE Block contact infos --><section id="social_block">
-                                                              <ul>
-                                                                      <li class="facebook">
-                                                                    <a target="_blank" href="https://www.facebook.com/AstorgusAsociados/" title="Facebook">
-                                                                      <span>Facebook</span>
-                                                                    </a>
-                                                                  </li>
-                                                                          <li class="twitter">
-                                                                    <a target="_blank" href="https://mobile.twitter.com/rs_textil" title="Twitter">
-                                                                      <span>Twitter</span>
-                                                                    </a>
-                                                                  </li>
-                                                                          <li class="youtube">
-                                                                    <a target="_blank" href="https://m.youtube.com/channel/UCl7PpI7rt27vB8qBAPXlA8g" title="Youtube">
-                                                                      <span>Youtube</span>
-                                                                    </a>
-                                                                  </li>
-                                                                              <li class="instagram">
-                                                                    <a class="_blank" href="https://www.instagram.com/astorgusasociados/">
-                                                                      <span>Instagram</span>
-                                                                    </a>
-                                                                  </li>
-                                                                  </ul>
-                                                              <h4>Síganos</h4>
-                                                            </section>
-                                                            <div class="clearfix"></div></div></div></div></div></div>
-                                                            <div class="wrapper it_BBNZRPDZHJXZ ">
-                                                            <div class="row it_RTICFYJVLNIL ">
-                                                            <div class="it_LNTHOJLQFGRA col-xs-12    footer_hidden">
-                                                            <!-- begin olark code -->
-                                                            <script data-cfasync="false" type='text/javascript'>
-                                                            /*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
-                                                            f[z]=function(){
-                                                            (a.s=a.s||[]).push(arguments)};var a=f[z]._={
-                                                            },q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
-                                                            f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
-                                                            0:+new Date};a.P=function(u){
-                                                            a.p[u]=new Date-a.p[0]};function s(){
-                                                            a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
-                                                            hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
-                                                            return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
-                                                            b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
-                                                            b.contentWindow[g].open()}catch(w){
-                                                            c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
-                                                            var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
-                                                            b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
-                                                            loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
+                                                              </section>
+                                                              <!-- /Block myaccount module --></div>
+                                                              <div class="it_CGFNKPAEBTMT col-xs-12 col-sm-4   "><!-- Block myaccount module -->
+                                                              <section class="footer-block">
 
-                                                            /* custom configuration goes here (www.olark.com/documentation) */
+                                                              </section>
+                                                              <!-- /Block myaccount module --></div>
+                                                              <div class="it_PVMULUPUDNYH col-xs-12 col-sm-4 col-md-4  "><!-- MODULE Block contact infos -->
+                                                              <section id="block_contact_infos" class="footer-block">
+                                                                <div>
+                                                                  <h4>Redes sociales</h4>
+                                                                  <div class="block_content toggle-footer">
+                                                                    <ul class="bullet">
+                                                                      <li>
+                                                                        <a title="Mis compras" rel="nofollow">Síguenos en nuestras redes sociales y dales LIKE</a>
+                                                                      </li>
+                                                                          </ul>
+                                                                  </div>
+                                                                </div>
+                                                              </section>
+                                                              <!-- /MODULE Block contact infos --><section id="social_block">
+                                                                <ul>
+                                                                        <li class="facebook">
+                                                                      <a target="_blank" href="https://www.facebook.com/AstorgusAsociados/" title="Facebook">
+                                                                        <span>Facebook</span>
+                                                                      </a>
+                                                                    </li>
+                                                                            <li class="twitter">
+                                                                      <a target="_blank" href="https://mobile.twitter.com/rs_textil" title="Twitter">
+                                                                        <span>Twitter</span>
+                                                                      </a>
+                                                                    </li>
+                                                                            <li class="youtube">
+                                                                      <a target="_blank" href="https://m.youtube.com/channel/UCl7PpI7rt27vB8qBAPXlA8g" title="Youtube">
+                                                                        <span>Youtube</span>
+                                                                      </a>
+                                                                    </li>
+                                                                                <li class="instagram">
+                                                                      <a class="_blank" href="https://www.instagram.com/astorgusasociados/">
+                                                                        <span>Instagram</span>
+                                                                      </a>
+                                                                    </li>
+                                                                    </ul>
+                                                                <h4>Síganos</h4>
+                                                              </section>
+                                                              <div class="clearfix"></div></div></div></div></div></div>
+                                                              <div class="wrapper it_BBNZRPDZHJXZ ">
+                                                              <div class="row it_RTICFYJVLNIL ">
+                                                              <div class="it_LNTHOJLQFGRA col-xs-12    footer_hidden">
+                                                              <!-- begin olark code -->
+                                                              <script data-cfasync="false" type='text/javascript'>
+                                                              /*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
+                                                              f[z]=function(){
+                                                              (a.s=a.s||[]).push(arguments)};var a=f[z]._={
+                                                              },q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
+                                                              f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
+                                                              0:+new Date};a.P=function(u){
+                                                              a.p[u]=new Date-a.p[0]};function s(){
+                                                              a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
+                                                              hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
+                                                              return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
+                                                              b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
+                                                              b.contentWindow[g].open()}catch(w){
+                                                              c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
+                                                              var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
+                                                              b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
+                                                              loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
 
-                                                            olark.identify('7830-582-10-3714');
+                                                              /* custom configuration goes here (www.olark.com/documentation) */
+
+                                                              olark.identify('7830-582-10-3714');
 
 
 
-                                                            /*]]>*/</script>
-                                                            <!-- end olark code --></div></div></div>
-                                                                                </div>
-                                                                                        </div>
-                                                                        </div><!-- #page -->
+                                                              /*]]>*/</script>
+                                                              <!-- end olark code --></div></div></div>
+                                                                                  </div>
+                                                                                          </div>
+                                                                          </div><!-- #page -->
 
 
-                                                            <script type="text/javascript" src="themes/theme1362/js/ga.js"></script>
-                                                            </body><!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.php?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');</script><!-- End Google Tag Manager --></html>
+                                                              <script type="text/javascript" src="themes/theme1362/js/ga.js"></script>
+                                                              </body><!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.php?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');</script><!-- End Google Tag Manager --></html>
