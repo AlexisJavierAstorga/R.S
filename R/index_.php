@@ -3,7 +3,7 @@ session_start();
 if(isset($_SESSION['u_usuario'])){
   echo "<script>alert('Bienvenido, ya puedes realizar tus compras!!')</script>";
 }else{
-  header("Location: index.php");
+  header("Location: index_.php");
 }
 ?>
 <!DOCTYPE HTML>
@@ -77,7 +77,7 @@ var FancyboxI18nPrev = 'Previo';
 var added_to_wishlist = 'El producto se ha añadido con éxito a su lista de deseos.';
 var ajax_allowed = true;
 var ajaxsearch = true;
-var baseDir = 'index.php';
+var baseDir = 'index_.php';
 var blocking_popup = '1';
 var comparator_max_item = 2;
 var comparedProductsIds = [];
@@ -110,8 +110,8 @@ var l_code = 'es_ES';
 var loggin_required = 'Debe identificarse para administrar su lista de deseos.';
 var max_item = 'No puede comparar más de 2 productos';
 var min_item = 'Debe elegir al menos un producto';
-var module_url = 'index.php';
-var mywishlist_url = 'login.php';
+var module_url = 'index_.php';
+var mywishlist_url = 'loginlog.php';
 var nbItemsPerLine = 4;
 var nbItemsPerLineMobile = 2;
 var nbItemsPerLineTablet = 3;
@@ -123,7 +123,7 @@ var priceDisplayPrecision = 2;
 var quickView = true;
 var removingLinkText = 'eliminar este producto de mi carrito';
 var roundMode = 2;
-var search_url_local = 'carta.php';
+var search_url_local = 'cartalog.php';
 var static_token = '52fc77373dab56446353c7986f8743d9';
 var tm_cps_carousel_auto = 0;
 var tm_cps_carousel_auto_control = 0;
@@ -248,7 +248,7 @@ var wishlistProductsIds = false;
     <div class="current header_user_info"><a href="#" onclick="return false;"> Tu cuenta </a></div>
     <ul id="header-login-content" class="toogle_content">
                     <li>
-                <form action="existe.php" method="post" id="header_login_form">
+                <form action="existelog.php" method="post" id="header_login_form">
                     <div id="create_header_account_error" class="alert alert-danger" style="display:none;"></div>
                     <div class="form_content clearfix">
                         <p>
@@ -267,43 +267,43 @@ var wishlistProductsIds = false;
                 </div>
               </div>
             </div>
-                    <div class="top">
-            <div class="container">
-              <div class="row">
-                <div id="header_logo">
-                  <a href="index_.php" title="R.S. Textil">
-                    <img class="logo img-responsive" src="themes/theme1362/img/icon/logo/LOGO.jpg" alt="R.S. Textil" width="275" height="71"/>
-                  </a>
-                </div>
+            <div class="top">
+    <div class="container">
+      <div class="row">
+        <div id="header_logo">
+          <a href="index_.php" title="R.S. Textil">
+            <img class="logo img-responsive" src="themes/theme1362/img/icon/logo/LOGO.jpg" alt="R.S. Textil" width="275" height="71"/>
+          </a>
+        </div>
 
 
-            <div class="top_menu top-level rs">
-            <div class="menu-title tmmegamenu_item">Menú</div>
-            <!-- Inicia Menu desplegable-->
-            <ul class="menu clearfix top-level-menu tmmegamenu_item">
-              <li class=" top-level-menu-li tmmegamenu_item it_22797818">
-                <a class="it_22797818 top-level-menu-li-a tmmegamenu_item" href="index_.php">Inicio </a>
-              </li>
-              <li class=" top-level-menu-li tmmegamenu_item it_06944254">
-                <!-- Comienza primer nav-->
-                <a class="it_06944254 top-level-menu-li-a tmmegamenu_item" href="compraslog.php">Compras</a>
-              </li>
+    <div class="top_menu top-level rs">
+    <div class="menu-title tmmegamenu_item">Menú</div>
+    <!-- Inicia Menu desplegable-->
+    <ul class="menu clearfix top-level-menu tmmegamenu_item">
+      <li class=" top-level-menu-li tmmegamenu_item it_22797818">
+        <a class="it_22797818 top-level-menu-li-a tmmegamenu_item" href="index_.php">Inicio </a>
+      </li>
+      <li class=" top-level-menu-li tmmegamenu_item it_06944254">
+        <!-- Comienza primer nav-->
+        <a class="it_06944254 top-level-menu-li-a tmmegamenu_item" href="compraslog.php">Compras</a>
+      </li>
 
-              <!-- Comienza segundo nav-->
-              <li class=" top-level-menu-li tmmegamenu_item it_19773019">
-              <a class="it_19773019 top-level-menu-li-a tmmegamenu_item" href="productoslog.php">Productos</a>
-              </li>
+      <!-- Comienza segundo nav-->
+      <li class=" top-level-menu-li tmmegamenu_item it_19773019">
+      <a class="it_19773019 top-level-menu-li-a tmmegamenu_item" href="productoslog.php">Productos</a>
+      </li>
 <li class=" top-level-menu-li tmmegamenu_item it_22797818">
-  <a class="it_22797818 top-level-menu-li-a tmmegamenu_item" href="#">Facturación </a>
+<a class="it_22797818 top-level-menu-li-a tmmegamenu_item" href="#">Facturación </a>
 </li>
-<li class=" top-level-menu-li tmmegamenu_item it_29705307"><a class="it_29705307 top-level-menu-li-a tmmegamenu_item" href="perfillog.php"> Perfil</a></li></ul>
+<li class=" top-level-menu-li tmmegamenu_item it_29705307"><a class="it_29705307 top-level-menu-li-a tmmegamenu_item" href="perfilloglog.php"> Perfil</a></li></ul>
 
-            </div>
-              </div>
-            </div>
-          </div>
-        </header>
+    </div>
       </div>
+    </div>
+  </div>
+</header>
+</div>
       <div class="columns-container">
 
 <div class="wrapper it_RBTBAWPZQVDN mg_mod">
@@ -312,7 +312,7 @@ var wishlistProductsIds = false;
       <div id="homepage-slider">
             <ul id="homeslider" style="max-height:812px;">
                               <li class="homeslider-container">
-              <a href="productos.php" title="Gran marca">
+              <a href="productosloglog.php" title="Gran marca">
                 <img src="themes/theme1362/img/index/slider/rs1.jpg" width="1920" height="812" alt="Gran marca" />
               </a>
                               <div class="homeslider-description"><h2>Grandes marcas usan nuestros diseños</h2>
@@ -320,7 +320,7 @@ var wishlistProductsIds = false;
 <p><button class="btn btn-default"><span>Cómpralo ya!</span></button></p></div>
                           </li>
                                         <li class="homeslider-container">
-              <a href="productos.php" title="Dis estupendo">
+              <a href="productosloglog.php" title="Dis estupendo">
                 <img src="themes/theme1362/img/index/slider/rs2.jpg" width="1920" height="812" alt="Dis estupendo" />
               </a>
                               <div class="homeslider-description"><h2>Diseños estupendos para ti</h2>
@@ -328,7 +328,7 @@ var wishlistProductsIds = false;
 <p><button class="btn btn-default"><span>Cómpralo ya!</span></button></p></div>
                           </li>
                                         <li class="homeslider-container">
-              <a href="productos.php" title="Deseo">
+              <a href="productosloglog.php" title="Deseo">
                 <img src="themes/theme1362/img/index/slider/rs5.jpg" width="1920" height="812" alt="Deseo" />
               </a>
                               <div class="homeslider-description"><h2>Tus deseos son realidad</h2>
@@ -343,7 +343,7 @@ var wishlistProductsIds = false;
 <div class="it_JGJRPDEGLFSK col-xs-12 col-sm-3   wrap-1-top-1-div">    <div id="htmlcontent_top">
     <ul class="htmlcontent-home clearfix row">
               <li class="htmlcontent-item-1 col-xs-4">
-                      <a href="#" class="item-link" title="">
+                      <a href="productosloglog.php" class="item-link" title="">
                                     <img src="themes/theme1362/img/index/rs6.jpg" class="item-img" title="" alt="" width="471" height="608"/>
                                                   <div class="item-html">
                 <h2>50%
@@ -431,7 +431,7 @@ off</h2>
     <meta itemprop="bestRating" content = "5" />
     </div><br>
     <?php
-      echo "<a href='desc.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+      echo "<a href='desclog.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
     ?>
     </div>
     </div>
@@ -446,7 +446,7 @@ off</h2>
       <div class="product-container">
         <div class="left-block">
           <div class="product-image-container">
-            <a  href="desc1.html" title="Tappib" itemprop="url">
+            <a  href="desc1log.php" title="Tappib" itemprop="url">
               <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c2.jpg" alt="Tappib" title="Tappib" itemprop="image" />
 
             </a>
@@ -503,7 +503,7 @@ off</h2>
     <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
     </div><br>
     <?php
-    echo "<a href='desc1.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='desc1log.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
     ?>
             </div>
                                   </div>
@@ -518,12 +518,12 @@ off</h2>
       <div class="product-container">
         <div class="left-block">
           <div class="product-image-container">
-            <a  href="desc2.html" title="Casual Hollow Lace" itemprop="url">
+            <a  href="desc2log.php" title="Casual Hollow Lace" itemprop="url">
               <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c3.jpg" alt="Casual Hollow Lace" title="Casual Hollow Lace" itemprop="image" />
 
             </a>
 
-                                          <a class="sale-box" href="desc2.html">
+                                          <a class="sale-box" href="desc2log.php">
                 <span class="sale-label">&iexcl;Oferta!</span>
               </a>
                         </div>
@@ -531,7 +531,7 @@ off</h2>
         </div>
         <div class="right-block">
           <h5 itemprop="name">
-                          <a class="product-name" href="desc2.html" title="Casual Hollow Lace" itemprop="url" >
+                          <a class="product-name" href="desc2log.php" title="Casual Hollow Lace" itemprop="url" >
               <span class="list-name">Casual Hollow Lace</span>
               <span class="grid-name">Casual Hollow Lace</span>
             </a>
@@ -575,7 +575,7 @@ off</h2>
     <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
     </div><br>
     <?php
-    echo "<a href='desc2.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='desc2log.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
     ?>
             </div>
 
@@ -592,12 +592,12 @@ off</h2>
       <div class="product-container">
         <div class="left-block">
           <div class="product-image-container">
-            <a  href="desc3.html" title="Loose Floral" itemprop="url">
+            <a  href="desc3log.php" title="Loose Floral" itemprop="url">
               <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c4.jpg" alt="Loose Floral" title="Loose Floral" itemprop="image" />
 
             </a>
 
-                                          <a class="sale-box" href="desc3.html">
+                                          <a class="sale-box" href="desc3log.php">
                 <span class="sale-label">&iexcl;Oferta!</span>
               </a>
                         </div>
@@ -605,7 +605,7 @@ off</h2>
         </div>
         <div class="right-block">
           <h5 itemprop="name">
-                          <a class="product-name" href="desc3.html" title="Loose Floral" itemprop="url" >
+                          <a class="product-name" href="desc3log.php" title="Loose Floral" itemprop="url" >
               <span class="list-name">Loose Floral</span>
               <span class="grid-name">Loose Floral</span>
             </a>
@@ -649,7 +649,7 @@ off</h2>
     <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
     </div><br>
     <?php
-    echo "<a href='desc3.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='desc3log.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
     ?>
             </div>
 
@@ -666,12 +666,12 @@ off</h2>
       <div class="product-container">
         <div class="left-block">
           <div class="product-image-container">
-            <a  href="desc4.html" title="Blusa azul con cenefa" itemprop="url">
+            <a  href="desc4log.php" title="Blusa azul con cenefa" itemprop="url">
               <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c5.jpg" alt="Blusa azul con cenefa" title="Blusa azul con cenefa" itemprop="image" />
 
             </a>
 
-                                          <a class="sale-box" href="desc4.html">
+                                          <a class="sale-box" href="desc4log.php">
                 <span class="sale-label">&iexcl;Oferta!</span>
               </a>
                         </div>
@@ -679,7 +679,7 @@ off</h2>
         </div>
         <div class="right-block">
           <h5 itemprop="name">
-                          <a class="product-name" href="desc4.html" title="Blusa azul con cenefa" itemprop="url" >
+                          <a class="product-name" href="desc4log.php" title="Blusa azul con cenefa" itemprop="url" >
               <span class="list-name">Blusa azul con cenefa</span>
               <span class="grid-name">Blusa azul con cenefa</span>
             </a>
@@ -717,7 +717,7 @@ off</h2>
     <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
     </div><br>
     <?php
-    echo "<a href='desc4.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='desc4log.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
     ?>
             </div>
 
@@ -734,12 +734,12 @@ off</h2>
       <div class="product-container">
         <div class="left-block">
           <div class="product-image-container">
-            <a  href="desc5.html" title="Lady Flor" itemprop="url">
+            <a  href="desc5log.php" title="Lady Flor" itemprop="url">
               <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c6.jpg" alt="Lady Flor" title="Lady Flor" itemprop="image" />
 
             </a>
 
-                                          <a class="sale-box" href="desc5.html">
+                                          <a class="sale-box" href="desc5log.php">
                 <span class="sale-label">&iexcl;Oferta!</span>
               </a>
                         </div>
@@ -747,7 +747,7 @@ off</h2>
         </div>
         <div class="right-block">
           <h5 itemprop="name">
-                          <a class="product-name" href="desc5.html" title="Lady Flor" itemprop="url" >
+                          <a class="product-name" href="desc5log.php" title="Lady Flor" itemprop="url" >
               <span class="list-name">Lady Flor</span>
               <span class="grid-name">Lady Flor</span>
             </a>
@@ -785,7 +785,7 @@ off</h2>
     <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
     </div><br>
     <?php
-    echo "<a href='desc5.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='desc5log.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
     ?>
             </div>
                                   </div>
@@ -805,7 +805,7 @@ off</h2>
 
             </a>
 
-                                          <a class="sale-box" href="desc6.html">
+                                          <a class="sale-box" href="desc6log.php">
                 <span class="sale-label">&iexcl;Oferta!</span>
               </a>
                         </div>
@@ -813,7 +813,7 @@ off</h2>
         </div>
         <div class="right-block">
           <h5 itemprop="name">
-                          <a class="product-name" href="desc6.html" title="Bleu" itemprop="url" >
+                          <a class="product-name" href="desc6log.php" title="Bleu" itemprop="url" >
               <span class="list-name">Bleu</span>
               <span class="grid-name">Bleu</span>
             </a>
@@ -851,7 +851,7 @@ off</h2>
     <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
     </div><br>
     <?php
-    echo "<a href='desc6.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='desc6log.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
     ?>
             </div>
 
@@ -868,12 +868,12 @@ off</h2>
       <div class="product-container">
         <div class="left-block">
           <div class="product-image-container">
-            <a  href="desc7.html" title="Canesú Jean" itemprop="url">
+            <a  href="desc7log.php" title="Canesú Jean" itemprop="url">
               <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c8.jpg" alt="Canesú Jean" title="Canesú Jean" itemprop="image" />
 
             </a>
 
-                                          <a class="sale-box" href="desc7.html">
+                                          <a class="sale-box" href="desc7log.php">
                 <span class="sale-label">&iexcl;Oferta!</span>
               </a>
                         </div>
@@ -881,7 +881,7 @@ off</h2>
         </div>
         <div class="right-block">
           <h5 itemprop="name">
-                          <a class="product-name" href="desc7.html" title="Canesú Jean" itemprop="url" >
+                          <a class="product-name" href="desc7log.php" title="Canesú Jean" itemprop="url" >
               <span class="list-name">Canesú Jean</span>
               <span class="grid-name">Canesú Jean</span>
             </a>
@@ -919,7 +919,7 @@ off</h2>
     <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
     </div><br>
     <?php
-    echo "<a href='desc7.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='desc7log.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
     ?>
             </div>
                                   </div>
@@ -1078,12 +1078,12 @@ off</h2>
                                           <h4>Información</h4>
                                           <ul class="toggle-footer">
                                                                       <li class="item">
-                                                <a href="terminoslog.php" title="Nuestras tiendas">
+                                                <a href="terminosloglog.php" title="Nuestras tiendas">
                                                   Términos y condiciones
                                                 </a>
                                               </li>
                                                           <li class="item">
-                                                <a href="Avisolog.php" title="Términos y condiciones">
+                                                <a href="Avisologlog.php" title="Términos y condiciones">
                                                   Aviso de privacidad
                                                 </a>
                                               </li>
@@ -1092,7 +1092,7 @@ off</h2>
                                         </section>
                                             <div class="bottom-footer">
                                             <div class="container">
-                                              <a class="_blank" href="index_.php"> © 2017 - R.S. Textil </a>
+                                              <a class="_blank" href="index_log.php"> © 2017 - R.S. Textil </a>
                                             </div>
                                           </div>
                                           <!-- /Block CMS module footer -->
@@ -1105,7 +1105,7 @@ off</h2>
                                         <div class="block_content toggle-footer">
                                           <ul class="bullet">
                                             <li>
-                                              <a href="Quien y quelog.php" title="Mis compras" rel="nofollow">¿Quiénes somos?<br>¿Qué hacemos?</a>
+                                              <a href="Quien y queloglog.php" title="Mis compras" rel="nofollow">¿Quiénes somos?<br>¿Qué hacemos?</a>
                                             </li>
                                                 </ul>
                                         </div>
@@ -1191,4 +1191,4 @@ off</h2>
 
 
                                       <script type="text/javascript" src="themes/theme1362/js/ga.js"></script>
-                                      </body><!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');</script><!-- End Google Tag Manager --></html>
+                                      </body><!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/nslog.php?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');</script><!-- End Google Tag Manager --></html>

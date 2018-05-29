@@ -9,7 +9,7 @@ $fechaNacimiento = $_POST["fecha"];
 $password = $_POST["password"];
 //$rpassword = $_POST["rpassword"];
 $estado = $_POST["estados"];
-$municipio = $_POST["municipio"];
+//$municipio = $_POST["municipio"];
 $delegacion = $_POST["delegacion"];
 $colonia = $_POST["colonia"];
 $calle = $_POST["calle"];
@@ -18,7 +18,7 @@ $numin = $_POST["numin"];
 $postal = $_POST["postal"];
 //mysqli_select_db('rs') or die ("Error al conectar con la base de datos");
 
-	$insertar = " INSERT INTO tbl_clientes (correo, nombre, apellidoPaterno, apellidoMaterno, fechaNacimiento, estado, municipio, delegacion, colonia, calle, numeroExterior, numeroInterior, codigoPostal, password) VALUES ('$correo','$nombre','$apellidoPaterno','$apellidoMaterno','$fechaNacimiento','$estado','$municipio','$delegacion','$colonia','$calle','$numex','$numin','$postal','$password')";
+	$insertar = " INSERT INTO tbl_clientes (nombre, apellidoPaterno, apellidoMaterno, fechaNacimiento, estado, delegacion, colonia, calle, numeroExterior, numeroInterior, codigoPostal, correo, password) VALUES ('$nombre','$apellidoPaterno','$apellidoMaterno','$fechaNacimiento','$estado','$delegacion','$colonia','$calle','$numex','$numin','$postal','$correo','$password')";
 
 	$verificar_usuario = mysqli_query($con, "SELECT * FROM tbl_clientes WHERE correo = '$correo'");
 	if (mysqli_num_rows($verificar_usuario) > 0){
@@ -35,8 +35,7 @@ $postal = $_POST["postal"];
 		alert("Error al registrarse");
 		window.history.go(-1);
 		</script>';
-		$borrar = mysqli_query($con,"DELETE FROM tbl_clientes WHERE IDCLI='' ");
-
+mysqli_close($con);
 	}else{
 		echo '<script>
 		alert("Ya estas registrado, prueba tu cuenta");
@@ -44,5 +43,4 @@ $postal = $_POST["postal"];
 		</script>';
 	}
 	//Cerrar conexion
-	mysqli_close($con);
 ?>

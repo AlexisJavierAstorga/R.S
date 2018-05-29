@@ -154,6 +154,7 @@ var wishlistProductsIds = false;
 </script>
 
               <script src="js/combo.js"></script>
+              <script src="js/reg.js"></script>
               <script src="js/jquery.js"></script>
               <script src="js/emailvalidar.js"></script>
               <script src="js/limiteinput.js"></script>
@@ -347,33 +348,33 @@ var wishlistProductsIds = false;
  <label for="estado">Estado:</label><br>
  <select name="estados" onChange="habilitar(this.form)">
          <option value="0">Selecciona tu estado</option>
-         <option value="1">CDMX</option>
-         <option value="2">Estado de mexico</option>
+         <option value="CDMX">CDMX</option>
+         <!--option value="2">Estado de mexico</option -->
      </select><br><br>
 
-     <label for="municipio">Municipio:</label><br> <input type="text" name="municipio" maxlength="32" id="municipio" placeholder="Escribe tu municipio" autofocus required disabled><br><br>
+     <!--label for="municipio">Municipio:</label><br> <input type="text" name="municipio" maxlength="32" id="municipio" placeholder="Escribe tu municipio" autofocus required disabled><br><br-->
 
-     <label for="delegacion">Delegación:</label><br><select name="delegacion" id='delegacion' autofocus required disabled>
+     <label for="delegacion">Delegación:</label><br><select name="delegacion" id='delegacion' autofocus required >
            <option value="0">Selecciona tu delegación</option>
-           <option value="1">Álvaro Obregón</option>
-           <option value="2">Azcapotzalco</option>
-           <option value="3">Benito Juárez</option>
-           <option value="4">Coyoacán</option>
-           <option value="5">Cuajimalpa</option>
-           <option value="6">Cuauhtémoc</option>
-           <option value="7">Gustavo A. Madero</option>
-           <option value="8">Iztacalco</option>
-           <option value="9">Iztapalapa</option>
-           <option value="10">Magdalena Contreras</option>
-           <option value="11">Miguel Hidalgo</option>
-           <option value="12">Milpa Alta</option>
-           <option value="13">Tláhuac</option>
-           <option value="14">Tlalpan</option>
-           <option value="15">Venustiano Carranza</option>
-           <option value="16">Xochimilco</option>
+           <option value="Álvaro Obregón">Álvaro Obregón</option>
+           <option value="Azcapotzalco">Azcapotzalco</option>
+           <option value="Benito Juárez">Benito Juárez</option>
+           <option value="Coyoacán">Coyoacán</option>
+           <option value="Cuajimalpa">Cuajimalpa</option>
+           <option value="Cuauhtémoc">Cuauhtémoc</option>
+           <option value="Gustavo A. Madero">Gustavo A. Madero</option>
+           <option value="Iztacalco">Iztacalco</option>
+           <option value="Iztapalapa">Iztapalapa</option>
+           <option value="Magdalena Contreras">Magdalena Contreras</option>
+           <option value="Miguel Hidalgo">Miguel Hidalgo</option>
+           <option value="Milpa Alta">Milpa Alta</option>
+           <option value="Tláhuac">Tláhuac</option>
+           <option value="Tlalpan">Tlalpan</option>
+           <option value="Venustiano Carranza">Venustiano Carranza</option>
+           <option value="Xochimilco">Xochimilco</option>
        </select><br><br>
 
-<label for="colonia">Colonia:</label><br> <input type="text" name="colonia" maxlength="32" id="colonia" placeholder="Escribe tu colonia" autofocus required disabled><br><br>
+<label for="colonia">Colonia:</label><br> <input type="text" name="colonia" maxlength="32" id="colonia" placeholder="Escribe tu colonia" autofocus required ><br><br>
 
 <label for="calle">Calle:</label><br> <input type="text" name="calle" maxlength="32" id="calle" placeholder="Escribe la calle" autofocus required><br><br>
 

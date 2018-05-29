@@ -1,5 +1,38 @@
+
 <?php
+// Parse the log in form if the user has filled it out and pressed "Log In"
 session_start();
+if (isset($_POST["u_usuario"]) && isset($_POST["password"])) {
+
+    $manager = preg_replace('#[^A-Za-z0-9]#i', '', $_POST["u_usuario"]); // filter everything but numbers and letters
+    $password = (!empty($_POST['password'])) ? sha1($_POST['password']) : ''; // filter everything but numbers and letters
+    // Connect to the MySQL database
+    include("conexion.php");
+
+    $sql = " SELECT tbl_clientes.IDCLI,TBL_INVENTARIOVENTAS.Cliente
+        FROM tbl_clientes
+        INNER JOIN TBL_INVENTARIOVENTAS ON 
+        WHERE members.email = '$manager'
+        AND members.password = '$password'
+    ";
+    // query the person
+    // ------- MAKE SURE PERSON EXISTS IN DATABASE ---------
+    $query = mysqli_query($con, $sql);
+    if (!$query) {
+        die(mysqli_error($con));
+    }
+    $existCount = mysqli_num_rows($query); // count the row nums
+    if ($existCount == 1) { // evaluate the count
+        $row = mysqli_fetch_array($query, MYSQLI_ASSOC);
+        $_SESSION["id"] = $row["id"];
+        $_SESSION["manager"] = $manager;
+        $_SESSION["password"] = $password;
+        exit();
+    } else {
+
+        exit();
+    }
+}
 ?>
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="es-es"><![endif]-->
@@ -306,14 +339,18 @@ var wishlistProductsIds = false;
 <form action="compracl.php" method="post" >
 <table width = "650px" border = "1" cellpadding="0" cellspacing="0">
 <tr>
+<th><center>Cliente </center></th>
 <th><center>Producto </center></th>
 <th><center>Cantidad producto</center></th>
 <th><center>Total </center></th>
 <th><center>Fecha de compra </center></th>
 </tr>
 <tr>
-<td> <center><?php $_SESSION['id']?> </center> </td>
-
+<td> <center><?php echo $_SESSION['cliente']; ?> </center> </td>
+<td> <center><?php echo $_SESSION['producto']; ?> </center> </td>
+<td> <center><?php echo $_SESSION['cantidad']; ?> </center> </td>
+<td> <center><?php echo $_SESSION['total']; ?> </center> </td>
+<td> <center><?php echo $_SESSION['fecha1']; ?> </center> </td>
 </tr>
 </table>
 </form>
