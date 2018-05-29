@@ -468,7 +468,7 @@ var wishlistProductsIds = false;
      echo $_SESSION['u_usuario'];
  ?><br><br>
  <label >Id del producto:</label><br>
- <input value="1" readonly name="id"><br>
+ <input value="1" readonly name="id" size="1"><br>
  <h3>Dirección</h3><br>
  <label for="estado">Estado:</label><br>
  <select name="estados" onChange="habilitar(this.form)" >
