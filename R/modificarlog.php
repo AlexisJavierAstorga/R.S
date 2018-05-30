@@ -161,7 +161,8 @@ var wishlistProductsIds = false;
 </script>
 
 
-              <script src="js/combo.js"></script>
+              <<script src="js/combo.js"></script>
+              <script src="js/reg.js"></script>
               <script src="js/jquery.js"></script>
               <script src="js/emailvalidar.js"></script>
               <script src="js/limiteinput.js"></script>
@@ -350,56 +351,60 @@ var wishlistProductsIds = false;
 
 <label for="email">Correo electrónico:</label><br>
 <?php
-    echo $_SESSION['u_usuario'];
+    echo "<input type='text' name='email' value='".$_SESSION["u_usuario"]."' >";
 ?>
 
 <br>
- <h3>Dirección</h3><br>
- <label for="estado">Estado:</label><br>
- <select name="estados" onChange="habilitar(this.form)">
-         <option value="0">Selecciona tu estado</option>
-         <option value="1">CDMX</option>
-         <option value="2">Estado de mexico</option>
-     </select><br><br>
+<h3>Dirección</h3><br>
+<label for="estado">Estado:</label><br>
+<?php
+  echo "<input type='text' name='email' value='".$_SESSION['estado']."' readonly>";
+ ?>
+ <br><br>
 
-     <label for="municipio">Municipio:</label><br> <input type="text" name="municipio" maxlength="32" id="municipio" placeholder="Escribe tu municipio" autofocus required disabled><br><br>
+    <!--label for="municipio">Municipio:</label><br> <input type="text" name="municipio" maxlength="32" id="municipio" placeholder="Escribe tu municipio" disabled><br><br-->
+    <?php
+      echo "Tu delegacion: ".$_SESSION["delegacion"]."";
+     ?>
+    <br>
+    <label for="delegacion">Nueva delegación:</label><br><select name="delegacion" id='delegacion' >
+          <option value="0">Selecciona tu delegación</option>
+          <option value="Álvaro Obregón">Álvaro Obregón</option>
+          <option value="Azcapotzalco">Azcapotzalco</option>
+          <option value="Benito Juárez">Benito Juárez</option>
+          <option value="Coyoacán">Coyoacán</option>
+          <option value="Cuajimalpa">Cuajimalpa</option>
+          <option value="Cuauhtémoc">Cuauhtémoc</option>
+          <option value="Gustavo A. Madero">Gustavo A. Madero</option>
+          <option value="Iztacalco">Iztacalco</option>
+          <option value="Iztapalapa">Iztapalapa</option>
+          <option value="Magdalena Contreras">Magdalena Contreras</option>
+          <option value="Miguel Hidalgo">Miguel Hidalgo</option>
+          <option value="Milpa Alta">Milpa Alta</option>
+          <option value="Tláhuac">Tláhuac</option>
+          <option value="Tlalpan">Tlalpan</option>
+          <option value="Venustiano Carranza">Venustiano Carranza</option>
+          <option value="Xochimilco">Xochimilco</option>
+      </select><br><br>
 
-     <label for="delegacion">Delegación:</label><br><select name="delegacion" id='delegacion' autofocus required disabled>
-           <option value="0">Selecciona tu delegación</option>
-           <option value="1">Álvaro Obregón</option>
-           <option value="2">Azcapotzalco</option>
-           <option value="3">Benito Juárez</option>
-           <option value="4">Coyoacán</option>
-           <option value="5">Cuajimalpa</option>
-           <option value="6">Cuauhtémoc</option>
-           <option value="7">Gustavo A. Madero</option>
-           <option value="8">Iztacalco</option>
-           <option value="9">Iztapalapa</option>
-           <option value="10">Magdalena Contreras</option>
-           <option value="11">Miguel Hidalgo</option>
-           <option value="12">Milpa Alta</option>
-           <option value="13">Tláhuac</option>
-           <option value="14">Tlalpan</option>
-           <option value="15">Venustiano Carranza</option>
-           <option value="16">Xochimilco</option>
-       </select><br><br>
+<label for="colonia">Colonia:</label><br> <input type="text" name="colonia" maxlength="32" id="colonia" placeholder="Escribe tu colonia"><br><br>
 
-<label for="colonia">Colonia:</label><br> <input type="text" name="colonia" maxlength="32" id="colonia" placeholder="Escribe tu colonia" autofocus required disabled><br><br>
+<label for="calle">Nueva calle:</label><br> <input type="text" name="calle" maxlength="32" id="calle" placeholder="Escribe la calle"><br><br>
 
-<label for="calle">Calle:</label><br> <input type="text" name="calle" maxlength="32" id="calle" placeholder="Escribe la calle" autofocus required><br><br>
+<label for="numex">Nuevo número exterior:</label><br>
+<input type="text" name="numex" size="20" maxlength="5" id="numex" placeholder="Num. exterior" onkeypress="return valida(event)"><br><br>
 
-<label for="numex">Número exterior:</label><br>
- <input type="text" name="numex" size="20" maxlength="5" id="numex" placeholder="Num. exterior" autofocus required onkeypress="return valida(event)"><br><br>
 
-<label for="numin">Número interior:</label><br> <input type="text" name="numin" maxlength="5" id="numin" placeholder="Num. interior" autofocus required onkeypress="return valida(event)"><br><br>
+<label for="numin">Nuevo número interior:</label><br> <input type="text" name="numin" maxlength="5" id="numin" placeholder="Num. interior" onkeypress="return valida(event)"><br><br>
 
-<label for="postal">Código postal:</label><br> <input type="text" name="postal" maxlength="5" id="postal" placeholder="05069" autofocus required onkeypress="return valida(event)"><br><br>
+
+<label for="postal">Nuevo código postal:</label><br> <input type="text" name="postal" maxlength="5" id="postal" placeholder="05069" onkeypress="return valida(event)"><br><br>
  <!--Nombre Usuario-->
                           <input type="hidden" class="hidden" name="back" value="my-account" />
                         <button type="submit" id="SubmitModificar" name="SubmitModificar" class="btn btn-default btn-md">
               <span>
                 <i class="fa left"></i>
-                Modificar
+                Actualizar
               </span>
             </button>
 
