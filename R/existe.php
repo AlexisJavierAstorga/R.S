@@ -6,12 +6,12 @@ $password=$_POST['password'];
 
 include("conexion.php");
 
-//$proceso = $con->query("SELECT correo,password FROM tbl_clientes WHERE correo = '$usuario' AND password = '$password' ");
 $proceso = $con->query("SELECT * FROM tbl_clientes WHERE correo = '$usuario' AND password = '$password' ");
 
 if($resultado = mysqli_fetch_array($proceso)){
 
-$_SESSION['id'] = $resultado['IDCLI'];
+  $_SESSION['id'] = $resultado['IDCLI'];
+
   $_SESSION['u_usuario'] = $resultado['correo'];
   $_SESSION['nombre'] = $resultado['nombre'];
   $_SESSION['apellidoPat'] = $resultado['apellidoPaterno'];

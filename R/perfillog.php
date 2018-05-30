@@ -423,7 +423,7 @@ var wishlistProductsIds = false;
             </button>
       </form>
       <?php
-          echo "<a href='modificar.php'><button class='btn btn-default'><span>Modificar</span></button></a>";
+          echo "<a href='modificarlog.php'><button class='btn btn-default'><span>Modificar</span></button></a>";
       ?>
     </div>
   </div>

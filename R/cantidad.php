@@ -3,7 +3,7 @@ session_start();
 include("conexion.php");
 $result = mysqli_query($con, "SELECT cantidad FROM tbl_inventarioProductos WHERE nombre='Cuadrib'");
 if ($row = mysqli_fetch_array($result)){
-  $_SESSION['cantidad']=$row["cantidad"];
+  $row["cantidad"];
 } else {
 echo "¡ No se ha encontrado ningún registro !";
 }

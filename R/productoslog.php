@@ -1,5 +1,9 @@
 <?php
 session_start();
+if(isset($_SESSION['u_usuario'])){
+}else{
+  header("Location: index.php");
+}
 ?>
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="es-es"><![endif]-->
@@ -340,12 +344,16 @@ var wishlistProductsIds = false;
             <span class="list-desc">Vete elegante a cualquier parte con nuestra moda huichol.</span>
             <span class="grid-desc">Vete elegante a cualquier parte...</span>
           </p>
-          <p>
-            <span class="grid-desc">Cantidad: ...</span>
-          </p>
-          <p>
-            <span class="grid-desc">Tallas: S, M, L, XL</span>
-          </p>
+          <?php
+          include("conexion.php");
+          $result = mysqli_query($con, "SELECT cantidad,talla FROM tbl_inventarioProductos WHERE nombre='Cuadrib'");
+          if ($row = mysqli_fetch_array($result)){
+            echo "<p><span class='grid-desc'>Cantidad: ".$row["cantidad"]."</span></p>";
+            echo "<p><span class='grid-desc'>Tallas: ".$row["talla"]."</span></p>";
+          } else {
+          echo "¡ No se ha encontrado ningún registro !";
+          }
+          ?>
                         <div class="content_price">
 
                 <span class="price product-price product-price-new">
@@ -371,7 +379,7 @@ var wishlistProductsIds = false;
                   <meta itemprop="worstRating" content = "0" />
     <meta itemprop="ratingValue" content = "3" />
     <meta itemprop="bestRating" content = "5" />
-  </div><br>
+  </div><br><br>
   <?php
       echo "<a href='desc.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
   ?>
@@ -410,12 +418,16 @@ var wishlistProductsIds = false;
             <span class="list-desc">A que no sabías que podemos ser más frescos con nuestros nuevos modelos de huichol.</span>
             <span class="grid-desc">A que no sabías que podemos ser más frescos...</span>
           </p>
-          <p>
-            <span class="grid-desc">Cantidad: ...</span>
-          </p>
-          <p>
-            <span class="grid-desc">Tallas: S, M, L, XL</span>
-          </p>
+          <?php
+          include("conexion.php");
+          $result = mysqli_query($con, "SELECT cantidad,talla FROM tbl_inventarioProductos WHERE nombre='Tappib'");
+          if ($row = mysqli_fetch_array($result)){
+            echo "<p><span class='grid-desc'>Cantidad: ".$row["cantidad"]."</span></p>";
+            echo "<p><span class='grid-desc'>Tallas: ".$row["talla"]."</span></p>";
+          } else {
+          echo "¡ No se ha encontrado ningún registro !";
+          }
+          ?>
                         <div class="content_price">
 
                 <span class="price product-price product-price-new">
@@ -482,12 +494,16 @@ var wishlistProductsIds = false;
             <span class="list-desc">La prenda más popular para estar a la moda.</span>
             <span class="grid-desc">La prenda más popular para...</span>
           </p>
-          <p>
-            <span class="grid-desc">Cantidad: ...</span>
-          </p>
-          <p>
-            <span class="grid-desc">Tallas: S, M, L, XL</span>
-          </p>
+          <?php
+          include("conexion.php");
+          $result = mysqli_query($con, "SELECT cantidad,talla FROM tbl_inventarioProductos WHERE nombre='Casual hollow lace'");
+          if ($row = mysqli_fetch_array($result)){
+            echo "<p><span class='grid-desc'>Cantidad: ".$row["cantidad"]."</span></p>";
+            echo "<p><span class='grid-desc'>Tallas: ".$row["talla"]."</span></p>";
+          } else {
+          echo "¡ No se ha encontrado ningún registro !";
+          }
+          ?>
                         <div class="content_price">
 
                 <span class="price product-price product-price-new">
@@ -556,12 +572,16 @@ var wishlistProductsIds = false;
             <span class="list-desc">Lo nuevo que Ricardo Seco tiene solo para ti.</span>
             <span class="grid-desc">Lo nuevo que Ricardo Seco...</span>
           </p>
-          <p>
-            <span class="grid-desc">Cantidad: ...</span>
-          </p>
-          <p>
-            <span class="grid-desc">Tallas: S, M, L, XL</span>
-          </p>
+          <?php
+          include("conexion.php");
+          $result = mysqli_query($con, "SELECT cantidad,talla FROM tbl_inventarioProductos WHERE nombre='Loose floral'");
+          if ($row = mysqli_fetch_array($result)){
+            echo "<p><span class='grid-desc'>Cantidad: ".$row["cantidad"]."</span></p>";
+            echo "<p><span class='grid-desc'>Tallas: ".$row["talla"]."</span></p>";
+          } else {
+          echo "¡ No se ha encontrado ningún registro !";
+          }
+          ?>
                         <div class="content_price">
 
                 <span class="price product-price product-price-new">
@@ -630,12 +650,16 @@ var wishlistProductsIds = false;
             <span class="list-desc">Luce elegante con esta blusa.</span>
             <span class="grid-desc">Luce elegante con...</span>
           </p>
-          <p>
-            <span class="grid-desc">Cantidad: ...</span>
-          </p>
-          <p>
-            <span class="grid-desc">Tallas: S, M, L, XL</span>
-          </p>
+          <?php
+          include("conexion.php");
+          $result = mysqli_query($con, "SELECT cantidad,talla FROM tbl_inventarioProductos WHERE nombre='Blusa azul con cenefa'");
+          if ($row = mysqli_fetch_array($result)){
+            echo "<p><span class='grid-desc'>Cantidad: ".$row["cantidad"]."</span></p>";
+            echo "<p><span class='grid-desc'>Tallas: ".$row["talla"]."</span></p>";
+          } else {
+          echo "¡ No se ha encontrado ningún registro !";
+          }
+          ?>
                         <div class="content_price">
 
                 <span class="price product-price">
@@ -698,12 +722,16 @@ var wishlistProductsIds = false;
             <span class="list-desc">Esta blusa te hará sentir más fashion.</span>
             <span class="grid-desc">Esta blusa te hará...</span>
           </p>
-          <p>
-            <span class="grid-desc">Cantidad: ...</span>
-          </p>
-          <p>
-            <span class="grid-desc">Tallas: S, M, L, XL</span>
-          </p>
+          <?php
+          include("conexion.php");
+          $result = mysqli_query($con, "SELECT cantidad,talla FROM tbl_inventarioProductos WHERE nombre='Lady flor'");
+          if ($row = mysqli_fetch_array($result)){
+            echo "<p><span class='grid-desc'>Cantidad: ".$row["cantidad"]."</span></p>";
+            echo "<p><span class='grid-desc'>Tallas: ".$row["talla"]."</span></p>";
+          } else {
+          echo "¡ No se ha encontrado ningún registro !";
+          }
+          ?>
                         <div class="content_price">
 
                 <span class="price product-price">
@@ -764,12 +792,16 @@ var wishlistProductsIds = false;
             <span class="list-desc">Luce esta blusa para estar primaveral.</span>
             <span class="grid-desc">Luce esta blusa para...</span>
           </p>
-          <p>
-            <span class="grid-desc">Cantidad: ...</span>
-          </p>
-          <p>
-            <span class="grid-desc">Tallas: S, M, L, XL</span>
-          </p>
+          <?php
+          include("conexion.php");
+          $result = mysqli_query($con, "SELECT cantidad,talla FROM tbl_inventarioProductos WHERE nombre='Bleu'");
+          if ($row = mysqli_fetch_array($result)){
+            echo "<p><span class='grid-desc'>Cantidad: ".$row["cantidad"]."</span></p>";
+            echo "<p><span class='grid-desc'>Tallas: ".$row["talla"]."</span></p>";
+          } else {
+          echo "¡ No se ha encontrado ningún registro !";
+          }
+          ?>
                         <div class="content_price">
 
                 <span class="price product-price">
@@ -832,12 +864,16 @@ var wishlistProductsIds = false;
             <span class="list-desc">Tan única como coqueta.</span>
             <span class="grid-desc">Tan única como...</span>
           </p>
-          <p>
-            <span class="grid-desc">Cantidad: ...</span>
-          </p>
-          <p>
-            <span class="grid-desc">Tallas: S, M, L, XL</span>
-          </p>
+          <?php
+          include("conexion.php");
+          $result = mysqli_query($con, "SELECT cantidad,talla FROM tbl_inventarioProductos WHERE nombre='Canesu jean'");
+          if ($row = mysqli_fetch_array($result)){
+            echo "<p><span class='grid-desc'>Cantidad: ".$row["cantidad"]."</span></p>";
+            echo "<p><span class='grid-desc'>Tallas: ".$row["talla"]."</span></p>";
+          } else {
+          echo "¡ No se ha encontrado ningún registro !";
+          }
+          ?>
                         <div class="content_price">
 
                 <span class="price product-price">
@@ -896,12 +932,16 @@ var wishlistProductsIds = false;
             <span class="list-desc">Las flores son lo de hoy, no te quedes atrás.</span>
             <span class="grid-desc">Las flores son lo de hoy...</span>
           </p>
-          <p>
-            <span class="grid-desc">Cantidad: ...</span>
-          </p>
-          <p>
-            <span class="grid-desc">Tallas: S, M, L, XL</span>
-          </p>
+          <?php
+          include("conexion.php");
+          $result = mysqli_query($con, "SELECT cantidad,talla FROM tbl_inventarioProductos WHERE nombre='Floral tex'");
+          if ($row = mysqli_fetch_array($result)){
+            echo "<p><span class='grid-desc'>Cantidad: ".$row["cantidad"]."</span></p>";
+            echo "<p><span class='grid-desc'>Tallas: ".$row["talla"]."</span></p>";
+          } else {
+          echo "¡ No se ha encontrado ningún registro !";
+          }
+          ?>
                         <div class="content_price">
 
                 <span class="price product-price">
@@ -964,12 +1004,16 @@ var wishlistProductsIds = false;
             <span class="list-desc">Atrévete a lucirlos.</span>
             <span class="grid-desc">Atrévete a...</span>
           </p>
-          <p>
-            <span class="grid-desc">Cantidad: ...</span>
-          </p>
-          <p>
-            <span class="grid-desc">Tallas: S, M, L, XL</span>
-          </p>
+          <?php
+          include("conexion.php");
+          $result = mysqli_query($con, "SELECT cantidad,talla FROM tbl_inventarioProductos WHERE nombre='Urban long sleeve shirt'");
+          if ($row = mysqli_fetch_array($result)){
+            echo "<p><span class='grid-desc'>Cantidad: ".$row["cantidad"]."</span></p>";
+            echo "<p><span class='grid-desc'>Tallas: ".$row["talla"]."</span></p>";
+          } else {
+          echo "¡ No se ha encontrado ningún registro !";
+          }
+          ?>
                         <div class="content_price">
 
                 <span class="price product-price">
@@ -1032,12 +1076,16 @@ var wishlistProductsIds = false;
             <span class="list-desc">Algo simple es algo elegante.</span>
             <span class="grid-desc">Algo simple es...</span>
           </p>
-          <p>
-            <span class="grid-desc">Cantidad: ...</span>
-          </p>
-          <p>
-            <span class="grid-desc">Tallas: S, M, L, XL</span>
-          </p>
+          <?php
+          include("conexion.php");
+          $result = mysqli_query($con, "SELECT cantidad,talla FROM tbl_inventarioProductos WHERE nombre='Swag t-shirt'");
+          if ($row = mysqli_fetch_array($result)){
+            echo "<p><span class='grid-desc'>Cantidad: ".$row["cantidad"]."</span></p>";
+            echo "<p><span class='grid-desc'>Tallas: ".$row["talla"]."</span></p>";
+          } else {
+          echo "¡ No se ha encontrado ningún registro !";
+          }
+          ?>
                         <div class="content_price">
 
                 <span class="price product-price">
@@ -1100,12 +1148,16 @@ var wishlistProductsIds = false;
             <span class="list-desc">Para una ocasión </span>
             <span class="grid-desc">Para una...</span>
           </p>
-          <p>
-            <span class="grid-desc">Cantidad: ...</span>
-          </p>
-          <p>
-            <span class="grid-desc">Tallas: S, M, L, XL</span>
-          </p>
+          <?php
+          include("conexion.php");
+          $result = mysqli_query($con, "SELECT cantidad,talla FROM tbl_inventarioProductos WHERE nombre='Urban shirty m02'");
+          if ($row = mysqli_fetch_array($result)){
+            echo "<p><span class='grid-desc'>Cantidad: ".$row["cantidad"]."</span></p>";
+            echo "<p><span class='grid-desc'>Tallas: ".$row["talla"]."</span></p>";
+          } else {
+          echo "¡ No se ha encontrado ningún registro !";
+          }
+          ?>
                         <div class="content_price">
 
                 <span class="price product-price">
@@ -1170,12 +1222,16 @@ var wishlistProductsIds = false;
             <span class="list-desc">Luce una de las colecciones limitadas del diseñador.</span>
             <span class="grid-desc">Luce una de las colecciones...</span>
           </p>
-          <p>
-            <span class="grid-desc">Cantidad: ...</span>
-          </p>
-          <p>
-            <span class="grid-desc">Tallas: S, M, L, XL</span>
-          </p>
+          <?php
+          include("conexion.php");
+          $result = mysqli_query($con, "SELECT cantidad,talla FROM tbl_inventarioProductos WHERE nombre='Hui black'");
+          if ($row = mysqli_fetch_array($result)){
+            echo "<p><span class='grid-desc'>Cantidad: ".$row["cantidad"]."</span></p>";
+            echo "<p><span class='grid-desc'>Tallas: ".$row["talla"]."</span></p>";
+          } else {
+          echo "¡ No se ha encontrado ningún registro !";
+          }
+          ?>
                         <div class="content_price">
 
                 <span class="price product-price product-price-new">
@@ -1244,12 +1300,16 @@ var wishlistProductsIds = false;
             <span class="list-desc">¡Lúcelo! en una fiesta.</span>
             <span class="grid-desc">¡Lúcelo! en...</span>
           </p>
-          <p>
-            <span class="grid-desc">Cantidad: ...</span>
-          </p>
-          <p>
-            <span class="grid-desc">Tallas: S, M, L, XL</span>
-          </p>
+          <?php
+          include("conexion.php");
+          $result = mysqli_query($con, "SELECT cantidad,talla FROM tbl_inventarioProductos WHERE nombre='Globalmerce'");
+          if ($row = mysqli_fetch_array($result)){
+            echo "<p><span class='grid-desc'>Cantidad: ".$row["cantidad"]."</span></p>";
+            echo "<p><span class='grid-desc'>Tallas: ".$row["talla"]."</span></p>";
+          } else {
+          echo "¡ No se ha encontrado ningún registro !";
+          }
+          ?>
                         <div class="content_price">
 
                 <span class="price product-price product-price-new">
@@ -1318,12 +1378,16 @@ var wishlistProductsIds = false;
             <span class="list-desc">Presume tu figura con esta prenda.</span>
             <span class="grid-desc">Presume tu figura con...</span>
           </p>
-          <p>
-            <span class="grid-desc">Cantidad: ...</span>
-          </p>
-          <p>
-            <span class="grid-desc">Tallas: S, M, L, XL</span>
-          </p>
+          <?php
+          include("conexion.php");
+          $result = mysqli_query($con, "SELECT cantidad,talla FROM tbl_inventarioProductos WHERE nombre='Vino 02'");
+          if ($row = mysqli_fetch_array($result)){
+            echo "<p><span class='grid-desc'>Cantidad: ".$row["cantidad"]."</span></p>";
+            echo "<p><span class='grid-desc'>Tallas: ".$row["talla"]."</span></p>";
+          } else {
+          echo "¡ No se ha encontrado ningún registro !";
+          }
+          ?>
                         <div class="content_price">
 
                 <span class="price product-price">
@@ -1386,12 +1450,16 @@ var wishlistProductsIds = false;
             <span class="list-desc">Luce más delgada con este vestido.</span>
             <span class="grid-desc">Luce más delgada...</span>
           </p>
-          <p>
-            <span class="grid-desc">Cantidad: ...</span>
-          </p>
-          <p>
-            <span class="grid-desc">Tallas: S, M, L, XL</span>
-          </p>
+          <?php
+          include("conexion.php");
+          $result = mysqli_query($con, "SELECT cantidad,talla FROM tbl_inventarioProductos WHERE nombre='Huichol moderno'");
+          if ($row = mysqli_fetch_array($result)){
+            echo "<p><span class='grid-desc'>Cantidad: ".$row["cantidad"]."</span></p>";
+            echo "<p><span class='grid-desc'>Tallas: ".$row["talla"]."</span></p>";
+          } else {
+          echo "¡ No se ha encontrado ningún registro !";
+          }
+          ?>
                         <div class="content_price">
 
                 <span class="price product-price">
@@ -1450,12 +1518,16 @@ var wishlistProductsIds = false;
             <span class="list-desc">Para todo tipo de ocasión.</span>
             <span class="grid-desc">Para todo tipo...</span>
           </p>
-          <p>
-            <span class="grid-desc">Cantidad: ...</span>
-          </p>
-          <p>
-            <span class="grid-desc">Tallas: S, M, L, XL</span>
-          </p>
+          <?php
+          include("conexion.php");
+          $result = mysqli_query($con, "SELECT cantidad,talla FROM tbl_inventarioProductos WHERE nombre='Estampado lineas'");
+          if ($row = mysqli_fetch_array($result)){
+            echo "<p><span class='grid-desc'>Cantidad: ".$row["cantidad"]."</span></p>";
+            echo "<p><span class='grid-desc'>Tallas: ".$row["talla"]."</span></p>";
+          } else {
+          echo "¡ No se ha encontrado ningún registro !";
+          }
+          ?>
                         <div class="content_price">
 
                 <span class="price product-price product-price-new">
@@ -1524,12 +1596,16 @@ var wishlistProductsIds = false;
             <span class="list-desc">Demuestra que tienes estilo para vestir.</span>
             <span class="grid-desc">Demuestra que tienes...</span>
           </p>
-          <p>
-            <span class="grid-desc">Cantidad: ...</span>
-          </p>
-          <p>
-            <span class="grid-desc">Tallas: S, M, L, XL</span>
-          </p>
+          <?php
+          include("conexion.php");
+          $result = mysqli_query($con, "SELECT cantidad,talla FROM tbl_inventarioProductos WHERE nombre='Fashion style'");
+          if ($row = mysqli_fetch_array($result)){
+            echo "<p><span class='grid-desc'>Cantidad: ".$row["cantidad"]."</span></p>";
+            echo "<p><span class='grid-desc'>Tallas: ".$row["talla"]."</span></p>";
+          } else {
+          echo "¡ No se ha encontrado ningún registro !";
+          }
+          ?>
                         <div class="content_price">
 
                 <span class="price product-price product-price-new">
@@ -1596,12 +1672,16 @@ var wishlistProductsIds = false;
 <span class="list-desc">La moda está en el blanco y negro.</span>
 <span class="grid-desc">La moda está en...</span>
 </p>
-<p>
-<span class="grid-desc">Cantidad: ...</span>
-</p>
-<p>
-<span class="grid-desc">Tallas: S, M, L, XL</span>
-</p>
+<?php
+include("conexion.php");
+$result = mysqli_query($con, "SELECT cantidad,talla FROM tbl_inventarioProductos WHERE nombre='Cebra-hui'");
+if ($row = mysqli_fetch_array($result)){
+  echo "<p><span class='grid-desc'>Cantidad: ".$row["cantidad"]."</span></p>";
+  echo "<p><span class='grid-desc'>Tallas: ".$row["talla"]."</span></p>";
+} else {
+echo "¡ No se ha encontrado ningún registro !";
+}
+?>
       <div class="content_price">
 
 <span class="price product-price product-price-new">
@@ -1667,12 +1747,16 @@ $19.20                  </span>
 <span class="list-desc">Elegante y sutil a cualquier lado que vayas con nuestra moda.</span>
 <span class="grid-desc">Elegante y sutil a cualquier lado...</span>
 </p>
-<p>
-<span class="grid-desc">Cantidad: ...</span>
-</p>
-<p>
-<span class="grid-desc">Tallas: S, M, L, XL</span>
-</p>
+<?php
+include("conexion.php");
+$result = mysqli_query($con, "SELECT cantidad,talla FROM tbl_inventarioProductos WHERE nombre='Fashion style2'");
+if ($row = mysqli_fetch_array($result)){
+  echo "<p><span class='grid-desc'>Cantidad: ".$row["cantidad"]."</span></p>";
+  echo "<p><span class='grid-desc'>Tallas: ".$row["talla"]."</span></p>";
+} else {
+echo "¡ No se ha encontrado ningún registro !";
+}
+?>
 <div class="content_price">
 
 <span class="price product-price product-price-new">
