@@ -5,5 +5,4 @@ $con = new mysqli("localhost", "root", "", "rs");
 if ($con->connect_errno) {
     echo "Fallo al conectar a MySQL: (" . $con->connect_errno . ") " . $con->connect_error;
 }
-echo $con->host_info . "\n";
 ?>

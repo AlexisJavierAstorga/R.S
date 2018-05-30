@@ -445,7 +445,17 @@ var wishlistProductsIds = false;
 
 
  <!--Nombre Usuario-->
- <label for="email">Correo electrónico:</label><br> <input type="email" name="email" id="email" placeholder="example@hotmail.com" autofocus required disabled></td><br>
+ <label for="email">Correo electrónico:</label><br> <input type="email" name="email" id="email" placeholder="example@hotmail.com" autofocus required disabled></td><br><br>
+ <label >Id del producto:</label>
+ <?php
+ include("conexion.php");
+ $result = mysqli_query($con, "SELECT IDPROD FROM tbl_inventarioProductos WHERE nombre='Estampado lineas'");
+ if ($row = mysqli_fetch_array($result)){
+   echo $row["IDPROD"];
+ } else {
+ echo "¡ No se ha encontrado ningún registro !";
+ }
+ ?>
  <h3>Dirección</h3><br>
  <label for="estado">Estado:</label><br>
  <select name="estados" onChange="habilitar(this.form)" disabled>

@@ -1,6 +1,5 @@
 <?php
 session_start();
-$id=$_SESSION['id'];
 ?>
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="es-es"><![endif]-->
@@ -467,8 +466,16 @@ var wishlistProductsIds = false;
  <?php
      echo $_SESSION['u_usuario'];
  ?><br><br>
- <label >Id del producto:</label><br>
- <input value="1" readonly name="id" size="1"><br>
+ <label >Id del producto:</label>
+ <?php
+ include("conexion.php");
+ $result = mysqli_query($con, "SELECT IDPROD FROM tbl_inventarioProductos WHERE nombre='Cuadrib'");
+ if ($row = mysqli_fetch_array($result)){
+   echo $row["IDPROD"];
+ } else {
+ echo "¡ No se ha encontrado ningún registro !";
+ }
+ ?>
  <h3>Dirección</h3><br>
  <label for="estado">Estado:</label><br>
  <select name="estados" onChange="habilitar(this.form)" >

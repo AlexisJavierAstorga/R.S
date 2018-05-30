@@ -463,7 +463,17 @@ var wishlistProductsIds = false;
  <label for="email">Correo electrónico:</label><br>
  <?php
      echo $_SESSION['u_usuario'];
- ?><br>
+ ?><br><br>
+ <label >Id del producto:</label>
+ <?php
+ include("conexion.php");
+ $result = mysqli_query($con, "SELECT IDPROD FROM tbl_inventarioProductos WHERE nombre='Cebra-hui'");
+ if ($row = mysqli_fetch_array($result)){
+   echo $row["IDPROD"];
+ } else {
+ echo "¡ No se ha encontrado ningún registro !";
+ }
+ ?>
  <h3>Dirección</h3><br>
  <label for="estado">Estado:</label><br>
  <select name="estados" onChange="habilitar(this.form)" disabled>
