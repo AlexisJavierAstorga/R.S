@@ -1,37 +1,8 @@
-
 <?php
-// Parse the log in form if the user has filled it out and pressed "Log In"
 session_start();
-if (isset($_POST["u_usuario"]) && isset($_POST["password"])) {
-
-    $manager = preg_replace('#[^A-Za-z0-9]#i', '', $_POST["u_usuario"]); // filter everything but numbers and letters
-    $password = (!empty($_POST['password'])) ? sha1($_POST['password']) : ''; // filter everything but numbers and letters
-    // Connect to the MySQL database
-    include("conexion.php");
-
-    $sql = " SELECT tbl_clientes.IDCLI,TBL_INVENTARIOVENTAS.Cliente
-        FROM tbl_clientes
-        INNER JOIN TBL_INVENTARIOVENTAS ON 
-        WHERE members.email = '$manager'
-        AND members.password = '$password'
-    ";
-    // query the person
-    // ------- MAKE SURE PERSON EXISTS IN DATABASE ---------
-    $query = mysqli_query($con, $sql);
-    if (!$query) {
-        die(mysqli_error($con));
-    }
-    $existCount = mysqli_num_rows($query); // count the row nums
-    if ($existCount == 1) { // evaluate the count
-        $row = mysqli_fetch_array($query, MYSQLI_ASSOC);
-        $_SESSION["id"] = $row["id"];
-        $_SESSION["manager"] = $manager;
-        $_SESSION["password"] = $password;
-        exit();
-    } else {
-
-        exit();
-    }
+if(isset($_SESSION['u_usuario'])){
+}else{
+  header("Location: index.php");
 }
 ?>
 <!DOCTYPE HTML>
@@ -336,24 +307,24 @@ var wishlistProductsIds = false;
                       <!-- Breadcrumb -->
 
 <!-- /Breadcrumb -->
-<form action="compracl.php" method="post" >
-<table width = "650px" border = "1" cellpadding="0" cellspacing="0">
-<tr>
-<th><center>Cliente </center></th>
-<th><center>Producto </center></th>
-<th><center>Cantidad producto</center></th>
-<th><center>Total </center></th>
-<th><center>Fecha de compra </center></th>
-</tr>
-<tr>
-<td> <center><?php echo $_SESSION['cliente']; ?> </center> </td>
-<td> <center><?php echo $_SESSION['producto']; ?> </center> </td>
-<td> <center><?php echo $_SESSION['cantidad']; ?> </center> </td>
-<td> <center><?php echo $_SESSION['total']; ?> </center> </td>
-<td> <center><?php echo $_SESSION['fecha1']; ?> </center> </td>
-</tr>
-</table>
-</form>
+<?php
+include("conexion.php");
+
+//$result = mysqli_query($con, "SELECT (tbl_clientes.correo,tbl_inventarioVentas.IDPROD,tbl_inventarioVentas.nombre,tbl_inventarioVentas.cantidadProducto,tbl_inventarioVentas.totalVenta,tbl_inventarioVentas.fechaCompra) FROM tbl_clientes,tbl_inventarioProductos,tbl_inventarioVentas WHERE tbl_clientes.IDCLI=tbl_inventarioVentas.Cliente");
+
+$result = mysqli_query($con, "SELECT * FROM tbl_clientes,tbl_inventarioProductos,tbl_inventarioVentas WHERE tbl_clientes.IDCLI=tbl_inventarioVentas.Cliente='".$_SESSION["id"]."'");
+
+if ($row = mysqli_fetch_array($result)){
+  echo "<table border = '1'><tr><td>Correo</td><td>ID Producto</td><td>Nombre producto</td><td>Cantidad del producto</td><td>Total venta</td><td>Fecha de compra</td></tr>";
+  do {
+      echo "<tr><td>".$row["correo"]."</td><td>".$row["IDPROD"]."</td><td>".$row["nombre"]."</td><td>".$row["cantidadProducto"]."</td><td>".$row["totalVenta"]."</td><td>".$row["fechaCompra"]."</td></tr> \n";
+   } while ($row = mysqli_fetch_array($result));
+   echo "</table> \n";
+} else {
+echo "¡ No haz realizado compras !";
+}
+
+ ?>
 
         </div><!-- #columns -->
                                                 </div><!-- .columns-container -->
