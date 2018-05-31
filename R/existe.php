@@ -31,7 +31,10 @@ if($resultado = mysqli_fetch_array($proceso)){
     //echo "<script>alert('Bienvenido $usuario')</script>";
 
 }else{
-  header("Location: index.php");
-  echo"<script>alert('El correo o contraseña son incorrectos, vuelve a intentar')</script>";
+  echo '<script>
+  alert("Correo o contraseña incorrecto");
+  window.history.go(-1);
+  </script>';
+  mysqli_close($con);
 }
  ?>

@@ -161,7 +161,7 @@ var wishlistProductsIds = false;
 </script>
 
 
-              <<script src="js/combo.js"></script>
+              <script src="js/combo.js"></script>
               <script src="js/reg.js"></script>
               <script src="js/jquery.js"></script>
               <script src="js/emailvalidar.js"></script>
@@ -355,20 +355,16 @@ var wishlistProductsIds = false;
 ?>
 
 <br>
-<h3>Dirección</h3><br>
+<h3>Dirección</h3>
 <label for="estado">Estado:</label><br>
 <?php
-  echo "<input type='text' name='email' value='".$_SESSION['estado']."' readonly>";
+  echo "<input type='text' name='estado' value='".$_SESSION['estado']."' readonly>";
  ?>
  <br><br>
 
     <!--label for="municipio">Municipio:</label><br> <input type="text" name="municipio" maxlength="32" id="municipio" placeholder="Escribe tu municipio" disabled><br><br-->
-    <?php
-      echo "Tu delegacion: ".$_SESSION["delegacion"]."";
-     ?>
-    <br>
     <label for="delegacion">Nueva delegación:</label><br><select name="delegacion" id='delegacion' >
-          <option value="0">Selecciona tu delegación</option>
+      <?php echo "<option value='".$_SESSION['delegacion']."'>".$_SESSION['delegacion']."</option>" ?>
           <option value="Álvaro Obregón">Álvaro Obregón</option>
           <option value="Azcapotzalco">Azcapotzalco</option>
           <option value="Benito Juárez">Benito Juárez</option>
@@ -387,18 +383,28 @@ var wishlistProductsIds = false;
           <option value="Xochimilco">Xochimilco</option>
       </select><br><br>
 
-<label for="colonia">Colonia:</label><br> <input type="text" name="colonia" maxlength="32" id="colonia" placeholder="Escribe tu colonia"><br><br>
+<label for="colonia">Colonia:</label><br>
+<?php echo "<input type='text' name='colonia' maxlength='32' id='colonia' value='".$_SESSION['colonia']."'>"?><br><br>
 
-<label for="calle">Nueva calle:</label><br> <input type="text" name="calle" maxlength="32" id="calle" placeholder="Escribe la calle"><br><br>
+<label for="calle">Nueva calle:</label><br>
+<?php echo "<input type='text' name='calle' maxlength='32' id='calle' value='".$_SESSION['calle']."'>"?><br><br>
 
 <label for="numex">Nuevo número exterior:</label><br>
-<input type="text" name="numex" size="20" maxlength="5" id="numex" placeholder="Num. exterior" onkeypress="return valida(event)"><br><br>
+<?php echo "<input type='text' name='numex' size='20' maxlength='5' id='numex' value='".$_SESSION['numex']."' onkeypress='return valida(event)'>"?><br><br>
 
 
-<label for="numin">Nuevo número interior:</label><br> <input type="text" name="numin" maxlength="5" id="numin" placeholder="Num. interior" onkeypress="return valida(event)"><br><br>
+<label for="numin">Nuevo número interior:</label><br>
+<?php echo "<input type='text' name='numin' maxlength='5' id='numin' value='".$_SESSION['numin']."' onkeypress='return valida(event)'>"?><br><br>
 
 
-<label for="postal">Nuevo código postal:</label><br> <input type="text" name="postal" maxlength="5" id="postal" placeholder="05069" onkeypress="return valida(event)"><br><br>
+<label for="postal">Nuevo código postal:</label><br>
+<?php echo "<input type='text' name='postal' maxlength='5' id='postal' value='".$_SESSION['postal']."' onkeypress='return valida(event)'>"?><br><br>
+
+<label for="password">Password antiguo:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<label for="password">Password nuevo:</label><br>
+<?php echo "<input type='password' name='password' maxlength='8' dir='password' value='".$_SESSION['password']."'>"?>
+<?php echo "<input type='password' name='passwordnew' maxlength='8' dir='password' value='".$_SESSION['password']."'>"?>
+<br><br>
+
  <!--Nombre Usuario-->
                           <input type="hidden" class="hidden" name="back" value="my-account" />
                         <button type="submit" id="SubmitModificar" name="SubmitModificar" class="btn btn-default btn-md">

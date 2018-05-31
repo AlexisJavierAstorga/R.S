@@ -433,7 +433,7 @@ off</h2>
                   <meta itemprop="worstRating" content = "0" />
     <meta itemprop="ratingValue" content = "3" />
     <meta itemprop="bestRating" content = "5" />
-    </div><br>
+  </div><br><br>
     <?php
       echo "<a href='desclog.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
     ?>

@@ -331,7 +331,7 @@ var wishlistProductsIds = false;
 
         <form action="registrar.php" method="post" class="box" name="formulario">
                             <h3>Crea una cuenta</h3><br>
-<label for="email">Correo electrónico:</label><br> <input type="email" name="email" id="email" placeholder="example@hotmail.com" autofocus required onkeypress="validar_email(email)"></td><br><br>
+<label for="email">Correo electrónico:</label><br> <input type="email" name="email" id="email" placeholder="example@hotmail.com" autofocus required onkeypress="validar_email(email)"><br><br>
 
 <label for="username">Nombre(s):</label><br> <input type="text" name="username" maxlength="20" id="username" placeholder="Escribe tu nombre" autofocus required><br><br>
 

@@ -234,6 +234,13 @@ var wishlistProductsIds = false;
               <script src="js/jquery/jquery-migrate-1.2.1.min.js"></script>
               <script src="js/jquery/plugins/jquery.easing.js"></script>
               <script src="js/tools.js"></script>
+              <script src="js/combo.js"></script>
+              <script src="js/reg.js"></script>
+              <script src="js/jquery.js"></script>
+              <script src="js/emailvalidar.js"></script>
+              <script src="js/limiteinput.js"></script>
+              <script src="js/split.js"></script>
+              <script src="js/pasar.js"></script>
               <script src="themes/theme1362/js/global.js"></script>
               <script src="themes/theme1362/js/autoload/10-bootstrap.min.js"></script>
               <script src="themes/theme1362/js/autoload/14-device.min.js"></script>
@@ -475,7 +482,7 @@ var wishlistProductsIds = false;
  include("conexion.php");
  $result = mysqli_query($con, "SELECT IDPROD FROM tbl_inventarioProductos WHERE nombre='Cuadrib'");
  if ($row = mysqli_fetch_array($result)){
-   echo $row["IDPROD"];
+   echo "<input name='id1' value='".$row["IDPROD"]."' readonly>";
  } else {
  echo "¡ No se ha encontrado ningún registro !";
  }
@@ -527,7 +534,7 @@ var wishlistProductsIds = false;
     <input type="text" id="totalsuma" name="totalsuma" readonly="" />
     <input type="button" onclick="suma()" value="calcular" class="btn btn-default btn-md"/>
     <br/><br/>
-    <input name="fecha" type="text" id="fecha" value="<?php echo date("m/d/Y"); ?>" size="10" readonly/>
+    <input name="fecha" type="text" id="fecha" value="<?php echo date("Y/m/d"); ?>" size="10" readonly/>
     <br/><br/>
 
                                                             <div class="attribute_list">

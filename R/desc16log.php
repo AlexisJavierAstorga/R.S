@@ -230,61 +230,69 @@ var usingSecureMode = true;
 var wishlistProductsIds = false;
 </script>
 
-              <script src="js/jquery/jquery-1.11.0.min.js"></script>
-              <script src="js/jquery/jquery-migrate-1.2.1.min.js"></script>
-              <script src="js/jquery/plugins/jquery.easing.js"></script>
-              <script src="js/tools.js"></script>
-              <script src="themes/theme1362/js/global.js"></script>
-              <script src="themes/theme1362/js/autoload/10-bootstrap.min.js"></script>
-              <script src="themes/theme1362/js/autoload/14-device.min.js"></script>
-              <script src="themes/theme1362/js/autoload/15-jquery.total-storage.min.js"></script>
-              <script src="themes/theme1362/js/autoload/15-jquery.uniform-modified.js"></script>
-              <script src="themes/theme1362/js/autoload/16-jquery.scrollmagic.min.js"></script>
-              <script src="themes/theme1362/js/autoload/17-jquery.scrollmagic.debug.js"></script>
-              <script src="themes/theme1362/js/autoload/18-TimelineMax.min.js"></script>
-              <script src="themes/theme1362/js/autoload/19-TweenMax.min.js"></script>
-              <script src="themes/theme1362/js/autoload/20-jquery.bxslider.js"></script>
-              <script src="themes/theme1362/js/autoload/20-modernizr_v2_7_2.min.js"></script>
-              <script src="js/jquery/plugins/fancybox/jquery.fancybox.js"></script>
-              <script src="themes/theme1362/js/products-comparison.js"></script>
-              <script src="themes/theme1362/js/tools/treeManagement.js"></script>
-              <script src="themes/theme1362/js/modules/blocknewsletter/blocknewsletter.js"></script>
-              <script src="themes/theme1362/js/modules/homeslider/js/homeslider.js"></script>
-              <script src="js/jquery/plugins/bxslider/jquery.bxslider.js"></script>
-              <script src="modules/tmmegamenu/views/js/hoverIntent.js"></script>
-              <script src="modules/tmmegamenu/views/js/superfish.js"></script>
-              <script src="themes/theme1362/js/modules/tmmegamenu/views/js/tmmegamenu.js"></script>
-              <script src="modules/tmsociallogin/views/js/front.js"></script>
-              <script src="js/jquery/plugins/autocomplete/jquery.autocomplete.js"></script>
-              <script src="themes/theme1362/js/modules/tmsearch/views/js/tmsearch.js"></script>
-              <script src="themes/theme1362/js/modules/tmrelatedproducts/views/js/tmrelatedproducts.js"></script>
-              <script src="themes/theme1362/js/modules/blockcart/ajax-cart.js"></script>
-              <script src="js/jquery/plugins/jquery.scrollTo.js"></script>
-              <script src="js/jquery/plugins/jquery.serialScroll.js"></script>
-              <script src="modules/tmproductsslider/views/js/tmproductsslider.js"></script>
-              <script src="js/validate.js"></script>
-              <script src="modules/tmnewsletter/views/js/tmnewsletter.js"></script>
-              <script src="themes/theme1362/js/modules/blockwishlist/js/ajax-wishlist.js"></script>
-              <script src="modules/tmsocialfeeds/views/js/tmsocialfeeds.js"></script>
-              <script src="modules/tmproductvideos/views/js/video/video.js"></script>
-              <script src="themes/theme1362/js/modules/tmmegalayout/views/js/tmmegalayout.js"></script>
-              <script src="modules/themeconfiglink/views/js/themeconfiglink.js"></script>
-              <script src="modules/tmmediaparallax/views/js/jquery.rd-parallax.min.js"></script>
-              <script src="modules/tmmediaparallax/views/js/jquery.youtubebackground.js"></script>
-              <script src="modules/tmmediaparallax/views/js/jquery.vide.min.js"></script>
-              <script src="modules/tmmediaparallax/views/js/tmmediaparallax.js"></script>
-              <script src="modules/tmheaderaccount/views/js/front.js"></script>
-              <script src="themes/theme1362/js/index.js"></script>
-              <script src="modules/productcomments/js/jquery.textareaCounter.plugin.js"></script>
-              <script src="modules/productcomments/js/jquery.rating.pack.js"></script>
-              <script src="themes/theme1362/js/modules/productscategory/js/productscategory.js"></script>
-              <script src="themes/theme1362/js/modules/crossselling/js/crossselling.js"></script>
-              <script src="themes/theme1362/js/modules/sendtoafriend/sendtoafriend.js"></script>
-              <script src="themes/theme1362/js/tools/treeManagement.js"></script>
-              <script src="modules/socialsharing/js/socialsharing.js"></script>
-              <script src="js/jquery/plugins/jqzoom/jquery.jqzoom.js"></script>
-              <script src="themes/theme1362/js/product.js"></script>
-              <script src="js/jquery/plugins/jquery.idTabs.js"></script>
+<script src="js/jquery/jquery-1.11.0.min.js"></script>
+<script src="js/jquery/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/jquery/plugins/jquery.easing.js"></script>
+<script src="js/tools.js"></script>
+<script src="js/combo.js"></script>
+<script src="js/reg.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/emailvalidar.js"></script>
+<script src="js/limiteinput.js"></script>
+<script src="js/split.js"></script>
+<script src="js/pasar.js"></script>
+<script src="themes/theme1362/js/global.js"></script>
+<script src="themes/theme1362/js/autoload/10-bootstrap.min.js"></script>
+<script src="themes/theme1362/js/autoload/14-device.min.js"></script>
+<script src="themes/theme1362/js/autoload/15-jquery.total-storage.min.js"></script>
+<script src="themes/theme1362/js/autoload/15-jquery.uniform-modified.js"></script>
+<script src="themes/theme1362/js/autoload/16-jquery.scrollmagic.min.js"></script>
+<script src="themes/theme1362/js/autoload/17-jquery.scrollmagic.debug.js"></script>
+<script src="themes/theme1362/js/autoload/18-TimelineMax.min.js"></script>
+<script src="themes/theme1362/js/autoload/19-TweenMax.min.js"></script>
+<script src="themes/theme1362/js/autoload/20-jquery.bxslider.js"></script>
+<script src="themes/theme1362/js/autoload/20-modernizr_v2_7_2.min.js"></script>
+<script src="js/jquery/plugins/fancybox/jquery.fancybox.js"></script>
+<script src="themes/theme1362/js/products-comparison.js"></script>
+<script src="themes/theme1362/js/tools/treeManagement.js"></script>
+<script src="themes/theme1362/js/modules/blocknewsletter/blocknewsletter.js"></script>
+<script src="themes/theme1362/js/modules/homeslider/js/homeslider.js"></script>
+<script src="js/jquery/plugins/bxslider/jquery.bxslider.js"></script>
+<script src="modules/tmmegamenu/views/js/hoverIntent.js"></script>
+<script src="modules/tmmegamenu/views/js/superfish.js"></script>
+<script src="themes/theme1362/js/modules/tmmegamenu/views/js/tmmegamenu.js"></script>
+<script src="modules/tmsociallogin/views/js/front.js"></script>
+<script src="js/jquery/plugins/autocomplete/jquery.autocomplete.js"></script>
+<script src="themes/theme1362/js/modules/tmsearch/views/js/tmsearch.js"></script>
+<script src="themes/theme1362/js/modules/tmrelatedproducts/views/js/tmrelatedproducts.js"></script>
+<script src="themes/theme1362/js/modules/blockcart/ajax-cart.js"></script>
+<script src="js/jquery/plugins/jquery.scrollTo.js"></script>
+<script src="js/jquery/plugins/jquery.serialScroll.js"></script>
+<script src="modules/tmproductsslider/views/js/tmproductsslider.js"></script>
+<script src="js/validate.js"></script>
+<script src="modules/tmnewsletter/views/js/tmnewsletter.js"></script>
+<script src="themes/theme1362/js/modules/blockwishlist/js/ajax-wishlist.js"></script>
+<script src="modules/tmsocialfeeds/views/js/tmsocialfeeds.js"></script>
+<script src="modules/tmproductvideos/views/js/video/video.js"></script>
+<script src="themes/theme1362/js/modules/tmmegalayout/views/js/tmmegalayout.js"></script>
+<script src="modules/themeconfiglink/views/js/themeconfiglink.js"></script>
+<script src="modules/tmmediaparallax/views/js/jquery.rd-parallax.min.js"></script>
+<script src="modules/tmmediaparallax/views/js/jquery.youtubebackground.js"></script>
+<script src="modules/tmmediaparallax/views/js/jquery.vide.min.js"></script>
+<script src="modules/tmmediaparallax/views/js/tmmediaparallax.js"></script>
+<script src="modules/tmheaderaccount/views/js/front.js"></script>
+<script src="themes/theme1362/js/index.js"></script>
+<script src="modules/productcomments/js/jquery.textareaCounter.plugin.js"></script>
+<script src="modules/productcomments/js/jquery.rating.pack.js"></script>
+<script src="themes/theme1362/js/modules/productscategory/js/productscategory.js"></script>
+<script src="themes/theme1362/js/modules/crossselling/js/crossselling.js"></script>
+<script src="themes/theme1362/js/modules/sendtoafriend/sendtoafriend.js"></script>
+<script src="themes/theme1362/js/tools/treeManagement.js"></script>
+<script src="modules/socialsharing/js/socialsharing.js"></script>
+<script src="js/jquery/plugins/jqzoom/jquery.jqzoom.js"></script>
+<script src="themes/theme1362/js/product.js"></script>
+<script src="js/jquery/plugins/jquery.idTabs.js"></script>
+<script src="sumar.js"></script>
 
 
         <script>
@@ -473,19 +481,19 @@ var wishlistProductsIds = false;
  include("conexion.php");
  $result = mysqli_query($con, "SELECT IDPROD FROM tbl_inventarioProductos WHERE nombre='Estampado lineas'");
  if ($row = mysqli_fetch_array($result)){
-   echo $row["IDPROD"];
+   echo "<input name='id1' value='".$row["IDPROD"]."' readonly>";
  } else {
  echo "¡ No se ha encontrado ningún registro !";
  }
  ?>
  <h3>Dirección</h3><br>
  <label for="estado">Estado:</label><br>
- <select name="estados" onChange="habilitar(this.form)" disabled>
+ <select name="estados" onChange="habilitar(this.form)" >
          <option value="0">Selecciona tu estado</option>
          <option value="1">CDMX</option>
      </select><br><br>
 
-     <label for="municipio">Municipio:</label><br> <input type="text" name="municipio" maxlength="32" id="municipio" placeholder="Escribe tu municipio" autofocus required disabled><br><br>
+     <!--label for="municipio">Municipio:</label><br> <input type="text" name="municipio" maxlength="32" id="municipio" placeholder="Escribe tu municipio" autofocus required ><br><br-->
 
      <label for="delegacion">Delegación:</label><br><select name="delegacion" id='delegacion' autofocus required >
            <option value="0">Selecciona tu delegación</option>
@@ -506,29 +514,32 @@ var wishlistProductsIds = false;
            <option value="Venustiano Carranza">Venustiano Carranza</option>
            <option value="Xochimilco">Xochimilco</option>
        </select><br><br>
-<label for="colonia">Colonia:</label><br> <input type="text" name="colonia" maxlength="32" id="colonia" placeholder="Escribe tu colonia" autofocus required disabled><br><br>
 
-<label for="calle">Calle:</label><br> <input type="text" name="calle" maxlength="32" id="calle" placeholder="Escribe la calle" autofocus required disabled><br><br>
+ <label for="colonia">Colonia:</label><br> <input type="text" name="colonia" maxlength="32" id="colonia" placeholder="Escribe tu colonia" autofocus required ><br><br>
 
-<label for="numex">Número exterior:</label><br>
- <input type="text" name="numex" size="20" maxlength="5" id="numex" placeholder="Num. exterior" autofocus required onkeypress="return valida(event)" disabled><br><br>
+ <label for="calle">Calle:</label><br> <input type="text" name="calle" maxlength="32" id="calle" placeholder="Escribe la calle" autofocus required ><br><br>
 
-<label for="numin">Número interior:</label><br> <input type="text" name="numin" maxlength="5" id="numin" placeholder="Num. interior" autofocus required onkeypress="return valida(event)" disabled><br><br>
+ <label for="numex">Número exterior:</label><br>
+ <input type="text" name="numex" size="20" maxlength="5" id="numex" placeholder="Num. exterior" autofocus required onkeypress="return valida(event)" ><br><br>
 
-<label for="postal">Código postal:</label><br> <input type="text" name="postal" maxlength="5" id="postal" placeholder="05069" autofocus required onkeypress="return valida(event)" disabled><br><br>
+ <label for="numin">Número interior:</label><br> <input type="text" name="numin" maxlength="5" id="numin" placeholder="Num. interior" autofocus required onkeypress="return valida(event)" ><br><br>
+
+ <label for="postal">Código postal:</label><br> <input type="text" name="postal" maxlength="5" id="postal" placeholder="05069" autofocus required onkeypress="return valida(event)" ><br><br>
  <!--Password-->
  <label for="Cantidad">Cantidad:</label>
-    <p><input type="text" id="txtNumero1" name="txtNumero1" disabled/><input type="text" id="txtNumero2" value="19.20" readonly="" disabled/></p>
+    <p><input type="text" id="txtNumero1" name="txtNumero1" /><input type="text" id="txtNumero2" value="19.20" readonly="" /></p>
     <br/>
     <label for="direccion">Total $:</label><br>
     <input type="text" id="totalsuma" name="totalsuma" readonly="" />
     <input type="button" onclick="suma()" value="calcular" class="btn btn-default btn-md"/>
     <br/><br/>
+    <input name="fecha" type="text" id="fecha" value="<?php echo date("Y/m/d"); ?>" size="10" readonly/>
+    <br/><br/>
 
                                                             <div class="attribute_list">
 
                           <input type="hidden" class="hidden" name="back" value="my-account" />
-                        <button type="submit" id="SubmitLogin" name="SubmitLogin" class="btn btn-default btn-md" disabled>
+                        <button type="submit" id="SubmitLogin" name="SubmitLogin" class="btn btn-default btn-md" >
               <span>
 
                 Confirmar compra

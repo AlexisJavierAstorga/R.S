@@ -251,6 +251,7 @@ var wishlistProductsIds = false;
                 <nav>
 <div id="header-login">
   <?php
+  include("conexion.php");
       echo $_SESSION['u_usuario'];
   ?>
   <div class="current header_user_info"><a href="#" onclick="return false;"> Tu cuenta </a></div>
@@ -342,85 +343,77 @@ var wishlistProductsIds = false;
 
         <form action=".php" method="post" class="box">
 
-<label for="email">Correo electrónico:</label><br>
+<label for="email">Correo electrónico:</label>
 <?php
-    echo $_SESSION['u_usuario'];
+echo "<input value='".$_SESSION['u_usuario']."' disabled>";
 ?>
 
 <br><br>
-<label for="username">Nombre(s):</label><br>
+<label for="username">Nombre(s):</label>
 <?php
-  echo $_SESSION['nombre'];
+echo "<input value='".$_SESSION['nombre']."' disabled>";
  ?>
 <br><br>
-<label for="apellidoPat">Apellido paterno:</label><br>
+<label for="apellidoPat">Apellido paterno:</label>
 <?php
-  echo $_SESSION['apellidoPat'];
+echo "<input value='".$_SESSION['apellidoPat']."' disabled>";
  ?>
 <br><br>
-<label for="apellidoMat">Apellido materno:</label><br>
+<label for="apellidoMat">Apellido materno:</label>
 <?php
-  echo $_SESSION['apellidoMat'];
+echo "<input value='".$_SESSION['apellidoMat']."' disabled>";
  ?>
 <br><br>
-<label for="fech">Fecha de nacimiento:</label><br>
+<label for="fech">Fecha de nacimiento:</label>
 <?php
-  echo $_SESSION['fecha'];
+echo "<input value='".$_SESSION['fecha']."' disabled>";
  ?>
 <br><br>
-<label for="password">Password:</label><br>
+<label for="password">Password:</label>
 <?php
-  echo "............";
+echo "<input value='............' disabled>";
  ?>
  <br><br>
-
- <br>
  <h3>Dirección</h3><br>
- <label for="estado">Estado:</label><br>
+ <label for="estado">Estado:</label>
  <?php
-   echo $_SESSION['estado'];
+echo "<input value='".$_SESSION['estado']."' disabled>";
   ?>
   <br><br>
 
-     <label for="delegacion">Delegación:</label><br>
+     <label for="delegacion">Delegación:</label>
      <?php
-       echo $_SESSION['delegacion'];
+echo "<input value='".$_SESSION['delegacion']."' disabled>";
       ?>
      <br><br>
 
-<label for="colonia">Colonia:</label><br>
+<label for="colonia">Colonia:</label>
 <?php
-  echo $_SESSION['colonia'];
+echo "<input value='".$_SESSION['colonia']."' disabled>";
  ?>
 <br><br>
-<label for="calle">Calle:</label><br>
+<label for="calle">Calle:</label>
 <?php
-  echo $_SESSION['calle'];
+echo "<input value='".$_SESSION['calle']."' disabled>";
  ?>
 <br><br>
-<label for="numex">Número exterior:</label><br>
+<label for="numex">Número exterior:</label>
 <?php
-  echo $_SESSION['numex'];
+echo "<input value='".$_SESSION['numex']."' disabled>";
  ?>
 <br><br>
-<label for="numin">Número interior:</label><br>
+<label for="numin">Número interior:</label>
 <?php
-  echo $_SESSION['numin'];
+echo "<input value='".$_SESSION['numin']."' disabled>";
  ?>
 <br><br>
-<label for="postal">Código postal:</label><br>
+<label for="postal">Código postal:</label>
 <?php
-  echo $_SESSION['postal'];
+echo "<input value='".$_SESSION['postal']."' disabled>";
  ?>
 <br><br>
  <!--Nombre Usuario-->
                           <input type="hidden" class="hidden" name="back" value="my-account" />
-                        <button type="submit" id="SubmitLogin" name="SubmitLogin" class="btn btn-default btn-md">
-              <span>
-                <i class="fa left"></i>
-                Registrar
-              </span>
-            </button>
       </form>
       <?php
           echo "<a href='modificarlog.php'><button class='btn btn-default'><span>Modificar</span></button></a>";
