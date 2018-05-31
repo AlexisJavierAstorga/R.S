@@ -38,3 +38,4 @@ if($resultado = mysqli_fetch_array($proceso)){
   mysqli_close($con);
 }
  ?>
+ 
