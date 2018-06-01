@@ -528,11 +528,11 @@ var wishlistProductsIds = false;
  <label for="postal">Código postal:</label><br> <input type="text" name="postal" maxlength="5" id="postal" placeholder="05069" autofocus required onkeypress="return valida(event)" ><br><br>
  <!--Password-->
  <label for="Cantidad">Cantidad:</label>
-    <p><input type="text" id="txtNumero1" name="txtNumero1" /><input type="text" id="txtNumero2" value="19.20" readonly="" /></p>
+    <p><input type="text" id="txtNumero1" name="txtNumero1" onkeypress="return valida(event)" maxlength="2" autofocus required/><input type="text" id="txtNumero2" value="32.00" readonly="" /></p>
     <br/>
     <label for="direccion">Total $:</label><br>
-    <input type="text" id="totalsuma" name="totalsuma" readonly="" />
-    <input type="button" onclick="suma()" value="calcular" class="btn btn-default btn-md"/>
+    <input type="text" id="totalsuma" name="totalsuma" readonly=""/>
+    <input type="button" onclick="suma()" value="calcular" class="btn btn-default btn-md" required/>
     <br/><br/>
     <input name="fecha" type="text" id="fecha" value="<?php echo date("Y/m/d"); ?>" size="10" readonly/>
     <br/><br/>
