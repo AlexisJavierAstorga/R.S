@@ -1,0 +1,90 @@
+input[type=text] {
+  color: black;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+  background: #ffffff;
+  overflow: hidden;
+  border-radius: 35px 0px 35px 0px;
+  -moz-border-radius: 35px 0px 35px 0px;
+  -webkit-border-radius: 35px 35px 35px 35px;
+  border: 2px solid pink;
+
+}
+select {
+  color: black;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+  background: #ffffff;
+  overflow: hidden;
+  border-radius: 35px 0px 35px 0px;
+  -moz-border-radius: 35px 0px 35px 0px;
+  -webkit-border-radius: 35px 35px 35px 35px;
+  border: 2px solid pink;
+}
+
+input[readonly]{
+  color: black;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+  background: #ffffff;
+  overflow: hidden;
+  border-radius: 35px 0px 35px 0px;
+  -moz-border-radius: 35px 0px 35px 0px;
+  -webkit-border-radius: 35px 35px 35px 35px;
+  border: 2px solid pink;
+}
+
+input[disabled]{
+  color: black;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+  background: #ffffff;
+  overflow: hidden;
+  border-radius: 35px 0px 35px 0px;
+  -moz-border-radius: 35px 0px 35px 0px;
+  -webkit-border-radius: 35px 35px 35px 35px;
+  border: 2px solid pink;
+}
+
+input[type=email]{
+  color: black;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+  background: #ffffff;
+  overflow: hidden;
+  border-radius: 35px 0px 35px 0px;
+  -moz-border-radius: 35px 0px 35px 0px;
+  -webkit-border-radius: 35px 35px 35px 35px;
+  border: 2px solid pink;
+}
+
+input[type=password]{
+  color: black;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+  background: #ffffff;
+  overflow: hidden;
+  border-radius: 35px 0px 35px 0px;
+  -moz-border-radius: 35px 0px 35px 0px;
+  -webkit-border-radius: 35px 35px 35px 35px;
+  border: 2px solid pink;
+}
+
+input[type=number]{
+  color: black;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+  background: #ffffff;
+  overflow: hidden;
+  border-radius: 35px 0px 35px 0px;
+  -moz-border-radius: 35px 0px 35px 0px;
+  -webkit-border-radius: 35px 35px 35px 35px;
+  border: 2px solid pink;
+}

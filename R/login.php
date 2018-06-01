@@ -16,6 +16,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <link rel="shortcut icon" type="image/x-icon" href="themes/theme1362/img/icon/logo/LOGO.ico" />
 
+    <link rel="stylesheet" href="themes/theme1362/css/inputs.css" media="all" />
               <link rel="stylesheet" href="themes/theme1362/css/global.css" media="all" />
               <link rel="stylesheet" href="themes/theme1362/css/autoload/highdpi.css" media="all" />
               <link rel="stylesheet" href="themes/theme1362/css/autoload/jquery.bxslider.css" media="all" />

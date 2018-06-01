@@ -6,7 +6,7 @@
 <!--[if gt IE 8]> <html class="no-js ie9" lang="es-es"><![endif]-->
 <html lang="es-es"><head>
   <?php
-  echo '<script> alert("No puedes realizar tus compras hasta que tengas una cuenta"); </script>';
+  echo "<script> alert('No puedes realizar tus compras hasta que tengas una cuenta'); window.location.href='login.php'; </script>";
   ?>
     <meta charset="utf-8" />
     <title>R.S. Textil</title>
@@ -19,6 +19,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <link rel="shortcut icon" type="image/x-icon" href="themes/theme1362/img/icon/logo/LOGO.ico" />
 
+<link rel="stylesheet" href="themes/theme1362/css/inputs.css" media="all" />
               <link rel="stylesheet" href="themes/theme1362/css/global.css" media="all" />
               <link rel="stylesheet" href="themes/theme1362/css/autoload/highdpi.css" media="all" />
               <link rel="stylesheet" href="themes/theme1362/css/autoload/jquery.bxslider.css" media="all" />

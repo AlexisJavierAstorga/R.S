@@ -37,5 +37,3 @@ if($resultado = mysqli_fetch_array($proceso)){
   </script>';
   mysqli_close($con);
 }
- ?>
- 
