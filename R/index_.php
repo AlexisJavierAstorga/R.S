@@ -343,8 +343,8 @@ var wishlistProductsIds = false;
 </div>
 <div class="it_JGJRPDEGLFSK col-xs-12 col-sm-3   wrap-1-top-1-div">    <div id="htmlcontent_top">
     <ul class="htmlcontent-home clearfix row">
-              <li class="htmlcontent-item-1 col-xs-4">
-                      <a href="productosloglog.php" class="item-link" title="">
+              <li class="htmlcontent-item-1 col-xs-2">
+                      <a href="productoslog.php" class="item-link" title="">
                                     <img src="themes/theme1362/img/index/rs6.jpg" class="item-img" title="" alt="" width="471" height="608"/>
                                                   <div class="item-html">
                 <h2>50%
@@ -355,6 +355,53 @@ off</h2>
                   </li>
           </ul>
   </div>
+</div></div></div>
+<div class="wrapper it_JKWNALXINYNV mg_mod">
+<div class="row it_FMFDXXZDFRKF wrap-1-top-1">
+<div class="it_LLRSXOUYTITP col-xs-12    wrap-1-top-1-div"><div id="tmhtmlcontent_topColumn">
+	<ul class="tmhtmlcontent-topColumn clearfix row">
+		            <li class="tmhtmlcontent-item-1 col-xs-4 ">
+                                    <a href="productoslog.php" class="item-link" title="">
+                                                            <img src="themes/theme1362/img/index/rs10.jpg" class="item-img img-responsive" title="" alt="" width="471" height="200"/>
+                                                                                    <div class="item-html">
+                            <h3>Graffiti</h3>
+<h2>Condecorado azul</h2>
+<p><button class="btn btn-default" type="button"><span>Cómpralo ya!</span></button></p>
+                        </div>
+                                                        </a>
+                            </li>
+		            <li class="tmhtmlcontent-item-2 col-xs-4 ">
+                                    <a href="productoslog.php" class="item-link" title="">
+                                                            <img src="themes/theme1362/img/index/rs11.jpg" class="item-img img-responsive" title="" alt="" width="471" height="300"/>
+                                                                                    <div class="item-html">
+                            <h3>Arte moderno</h3>
+<h2>Indoor graff</h2>
+<p><button class="btn btn-default" type="button"><span>Cómpralo ya!</span></button></p>
+                        </div>
+                                                        </a>
+                            </li>
+		            <li class="tmhtmlcontent-item-3 col-xs-4 ">
+                                    <a href="productoslog.php" class="item-link" title="">
+                                                            <img src="themes/theme1362/img/index/rs12.jpg" class="item-img img-responsive" title="" alt="" width="471" height="300"/>
+                                                                                    <div class="item-html">
+                            <h3>Mujer huichol</h3>
+<h2>Destellos de morado</h2>
+<p><button class="btn btn-default" type="button"><span>Cómpralo ya!</span></button></p>
+                        </div>
+                                                        </a>
+                            </li>
+		            <li class="tmhtmlcontent-item-4 col-xs-4 ">
+                                    <a href="productoslog.php" class="item-link" title="">
+                                                            <img src="themes/theme1362/img/index/rs13.jpg" class="item-img img-responsive" title="" alt="" width="471" height="300"/>
+                                                                                    <div class="item-html">
+                            <h3>Indi & Huichol</h3>
+<h2>Moda en color negro</h2>
+<p><button class="btn btn-default" type="button"><span>Cómpralo ya!</span></button></p>
+                        </div>
+                                                        </a>
+                            </li>
+			</ul>
+</div>
 </div></div></div>
 
         <div id="columns" class="container">
