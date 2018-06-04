@@ -11,6 +11,19 @@ input[type=text] {
   border: 2px solid pink;
 
 }
+input[type=date] {
+  color: black;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+  background: #ffffff;
+  overflow: hidden;
+  border-radius: 35px 0px 35px 0px;
+  -moz-border-radius: 35px 0px 35px 0px;
+  -webkit-border-radius: 35px 35px 35px 35px;
+  border: 2px solid pink;
+
+}
 select {
   color: black;
   font-size: 13px;
