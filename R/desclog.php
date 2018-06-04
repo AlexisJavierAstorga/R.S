@@ -263,7 +263,6 @@ var wishlistProductsIds = false;
               <script src="modules/tmmegamenu/views/js/hoverIntent.js"></script>
               <script src="modules/tmmegamenu/views/js/superfish.js"></script>
               <script src="themes/theme1362/js/modules/tmmegamenu/views/js/tmmegamenu.js"></script>
-              <script src="modules/tmsociallogin/views/js/front.js"></script>
               <script src="js/jquery/plugins/autocomplete/jquery.autocomplete.js"></script>
               <script src="themes/theme1362/js/modules/tmsearch/views/js/tmsearch.js"></script>
               <script src="themes/theme1362/js/modules/tmrelatedproducts/views/js/tmrelatedproducts.js"></script>
@@ -461,8 +460,7 @@ var wishlistProductsIds = false;
                         <form action="comprar.php" method="post" class="box">
                             <h1 itemprop="name">Cuadrib</h1>
                   <div class="all-price-info">
-                        <p class="our_price_display" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-                          <link itemprop="availability" href="https://schema.org/InStock"/><span id="our_price_display" itemprop="price" content="19.2">$19.20</span><meta itemprop="priceCurrency" content="USD" />                        </p>
+                          <span id="our_price_display" itemprop="price" content="19.2">$19.20</span><meta itemprop="priceCurrency" content="USD" />                        </p>
                         <p id="old_price"><span id="old_price_display"><span class="price">$24.00</span></span>                        </p>
                           <p id="reduction_percent" >
                             <span id="reduction_percent_display">-20%</span>
@@ -542,7 +540,7 @@ var wishlistProductsIds = false;
                                                             <div class="attribute_list">
 
                           <input type="hidden" class="hidden" name="back" value="my-account" />
-                        <button type="submit" id="SubmitLogin" name="SubmitLogin" class="btn btn-default btn-md" >
+                        <button type="submit" name="SubmitLogin" class="btn btn-default btn-md" >
               <span>
 
                 Confirmar compra
