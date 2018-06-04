@@ -1,12 +1,16 @@
+<?php
+session_start();
+if(isset($_SESSION['u_usuario'])){
+}else{
+  header("Location: index.php");
+}
+?>
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="es-es"><![endif]-->
 <!--[if IE 7]><html class="no-js lt-ie9 lt-ie8 ie7" lang="es-es"><![endif]-->
 <!--[if IE 8]><html class="no-js lt-ie9 ie8" lang="es-es"><![endif]-->
 <!--[if gt IE 8]> <html class="no-js ie9" lang="es-es"><![endif]-->
 <html lang="es-es"><head>
-  <?php
-  echo "<script> alert('No puedes realizar tus compras hasta que tengas una cuenta'); window.location.href='login.php'; </script>";
-  ?>
 
     <meta charset="utf-8" />
     <title>R.S. Textil</title>
@@ -19,7 +23,8 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <link rel="shortcut icon" type="image/x-icon" href="themes/theme1362/img/icon/logo/LOGO.ico" />
 
-<link rel="stylesheet" href="themes/theme1362/css/inputs.css" media="all" />
+
+              <link rel="stylesheet" href="themes/theme1362/css/inputs.css" media="all" />
               <link rel="stylesheet" href="themes/theme1362/css/global.css" media="all" />
               <link rel="stylesheet" href="themes/theme1362/css/autoload/highdpi.css" media="all" />
               <link rel="stylesheet" href="themes/theme1362/css/autoload/jquery.bxslider.css" media="all" />
@@ -82,8 +87,8 @@ var attribute_anchor_separator = '-';
 var attributesCombinations = [{"id_attribute":"10","id_attribute_group":"3","attribute":"red","group":"color"},{"id_attribute":"25","id_attribute_group":"4","attribute":"standard","group":"size"},{"id_attribute":"28","id_attribute_group":"5","attribute":"roses","group":"flower_by_type"},{"id_attribute":"24","id_attribute_group":"3","attribute":"pink","group":"color"},{"id_attribute":"29","id_attribute_group":"5","attribute":"lilies","group":"flower_by_type"},{"id_attribute":"30","id_attribute_group":"5","attribute":"daisies","group":"flower_by_type"},{"id_attribute":"26","id_attribute_group":"4","attribute":"deluxe","group":"size"},{"id_attribute":"27","id_attribute_group":"4","attribute":"premium","group":"size"}];
 var availableLaterValue = '';
 var availableNowValue = '';
-var baseDir = 'index.php';
-var baseUri = 'index.php/index.php';
+var baseDir = 'index_.php';
+var baseUri = 'index_.php/index_.php';
 var blocking_popup = '1';
 var combinations = {"60":{"attributes_values":{"3":"Red","4":"Deluxe","5":"Roses"},"attributes":[10,26,28],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'10','26','28'"},"66":{"attributes_values":{"3":"Red","4":"Premium","5":"Roses"},"attributes":[10,27,28],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'10','27','28'"},"54":{"attributes_values":{"3":"Red","4":"Standard","5":"Roses"},"attributes":[10,25,28],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'10','25','28'"},"58":{"attributes_values":{"3":"Red","4":"Standard","5":"Daisies"},"attributes":[10,25,30],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'10','25','30'"},"64":{"attributes_values":{"3":"Red","4":"Deluxe","5":"Daisies"},"attributes":[10,26,30],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'10','26','30'"},"70":{"attributes_values":{"3":"Red","4":"Premium","5":"Daisies"},"attributes":[10,27,30],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'10','27','30'"},"56":{"attributes_values":{"3":"Red","4":"Standard","5":"Lilies"},"attributes":[10,25,29],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'10','25','29'"},"62":{"attributes_values":{"3":"Red","4":"Deluxe","5":"Lilies"},"attributes":[10,26,29],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'10','26','29'"},"68":{"attributes_values":{"3":"Red","4":"Premium","5":"Lilies"},"attributes":[10,27,29],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'10','27','29'"},"59":{"attributes_values":{"3":"Pink","4":"Standard","5":"Daisies"},"attributes":[24,25,30],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'24','25','30'"},"65":{"attributes_values":{"3":"Pink","4":"Deluxe","5":"Daisies"},"attributes":[24,26,30],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'24','26','30'"},"71":{"attributes_values":{"3":"Pink","4":"Premium","5":"Daisies"},"attributes":[24,27,30],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'24','27','30'"},"57":{"attributes_values":{"3":"Pink","4":"Standard","5":"Lilies"},"attributes":[24,25,29],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'24','25','29'"},"63":{"attributes_values":{"3":"Pink","4":"Deluxe","5":"Lilies"},"attributes":[24,26,29],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'24','26','29'"},"69":{"attributes_values":{"3":"Pink","4":"Premium","5":"Lilies"},"attributes":[24,27,29],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'24','27','29'"},"55":{"attributes_values":{"3":"Pink","4":"Standard","5":"Roses"},"attributes":[24,25,28],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'24','25','28'"},"61":{"attributes_values":{"3":"Pink","4":"Deluxe","5":"Roses"},"attributes":[24,26,28],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'24','26','28'"},"67":{"attributes_values":{"3":"Pink","4":"Premium","5":"Roses"},"attributes":[24,27,28],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'24','27','28'"}};
 var combinationsFromController = {"60":{"attributes_values":{"3":"Red","4":"Deluxe","5":"Roses"},"attributes":[10,26,28],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'10','26','28'"},"66":{"attributes_values":{"3":"Red","4":"Premium","5":"Roses"},"attributes":[10,27,28],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'10','27','28'"},"54":{"attributes_values":{"3":"Red","4":"Standard","5":"Roses"},"attributes":[10,25,28],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'10','25','28'"},"58":{"attributes_values":{"3":"Red","4":"Standard","5":"Daisies"},"attributes":[10,25,30],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'10','25','30'"},"64":{"attributes_values":{"3":"Red","4":"Deluxe","5":"Daisies"},"attributes":[10,26,30],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'10','26','30'"},"70":{"attributes_values":{"3":"Red","4":"Premium","5":"Daisies"},"attributes":[10,27,30],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'10','27','30'"},"56":{"attributes_values":{"3":"Red","4":"Standard","5":"Lilies"},"attributes":[10,25,29],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'10','25','29'"},"62":{"attributes_values":{"3":"Red","4":"Deluxe","5":"Lilies"},"attributes":[10,26,29],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'10','26','29'"},"68":{"attributes_values":{"3":"Red","4":"Premium","5":"Lilies"},"attributes":[10,27,29],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'10','27','29'"},"59":{"attributes_values":{"3":"Pink","4":"Standard","5":"Daisies"},"attributes":[24,25,30],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'24','25','30'"},"65":{"attributes_values":{"3":"Pink","4":"Deluxe","5":"Daisies"},"attributes":[24,26,30],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'24','26','30'"},"71":{"attributes_values":{"3":"Pink","4":"Premium","5":"Daisies"},"attributes":[24,27,30],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'24','27','30'"},"57":{"attributes_values":{"3":"Pink","4":"Standard","5":"Lilies"},"attributes":[24,25,29],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'24','25','29'"},"63":{"attributes_values":{"3":"Pink","4":"Deluxe","5":"Lilies"},"attributes":[24,26,29],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'24','26','29'"},"69":{"attributes_values":{"3":"Pink","4":"Premium","5":"Lilies"},"attributes":[24,27,29],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'24','27','29'"},"55":{"attributes_values":{"3":"Pink","4":"Standard","5":"Roses"},"attributes":[24,25,28],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'24','25','28'"},"61":{"attributes_values":{"3":"Pink","4":"Deluxe","5":"Roses"},"attributes":[24,26,28],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'24','26','28'"},"67":{"attributes_values":{"3":"Pink","4":"Premium","5":"Roses"},"attributes":[24,27,28],"price":0,"specific_price":{"id_specific_price":"4","id_specific_price_rule":"0","id_cart":"0","id_product":"8","id_shop":"0","id_shop_group":"0","id_currency":"0","id_country":"0","id_group":"0","id_customer":"0","id_product_attribute":"0","price":"-1.000000","from_quantity":"1","reduction":"0.200000","reduction_tax":"1","reduction_type":"percentage","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":"32"},"ecotax":0,"weight":0,"quantity":100,"reference":"00101","unit_impact":0,"minimal_quantity":"1","date_formatted":"","available_date":"","id_image":-1,"list":"'24','27','28'"}};
@@ -231,6 +236,13 @@ var wishlistProductsIds = false;
               <script src="js/jquery/jquery-migrate-1.2.1.min.js"></script>
               <script src="js/jquery/plugins/jquery.easing.js"></script>
               <script src="js/tools.js"></script>
+              <script src="js/combo.js"></script>
+              <script src="js/reg.js"></script>
+              <script src="js/jquery.js"></script>
+              <script src="js/emailvalidar.js"></script>
+              <script src="js/limiteinput.js"></script>
+              <script src="js/split.js"></script>
+              <script src="js/pasar.js"></script>
               <script src="themes/theme1362/js/global.js"></script>
               <script src="themes/theme1362/js/autoload/10-bootstrap.min.js"></script>
               <script src="themes/theme1362/js/autoload/14-device.min.js"></script>
@@ -251,7 +263,6 @@ var wishlistProductsIds = false;
               <script src="modules/tmmegamenu/views/js/hoverIntent.js"></script>
               <script src="modules/tmmegamenu/views/js/superfish.js"></script>
               <script src="themes/theme1362/js/modules/tmmegamenu/views/js/tmmegamenu.js"></script>
-              <script src="modules/tmsociallogin/views/js/front.js"></script>
               <script src="js/jquery/plugins/autocomplete/jquery.autocomplete.js"></script>
               <script src="themes/theme1362/js/modules/tmsearch/views/js/tmsearch.js"></script>
               <script src="themes/theme1362/js/modules/tmrelatedproducts/views/js/tmrelatedproducts.js"></script>
@@ -325,53 +336,68 @@ var wishlistProductsIds = false;
 <div id="tmsearch" class="clearfix">
 </div>
 <div id="header-login">
-<div class="current header_user_info"><a href="#" onclick="return false;">Iniciar sesión</a></div>
-<ul id="header-login-content" class="toogle_content">
-                <li>
-            <form action="existe.php" method="post">
-                <div id="create_header_account_error" class="alert alert-danger" style="display:none;"></div>
-                <div class="form_content clearfix">
+  <?php
+      echo $_SESSION['u_usuario'];
+  ?>
+    <div class="current header_user_info"><a href="#" onclick="return false;"> Tu cuenta </a></div>
+    <ul id="header-login-content" class="toogle_content">
+                    <li>
+                <form action="existe.php" method="post" id="header_login_form">
+                    <div id="create_header_account_error" class="alert alert-danger" style="display:none;"></div>
                     <div class="form_content clearfix">
+                        <p>
+                        <?php
+                            echo "<br><br><a href='salir.php' class='create'>Salir de tu cuenta</a>";
+                        ?>
+                        </p>
+                        <div class="clearfix">
 
-      <label for="email">Correo:</label><br>
-      <input type="email" name="email" maxlength="32" id="email" placeholder="example@hotmail.com" required>
-<br/><br/>
-
-      <label for="password">Password:</label><br>
-      <input type="password" name="password" maxlength="8" dir="password"  placeholder="............" required>
-<br/><br/>
-</div>
-                    <input type="hidden" class="hidden" name="back" value="my-account" />
-                    <button type="submit" id="SubmitLogin" name="SubmitLogin" class="btn btn-default btn-md">
-          <span>
-            <i class="fa fa-lock left"></i>
-            Iniciar sesi&oacute;n
-          </span>
-        </button>
-        <br><br>
-        <p>
-                      <a href="login.php" class="create">Crear una cuenta</a>
-                </div>
-            </form>
-        </li>
-        </ul>
+                        </div>
+                    </div>
+                </form>
+            </li>
+            </ul>
 </div></nav>
             </div>
           </div>
         </div>
-                <div class="top">
-        <div class="container">
-          <div class="row">
-            <div id="header_logo">
-              <a href="index.php" title="R.S. Textil">
-                <img class="logo img-responsive" src="themes/theme1362/img/icon/logo/LOGO.jpg" alt="R.S. Textil" width="275" height="71"/>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
+        <div class="top">
+<div class="container">
+  <div class="row">
+    <div id="header_logo">
+      <a href="index_.php" title="R.S. Textil">
+        <img class="logo img-responsive" src="themes/theme1362/img/icon/logo/LOGO.jpg" alt="R.S. Textil" width="275" height="71"/>
+      </a>
+    </div>
+
+
+<div class="top_menu top-level rs">
+<div class="menu-title tmmegamenu_item">Menú</div>
+<!-- Inicia Menu desplegable-->
+<ul class="menu clearfix top-level-menu tmmegamenu_item">
+  <li class=" top-level-menu-li tmmegamenu_item it_22797818">
+    <a class="it_22797818 top-level-menu-li-a tmmegamenu_item" href="index_.php">Inicio </a>
+  </li>
+  <li class=" top-level-menu-li tmmegamenu_item it_06944254">
+    <!-- Comienza primer nav-->
+    <a class="it_06944254 top-level-menu-li-a tmmegamenu_item" href="compraslog.php">Compras</a>
+  </li>
+
+  <!-- Comienza segundo nav-->
+  <li class=" top-level-menu-li tmmegamenu_item it_19773019">
+  <a class="it_19773019 top-level-menu-li-a tmmegamenu_item" href="productoslog.php">Productos</a>
+  </li>
+<li class=" top-level-menu-li tmmegamenu_item it_22797818">
+<a class="it_22797818 top-level-menu-li-a tmmegamenu_item" href="#">Facturación </a>
+</li>
+<li class=" top-level-menu-li tmmegamenu_item it_29705307"><a class="it_29705307 top-level-menu-li-a tmmegamenu_item" href="perfillog.php"> Perfil</a></li></ul>
+
+</div>
   </div>
+</div>
+</div>
+</header>
+</div>
 
       <div class="columns-container">
 
@@ -381,7 +407,7 @@ var wishlistProductsIds = false;
 <div class="breadcrumb clearfix">
   <ul>
     <li class="home">
-      <a class="home" href="index.php" title="Volver a Inicio">
+      <a class="home" href="index_.php" title="Volver a Inicio">
         <i class="fa fa-home"></i>
       </a>
     </li>
@@ -431,11 +457,10 @@ var wishlistProductsIds = false;
         <!-- center infos -->
         <div class="pb-right-column col-sm-6 col-md-6 col-lg-4">
           <div class="product-info-line">
-                        <form action="comprar.php" method="post" class="box">
+                        <form method="post" class="box">
                             <h1 itemprop="name">Cuadrib</h1>
                   <div class="all-price-info">
-                        <p class="our_price_display" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-                          <link itemprop="availability" href="https://schema.org/InStock"/><span id="our_price_display" itemprop="price" content="19.2">$19.20</span><meta itemprop="priceCurrency" content="USD" />                        </p>
+                          <span id="our_price_display" itemprop="price" content="19.2">$19.20</span><meta itemprop="priceCurrency" content="USD" />                        </p>
                         <p id="old_price"><span id="old_price_display"><span class="price">$24.00</span></span>                        </p>
                           <p id="reduction_percent" >
                             <span id="reduction_percent_display">-20%</span>
@@ -448,76 +473,75 @@ var wishlistProductsIds = false;
 
 
  <!--Nombre Usuario-->
- <label for="email">Correo electrónico:</label><br> <input type="email" name="email" id="email" placeholder="example@hotmail.com" autofocus required disabled></td><br><br>
- <label >Id del producto:</label>
+ <label for="email">ID venta:</label><br>
  <?php
  include("conexion.php");
- $result = mysqli_query($con, "SELECT IDPROD FROM tbl_inventarioProductos WHERE nombre='Cuadrib'");
+ $result = mysqli_query($con, "SELECT IDVEN FROM tbl_inventarioVentas WHERE Cliente='".$_SESSION["id"]."'");
  if ($row = mysqli_fetch_array($result)){
-   echo $row["IDPROD"];
+   echo "<input name='id' value='".$row["IDVEN"]."' readonly>";
  } else {
  echo "¡ No se ha encontrado ningún registro !";
  }
- ?>
- <h3>Dirección</h3><br>
- <label for="estado">Estado:</label><br>
- <select name="estados" onChange="habilitar(this.form)" disabled>
-         <option value="0">Selecciona tu estado</option>
-     </select><br><br>
+ ?><br><br>
 
-     <label for="municipio">Municipio:</label><br> <input type="text" name="municipio" maxlength="32" id="municipio" placeholder="Escribe tu municipio" autofocus required disabled><br><br>
+ <label for="email">Correo electrónico:</label><br>
+ <?php
+    echo "<input value='".$_SESSION['u_usuario']."' readonly>";
+ ?><br><br>
 
-     <label for="delegacion">Delegación:</label><br><select name="delegacion" id='delegacion' autofocus required disabled>
-           <option value="0">Selecciona tu delegación</option>
-           <option value="1">Álvaro Obregón</option>
-           <option value="2">Azcapotzalco</option>
-           <option value="3">Benito Juárez</option>
-           <option value="4">Coyoacán</option>
-           <option value="5">Cuajimalpa</option>
-           <option value="6">Cuauhtémoc</option>
-           <option value="7">Gustavo A. Madero</option>
-           <option value="8">Iztacalco</option>
-           <option value="9">Iztapalapa</option>
-           <option value="10">Magdalena Contreras</option>
-           <option value="11">Miguel Hidalgo</option>
-           <option value="12">Milpa Alta</option>
-           <option value="13">Tláhuac</option>
-           <option value="14">Tlalpan</option>
-           <option value="15">Venustiano Carranza</option>
-           <option value="16">Xochimilco</option>
-       </select><br><br>
-
-<label for="colonia">Colonia:</label><br> <input type="text" name="colonia" maxlength="32" id="colonia" placeholder="Escribe tu colonia" autofocus required disabled><br><br>
-
-<label for="calle">Calle:</label><br> <input type="text" name="calle" maxlength="32" id="calle" placeholder="Escribe la calle" autofocus required disabled><br><br>
-
-<label for="numex">Número exterior:</label><br>
- <input type="text" name="numex" size="20" maxlength="5" id="numex" placeholder="Num. exterior" autofocus required onkeypress="return valida(event)" disabled><br><br>
-
-<label for="numin">Número interior:</label><br> <input type="text" name="numin" maxlength="5" id="numin" placeholder="Num. interior" autofocus required onkeypress="return valida(event)" disabled><br><br>
-
-<label for="postal">Código postal:</label><br> <input type="text" name="postal" maxlength="5" id="postal" placeholder="05069" autofocus required onkeypress="return valida(event)" disabled><br><br>
+ <label >Id del producto:</label><br>
+ <?php
+ include("conexion.php");
+ $result = mysqli_query($con, "SELECT Producto FROM tbl_inventarioVentas WHERE Cliente='".$_SESSION["id"]."'");
+ if ($row = mysqli_fetch_array($result)){
+   echo "<input name='idprod' value='".$row["Producto"]."' readonly>";
+ } else {
+ echo "¡ No se ha encontrado ningún registro !";
+ }
+ ?><br><br>
  <!--Password-->
- <label for="Cantidad">Cantidad:</label>
-    <p><input type="text" id="txtNumero1" name="txtNumero1" disabled/><input type="text" id="txtNumero2" value="19.20" readonly="" disabled/></p>
-    <br/>
+ <label for="Cantidad">Cantidad:</label><br>
+ <?php
+ include("conexion.php");
+ $result = mysqli_query($con, "SELECT cantidadProducto FROM tbl_inventarioVentas WHERE Cliente='".$_SESSION["id"]."'");
+ if ($row = mysqli_fetch_array($result)){
+   echo "<input name='idprod' value='".$row["cantidadProducto"]."' readonly>";
+ } else {
+ echo "¡ No se ha encontrado ningún registro !";
+ }
+ ?><br><br>
+
     <label for="direccion">Total $:</label><br>
-    <input type="text" id="totalsuma" name="totalsuma" readonly="" />
-    <input type="button" onclick="suma()" value="calcular" class="btn btn-default btn-md"/>
-    <br/><br/>
+    <?php
+    include("conexion.php");
+    $result = mysqli_query($con, "SELECT totalVenta FROM tbl_inventarioVentas WHERE Cliente='".$_SESSION["id"]."'");
+    if ($row = mysqli_fetch_array($result)){
+      echo "<input name='idprod' value='".$row["totalVenta"]."' readonly>";
+    } else {
+    echo "¡ No se ha encontrado ningún registro !";
+    }
+    ?><br><br>
+
+    <label for="direccion">Fecha de compra:</label><br>
+    <?php
+    include("conexion.php");
+    $result = mysqli_query($con, "SELECT fechaCompra FROM tbl_inventarioVentas WHERE Cliente='".$_SESSION["id"]."'");
+    if ($row = mysqli_fetch_array($result)){
+      echo "<input name='idprod' value='".$row["fechaCompra"]."' readonly>";
+    } else {
+    echo "¡ No se ha encontrado ningún registro !";
+    }
+    ?>
+
 
                                                             <div class="attribute_list">
 
                           <input type="hidden" class="hidden" name="back" value="my-account" />
-                        <button type="submit" id="SubmitLogin" name="SubmitLogin" class="btn btn-default btn-md" disabled>
-              <span>
-
-                Confirmar compra
-              </span>
-            </button>
-             <br/> <br/>
       </form>
     </div>
+    <?php
+        echo "<a href='compraslog.php'> <p><button class='btn btn-default'><span>Atras</span></button></p></a>";
+    ?>
           </div>
             <!-- add to cart form-->
               <!-- hidden datas -->
@@ -615,12 +639,12 @@ var wishlistProductsIds = false;
                                                                 <h4>Información</h4>
                                                                 <ul class="toggle-footer">
                                                                                             <li class="item">
-                                                                      <a href="terminos.php" title="Nuestras tiendas">
+                                                                      <a href="terminoslog.php" title="Nuestras tiendas">
                                                                         Términos y condiciones
                                                                       </a>
                                                                     </li>
                                                                                 <li class="item">
-                                                                      <a href="Aviso.php" title="Términos y condiciones">
+                                                                      <a href="Avisolog.php" title="Términos y condiciones">
                                                                         Aviso de privacidad
                                                                       </a>
                                                                     </li>
@@ -629,7 +653,7 @@ var wishlistProductsIds = false;
                                                               </section>
                                                                   <div class="bottom-footer">
                                                                   <div class="container">
-                                                                    <a class="_blank" href="index.php"> © 2017 - R.S. Textil </a>
+                                                                    <a class="_blank" href="index_.php"> © 2017 - R.S. Textil </a>
                                                                   </div>
                                                                 </div>
                                                                 <!-- /Block CMS module footer -->
@@ -642,7 +666,7 @@ var wishlistProductsIds = false;
                                                               <div class="block_content toggle-footer">
                                                                 <ul class="bullet">
                                                                   <li>
-                                                                    <a href="Quien y que.php" title="Mis compras" rel="nofollow">¿Quiénes somos?<br>¿Qué hacemos?</a>
+                                                                    <a href="Quien y quelog.php" title="Mis compras" rel="nofollow">¿Quiénes somos?<br>¿Qué hacemos?</a>
                                                                   </li>
                                                                       </ul>
                                                               </div>

@@ -29,8 +29,7 @@ $passwordnew = $_POST["passwordnew"];
 		</script>';
 		mysqli_close($con);
 	}
-
-	$modificar2 = " UPDATE tbl_clientes SET password='$passwordnew' WHERE correo='".$_SESSION["u_usuario"]."'";
+$modificar2 = " UPDATE tbl_clientes SET password='$passwordnew' WHERE correo='".$_SESSION["u_usuario"]."'";
 	$resultado2=$con->query($modificar2);
 	if ($resultado2) {
 			echo '<script>
