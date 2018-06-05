@@ -363,7 +363,7 @@ var wishlistProductsIds = false;
     <meta itemprop="bestRating" content = "5" />
   </div><br><br>
   <?php
-      echo "<a href='desc.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+      echo "<a href='regresar.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
   ?>
 </div>
 </div>
@@ -439,7 +439,7 @@ var wishlistProductsIds = false;
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
 </div><br>
 <?php
-    echo "<a href='desc1.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='regresar.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
 ?>
             </div>
                                   </div>
@@ -515,7 +515,7 @@ var wishlistProductsIds = false;
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
 </div><br>
 <?php
-    echo "<a href='desc2.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='regresar.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
 ?>
             </div>
 
@@ -593,7 +593,7 @@ var wishlistProductsIds = false;
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
 </div><br>
 <?php
-    echo "<a href='desc3.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='regresar.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
 ?>
             </div>
 
@@ -665,7 +665,7 @@ var wishlistProductsIds = false;
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
 </div><br>
 <?php
-    echo "<a href='desc4.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='regresar.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
 ?>
             </div>
 
@@ -737,7 +737,7 @@ var wishlistProductsIds = false;
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
 </div><br>
 <?php
-    echo "<a href='desc5.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='regresar.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
 ?>
             </div>
                                   </div>
@@ -807,7 +807,7 @@ var wishlistProductsIds = false;
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
 </div><br>
 <?php
-    echo "<a href='desc6.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='regresar.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
 ?>
             </div>
 
@@ -879,7 +879,7 @@ var wishlistProductsIds = false;
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
 </div><br>
 <?php
-    echo "<a href='desc7.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='regresar.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
 ?>
             </div>
                                   </div>
@@ -947,7 +947,7 @@ var wishlistProductsIds = false;
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
 </div><br>
 <?php
-    echo "<a href='desc8.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='regresar.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
 ?>
             </div>
 
@@ -1019,7 +1019,7 @@ var wishlistProductsIds = false;
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
 </div><br>
 <?php
-    echo "<a href='desc9.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='regresar.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
 ?>
             </div>
 
@@ -1091,7 +1091,7 @@ var wishlistProductsIds = false;
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
 </div><br>
 <?php
-    echo "<a href='desc10.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='regresar.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
 ?>
             </div>
 
@@ -1163,7 +1163,7 @@ var wishlistProductsIds = false;
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
 </div><br>
 <?php
-    echo "<a href='desc11.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='regresar.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
 ?>
             </div>
 
@@ -1243,7 +1243,7 @@ var wishlistProductsIds = false;
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
 </div><br>
 <?php
-    echo "<a href='desc12.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='regresar.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
 ?>
             </div>
 
@@ -1321,7 +1321,7 @@ var wishlistProductsIds = false;
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
 </div><br>
 <?php
-    echo "<a href='desc13.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='regresar.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
 ?>
             </div>
 
@@ -1393,7 +1393,7 @@ var wishlistProductsIds = false;
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
 </div><br>
 <?php
-    echo "<a href='desc14.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='regresar.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
 ?>
             </div>
 
@@ -1465,7 +1465,7 @@ var wishlistProductsIds = false;
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
 </div><br>
 <?php
-    echo "<a href='desc15.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='regresar.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
 ?>
             </div>
 
@@ -1539,7 +1539,7 @@ var wishlistProductsIds = false;
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
 </div><br>
 <?php
-    echo "<a href='desc16.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='regresar.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
 ?>
             </div>
 
@@ -1617,7 +1617,7 @@ var wishlistProductsIds = false;
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
 </div><br>
 <?php
-    echo "<a href='desc17.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='regresar.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
 ?>
             </div>
 
@@ -1693,7 +1693,7 @@ $19.20                  </span>
 <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
 </div><br>
 <?php
-    echo "<a href='desc18.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='regresar.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
 ?>
 </div>
 
@@ -1768,7 +1768,7 @@ $40.00
 <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
 </div><br>
 <?php
-    echo "<a href='desc19.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='regresar.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
 ?>
 </div>
           </div>
