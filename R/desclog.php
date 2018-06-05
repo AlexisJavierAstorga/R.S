@@ -486,12 +486,19 @@ var wishlistProductsIds = false;
  } else {
  echo "¡ No se ha encontrado ningún registro !";
  }
- ?>
+ ?><br><br>
+  <label for="talla">Talla:</label><br>
+ <select name="talla" id='talla' autofocus required >
+         <option value="0">Selecciona tu talla</option>
+         <option value="S">S</option>
+         <option value="M">M</option>
+         <option value="G">G</option>
+     </select><br>
  <h3>Dirección</h3><br>
  <label for="estado">Estado:</label><br>
- <select name="estados" onChange="habilitar(this.form)" >
+ <select name="estados" id='estado' autofocus required onChange="habilitar(this.form)" >
          <option value="0">Selecciona tu estado</option>
-         <option value="1">CDMX</option>
+         <option value="CDMX">CDMX</option>
      </select><br><br>
 
      <!--label for="municipio">Municipio:</label><br> <input type="text" name="municipio" maxlength="32" id="municipio" placeholder="Escribe tu municipio" autofocus required ><br><br-->
