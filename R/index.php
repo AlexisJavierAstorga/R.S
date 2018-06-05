@@ -379,28 +379,30 @@ off</h2>
           </h5>
                       <p class="product-desc" itemprop="description">
             <span class="list-desc">Vete elegante a cualquier parte con nuestra moda huichol.</span>
-            <span class="grid-desc">Vete elegante a cualquier parte...</span>
           </p>
-            <?php
-            include("conexion.php");
-            $result = mysqli_query($con, "SELECT cantidad,talla FROM tbl_inventarioProductos WHERE nombre='Cuadrib'");
-            if ($row = mysqli_fetch_array($result)){
-              echo "<p><span class='grid-desc'>Cantidad: ".$row["cantidad"]."</span></p>";
-              echo "<p><span class='grid-desc'>Tallas: ".$row["talla"]."</span></p>";
-            } else {
-            echo "¡ No se ha encontrado ningún registro !";
-            }
-            ?>
+          <?php
+          include("conexion.php");
+          $result = mysqli_query($con, "SELECT cantidad,talla,descripcion FROM tbl_inventarioProductos WHERE nombre='Cuadrib'");
+          if ($row = mysqli_fetch_array($result)){
+            echo "<p class='product-desc' itemprop='description'><span class='grid-desc'>".$row["descripcion"]."</span></p>";
+            echo "<p><span class='grid-desc'>Cantidad: ".$row["cantidad"]."</span></p>";
+            echo "<p><span class='grid-desc'>Tallas: ".$row["talla"]."</span></p>";
+          } else {
+          echo "¡ No se ha encontrado ningún registro !";
+          }
+          ?>
                         <div class="content_price">
+                          <?php
+                          include("conexion.php");
+                          $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Cuadrib'");
+                          if ($row = mysqli_fetch_array($result)){
+                            echo "<p><span class='price product-price product-price-new'>".$row["precio"]."</span> <span class='old-price product-price'>$280.00</span></p>";
+                          } else {
+                          echo "¡ No se ha encontrado ningún registro !";
+                          }
+                          ?>
 
-                <span class="price product-price product-price-new">
-                  $19.20                  </span>
-
-                  <span class="old-price product-price">
-                    $24.00
-                  </span>
-
-                                        <span class="price-percent-reduction">-20%</span>
+                                        <span class="price-percent-reduction">-30%</span>
 
 
 
@@ -418,7 +420,7 @@ off</h2>
     <meta itemprop="bestRating" content = "5" />
   </div><br><br>
   <?php
-      echo "<a href='desc.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+      echo "<a href='regresar.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
   ?>
 </div>
 </div>
@@ -467,12 +469,15 @@ off</h2>
           ?>
                         <div class="content_price">
 
-                <span class="price product-price product-price-new">
-                  $32.00                  </span>
-
-                  <span class="old-price product-price">
-                    $40.00
-                  </span>
+                          <?php
+                          include("conexion.php");
+                          $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Tappib'");
+                          if ($row = mysqli_fetch_array($result)){
+                            echo "<p><span class='price product-price product-price-new'>".$row["precio"]."</span> <span class='old-price product-price'>$400.00</span></p>";
+                          } else {
+                          echo "¡ No se ha encontrado ningún registro !";
+                          }
+                          ?>
 
                                         <span class="price-percent-reduction">-20%</span>
 
@@ -494,7 +499,7 @@ off</h2>
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
 </div><br>
 <?php
-    echo "<a href='desc1.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='regresar.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
 ?>
             </div>
                                   </div>
@@ -543,12 +548,15 @@ off</h2>
           ?>
                         <div class="content_price">
 
-                <span class="price product-price product-price-new">
-                  $28.00                  </span>
-
-                  <span class="old-price product-price">
-                    $35.00
-                  </span>
+                          <?php
+                          include("conexion.php");
+                          $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Casual hollow lace'");
+                          if ($row = mysqli_fetch_array($result)){
+                            echo "<p><span class='price product-price product-price-new'>".$row["precio"]."</span> <span class='old-price product-price'>$310.00</span></p>";
+                          } else {
+                          echo "¡ No se ha encontrado ningún registro !";
+                          }
+                          ?>
 
                                         <span class="price-percent-reduction">-20%</span>
 
@@ -570,7 +578,7 @@ off</h2>
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
 </div><br>
 <?php
-    echo "<a href='desc2.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='regresar.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
 ?>
             </div>
 
@@ -621,12 +629,15 @@ off</h2>
           ?>
                         <div class="content_price">
 
-                <span class="price product-price product-price-new">
-                  $16.00                  </span>
-
-                  <span class="old-price product-price">
-                    $20.00
-                  </span>
+                          <?php
+                          include("conexion.php");
+                          $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Loose floral'");
+                          if ($row = mysqli_fetch_array($result)){
+                            echo "<p><span class='price product-price product-price-new'>".$row["precio"]."</span> <span class='old-price product-price'>$205.00</span></p>";
+                          } else {
+                          echo "¡ No se ha encontrado ningún registro !";
+                          }
+                          ?>
 
                                         <span class="price-percent-reduction">-20%</span>
 
@@ -648,7 +659,7 @@ off</h2>
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
 </div><br>
 <?php
-    echo "<a href='desc3.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='regresar.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
 ?>
             </div>
 
@@ -699,8 +710,15 @@ off</h2>
           ?>
                         <div class="content_price">
 
-                <span class="price product-price">
-                  $27.00                  </span>
+                          <?php
+                          include("conexion.php");
+                          $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Blusa azul con cenefa'");
+                          if ($row = mysqli_fetch_array($result)){
+                            echo "<p><span class='price product-price'>".$row["precio"]."</span></p>";
+                          } else {
+                          echo "¡ No se ha encontrado ningún registro !";
+                          }
+                          ?>
 
 
 
@@ -720,7 +738,7 @@ off</h2>
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
 </div><br>
 <?php
-    echo "<a href='desc4.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='regresar.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
 ?>
             </div>
 
@@ -771,8 +789,15 @@ off</h2>
           ?>
                         <div class="content_price">
 
-                <span class="price product-price">
-                  $40.00                  </span>
+                          <?php
+                          include("conexion.php");
+                          $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Lady flor'");
+                          if ($row = mysqli_fetch_array($result)){
+                            echo "<p><span class='price product-price'>".$row["precio"]."</span></p>";
+                          } else {
+                          echo "¡ No se ha encontrado ningún registro !";
+                          }
+                          ?>
 
 
 
@@ -792,7 +817,7 @@ off</h2>
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
 </div><br>
 <?php
-    echo "<a href='desc5.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='regresar.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
 ?>
             </div>
                                   </div>
@@ -841,8 +866,15 @@ off</h2>
           ?>
                         <div class="content_price">
 
-                <span class="price product-price">
-                  $34.00                  </span>
+                          <?php
+                          include("conexion.php");
+                          $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Bleu'");
+                          if ($row = mysqli_fetch_array($result)){
+                            echo "<p><span class='price product-price'>".$row["precio"]."</span></p>";
+                          } else {
+                          echo "¡ No se ha encontrado ningún registro !";
+                          }
+                          ?>
 
 
 
@@ -862,7 +894,7 @@ off</h2>
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
 </div><br>
 <?php
-    echo "<a href='desc6.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='regresar.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
 ?>
             </div>
 
@@ -913,8 +945,15 @@ off</h2>
           ?>
                         <div class="content_price">
 
-                <span class="price product-price">
-                  $30.00                  </span>
+                          <?php
+                          include("conexion.php");
+                          $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Canesu jean'");
+                          if ($row = mysqli_fetch_array($result)){
+                            echo "<p><span class='price product-price'>".$row["precio"]."</span></p>";
+                          } else {
+                          echo "¡ No se ha encontrado ningún registro !";
+                          }
+                          ?>
 
 
 
@@ -934,7 +973,7 @@ off</h2>
   <span class="nb-comments"><span itemprop="reviewCount">1</span> Comentario(s)</span>
 </div><br>
 <?php
-    echo "<a href='desc7.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
+    echo "<a href='regresar.php'> <p><button class='btn btn-default'><span>Cómpralo ya!</span></button></p></a>";
 ?>
             </div>
                                   </div>
