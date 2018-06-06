@@ -294,9 +294,9 @@ var wishlistProductsIds = false;
                 <div class="modal">
                   <div class="contenido">
                     <h1>Mensaje publicitario</h1>
-                    <h2>¡El mundial se acerca visita su página!</h2>
+                    <h2>¡El mundial se acerca visita su página!</h2><br><br><br>
                     <a href="https://es.fifa.com/worldcup/" title="Mundial 2018">
-                    <img src="themes/theme1362/img/index/mundial.jpg" alt="">
+                    <img src="themes/theme1362/img/index/mundial.jpg" width="480" alt="">
                   </div>
                 </div>
             </div>

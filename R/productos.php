@@ -1585,7 +1585,7 @@ var wishlistProductsIds = false;
         <div class="left-block">
           <div class="product-image-container">
             <a href="regresar.php" title="Estampado Líneas" itemprop="url">
-              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/C17.jpg" onmouseover="this.src='themes/theme1362/img/index/cata/c17_2.jpg';" onmouseout="this.src='themes/theme1362/img/index/cata/C17.jpg';" alt="Casual Hollow Lace" title="Casual Hollow Lace" itemprop="image" />
+              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c17.jpg" onmouseover="this.src='themes/theme1362/img/index/cata/c17_2.jpg';" onmouseout="this.src='themes/theme1362/img/index/cata/c17.jpg';" alt="Casual Hollow Lace" title="Casual Hollow Lace" itemprop="image" />
 
             </a>
             <a class="new-box" href="regresar.php">
@@ -1666,7 +1666,7 @@ var wishlistProductsIds = false;
         <div class="left-block">
           <div class="product-image-container">
             <a href="regresar.php" title="Fashion Style" itemprop="url">
-              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/C18.jpg" onmouseover="this.src='themes/theme1362/img/index/cata/c18_3.jpg';" onmouseout="this.src='themes/theme1362/img/index/cata/C18.jpg';" alt="Casual Hollow Lace" title="Casual Hollow Lace" itemprop="image" />
+              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c18.jpg" onmouseover="this.src='themes/theme1362/img/index/cata/c18_3.jpg';" onmouseout="this.src='themes/theme1362/img/index/cata/c18.jpg';" alt="Casual Hollow Lace" title="Casual Hollow Lace" itemprop="image" />
 
             </a>
 
@@ -1746,7 +1746,7 @@ var wishlistProductsIds = false;
 <div class="left-block">
 <div class="product-image-container">
 <a href="regresar.php" itemprop="url">
-<img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/C19.jpg" onmouseover="this.src='themes/theme1362/img/index/cata/c19_3.jpg';" onmouseout="this.src='themes/theme1362/img/index/cata/C19.jpg';" alt="Casual Hollow Lace" title="Casual Hollow Lace" itemprop="image" />
+<img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c19.jpg" onmouseover="this.src='themes/theme1362/img/index/cata/c19_3.jpg';" onmouseout="this.src='themes/theme1362/img/index/cata/c19.jpg';" alt="Casual Hollow Lace" title="Casual Hollow Lace" itemprop="image" />
 
 </a>
 
@@ -1825,7 +1825,7 @@ echo "¡ No se ha encontrado ningún registro !";
 <div class="left-block">
 <div class="product-image-container">
 <a href="regresar.php" title="Fashion Style" itemprop="url">
-<img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/C20.jpg" onmouseover="this.src='themes/theme1362/img/index/cata/c20_3.jpg';" onmouseout="this.src='themes/theme1362/img/index/cata/C20.jpg';" alt="Casual Hollow Lace" title="Casual Hollow Lace" itemprop="image" />
+<img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c20.jpg" onmouseover="this.src='themes/theme1362/img/index/cata/c20_3.jpg';" onmouseout="this.src='themes/theme1362/img/index/cata/c20.jpg';" alt="Casual Hollow Lace" title="Casual Hollow Lace" itemprop="image" />
 
 </a>
 
