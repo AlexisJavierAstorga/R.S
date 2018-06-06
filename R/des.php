@@ -437,11 +437,12 @@ var wishlistProductsIds = false;
                 <span class="sale-label">&iexcl;Oferta!</span>
               </span>
                                       <span id="view_full_size">
-                                  <a class="jqzoom" title="Cuadrib" rel="c1" href="#">
 
+                    <iframe itemprop="image" src="themes/theme1362/img/index/cata/C1.jpg" title="Cuadrib" alt="Cuadrib">
+                      <a class="jqzoom" title="Cuadrib" rel="c1" href="#">
                     <img itemprop="image" src="themes/theme1362/img/index/cata/C1.jpg" title="Cuadrib" alt="Cuadrib"/>
                   </a>
-
+</iframe>
                                   </span>
                       </div>
           <!-- end image-block -->

@@ -4,18 +4,25 @@
 <!--[if IE 7]><html class="no-js lt-ie9 lt-ie8 ie7" lang="es-es"><![endif]-->
 <!--[if IE 8]><html class="no-js lt-ie9 ie8" lang="es-es"><![endif]-->
 <!--[if gt IE 8]> <html class="no-js ie9" lang="es-es"><![endif]-->
-<html lang="es-es"><head>
+<html lang="es-es">
+<head>
+
     <meta charset="utf-8" />
     <title>R.S. Textil</title>
 
 
+
           <meta name="description" content="Shop powered by R.S. Textil" />
             <meta name="generator" content="R.S. Textil" />
+
     <meta name="robots" content="index,follow" />
     <meta name="viewport" content="width=device-width, minimum-scale=0.25, maximum-scale=1.0, initial-scale=1.0" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <link rel="shortcut icon" type="image/x-icon" href="themes/theme1362/img/icon/logo/LOGO.ico" />
 
+
+
+<link rel="stylesheet" href="themes/theme1362/css/modal.css" media="all" />
 <link rel="stylesheet" href="themes/theme1362/css/inputs.css" media="all" />
     <link rel="stylesheet" href="themes/theme1362/css/video.css" media="all" />
     <link rel="stylesheet" href="themes/theme1362/css/youtube-responsive.css" media="all" />
@@ -220,15 +227,20 @@ var wishlistProductsIds = false;
             });
         });
     </script>
-
                 </head>
 
   <body id="index" class="index hide-left-column hide-right-column lang_es  one-column">
   <!--END block for older internet explorer-->
+
+
+
         <div id="page">
+
       <div id="preloader">
           <div class="cssload-dots"></div>
       </div>
+
+
       <!--#preloader -->
       <div class="header-container">
         <header id="header">
@@ -272,7 +284,21 @@ var wishlistProductsIds = false;
             </ul>
 </div></nav>
                 </div>
+
               </div>
+<!--/div ESTE DIV SE SUSTITUYO -------------------------------------------------------------------------->
+
+
+              <input type="checkbox" id="cerrar">
+                <label for="cerrar" id="btn-cerrar">X</label>
+                <div class="modal">
+                  <div class="contenido">
+                    <h1>Mensaje publicitario</h1>
+                    <h2>¡El mundial se acerca visita su página!</h2>
+                    <a href="https://es.fifa.com/worldcup/" title="Mundial 2018">
+                    <img src="themes/theme1362/img/index/mundial.jpg" alt="">
+                  </div>
+                </div>
             </div>
                     <div class="top">
             <div class="container">
@@ -282,11 +308,19 @@ var wishlistProductsIds = false;
                     <img class="logo img-responsive" src="themes/theme1362/img/icon/logo/LOGO.jpg" alt="R.S. Textil" width="275" height="71"/>
                   </a>
                 </div>
+
+
               </div>
+
+
             </div>
+
           </div>
+
         </header>
       </div>
+
+
       <div class="columns-container">
 
 <div class="wrapper it_RBTBAWPZQVDN mg_mod">
@@ -339,7 +373,10 @@ off</h2>
   </div>
 </div></div></div>
 
+
+
         <div id="columns" class="container">
+
                     <div class="row">
             <div class="large-left col-sm-12">
               <div class="row">
@@ -353,14 +390,16 @@ off</h2>
     <div class="tab-content">
 
 
+
+
   <!-- Products list -->
   <ul id="homefeatured" class=" product_list grid row homefeatured tab-pane">
     <li class=" ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line">
       <div class="product-container">
         <div class="left-block">
           <div class="product-image-container">
-            <a title="Cuadrib" itemprop="url">
-              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c1.jpg" alt="Cuadrib" title="Cuadrib" itemprop="image" />
+            <a href="regresar.php" title="Cuadrib" itemprop="url">
+              <img  class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/C1.jpg" onmouseover="this.src='themes/theme1362/img/index/cata/c1_3.jpg';" onmouseout="this.src='themes/theme1362/img/index/cata/C1.jpg';" alt="Cuadrib" title="Cuadrib" itemprop="image" />
 
             </a>
 
@@ -372,7 +411,7 @@ off</h2>
         </div>
         <div class="right-block">
           <h5 itemprop="name">
-                          <a class="product-name" title="Cuadrib" itemprop="url" >
+                          <a href="regresar.php" class="product-name" title="Cuadrib" itemprop="url" >
               <span class="list-name">Cuadrib</span>
               <span class="grid-name">Cuadrib</span>
             </a>
@@ -396,7 +435,7 @@ off</h2>
                           include("conexion.php");
                           $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Cuadrib'");
                           if ($row = mysqli_fetch_array($result)){
-                            echo "<p><span class='price product-price product-price-new'>".$row["precio"]."</span> <span class='old-price product-price'>$280.00</span></p>";
+                            echo "<p><span class='price product-price product-price-new'>$".$row["precio"]."</span> <span class='old-price product-price'>$280.00</span></p>";
                           } else {
                           echo "¡ No se ha encontrado ningún registro !";
                           }
@@ -435,8 +474,8 @@ off</h2>
       <div class="product-container">
         <div class="left-block">
           <div class="product-image-container">
-            <a  href="desc1.php" title="Tappib" itemprop="url">
-              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c2.jpg" alt="Tappib" title="Tappib" itemprop="image" />
+            <a  href="regresar.php" title="Tappib" itemprop="url">
+              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/C2.jpg" onmouseover="this.src='themes/theme1362/img/index/cata/c2_3.jpg';" onmouseout="this.src='themes/theme1362/img/index/cata/C2.jpg';" alt="Tappib" title="Tappib" itemprop="image" />
 
             </a>
 
@@ -448,19 +487,20 @@ off</h2>
         </div>
         <div class="right-block">
           <h5 itemprop="name">
-                          <a class="product-name" href="#" title="Tappib" itemprop="url" >
+                          <a class="product-name" href="regresar.php" title="Tappib" itemprop="url" >
               <span class="list-name">Tappib</span>
               <span class="grid-name">Tappib</span>
             </a>
           </h5>
                       <p class="product-desc" itemprop="description">
             <span class="list-desc">A que no sabías que podemos ser más frescos con nuestros nuevos modelos de huichol.</span>
-            <span class="grid-desc">A que no sabías que podemos ser más frescos...</span>
+
           </p>
           <?php
           include("conexion.php");
-          $result = mysqli_query($con, "SELECT cantidad,talla FROM tbl_inventarioProductos WHERE nombre='Tappib'");
+          $result = mysqli_query($con, "SELECT cantidad,talla,descripcion FROM tbl_inventarioProductos WHERE nombre='Tappib'");
           if ($row = mysqli_fetch_array($result)){
+            echo "<p class='product-desc' itemprop='description'><span class='grid-desc'>".$row["descripcion"]."</span></p>";
             echo "<p><span class='grid-desc'>Cantidad: ".$row["cantidad"]."</span></p>";
             echo "<p><span class='grid-desc'>Tallas: ".$row["talla"]."</span></p>";
           } else {
@@ -473,7 +513,7 @@ off</h2>
                           include("conexion.php");
                           $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Tappib'");
                           if ($row = mysqli_fetch_array($result)){
-                            echo "<p><span class='price product-price product-price-new'>".$row["precio"]."</span> <span class='old-price product-price'>$400.00</span></p>";
+                            echo "<p><span class='price product-price product-price-new'>$".$row["precio"]."</span> <span class='old-price product-price'>$400.00</span></p>";
                           } else {
                           echo "¡ No se ha encontrado ningún registro !";
                           }
@@ -514,8 +554,8 @@ off</h2>
       <div class="product-container">
         <div class="left-block">
           <div class="product-image-container">
-            <a  href="desc2.php" title="Casual Hollow Lace" itemprop="url">
-              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c3.jpg" alt="Casual Hollow Lace" title="Casual Hollow Lace" itemprop="image" />
+            <a  href="regresar.php" title="Casual Hollow Lace" itemprop="url">
+              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/C3.jpg" onmouseover="this.src='themes/theme1362/img/index/cata/c3_3.jpg';" onmouseout="this.src='themes/theme1362/img/index/cata/C3.jpg';" alt="Casual Hollow Lace" title="Casual Hollow Lace" itemprop="image" />
 
             </a>
 
@@ -527,19 +567,20 @@ off</h2>
         </div>
         <div class="right-block">
           <h5 itemprop="name">
-                          <a class="product-name" href="desc2.php" title="Casual Hollow Lace" itemprop="url" >
+                          <a class="product-name" href="regresar.php" title="Casual Hollow Lace" itemprop="url" >
               <span class="list-name">Casual Hollow Lace</span>
               <span class="grid-name">Casual Hollow Lace</span>
             </a>
           </h5>
                       <p class="product-desc" itemprop="description">
             <span class="list-desc">La prenda más popular para estar a la moda.</span>
-            <span class="grid-desc">La prenda más popular para...</span>
+
           </p>
           <?php
           include("conexion.php");
-          $result = mysqli_query($con, "SELECT cantidad,talla FROM tbl_inventarioProductos WHERE nombre='Casual hollow lace'");
+          $result = mysqli_query($con, "SELECT cantidad,talla,descripcion FROM tbl_inventarioProductos WHERE nombre='Casual hollow lace'");
           if ($row = mysqli_fetch_array($result)){
+            echo "<p class='product-desc' itemprop='description'><span class='grid-desc'>".$row["descripcion"]."</span></p>";
             echo "<p><span class='grid-desc'>Cantidad: ".$row["cantidad"]."</span></p>";
             echo "<p><span class='grid-desc'>Tallas: ".$row["talla"]."</span></p>";
           } else {
@@ -552,7 +593,7 @@ off</h2>
                           include("conexion.php");
                           $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Casual hollow lace'");
                           if ($row = mysqli_fetch_array($result)){
-                            echo "<p><span class='price product-price product-price-new'>".$row["precio"]."</span> <span class='old-price product-price'>$310.00</span></p>";
+                            echo "<p><span class='price product-price product-price-new'>$".$row["precio"]."</span> <span class='old-price product-price'>$310.00</span></p>";
                           } else {
                           echo "¡ No se ha encontrado ningún registro !";
                           }
@@ -595,8 +636,8 @@ off</h2>
       <div class="product-container">
         <div class="left-block">
           <div class="product-image-container">
-            <a  href="desc3.php" title="Loose Floral" itemprop="url">
-              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c4.jpg" alt="Loose Floral" title="Loose Floral" itemprop="image" />
+            <a  href="regresar.php" title="Loose Floral" itemprop="url">
+              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/C4.jpg" onmouseover="this.src='themes/theme1362/img/index/cata/c4_3.jpg';" onmouseout="this.src='themes/theme1362/img/index/cata/C4.jpg';" alt="Loose Floral" title="Loose Floral" itemprop="image" />
 
             </a>
 
@@ -608,19 +649,20 @@ off</h2>
         </div>
         <div class="right-block">
           <h5 itemprop="name">
-                          <a class="product-name" href="desc3.php" title="Loose Floral" itemprop="url" >
+                          <a class="product-name" href="regresar.php" title="Loose Floral" itemprop="url" >
               <span class="list-name">Loose Floral</span>
               <span class="grid-name">Loose Floral</span>
             </a>
           </h5>
                       <p class="product-desc" itemprop="description">
             <span class="list-desc">Lo nuevo que Ricardo Seco tiene solo para ti.</span>
-            <span class="grid-desc">Lo nuevo que Ricardo Seco...</span>
+
           </p>
           <?php
           include("conexion.php");
-          $result = mysqli_query($con, "SELECT cantidad,talla FROM tbl_inventarioProductos WHERE nombre='Loose floral'");
+          $result = mysqli_query($con, "SELECT cantidad,talla,descripcion FROM tbl_inventarioProductos WHERE nombre='Loose floral'");
           if ($row = mysqli_fetch_array($result)){
+            echo "<p class='product-desc' itemprop='description'><span class='grid-desc'>".$row["descripcion"]."</span></p>";
             echo "<p><span class='grid-desc'>Cantidad: ".$row["cantidad"]."</span></p>";
             echo "<p><span class='grid-desc'>Tallas: ".$row["talla"]."</span></p>";
           } else {
@@ -633,7 +675,7 @@ off</h2>
                           include("conexion.php");
                           $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Loose floral'");
                           if ($row = mysqli_fetch_array($result)){
-                            echo "<p><span class='price product-price product-price-new'>".$row["precio"]."</span> <span class='old-price product-price'>$205.00</span></p>";
+                            echo "<p><span class='price product-price product-price-new'>$".$row["precio"]."</span> <span class='old-price product-price'>$205.00</span></p>";
                           } else {
                           echo "¡ No se ha encontrado ningún registro !";
                           }
@@ -676,8 +718,8 @@ off</h2>
       <div class="product-container">
         <div class="left-block">
           <div class="product-image-container">
-            <a  href="desc4.php" title="Blusa azul con cenefa" itemprop="url">
-              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c5.jpg" alt="Blusa azul con cenefa" title="Blusa azul con cenefa" itemprop="image" />
+            <a  href="regresar.php" title="Blusa azul con cenefa" itemprop="url">
+              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/C5.jpg" onmouseover="this.src='themes/theme1362/img/index/cata/c5_3.jpg';" onmouseout="this.src='themes/theme1362/img/index/cata/C5.jpg';" alt="Blusa azul con cenefa" title="Blusa azul con cenefa" itemprop="image" />
 
             </a>
 
@@ -689,19 +731,20 @@ off</h2>
         </div>
         <div class="right-block">
           <h5 itemprop="name">
-                          <a class="product-name" href="desc4.php" title="Blusa azul con cenefa" itemprop="url" >
+                          <a class="product-name" href="regresar.php" title="Blusa azul con cenefa" itemprop="url" >
               <span class="list-name">Blusa azul con cenefa</span>
               <span class="grid-name">Blusa azul con cenefa</span>
             </a>
           </h5>
                       <p class="product-desc" itemprop="description">
             <span class="list-desc">Luce elegante con esta blusa.</span>
-            <span class="grid-desc">Luce elegante con...</span>
+
           </p>
           <?php
           include("conexion.php");
-          $result = mysqli_query($con, "SELECT cantidad,talla FROM tbl_inventarioProductos WHERE nombre='Blusa azul con cenefa'");
+          $result = mysqli_query($con, "SELECT cantidad,talla,descripcion FROM tbl_inventarioProductos WHERE nombre='Blusa azul con cenefa'");
           if ($row = mysqli_fetch_array($result)){
+            echo "<p class='product-desc' itemprop='description'><span class='grid-desc'>".$row["descripcion"]."</span></p>";
             echo "<p><span class='grid-desc'>Cantidad: ".$row["cantidad"]."</span></p>";
             echo "<p><span class='grid-desc'>Tallas: ".$row["talla"]."</span></p>";
           } else {
@@ -714,7 +757,7 @@ off</h2>
                           include("conexion.php");
                           $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Blusa azul con cenefa'");
                           if ($row = mysqli_fetch_array($result)){
-                            echo "<p><span class='price product-price'>".$row["precio"]."</span></p>";
+                            echo "<p><span class='price product-price'>$".$row["precio"]."</span> <span class='old-price product-price'>$325.90</span></p>";
                           } else {
                           echo "¡ No se ha encontrado ningún registro !";
                           }
@@ -755,8 +798,8 @@ off</h2>
       <div class="product-container">
         <div class="left-block">
           <div class="product-image-container">
-            <a  href="desc5.php" title="Lady Flor" itemprop="url">
-              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c6.jpg" alt="Lady Flor" title="Lady Flor" itemprop="image" />
+            <a  href="regresar.php" title="Lady Flor" itemprop="url">
+              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/C6.jpg" onmouseover="this.src='themes/theme1362/img/index/cata/c6_2.jpg';" onmouseout="this.src='themes/theme1362/img/index/cata/C6.jpg';" alt="Lady Flor" title="Lady Flor" itemprop="image" />
 
             </a>
 
@@ -768,19 +811,20 @@ off</h2>
         </div>
         <div class="right-block">
           <h5 itemprop="name">
-                          <a class="product-name" href="desc5.php" title="Lady Flor" itemprop="url" >
+                          <a class="product-name" href="regresar.php" title="Lady Flor" itemprop="url" >
               <span class="list-name">Lady Flor</span>
               <span class="grid-name">Lady Flor</span>
             </a>
           </h5>
                       <p class="product-desc" itemprop="description">
             <span class="list-desc">Esta blusa te hará sentir más fashion.</span>
-            <span class="grid-desc">Esta blusa te hará...</span>
+
           </p>
           <?php
           include("conexion.php");
-          $result = mysqli_query($con, "SELECT cantidad,talla FROM tbl_inventarioProductos WHERE nombre='Lady flor'");
+          $result = mysqli_query($con, "SELECT cantidad,talla,descripcion FROM tbl_inventarioProductos WHERE nombre='Lady flor'");
           if ($row = mysqli_fetch_array($result)){
+            echo "<p class='product-desc' itemprop='description'><span class='grid-desc'>".$row["descripcion"]."</span></p>";
             echo "<p><span class='grid-desc'>Cantidad: ".$row["cantidad"]."</span></p>";
             echo "<p><span class='grid-desc'>Tallas: ".$row["talla"]."</span></p>";
           } else {
@@ -793,7 +837,7 @@ off</h2>
                           include("conexion.php");
                           $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Lady flor'");
                           if ($row = mysqli_fetch_array($result)){
-                            echo "<p><span class='price product-price'>".$row["precio"]."</span></p>";
+                            echo "<p><span class='price product-price'>$".$row["precio"]."</span> <span class='old-price product-price'>$599.99</span></p>";
                           } else {
                           echo "¡ No se ha encontrado ningún registro !";
                           }
@@ -832,8 +876,8 @@ off</h2>
       <div class="product-container">
         <div class="left-block">
           <div class="product-image-container">
-            <a  href="desc6.hmtl" title="Bleu" itemprop="url">
-              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c7.jpg" alt="Bleu" title="Bleu" itemprop="image" />
+            <a  href="regresar.php" title="Bleu" itemprop="url">
+              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/C7.jpg" onmouseover="this.src='themes/theme1362/img/index/cata/c7_2.jpg';" onmouseout="this.src='themes/theme1362/img/index/cata/C7.jpg';" alt="Bleu" title="Bleu" itemprop="image" />
 
             </a>
 
@@ -845,19 +889,20 @@ off</h2>
         </div>
         <div class="right-block">
           <h5 itemprop="name">
-                          <a class="product-name" href="desc6.php" title="Bleu" itemprop="url" >
+                          <a class="product-name" href="regresar.php" title="Bleu" itemprop="url" >
               <span class="list-name">Bleu</span>
               <span class="grid-name">Bleu</span>
             </a>
           </h5>
                       <p class="product-desc" itemprop="description">
             <span class="list-desc">Luce esta blusa para estar primaveral.</span>
-            <span class="grid-desc">Luce esta blusa para...</span>
+
           </p>
           <?php
           include("conexion.php");
-          $result = mysqli_query($con, "SELECT cantidad,talla FROM tbl_inventarioProductos WHERE nombre='Bleu'");
+          $result = mysqli_query($con, "SELECT cantidad,talla,descripcion FROM tbl_inventarioProductos WHERE nombre='Bleu'");
           if ($row = mysqli_fetch_array($result)){
+            echo "<p class='product-desc' itemprop='description'><span class='grid-desc'>".$row["descripcion"]."</span></p>";
             echo "<p><span class='grid-desc'>Cantidad: ".$row["cantidad"]."</span></p>";
             echo "<p><span class='grid-desc'>Tallas: ".$row["talla"]."</span></p>";
           } else {
@@ -870,7 +915,7 @@ off</h2>
                           include("conexion.php");
                           $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Bleu'");
                           if ($row = mysqli_fetch_array($result)){
-                            echo "<p><span class='price product-price'>".$row["precio"]."</span></p>";
+                            echo "<p><span class='price product-price'>$".$row["precio"]."</span> <span class='old-price product-price'>$380.00</span></p>";
                           } else {
                           echo "¡ No se ha encontrado ningún registro !";
                           }
@@ -911,8 +956,8 @@ off</h2>
       <div class="product-container">
         <div class="left-block">
           <div class="product-image-container">
-            <a  href="desc7.php" title="Canesú Jean" itemprop="url">
-              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c8.jpg" alt="Canesú Jean" title="Canesú Jean" itemprop="image" />
+            <a  href="regresar.php" title="Canesú Jean" itemprop="url">
+              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/C8.jpg" onmouseover="this.src='themes/theme1362/img/index/cata/c8_2.jpg';" onmouseout="this.src='themes/theme1362/img/index/cata/C8.jpg';" alt="Canesú Jean" title="Canesú Jean" itemprop="image" />
 
             </a>
 
@@ -924,19 +969,20 @@ off</h2>
         </div>
         <div class="right-block">
           <h5 itemprop="name">
-                          <a class="product-name" href="desc7.php" title="Canesú Jean" itemprop="url" >
+                          <a class="product-name" href="regresar.php" title="Canesú Jean" itemprop="url" >
               <span class="list-name">Canesú Jean</span>
               <span class="grid-name">Canesú Jean</span>
             </a>
           </h5>
                       <p class="product-desc" itemprop="description">
             <span class="list-desc">Tan única como coqueta.</span>
-            <span class="grid-desc">Tan única como...</span>
+
           </p>
           <?php
           include("conexion.php");
-          $result = mysqli_query($con, "SELECT cantidad,talla FROM tbl_inventarioProductos WHERE nombre='Canesu jean'");
+          $result = mysqli_query($con, "SELECT cantidad,talla,descripcion FROM tbl_inventarioProductos WHERE nombre='Canesu jean'");
           if ($row = mysqli_fetch_array($result)){
+            echo "<p class='product-desc' itemprop='description'><span class='grid-desc'>".$row["descripcion"]."</span></p>";
             echo "<p><span class='grid-desc'>Cantidad: ".$row["cantidad"]."</span></p>";
             echo "<p><span class='grid-desc'>Tallas: ".$row["talla"]."</span></p>";
           } else {
@@ -949,7 +995,7 @@ off</h2>
                           include("conexion.php");
                           $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Canesu jean'");
                           if ($row = mysqli_fetch_array($result)){
-                            echo "<p><span class='price product-price'>".$row["precio"]."</span></p>";
+                            echo "<p><span class='price product-price'>$".$row["precio"]."</span> <span class='old-price product-price'>$433.29</span></p>";
                           } else {
                           echo "¡ No se ha encontrado ningún registro !";
                           }
@@ -984,13 +1030,13 @@ off</h2>
       </ul>
 
 </div>
-
-
               </div><!-- #center_column -->
                         </div><!--.large-left-->
           </div><!--.row-->
                     </div><!-- .row -->
         </div><!-- #columns -->
+
+
 
 <div class="wrapper it_WSZEAMICCDQE ">
 <div class="row it_XABPLTZITKHO full-width">
@@ -1068,6 +1114,8 @@ off</h2>
                         tm_cps_carousel_nb_new = tm_cps_carousel_nb;
                     }
                 </script>
+
+
                 <div  class="container">
                                    <div class="row">
                            <div >
@@ -1245,4 +1293,6 @@ off</h2>
 
 
                                       <script type="text/javascript" src="themes/theme1362/js/ga.js"></script>
-                                      </body><!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.php?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');</script><!-- End Google Tag Manager --></html>
+
+
+                                      </body><!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.php?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');</script><!-- End Google Tag Manager --> </html>
