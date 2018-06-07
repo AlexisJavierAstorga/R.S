@@ -380,7 +380,7 @@ var wishlistProductsIds = false;
 </li>
 <li class=" top-level-menu-li tmmegamenu_item it_06944254">
   <!-- Comienza primer nav-->
-  <a class="it_06944254 top-level-menu-li-a tmmegamenu_item" href="compraslog.php">Compras</a>
+  <a class="it_06944254 top-level-menu-li-a tmmegamenu_item" href="compraslog.php">Mis compras</a>
 </li>
 
 <!-- Comienza segundo nav-->
@@ -438,7 +438,7 @@ var wishlistProductsIds = false;
             </span>
                                     <span id="view_full_size">
                                 <a class="jqzoom" title="Cuadrib" rel="c1" href="#">
-                  <img itemprop="image" src="themes/theme1362/img/index/cata/c3.jpg" title="Cuadrib" alt="Cuadrib"/>
+                  <img itemprop="image" src="themes/theme1362/img/index/cata/C3.jpg" title="Cuadrib" alt="Cuadrib"/>
                 </a>
 
                                 </span>
@@ -460,15 +460,15 @@ var wishlistProductsIds = false;
                       <form action="comprar.php" method="post" class="box">
                           <h1 itemprop="name">CASUAL HOLLOW LACE</h1>
                 <div class="all-price-info">
-                      <p class="our_price_display" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-                        <link itemprop="availability" href="https://schema.org/InStock"/><span id="our_price_display" itemprop="price" content="19.2">$28.00</span><meta itemprop="priceCurrency" content="USD" />                        </p>
-                      <p id="old_price"><span id="old_price_display"><span class="price">$35.00</span></span>                        </p>
-                        <p id="reduction_percent" >
-                          <span id="reduction_percent_display">-20%</span>
-                        </p>
-                        <p id="reduction_amount"  style="display:none">
-                          <span id="reduction_amount_display"></span>
-                        </p>
+                  <?php
+                  include("conexion.php");
+                  $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Casual hollow lace'");
+                  if ($row = mysqli_fetch_array($result)){
+                    echo "<p><span class='price product-price product-price-new'>$".$row["precio"]."</span> <span class='old-price product-price'>$310.00</span></p>";
+                  } else {
+                  echo "¡ No se ha encontrado ningún registro !";
+                  }
+                  ?>
                     </div>
 
 
@@ -483,21 +483,26 @@ var wishlistProductsIds = false;
 include("conexion.php");
 $result = mysqli_query($con, "SELECT IDPROD FROM tbl_inventarioProductos WHERE nombre='Casual hollow lace'");
 if ($row = mysqli_fetch_array($result)){
-  echo "<input name='id1' value='".$row["IDPROD"]."' readonly>";
+  echo "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input name='id1' value='".$row["IDPROD"]."' readonly>";
 } else {
 echo "¡ No se ha encontrado ningún registro !";
 }
-?>
+?><br><br>
+ <label for="talla">Talla:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name="talla" id='talla' autofocus required >
+        <option value="0">Selecciona tu talla</option>
+        <option value="M">M</option>
+    </select><br>
 <h3>Dirección</h3><br>
-<label for="estado">Estado:</label><br>
-<select name="estados" onChange="habilitar(this.form)" >
+<label for="estado">Estado:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name="estados" id='estado' autofocus required onChange="habilitar(this.form)" >
         <option value="0">Selecciona tu estado</option>
-        <option value="1">CDMX</option>
+        <option value="CDMX">CDMX</option>
     </select><br><br>
 
     <!--label for="municipio">Municipio:</label><br> <input type="text" name="municipio" maxlength="32" id="municipio" placeholder="Escribe tu municipio" autofocus required ><br><br-->
 
-    <label for="delegacion">Delegación:</label><br><select name="delegacion" id='delegacion' autofocus required >
+    <label for="delegacion">Delegación:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<select name="delegacion" id='delegacion' autofocus required >
           <option value="0">Selecciona tu delegación</option>
           <option value="Álvaro Obregón">Álvaro Obregón</option>
           <option value="Azcapotzalco">Azcapotzalco</option>
@@ -517,19 +522,27 @@ echo "¡ No se ha encontrado ningún registro !";
           <option value="Xochimilco">Xochimilco</option>
       </select><br><br>
 
-<label for="colonia">Colonia:</label><br> <input type="text" name="colonia" maxlength="32" id="colonia" placeholder="Escribe tu colonia" autofocus required ><br><br>
+<label for="colonia">Colonia:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="colonia" maxlength="32" id="colonia" placeholder="Escribe tu colonia" autofocus required ><br><br>
 
-<label for="calle">Calle:</label><br> <input type="text" name="calle" maxlength="32" id="calle" placeholder="Escribe la calle" autofocus required ><br><br>
+<label for="calle">Calle:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="text" name="calle" maxlength="32" id="calle" placeholder="Escribe la calle" autofocus required ><br><br>
 
-<label for="numex">Número exterior:</label><br>
+<label for="numex">Número exterior:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <input type="text" name="numex" size="20" maxlength="5" id="numex" placeholder="Num. exterior" autofocus required onkeypress="return valida(event)" ><br><br>
 
-<label for="numin">Número interior:</label><br> <input type="text" name="numin" maxlength="5" id="numin" placeholder="Num. interior" autofocus required onkeypress="return valida(event)" ><br><br>
+<label for="numin">Número interior:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="text" name="numin" maxlength="5" id="numin" placeholder="Num. interior" autofocus required onkeypress="return valida(event)" ><br><br>
 
-<label for="postal">Código postal:</label><br> <input type="text" name="postal" maxlength="5" id="postal" placeholder="05069" autofocus required onkeypress="return valida(event)" ><br><br>
+<label for="postal">Código postal:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="text" name="postal" maxlength="5" id="postal" placeholder="05069" autofocus required onkeypress="return valida(event)" ><br><br>
 <!--Password-->
 <label for="Cantidad">Cantidad:</label>
-   <p><input type="text" id="txtNumero1" name="txtNumero1" onkeypress="return valida(event)" maxlength="2" autofocus required/><input type="text" id="txtNumero2" value="28.00" readonly="" /></p>
+   <p><input type="text" id="txtNumero1" name="txtNumero1" onkeypress="return valida(event)" maxlength="2" autofocus required/><?php
+   include("conexion.php");
+   $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Casual hollow lace'");
+   if ($row = mysqli_fetch_array($result)){
+     echo "<input type='text' id='txtNumero2' value=".$row["precio"]." readonly='' /></p>";
+   } else {
+   echo "¡ No se ha encontrado ningún registro !";
+   }
+   ?>
    <br/>
    <label for="direccion">Total $:</label><br>
    <input type="text" id="totalsuma" name="totalsuma" readonly="" />

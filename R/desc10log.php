@@ -140,8 +140,8 @@ var max_item = 'No puede agregar más de 2 producto (s) a la comparación de pro
 var min_item = 'Por favor seleccione por lo menos un producto.';
 var minimalQuantity = 1;
 var moderation_active = true;
-var module_url = 'desc.html';
-var mywishlist_url = 'desc.html';
+var module_url = 'desc.php';
+var mywishlist_url = 'desc.php';
 var nbItemsPerLine = 3;
 var nbItemsPerLineMobile = 2;
 var nbItemsPerLineTablet = 3;
@@ -172,7 +172,7 @@ var productcomment_added = 'Tu comentario se agrego!';
 var productcomment_added_moderation = 'Tu comentario ha sido agregado y estará disponible una vez aprobado por un moderador.';
 var productcomment_ok = 'OK';
 var productcomment_title = 'Nuevo comentario';
-var productcomments_controller_url = 'comentarios.html';
+var productcomments_controller_url = 'comentarios.php';
 var productcomments_url_rewrite = false;
 var quantitiesDisplayAllowed = true;
 var quantityAvailable = 1800;
@@ -181,12 +181,12 @@ var reduction_percent = 20;
 var reduction_price = 0;
 var removingLinkText = 'Remover este producto del carrito';
 var roundMode = 2;
-var search_url = 'buscar.html';
-var search_url_local = 'buscar.html';
+var search_url = 'buscar.php';
+var search_url_local = 'buscar.php';
 var secure_key = 'd1052f713ccedf4a5c6cc87e8510dcbd';
 var sharing_img = 'themes/theme1362/img/index/cata/c1.jpg';
 var sharing_name = 'Swag T-Shirt';
-var sharing_url = 'desc.html';
+var sharing_url = 'desc.php';
 var specific_currency = false;
 var specific_price = -1;
 var static_token = '52fc77373dab56446353c7986f8743d9';
@@ -380,7 +380,7 @@ var wishlistProductsIds = false;
               </li>
               <li class=" top-level-menu-li tmmegamenu_item it_06944254">
                 <!-- Comienza primer nav-->
-                <a class="it_06944254 top-level-menu-li-a tmmegamenu_item" href="compraslog.php">Compras</a>
+                <a class="it_06944254 top-level-menu-li-a tmmegamenu_item" href="compraslog.php">Mis compras</a>
               </li>
 
               <!-- Comienza segundo nav-->
@@ -425,7 +425,7 @@ var wishlistProductsIds = false;
 
 
                 <div itemscope itemtype="#">
-    <meta itemprop="url" content="desc.html">
+    <meta itemprop="url" content="desc.php">
     <div class="primary_block row">
 
               <!-- left infos-->
@@ -437,7 +437,7 @@ var wishlistProductsIds = false;
               </span>
                                       <span id="view_full_size">
                                   <a class="jqzoom" title="Swag T-Shirt" rel="c1" href="#">
-                    <img itemprop="image" src="themes/theme1362/img/index/cata/c11.jpg" title="Swag T-Shirt" alt="Swag T-Shirt"/>
+                    <img itemprop="image" src="themes/theme1362/img/index/cata/C11.jpg" title="Swag T-Shirt" alt="Swag T-Shirt"/>
                   </a>
 
                                   </span>
@@ -459,11 +459,15 @@ var wishlistProductsIds = false;
                         <form action="comprar.php" method="post" class="box">
                             <h1 itemprop="name">Swag T-Shirt</h1>
                   <div class="all-price-info">
-                        <p class="our_price_display" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-                          <link itemprop="availability" href="https://schema.org/InStock"/><span id="our_price_display" itemprop="price" content="19.2">$80.00</span><meta itemprop="priceCurrency" content="USD" />                        </p>
-                          <p id="reduction_amount"  style="display:none">
-                            <span id="reduction_amount_display"></span>
-                          </p>
+                    <?php
+                    include("conexion.php");
+                    $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Swag t-shirt'");
+                    if ($row = mysqli_fetch_array($result)){
+                      echo "<p><span class='price product-price'>$".$row["precio"]."</span></p>";
+                    } else {
+                    echo "¡ No se ha encontrado ningún registro !";
+                    }
+                    ?>
                       </div>
 
 
@@ -478,21 +482,26 @@ var wishlistProductsIds = false;
  include("conexion.php");
  $result = mysqli_query($con, "SELECT IDPROD FROM tbl_inventarioProductos WHERE nombre='Swag t-shirt'");
  if ($row = mysqli_fetch_array($result)){
-   echo "<input name='id1' value='".$row["IDPROD"]."' readonly>";
+   echo "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input name='id1' value='".$row["IDPROD"]."' readonly>";
  } else {
  echo "¡ No se ha encontrado ningún registro !";
  }
- ?>
+ ?><br><br>
+  <label for="talla">Talla:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <select name="talla" id='talla' autofocus required >
+         <option value="0">Selecciona tu talla</option>
+         <option value="S">S</option>
+     </select><br>
  <h3>Dirección</h3><br>
- <label for="estado">Estado:</label><br>
- <select name="estados" onChange="habilitar(this.form)" >
+ <label for="estado">Estado:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <select name="estados" id='estado' autofocus required onChange="habilitar(this.form)" >
          <option value="0">Selecciona tu estado</option>
-         <option value="1">CDMX</option>
+         <option value="CDMX">CDMX</option>
      </select><br><br>
 
      <!--label for="municipio">Municipio:</label><br> <input type="text" name="municipio" maxlength="32" id="municipio" placeholder="Escribe tu municipio" autofocus required ><br><br-->
 
-     <label for="delegacion">Delegación:</label><br><select name="delegacion" id='delegacion' autofocus required >
+     <label for="delegacion">Delegación:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<select name="delegacion" id='delegacion' autofocus required >
            <option value="0">Selecciona tu delegación</option>
            <option value="Álvaro Obregón">Álvaro Obregón</option>
            <option value="Azcapotzalco">Azcapotzalco</option>
@@ -512,19 +521,27 @@ var wishlistProductsIds = false;
            <option value="Xochimilco">Xochimilco</option>
        </select><br><br>
 
- <label for="colonia">Colonia:</label><br> <input type="text" name="colonia" maxlength="32" id="colonia" placeholder="Escribe tu colonia" autofocus required ><br><br>
+<label for="colonia">Colonia:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="colonia" maxlength="32" id="colonia" placeholder="Escribe tu colonia" autofocus required ><br><br>
 
- <label for="calle">Calle:</label><br> <input type="text" name="calle" maxlength="32" id="calle" placeholder="Escribe la calle" autofocus required ><br><br>
+<label for="calle">Calle:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="text" name="calle" maxlength="32" id="calle" placeholder="Escribe la calle" autofocus required ><br><br>
 
- <label for="numex">Número exterior:</label><br>
+<label for="numex">Número exterior:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
  <input type="text" name="numex" size="20" maxlength="5" id="numex" placeholder="Num. exterior" autofocus required onkeypress="return valida(event)" ><br><br>
 
- <label for="numin">Número interior:</label><br> <input type="text" name="numin" maxlength="5" id="numin" placeholder="Num. interior" autofocus required onkeypress="return valida(event)" ><br><br>
+<label for="numin">Número interior:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="text" name="numin" maxlength="5" id="numin" placeholder="Num. interior" autofocus required onkeypress="return valida(event)" ><br><br>
 
- <label for="postal">Código postal:</label><br> <input type="text" name="postal" maxlength="5" id="postal" placeholder="05069" autofocus required onkeypress="return valida(event)" ><br><br>
+<label for="postal">Código postal:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="text" name="postal" maxlength="5" id="postal" placeholder="05069" autofocus required onkeypress="return valida(event)" ><br><br>
  <!--Password-->
  <label for="Cantidad">Cantidad:</label>
-    <p><input type="text" id="txtNumero1" name="txtNumero1" onkeypress="return valida(event)" maxlength="2" autofocus required/><input type="text" id="txtNumero2" value="80.00" readonly="" /></p>
+    <p><input type="text" id="txtNumero1" name="txtNumero1" onkeypress="return valida(event)" maxlength="2" autofocus required/><?php
+    include("conexion.php");
+    $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Swag t-shirt'");
+    if ($row = mysqli_fetch_array($result)){
+      echo "<input type='text' id='txtNumero2' value=".$row["precio"]." readonly='' /></p>";
+    } else {
+    echo "¡ No se ha encontrado ningún registro !";
+    }
+    ?>
     <br/>
     <label for="direccion">Total $:</label><br>
     <input type="text" id="totalsuma" name="totalsuma" readonly="" />

@@ -302,7 +302,7 @@ var wishlistProductsIds = false;
             </li>
             <li class=" top-level-menu-li tmmegamenu_item it_06944254">
               <!-- Comienza primer nav-->
-              <a class="it_06944254 top-level-menu-li-a tmmegamenu_item" href="compraslog.php">Compras</a>
+              <a class="it_06944254 top-level-menu-li-a tmmegamenu_item" href="compraslog.php">Mis compras</a>
             </li>
 
             <!-- Comienza segundo nav-->

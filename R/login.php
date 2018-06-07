@@ -438,17 +438,17 @@ var wishlistProductsIds = false;
       <div class="block_content list-block">
         <ul>
                                               <li>
-                <a href="terminos.html" title="Terminos y condiciones">
+                <a href="terminos.php" title="Terminos y condiciones">
                   Términos y condiciones
                 </a>
               </li>
                                                 <li>
-                <a href="Aviso.html" title="Aviso de privacidad">
+                <a href="Aviso.php" title="Aviso de privacidad">
                   Aviso de privacidad
                 </a>
               </li>
                                             <li>
-              <a href="Quien y que.html" title="Quienes somos">
+              <a href="Quien y que.php" title="Quienes somos">
                 ¿Quiénes somos?<br>
                 ¿Qué hacemos?
               </a>

@@ -271,7 +271,7 @@ var wishlistProductsIds = false;
             <div class="container">
               <div class="row">
                 <div id="header_logo">
-                  <a href="index.php" title="R.S. Textil">
+                  <a href="index_.php" title="R.S. Textil">
                     <img class="logo img-responsive" src="themes/theme1362/img/icon/logo/LOGO.jpg" alt="R.S. Textil" width="275" height="71"/>
                   </a>
                 </div>
@@ -285,7 +285,7 @@ var wishlistProductsIds = false;
                   </li>
                   <li class=" top-level-menu-li tmmegamenu_item it_06944254">
                     <!-- Comienza primer nav-->
-                    <a class="it_06944254 top-level-menu-li-a tmmegamenu_item" href="compraslog.php">Compras</a>
+                    <a class="it_06944254 top-level-menu-li-a tmmegamenu_item" href="compraslog.php">Mis compras</a>
                   </li>
 
                   <!-- Comienza segundo nav-->
@@ -312,7 +312,7 @@ var wishlistProductsIds = false;
 <div class="breadcrumb clearfix">
   <ul>
     <li class="home">
-      <a class="home" href="index.php" title="Return to Home">
+      <a class="home" href="index_.php" title="Return to Home">
         <i class="fa fa-home"></i>
       </a>
     </li>

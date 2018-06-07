@@ -288,7 +288,7 @@ var wishlistProductsIds = false;
       </li>
       <li class=" top-level-menu-li tmmegamenu_item it_06944254">
         <!-- Comienza primer nav-->
-        <a class="it_06944254 top-level-menu-li-a tmmegamenu_item" href="compraslog.php">Compras</a>
+        <a class="it_06944254 top-level-menu-li-a tmmegamenu_item" href="compraslog.php">Mis compras</a>
       </li>
 
       <!-- Comienza segundo nav-->
@@ -995,7 +995,7 @@ echo "¡ No se ha encontrado ningún registro !";
 
               <?php
               include("conexion.php");
-              $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Bleu'");
+              $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Floral tex'");
               if ($row = mysqli_fetch_array($result)){
                 echo "<p><span class='price product-price'>$".$row["precio"]."</span></p>";
               } else {
@@ -1073,9 +1073,9 @@ echo "¡ No se ha encontrado ningún registro !";
 ?>
             <div class="content_price">
 
-    <<?php
+    <?php
     include("conexion.php");
-    $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Bleu'");
+    $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Urban long sleeve shirt'");
     if ($row = mysqli_fetch_array($result)){
       echo "<p><span class='price product-price'>$".$row["precio"]."</span></p>";
     } else {
@@ -1155,7 +1155,7 @@ echo "¡ No se ha encontrado ningún registro !";
 
               <?php
               include("conexion.php");
-              $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Bleu'");
+              $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Swag t-shirt'");
               if ($row = mysqli_fetch_array($result)){
                 echo "<p><span class='price product-price'>$".$row["precio"]."</span></p>";
               } else {
@@ -1235,7 +1235,7 @@ echo "¡ No se ha encontrado ningún registro !";
 
               <?php
               include("conexion.php");
-              $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Bleu'");
+              $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Urban shirty m02'");
               if ($row = mysqli_fetch_array($result)){
                 echo "<p><span class='price product-price'>$".$row["precio"]."</span></p>";
               } else {
@@ -1317,7 +1317,7 @@ echo "¡ No se ha encontrado ningún registro !";
 
               <?php
               include("conexion.php");
-              $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Bleu'");
+              $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Hui black'");
               if ($row = mysqli_fetch_array($result)){
                 echo "<p><span class='price product-price'>$".$row["precio"]."</span> <span class='old-price product-price'>$344.10</span></p>";
               } else {
@@ -1399,7 +1399,7 @@ echo "¡ No se ha encontrado ningún registro !";
 
               <?php
               include("conexion.php");
-              $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Bleu'");
+              $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Globalmerce'");
               if ($row = mysqli_fetch_array($result)){
                 echo "<p><span class='price product-price'>$".$row["precio"]."</span> <span class='old-price product-price'>$250.99</span></p>";
               } else {
@@ -1481,7 +1481,7 @@ echo "¡ No se ha encontrado ningún registro !";
 
               <?php
               include("conexion.php");
-              $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Bleu'");
+              $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Vino 02'");
               if ($row = mysqli_fetch_array($result)){
                 echo "<p><span class='price product-price'>$".$row["precio"]."</span></p>";
               } else {
@@ -1561,7 +1561,7 @@ echo "¡ No se ha encontrado ningún registro !";
 
               <?php
               include("conexion.php");
-              $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Bleu'");
+              $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Huichol moderno'");
               if ($row = mysqli_fetch_array($result)){
                 echo "<p><span class='price product-price'>$".$row["precio"]."</span></p>";
               } else {
@@ -1604,7 +1604,7 @@ echo "¡ No se ha encontrado ningún registro !";
         <div class="left-block">
           <div class="product-image-container">
             <a href="desc16log.php" title="Estampado Líneas" itemprop="url">
-              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c17.jpg" onmouseover="this.src='themes/theme1362/img/index/cata/c17_2.jpg';" onmouseout="this.src='themes/theme1362/img/index/cata/c17.jpg';" alt="Casual Hollow Lace" title="Casual Hollow Lace" itemprop="image" />
+              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/C17.jpg" onmouseover="this.src='themes/theme1362/img/index/cata/c17_2.jpg';" onmouseout="this.src='themes/theme1362/img/index/cata/C17.jpg';" alt="Casual Hollow Lace" title="Casual Hollow Lace" itemprop="image" />
 
             </a>
             <a class="new-box" href="desc16log.php">
@@ -1640,7 +1640,7 @@ echo "¡ No se ha encontrado ningún registro !";
 
               <?php
               include("conexion.php");
-              $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Bleu'");
+              $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Estampado lineas'");
               if ($row = mysqli_fetch_array($result)){
                 echo "<p><span class='price product-price'>$".$row["precio"]."</span></p>";
               } else {
@@ -1686,7 +1686,7 @@ echo "¡ No se ha encontrado ningún registro !";
         <div class="left-block">
           <div class="product-image-container">
             <a href="desc17log.php" title="Fashion Style" itemprop="url">
-              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c18.jpg" onmouseover="this.src='themes/theme1362/img/index/cata/c18_3.jpg';" onmouseout="this.src='themes/theme1362/img/index/cata/c18.jpg';" alt="Casual Hollow Lace" title="Casual Hollow Lace" itemprop="image" />
+              <img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/C18.jpg" onmouseover="this.src='themes/theme1362/img/index/cata/c18_3.jpg';" onmouseout="this.src='themes/theme1362/img/index/cata/C18.jpg';" alt="Casual Hollow Lace" title="Casual Hollow Lace" itemprop="image" />
 
             </a>
 
@@ -1722,7 +1722,7 @@ echo "¡ No se ha encontrado ningún registro !";
 
               <?php
               include("conexion.php");
-              $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Bleu'");
+              $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Fashion style'");
               if ($row = mysqli_fetch_array($result)){
                 echo "<p><span class='price product-price'>$".$row["precio"]."</span> <span class='old-price product-price'>$380.99</span></p>";
               } else {
@@ -1766,7 +1766,7 @@ echo "¡ No se ha encontrado ningún registro !";
 <div class="left-block">
 <div class="product-image-container">
 <a href="desc18log.php" itemprop="url">
-<img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c19.jpg" onmouseover="this.src='themes/theme1362/img/index/cata/c19_3.jpg';" onmouseout="this.src='themes/theme1362/img/index/cata/c19.jpg';" alt="Casual Hollow Lace" title="Casual Hollow Lace" itemprop="image" />
+<img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/C19.jpg" onmouseover="this.src='themes/theme1362/img/index/cata/c19_3.jpg';" onmouseout="this.src='themes/theme1362/img/index/cata/C19.jpg';" alt="Casual Hollow Lace" title="Casual Hollow Lace" itemprop="image" />
 
 </a>
 
@@ -1802,7 +1802,7 @@ echo "¡ No se ha encontrado ningún registro !";
 
     <?php
     include("conexion.php");
-    $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Bleu'");
+    $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Cebra-hui'");
     if ($row = mysqli_fetch_array($result)){
       echo "<p><span class='price product-price'>$".$row["precio"]."</span> <span class='old-price product-price'>$290.00</span></p>";
     } else {
@@ -1845,7 +1845,7 @@ echo "¡ No se ha encontrado ningún registro !";
 <div class="left-block">
 <div class="product-image-container">
 <a href="desc19log.php" title="Fashion Style" itemprop="url">
-<img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/c20.jpg" onmouseover="this.src='themes/theme1362/img/index/cata/c20_3.jpg';" onmouseout="this.src='themes/theme1362/img/index/cata/c20.jpg';" alt="Casual Hollow Lace" title="Casual Hollow Lace" itemprop="image" />
+<img class="replace-2x img-responsive" src="themes/theme1362/img/index/cata/C20.jpg" onmouseover="this.src='themes/theme1362/img/index/cata/c20_3.jpg';" onmouseout="this.src='themes/theme1362/img/index/cata/C20.jpg';" alt="Casual Hollow Lace" title="Casual Hollow Lace" itemprop="image" />
 
 </a>
 
@@ -1881,7 +1881,7 @@ echo "¡ No se ha encontrado ningún registro !";
 
   <?php
   include("conexion.php");
-  $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Bleu'");
+  $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Fashion style2'");
   if ($row = mysqli_fetch_array($result)){
     echo "<p><span class='price product-price'>$".$row["precio"]."</span> <span class='old-price product-price'>$399.99</span></p>";
   } else {

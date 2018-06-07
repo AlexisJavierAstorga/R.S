@@ -380,7 +380,7 @@ var wishlistProductsIds = false;
   </li>
   <li class=" top-level-menu-li tmmegamenu_item it_06944254">
     <!-- Comienza primer nav-->
-    <a class="it_06944254 top-level-menu-li-a tmmegamenu_item" href="compraslog.php">Compras</a>
+    <a class="it_06944254 top-level-menu-li-a tmmegamenu_item" href="compraslog.php">Mis compras</a>
   </li>
 
   <!-- Comienza segundo nav-->
@@ -461,11 +461,17 @@ var wishlistProductsIds = false;
                         <form action="comprar.php" method="post" class="box">
                             <h1 itemprop="name">Cuadrib</h1>
                   <div class="all-price-info">
-                          <span id="our_price_display" itemprop="price" content="19.2">$19.20</span><meta itemprop="priceCurrency" content="USD" />                        </p>
-                        <p id="old_price"><span id="old_price_display"><span class="price">$24.00</span></span>                        </p>
-                          <p id="reduction_percent" >
-                            <span id="reduction_percent_display">-20%</span>
-                          </p>
+                    <?php
+                    include("conexion.php");
+                    $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Cuadrib'");
+                    if ($row = mysqli_fetch_array($result)){
+                      echo "<p><span class='price product-price product-price-new'>$".$row["precio"]."</span> <span class='old-price product-price'>$280.00</span></p>";
+                    } else {
+                    echo "¡ No se ha encontrado ningún registro !";
+                    }
+                    ?>
+
+
                           <p id="reduction_amount"  style="display:none">
                             <span id="reduction_amount_display"></span>
                           </p>
@@ -536,7 +542,16 @@ var wishlistProductsIds = false;
 <label for="postal">Código postal:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="text" name="postal" maxlength="5" id="postal" placeholder="05069" autofocus required onkeypress="return valida(event)" ><br><br>
  <!--Password-->
  <label for="Cantidad">Cantidad:</label>
-    <p><input type="text" id="txtNumero1" name="txtNumero1" onkeypress="return valida(event)" maxlength="2" autofocus required/><input type="text" id="txtNumero2" value="19.20" readonly="" /></p>
+    <p><input type="text" id="txtNumero1" name="txtNumero1" onkeypress="return valida(event)" maxlength="2" autofocus required/>
+      <?php
+      include("conexion.php");
+      $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Cuadrib'");
+      if ($row = mysqli_fetch_array($result)){
+        echo "<input type='text' id='txtNumero2' value=".$row["precio"]." readonly='' /></p>";
+      } else {
+      echo "¡ No se ha encontrado ningún registro !";
+      }
+      ?>
     <br/>
     <label for="direccion">Total $:</label><br>
     <input type="text" id="totalsuma" name="totalsuma" readonly="" />

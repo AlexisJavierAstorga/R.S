@@ -293,10 +293,13 @@ var wishlistProductsIds = false;
                 <label for="cerrar" id="btn-cerrar">X</label>
                 <div class="modal">
                   <div class="contenido">
-                    <h1>Mensaje publicitario</h1>
-                    <h2>¡El mundial se acerca visita su página!</h2><br><br><br>
+                    <h2>-Publicidad-</h2>
+                    <h2>¡El mundial se acerca visita su página, dale click a la imagen!</h2><br><br><br>
                     <a href="https://es.fifa.com/worldcup/" title="Mundial 2018">
-                    <img src="themes/theme1362/img/index/mundial.jpg" width="480" alt="">
+                      <div>
+                    <img src="themes/theme1362/img/index/mundial.jpg" srcset="themes/theme1362/img/index/mundial.jpg 1024w, themes/theme1362/img/index/mundial.jpg 640w, themes/theme1362/img/index/mundial.jpg 320w"
+    sizes="(min-width: 576px) 33.3vw, 60vw"/>
+  </div>
                   </div>
                 </div>
             </div>

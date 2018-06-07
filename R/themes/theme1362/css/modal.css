@@ -1,7 +1,7 @@
 
 .modal {
 	width: 100%;
-	height: 400vh;
+	height: 410vh;
 	background: rgba(0,0,0,0.8);
 
 	position: absolute;
@@ -14,6 +14,7 @@
 	visibility: hidden;
 	opacity: 0;
 }
+
 
 .contenido {
 	margin: auto;

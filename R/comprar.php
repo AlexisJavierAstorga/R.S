@@ -27,8 +27,8 @@ if (!$resultado) {
 	mysqli_close($con);
 }else{
 	echo '<script>
-	alert("Compra realizada satisfactoriamente");
-	window.history.go(-1);
+	alert("Compra realizada, visualiza tu cargo en -Mis compras-");
+	location.href="compraslog.php";
 	</script>';
 }
 ?>

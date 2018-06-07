@@ -287,7 +287,7 @@ var wishlistProductsIds = false;
       </li>
       <li class=" top-level-menu-li tmmegamenu_item it_06944254">
         <!-- Comienza primer nav-->
-        <a class="it_06944254 top-level-menu-li-a tmmegamenu_item" href="compraslog.php">Compras</a>
+        <a class="it_06944254 top-level-menu-li-a tmmegamenu_item" href="compraslog.php">Mis compras</a>
       </li>
 
       <!-- Comienza segundo nav-->
@@ -1003,7 +1003,7 @@ off</h2>
           </h5>
                       <p class="product-desc" itemprop="description">
             <span class="list-desc">Tan única como coqueta.</span>
-            
+
           </p>
           <?php
           include("conexion.php");
@@ -1205,12 +1205,12 @@ off</h2>
                                           <h4>Información</h4>
                                           <ul class="toggle-footer">
                                                                       <li class="item">
-                                                <a href="terminosloglog.php" title="Nuestras tiendas">
+                                                <a href="terminoslog.php" title="Nuestras tiendas">
                                                   Términos y condiciones
                                                 </a>
                                               </li>
                                                           <li class="item">
-                                                <a href="Avisologlog.php" title="Términos y condiciones">
+                                                <a href="Avisolog.php" title="Términos y condiciones">
                                                   Aviso de privacidad
                                                 </a>
                                               </li>
@@ -1232,7 +1232,7 @@ off</h2>
                                         <div class="block_content toggle-footer">
                                           <ul class="bullet">
                                             <li>
-                                              <a href="Quien y queloglog.php" title="Mis compras" rel="nofollow">¿Quiénes somos?<br>¿Qué hacemos?</a>
+                                              <a href="Quien y quelog.php" title="Mis compras" rel="nofollow">¿Quiénes somos?<br>¿Qué hacemos?</a>
                                             </li>
                                                 </ul>
                                         </div>
