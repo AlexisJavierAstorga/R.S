@@ -411,7 +411,7 @@ var wishlistProductsIds = false;
         <i class="fa fa-home"></i>
       </a>
     </li>
-                  <li class="last">Cuadrib</li>
+                  <li class="last">Producto adquirido</li>
             </ul>
 </div>
 
@@ -458,80 +458,43 @@ var wishlistProductsIds = false;
         <div class="pb-right-column col-sm-6 col-md-6 col-lg-4">
           <div class="product-info-line">
                         <form method="post" class="box">
-                            <h1 itemprop="name">Cuadrib</h1>
-                  <div class="all-price-info">
-                          <span id="our_price_display" itemprop="price" content="19.2">$19.20</span><meta itemprop="priceCurrency" content="USD" />                        </p>
-                        <p id="old_price"><span id="old_price_display"><span class="price">$24.00</span></span>                        </p>
-                          <p id="reduction_percent" >
-                            <span id="reduction_percent_display">-20%</span>
-                          </p>
-                          <p id="reduction_amount"  style="display:none">
-                            <span id="reduction_amount_display"></span>
-                          </p>
-                      </div>
+
 
 
 
  <!--Nombre Usuario-->
- <label for="email">ID venta:</label><br>
  <?php
+ $IDVEN = $_REQUEST['IDVEN'];
  include("conexion.php");
- $result = mysqli_query($con, "SELECT IDVEN FROM tbl_inventarioVentas WHERE Cliente='".$_SESSION["id"]."'");
- if ($row = mysqli_fetch_array($result)){
-   echo "<input name='id' value='".$row["IDVEN"]."' readonly>";
- } else {
- echo "¡ No se ha encontrado ningún registro !";
- }
- ?><br><br>
+ $result = "SELECT tbl_inventarioVentas.IDVEN,tbl_inventarioProductos.IDPROD,tbl_inventarioProductos.nombre,tbl_inventarioProductos.descripcion,tbl_inventarioProductos.precio,tbl_inventarioVentas.talla,cantidadProducto,totalVenta,fechaCompra FROM tbl_inventarioVentas,tbl_inventarioProductos,tbl_clientes WHERE tbl_inventarioVentas.Cliente=tbl_clientes.IDCLI AND tbl_inventarioProductos.IDPROD=tbl_inventarioVentas.Producto AND tbl_inventarioVentas.IDVEN='$IDVEN'";
+ $resultado=$con->query($result);
+ $row=$resultado->fetch_assoc();
+ ?>
+
+<h1 itemprop="name"><?php echo $row["nombre"]; ?></h1>
+<span id="our_price_display" itemprop="price" content="19.2"><?php echo '$'; echo $row["precio"]; ?></span><br><br>
+<label for="email">ID venta:</label><br>
+<input name="id" value="<?php echo $row["IDVEN"]; ?> " readonly>
+ <br><br>
 
  <label for="email">Correo electrónico:</label><br>
- <?php
-    echo "<input value='".$_SESSION['u_usuario']."' readonly>";
- ?><br><br>
+  <input value="<?php echo $_SESSION['u_usuario']; ?>" readonly>
+ <br><br>
 
  <label >Id del producto:</label><br>
- <?php
- include("conexion.php");
- $result = mysqli_query($con, "SELECT Producto FROM tbl_inventarioVentas WHERE Cliente='".$_SESSION["id"]."'");
- if ($row = mysqli_fetch_array($result)){
-   echo "<input name='idprod' value='".$row["Producto"]."' readonly>";
- } else {
- echo "¡ No se ha encontrado ningún registro !";
- }
- ?><br><br>
+ <input name="idprod" value="<?php echo $row["IDPROD"]; ?>" readonly>
+ <br><br>
  <!--Password-->
  <label for="Cantidad">Cantidad:</label><br>
- <?php
- include("conexion.php");
- $result = mysqli_query($con, "SELECT cantidadProducto FROM tbl_inventarioVentas WHERE Cliente='".$_SESSION["id"]."'");
- if ($row = mysqli_fetch_array($result)){
-   echo "<input name='idprod' value='".$row["cantidadProducto"]."' readonly>";
- } else {
- echo "¡ No se ha encontrado ningún registro !";
- }
- ?><br><br>
+ <input name="idprod" value="<?php echo $row["cantidadProducto"]; ?>" readonly>
+ <br><br>
 
     <label for="direccion">Total $:</label><br>
-    <?php
-    include("conexion.php");
-    $result = mysqli_query($con, "SELECT totalVenta FROM tbl_inventarioVentas WHERE Cliente='".$_SESSION["id"]."'");
-    if ($row = mysqli_fetch_array($result)){
-      echo "<input name='idprod' value='".$row["totalVenta"]."' readonly>";
-    } else {
-    echo "¡ No se ha encontrado ningún registro !";
-    }
-    ?><br><br>
+    <input name="idprod" value="<?php echo $row["totalVenta"]; ?>" readonly>
+    <br><br>
 
     <label for="direccion">Fecha de compra:</label><br>
-    <?php
-    include("conexion.php");
-    $result = mysqli_query($con, "SELECT fechaCompra FROM tbl_inventarioVentas WHERE Cliente='".$_SESSION["id"]."'");
-    if ($row = mysqli_fetch_array($result)){
-      echo "<input name='idprod' value='".$row["fechaCompra"]."' readonly>";
-    } else {
-    echo "¡ No se ha encontrado ningún registro !";
-    }
-    ?>
+    <input name="idprod" value="<?php echo $row["fechaCompra"]; ?>" readonly>
 
 
                                                             <div class="attribute_list">
@@ -563,7 +526,7 @@ var wishlistProductsIds = false;
           </ul>
           <div class="tab-content col-sm-9 col-md-9 col-lg-9">
                          <div id="product-description-tab-content" class="product-description-tab-content tab-pane">
-                <div class="rte"><p>Vete elegante a cualquier parte con nuestra moda huichol.</p></div>
+                <div class="rte"><p><?php echo $row["descripcion"]; ?></p></div>
              </div>
                         <!-- quantity discount -->
                                       <!-- Data sheet -->
