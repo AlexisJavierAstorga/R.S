@@ -380,7 +380,7 @@ var wishlistProductsIds = false;
   </li>
   <li class=" top-level-menu-li tmmegamenu_item it_06944254">
     <!-- Comienza primer nav-->
-    <a class="it_06944254 top-level-menu-li-a tmmegamenu_item" href="compraslog.php">Compras</a>
+    <a class="it_06944254 top-level-menu-li-a tmmegamenu_item" href="compraslog.php">Mis compras</a>
   </li>
 
   <!-- Comienza segundo nav-->
@@ -436,28 +436,7 @@ var wishlistProductsIds = false;
                                       <span class="sale-box no-print">
                 <span class="sale-label">&iexcl;Oferta!</span>
               </span>
-                                      <span id="view_full_size">
-                                  <a class="jqzoom" title="Cuadrib" rel="c1" href="#">
-                    <img itemprop="image" src="themes/theme1362/img/index/cata/c1.jpg" title="Cuadrib" alt="Cuadrib"/>
-                  </a>
 
-                                  </span>
-                      </div>
-          <!-- end image-block -->
-
-                      <!-- thumbnails -->
-            <div id="views_block" class="clearfix">
-                              <a id="view_scroll_left" class="" title="Otras vistas" href="javascript:{}">
-                  Previo
-                </a>
-                              </div>
-                    </div>
-
-
-        <!-- center infos -->
-        <div class="pb-right-column col-sm-6 col-md-6 col-lg-4">
-          <div class="product-info-line">
-                        <form method="post" class="box">
 
 
 
@@ -466,10 +445,32 @@ var wishlistProductsIds = false;
  <?php
  $IDVEN = $_REQUEST['IDVEN'];
  include("conexion.php");
- $result = "SELECT tbl_inventarioVentas.IDVEN,tbl_inventarioProductos.IDPROD,tbl_inventarioProductos.nombre,tbl_inventarioProductos.descripcion,tbl_inventarioProductos.precio,tbl_inventarioVentas.talla,cantidadProducto,totalVenta,fechaCompra FROM tbl_inventarioVentas,tbl_inventarioProductos,tbl_clientes WHERE tbl_inventarioVentas.Cliente=tbl_clientes.IDCLI AND tbl_inventarioProductos.IDPROD=tbl_inventarioVentas.Producto AND tbl_inventarioVentas.IDVEN='$IDVEN'";
+ $result = "SELECT tbl_inventarioVentas.IDVEN,tbl_inventarioProductos.IDPROD,tbl_inventarioProductos.nombre,tbl_inventarioProductos.imagen1,tbl_inventarioProductos.descripcion,tbl_inventarioProductos.precio,tbl_inventarioVentas.talla,cantidadProducto,totalVenta,fechaCompra FROM tbl_inventarioVentas,tbl_inventarioProductos,tbl_clientes WHERE tbl_inventarioVentas.Cliente=tbl_clientes.IDCLI AND tbl_inventarioProductos.IDPROD=tbl_inventarioVentas.Producto AND tbl_inventarioVentas.IDVEN='$IDVEN'";
  $resultado=$con->query($result);
- $row=$resultado->fetch_assoc();
+ while ($row = $resultado->fetch_assoc()){
  ?>
+ <span id="view_full_size">
+ <a class="jqzoom" title="Cuadrib" rel="c1" href="#">
+ <img itemprop="image" src="data:image/jpg;base64,<?php echo base64_encode($row['imagen1']); ?>" title="Cuadrib" alt="Cuadrib"/>
+ </a>
+
+ </span>
+ </div>
+ <!-- end image-block -->
+
+ <!-- thumbnails -->
+ <div id="views_block" class="clearfix">
+ <a id="view_scroll_left" class="" title="Otras vistas" href="javascript:{}">
+ Previo
+ </a>
+ </div>
+ </div>
+
+
+ <!-- center infos -->
+ <div class="pb-right-column col-sm-6 col-md-6 col-lg-4">
+ <div class="product-info-line">
+ <form method="post" class="box">
 
 <h1 itemprop="name"><?php echo $row["nombre"]; ?></h1>
 <span id="our_price_display" itemprop="price" content="19.2"><?php echo '$'; echo $row["precio"]; ?></span><br><br>
@@ -495,6 +496,10 @@ var wishlistProductsIds = false;
 
     <label for="direccion">Fecha de compra:</label><br>
     <input name="idprod" value="<?php echo $row["fechaCompra"]; ?>" readonly>
+
+    <?php
+  }
+   ?>
 
 
                                                             <div class="attribute_list">

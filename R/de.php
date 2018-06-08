@@ -11,12 +11,11 @@ if(isset($_SESSION['u_usuario'])){
 <!--[if IE 8]><html class="no-js lt-ie9 ie8" lang="es-es"><![endif]-->
 <!--[if gt IE 8]> <html class="no-js ie9" lang="es-es"><![endif]-->
 <html lang="es-es"><head>
-
     <meta charset="utf-8" />
     <title>R.S. Textil</title>
 
 
-          <meta name="description" content="Luce esta blusa para estar primaveral." />
+          <meta name="description" content="A que no sabías que podemos ser más frescos con nuestros nuevos modelos de huichol." />
             <meta name="generator" content="R.S. Textil" />
     <meta name="robots" content="index,follow" />
     <meta name="viewport" content="width=device-width, minimum-scale=0.25, maximum-scale=1.0, initial-scale=1.0" />
@@ -185,7 +184,7 @@ var search_url = 'buscar.php';
 var search_url_local = 'buscar.php';
 var secure_key = 'd1052f713ccedf4a5c6cc87e8510dcbd';
 var sharing_img = 'themes/theme1362/img/index/cata/c1.jpg';
-var sharing_name = 'Bleu';
+var sharing_name = 'Tappib';
 var sharing_url = 'desc.php';
 var specific_currency = false;
 var specific_price = -1;
@@ -230,6 +229,10 @@ var user_newsletter_status = 0;
 var usingSecureMode = true;
 var wishlistProductsIds = false;
 </script>
+
+
+              <script src="themes/theme1362/js/modules/productcomments/js/productcomments.js"></script>
+
 
 <script src="js/auto.js"></script>
 <script src="js/jquery/jquery-1.11.0.min.js"></script>
@@ -322,83 +325,84 @@ var wishlistProductsIds = false;
 
                 </head>
 
-                <body id="index" class="index hide-left-column hide-right-column lang_es  one-column">
-                  <div id="page">
-                <div id="preloader">
-                    <div class="cssload-dots"></div>
-                </div>
-                <!-- #preloader -->
-                <div class="header-container">
-                  <header id="header">
-                      <div class="nav">
-                        <div class="container">
-                          <div class="row">
-                            <nav>
-              <div id="tmsearch" class="clearfix">
-              </div>
-              <div id="header-login">
-                <?php
-                    echo $_SESSION['u_usuario'];
-                ?>
-                <div class="current header_user_info"><a href="#" onclick="return false;"> Tu cuenta </a></div>
-                <ul id="header-login-content" class="toogle_content">
-                                <li>
-                            <form action="existe.php" method="post" id="header_login_form">
-                                <div id="create_header_account_error" class="alert alert-danger" style="display:none;"></div>
-                                <div class="form_content clearfix">
-                                    <p>
-                                    <?php
-                                        echo "<br><br><a href='salir.php' class='create'>Salir de tu cuenta</a>";
-                                    ?>
-                                    </p>
-                                    <div class="clearfix">
+  <body id="index" class="index hide-left-column hide-right-column lang_es  one-column">
+  <!--END block for older internet explorer-->
+  <div id="page">
+<div id="preloader">
+    <div class="cssload-dots"></div>
+</div>
+<!-- #preloader -->
+<div class="header-container">
+  <header id="header">
+      <div class="nav">
+        <div class="container">
+          <div class="row">
+            <nav>
+<div id="tmsearch" class="clearfix">
+</div>
+<div id="header-login">
+  <?php
+      echo $_SESSION['u_usuario'];
+  ?>
+  <div class="current header_user_info"><a href="#" onclick="return false;"> Tu cuenta </a></div>
+  <ul id="header-login-content" class="toogle_content">
+                  <li>
+              <form action="existe.php" method="post" id="header_login_form">
+                  <div id="create_header_account_error" class="alert alert-danger" style="display:none;"></div>
+                  <div class="form_content clearfix">
+                      <p>
+                      <?php
+                          echo "<br><br><a href='salir.php' class='create'>Salir de tu cuenta</a>";
+                      ?>
+                      </p>
+                      <div class="clearfix">
 
-                                    </div>
-                                </div>
-                            </form>
-                        </li>
-                        </ul>
-                </div></nav>
-                        </div>
                       </div>
-                    </div>
-                    <div class="top">
-            <div class="container">
-              <div class="row">
-                <div id="header_logo">
-                  <a href="index_.php" title="R.S. Textil">
-                    <img class="logo img-responsive" src="themes/theme1362/img/icon/logo/LOGO.jpg" alt="R.S. Textil" width="275" height="71"/>
-                  </a>
-                </div>
+                  </div>
+              </form>
+          </li>
+          </ul>
+  </div></nav>
+          </div>
+        </div>
+      </div>
+      <div class="top">
+<div class="container">
+<div class="row">
+  <div id="header_logo">
+    <a href="index_.php" title="R.S. Textil">
+      <img class="logo img-responsive" src="themes/theme1362/img/icon/logo/LOGO.jpg" alt="R.S. Textil" width="275" height="71"/>
+    </a>
+  </div>
 
 
-            <div class="top_menu top-level rs">
-            <div class="menu-title tmmegamenu_item">Menú</div>
-            <!-- Inicia Menu desplegable-->
-            <ul class="menu clearfix top-level-menu tmmegamenu_item">
-              <li class=" top-level-menu-li tmmegamenu_item it_22797818">
-                <a class="it_22797818 top-level-menu-li-a tmmegamenu_item" href="index_.php">Inicio </a>
-              </li>
-              <li class=" top-level-menu-li tmmegamenu_item it_06944254">
-                <!-- Comienza primer nav-->
-                <a class="it_06944254 top-level-menu-li-a tmmegamenu_item" href="compraslog.php">Mis compras</a>
-              </li>
-
-              <!-- Comienza segundo nav-->
-              <li class=" top-level-menu-li tmmegamenu_item it_19773019">
-              <a class="it_19773019 top-level-menu-li-a tmmegamenu_item" href="productoslog.php">Productos</a>
-              </li>
+<div class="top_menu top-level rs">
+<div class="menu-title tmmegamenu_item">Menú</div>
+<!-- Inicia Menu desplegable-->
+<ul class="menu clearfix top-level-menu tmmegamenu_item">
 <li class=" top-level-menu-li tmmegamenu_item it_22797818">
-  <a class="it_22797818 top-level-menu-li-a tmmegamenu_item" href="#">Facturación </a>
+  <a class="it_22797818 top-level-menu-li-a tmmegamenu_item" href="index_.php">Inicio </a>
+</li>
+<li class=" top-level-menu-li tmmegamenu_item it_06944254">
+  <!-- Comienza primer nav-->
+  <a class="it_06944254 top-level-menu-li-a tmmegamenu_item" href="compraslog.php">Mis compras</a>
+</li>
+
+<!-- Comienza segundo nav-->
+<li class=" top-level-menu-li tmmegamenu_item it_19773019">
+<a class="it_19773019 top-level-menu-li-a tmmegamenu_item" href="productoslog.php">Productos</a>
+</li>
+<li class=" top-level-menu-li tmmegamenu_item it_22797818">
+<a class="it_22797818 top-level-menu-li-a tmmegamenu_item" href="#">Facturación </a>
 </li>
 <li class=" top-level-menu-li tmmegamenu_item it_29705307"><a class="it_29705307 top-level-menu-li-a tmmegamenu_item" href="perfillog.php"> Perfil</a></li></ul>
 
-            </div>
-              </div>
-            </div>
-          </div>
-        </header>
-      </div>
+</div>
+</div>
+</div>
+</div>
+</header>
+</div>
       <div class="columns-container">
 
         <div id="columns" class="container">
@@ -411,7 +415,7 @@ var wishlistProductsIds = false;
         <i class="fa fa-home"></i>
       </a>
     </li>
-                  <li class="last">Bleu</li>
+                  <li class="last">Tappib</li>
             </ul>
 </div>
 
@@ -425,46 +429,98 @@ var wishlistProductsIds = false;
 
 
 
-                <div itemscope itemtype="#">
-    <meta itemprop="url" content="desc.php">
-    <div class="primary_block row">
+  <!-- left infos-->
+<div class="pb-left-column col-sm-6 col-md-6 col-lg-8">
+<!-- product img-->
+<div id="image-block" class="clearfix is_caroucel">
+                        <span class="sale-box no-print">
+  <span class="sale-label">&iexcl;Oferta!</span>
+</span>
+                        <span id="view_full_size">
+                    <a class="jqzoom" title="Autumn Basket" rel="gal1" href="https://ld-prestashop.template-help.com/prestashop_60010/img/p/2/4/24-tm_thickbox_default.jpg">
+      <img itemprop="image" src="https://ld-prestashop.template-help.com/prestashop_60010/img/p/2/4/24-tm_large_default.jpg" title="Autumn Basket" alt="Autumn Basket"/>
+    </a>
+                    </span>
+        </div>
+<!-- end image-block -->
 
-              <!-- left infos-->
-        <div class="pb-left-column col-sm-6 col-md-6 col-lg-8">
-          <!-- product img-->
-          <div id="image-block" class="clearfix is_caroucel">
-                                      <span class="sale-box no-print">
-                <span class="sale-label">&iexcl;Oferta!</span>
-              </span>
-                                      <span id="view_full_size">
-                                  <a class="jqzoom" title="Bleu" rel="c1" href="#">
-                    <img itemprop="image" src="themes/theme1362/img/index/cata/C7.jpg" title="Bleu" alt="Bleu"/>
-                  </a>
-
-                                  </span>
-                      </div>
-          <!-- end image-block -->
-
-                      <!-- thumbnails -->
-            <div id="views_block" class="clearfix">
-                              <a id="view_scroll_left" class="" title="Otras vistas" href="javascript:{}">
-                  Previo
-                </a>
-                              </div>
-                    </div>
+        <!-- thumbnails -->
+<div id="views_block" class="clearfix">
+                <a id="view_scroll_left" class="" title="Otras vistas" href="javascript:{}">
+    Previo
+  </a>
+              <!-- thumbs_list -->
+<div id="thumbs_list">
+  <ul id="thumbs_list_frame">
+                                                                                                                                        <li id="thumbnail_24">
+          <a
+                                    href="javascript:void(0);"
+            rel="{gallery: 'gal1', smallimage: 'https://ld-prestashop.template-help.com/prestashop_60010/img/p/2/4/24-tm_large_default.jpg',largeimage: 'https://ld-prestashop.template-help.com/prestashop_60010/img/p/2/4/24-tm_thickbox_default.jpg'}"
+                                  title="Autumn Basket">
+            <img class="img-responsive" id="thumb_24" src="https://ld-prestashop.template-help.com/prestashop_60010/img/p/2/4/24-tm_cart_default.jpg" alt="Autumn Basket" title="Autumn Basket" height="99" width="80" itemprop="image" />
+          </a>
+        </li>
+                                                                                                                      <li id="thumbnail_25">
+          <a
+                                    href="javascript:void(0);"
+            rel="{gallery: 'gal1', smallimage: 'https://ld-prestashop.template-help.com/prestashop_60010/img/p/2/5/25-tm_large_default.jpg',largeimage: 'https://ld-prestashop.template-help.com/prestashop_60010/img/p/2/5/25-tm_thickbox_default.jpg'}"
+                                  title="Autumn Basket">
+            <img class="img-responsive" id="thumb_25" src="https://ld-prestashop.template-help.com/prestashop_60010/img/p/2/5/25-tm_cart_default.jpg" alt="Autumn Basket" title="Autumn Basket" height="99" width="80" itemprop="image" />
+          </a>
+        </li>
+                                                                                                                      <li id="thumbnail_26">
+          <a
+                                    href="javascript:void(0);"
+            rel="{gallery: 'gal1', smallimage: 'https://ld-prestashop.template-help.com/prestashop_60010/img/p/2/6/26-tm_large_default.jpg',largeimage: 'https://ld-prestashop.template-help.com/prestashop_60010/img/p/2/6/26-tm_thickbox_default.jpg'}"
+                                  title="Autumn Basket">
+            <img class="img-responsive" id="thumb_26" src="https://ld-prestashop.template-help.com/prestashop_60010/img/p/2/6/26-tm_cart_default.jpg" alt="Autumn Basket" title="Autumn Basket" height="99" width="80" itemprop="image" />
+          </a>
+        </li>
+                                                                                                                      <li id="thumbnail_27">
+          <a
+                                    href="javascript:void(0);"
+            rel="{gallery: 'gal1', smallimage: 'https://ld-prestashop.template-help.com/prestashop_60010/img/p/2/7/27-tm_large_default.jpg',largeimage: 'https://ld-prestashop.template-help.com/prestashop_60010/img/p/2/7/27-tm_thickbox_default.jpg'}"
+                                  title="Autumn Basket">
+            <img class="img-responsive" id="thumb_27" src="https://ld-prestashop.template-help.com/prestashop_60010/img/p/2/7/27-tm_cart_default.jpg" alt="Autumn Basket" title="Autumn Basket" height="99" width="80" itemprop="image" />
+          </a>
+        </li>
+                                                                                                                      <li id="thumbnail_28" class="last">
+          <a
+                                    href="javascript:void(0);"
+            rel="{gallery: 'gal1', smallimage: 'https://ld-prestashop.template-help.com/prestashop_60010/img/p/2/8/28-tm_large_default.jpg',largeimage: 'https://ld-prestashop.template-help.com/prestashop_60010/img/p/2/8/28-tm_thickbox_default.jpg'}"
+                                  title="Autumn Basket">
+            <img class="img-responsive" id="thumb_28" src="https://ld-prestashop.template-help.com/prestashop_60010/img/p/2/8/28-tm_cart_default.jpg" alt="Autumn Basket" title="Autumn Basket" height="99" width="80" itemprop="image" />
+          </a>
+        </li>
+                                        </ul>
+</div> <!-- end thumbs_list -->
+                      <a id="view_scroll_right" title="Otras vistas" href="javascript:{}">
+          Siguiente
+      </a>
+                </div>
+<!-- end thumbnails -->
+                        <p class="resetimg clear no-print">
+  <span id="wrapResetImages" style="display: none;">
+    <a href="https://ld-prestashop.template-help.com/prestashop_60010/index.php?id_product=8&amp;controller=product&amp;id_lang=4" data-id="resetImages">
+      <i class="fa fa-repeat"></i>
+      Mostrar todas las im&aacute;genes
+    </a>
+  </span>
+</p>
+      </div>
 
 
         <!-- center infos -->
         <div class="pb-right-column col-sm-6 col-md-6 col-lg-4">
           <div class="product-info-line">
-                        <form action="comprar.php" method="post" class="box">
-                            <h1 itemprop="name">Bleu</h1>
+                        <form action="comprar.php" name="formulario" method="post" class="box">
+                            <h1 itemprop="name">Tappib</h1>
                   <div class="all-price-info">
                     <?php
                     include("conexion.php");
-                    $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Bleu'");
+                    $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Tappib'");
                     if ($row = mysqli_fetch_array($result)){
-                      echo "<p><span class='price product-price'>$".$row["precio"]."</span> <span class='old-price product-price'>$380.00</span></p>";
+                      echo "<p><span class='price product-price product-price-new'>$".$row["precio"]."</span> <span class='old-price product-price'>$400.00</span></p>";
                     } else {
                     echo "¡ No se ha encontrado ningún registro !";
                     }
@@ -481,7 +537,7 @@ var wishlistProductsIds = false;
  <label >Id del producto:</label>
  <?php
  include("conexion.php");
- $result = mysqli_query($con, "SELECT IDPROD FROM tbl_inventarioProductos WHERE nombre='Bleu'");
+ $result = mysqli_query($con, "SELECT IDPROD FROM tbl_inventarioProductos WHERE nombre='Tappib'");
  if ($row = mysqli_fetch_array($result)){
    echo "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input name='id1' value='".$row["IDPROD"]."' readonly>";
  } else {
@@ -492,6 +548,7 @@ var wishlistProductsIds = false;
  <select name="talla" id='talla' autofocus required >
          <option value="">Selecciona tu talla</option>
          <option value="S">S</option>
+         <option value="G">G</option>
      </select><br>
  <h3>Dirección</h3><br>
  <label for="estado">Estado:</label><br>
@@ -531,12 +588,12 @@ var wishlistProductsIds = false;
 
 <label for="numin">Número interior:</label><br> <input type="text" name="numin" maxlength="5" id="numin" placeholder="Num. interior" autofocus required onkeypress="return valida(event)" ><br><br>
 
-<label for="postal">Código postal:</label><br> <input type="text" name="postal" maxlength="5" id="postal" placeholder="05069" autofocus required onkeypress="return valida(event)" ><br><br>
+<label for="postal">Código postal:</label><br><input type="text" name="postal" maxlength="5" id="postal" placeholder="05069" autofocus required onkeypress="return valida(event)" ><br><br>
  <!--Password-->
  <label for="Cantidad">Cantidad:</label>
-    <p><input type="text" id="txtNumero1" name="txtNumero1" onkeypress="return valida(event)" onKeyUp="fncSumar()" maxlength="2" autofocus required/><?php
+    <p><input type="text" id="txtNumero1" name="txtNumero1" onkeypress="return valida(event)" maxlength="2" onKeyUp="fncSumar()" autofocus required/><?php
     include("conexion.php");
-    $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Bleu'");
+    $result = mysqli_query($con, "SELECT precio FROM tbl_inventarioProductos WHERE nombre='Tappib'");
     if ($row = mysqli_fetch_array($result)){
       echo "<input type='text' id='txtNumero2' value=".$row["precio"]." onKeyUp='fncSumar()' readonly='' /></p>";
     } else {
@@ -545,8 +602,7 @@ var wishlistProductsIds = false;
     ?>
     <br/>
     <label for="direccion">Total $:</label><br>
-    <input type="text" id="totalsuma" name="totalsuma" readonly="" />
-
+    <input type="text" id="totalsuma" name="totalsuma" readonly=""/>
     <br/><br/>
     <input name="fecha" type="text" id="fecha" value="<?php echo date("Y/m/d"); ?>" size="10" readonly/>
     <br/><br/>
@@ -572,11 +628,6 @@ var wishlistProductsIds = false;
     </div>
   </div>
 </li>
-
-
-
-
-
             </ul>
                   </div>
         <!-- end center infos-->
@@ -589,7 +640,7 @@ var wishlistProductsIds = false;
           </ul>
           <div class="tab-content col-sm-9 col-md-9 col-lg-9">
                          <div id="product-description-tab-content" class="product-description-tab-content tab-pane">
-                <div class="rte"><p>Luce esta blusa para estar primaveral.</p></div>
+                <div class="rte"><p>A que no sabías que podemos ser más frescos con nuestros nuevos modelos de huichol.</p></div>
              </div>
                         <!-- quantity discount -->
                                       <!-- Data sheet -->
@@ -597,19 +648,19 @@ var wishlistProductsIds = false;
                 <table class="table-data-sheet">
                                       <tr class="odd">
                                               <td>Alto</td>
-                        <td>13 pounds</td>
+                        <td>14 pounds</td>
                                           </tr>
                                       <tr class="even">
                                               <td>Envío</td>
-                        <td>$130</td>
+                        <td>$115</td>
                                           </tr>
                                       <tr class="even">
                                               <td>Estilo</td>
-                        <td>Demon BLue</td>
+                        <td>Colorpiece</td>
                                           </tr>
                                       <tr class="odd">
                                               <td>Ancho</td>
-                        <td>4 pounds</td>
+                        <td>6 pounds</td>
                                           </tr>
                                       <tr class="even">
                                               <td>Accesorios</td>
@@ -637,148 +688,153 @@ var wishlistProductsIds = false;
                   <!--Accessories -->
 
 
+                <!-- description & features -->
+
+                    <!--Accessories -->
 
 
-              </div> <!-- itemscope product wrapper -->
+
+
+                </div> <!-- itemscope product wrapper -->
 
 
 
 
-              </div><!-- #center_column -->
-                        </div><!--.large-left-->
-          </div><!--.row-->
-                    </div><!-- .row -->
-        </div><!-- #columns -->
-                                                </div><!-- .columns-container -->
-                                                <div class="footer-container">
-                                                          <div id="footer">
-                                                            <div class="wrapper it_JADNISTKBNNA footer-1">
-                                                            <div class="row it_ZIWFFSDESZUD full-width">
-                                                            <div class="it_OTDNUESIOQFX col-xs-12    container">
-                                                            <div class="row it_TMLVSLJZPFCD ">
-                                                            <div class="it_YDIZQZQNWRBK col-xs-12 col-sm-8   ">
-                                                            </div>
-                                                            </div></div></div></div>
-                      <div class="wrapper it_YEWVYNBVYLBM ">
-                      <div class="row it_KSMNOOTVQKYH full-width">
-                      <div class="it_DZDNDVWOMRPR col-xs-12    container cms-info">
-                      <div class="row it_WZIBFUDLWJVN ">
-                      <div class="it_YTSDYTDROFCP col-xs-12 col-sm-4 col-md-4  cms-info">  <!-- Block CMS module footer -->
-                                                              <section class="footer-block" id="block_various_links_footer">
-                                                                <h4>Información</h4>
-                                                                <ul class="toggle-footer">
-                                                                                            <li class="item">
-                                                                      <a href="terminoslog.php" title="Nuestras tiendas">
-                                                                        Términos y condiciones
-                                                                      </a>
-                                                                    </li>
-                                                                                <li class="item">
-                                                                      <a href="Avisolog.php" title="Términos y condiciones">
-                                                                        Aviso de privacidad
-                                                                      </a>
-                                                                    </li>
-                                                                </ul>
-
-                                                              </section>
-                                                                  <div class="bottom-footer">
-                                                                  <div class="container">
-                                                                    <a class="_blank" href="index_.php"> © 2017 - R.S. Textil </a>
-                                                                  </div>
-                                                                </div>
-                                                                <!-- /Block CMS module footer -->
-                                                            </div>
-                                                            <div class="it_CGFNKPAEBTMT col-xs-12 col-sm-4   "><!-- Block myaccount module -->
-                                                            <section class="footer-block">
-                                                              <h4>
-                                                                Notros
-                                                              </h4>
-                                                              <div class="block_content toggle-footer">
-                                                                <ul class="bullet">
-                                                                  <li>
-                                                                    <a href="Quien y quelog.php" title="Mis compras" rel="nofollow">¿Quiénes somos?<br>¿Qué hacemos?</a>
-                                                                  </li>
-                                                                      </ul>
+                </div><!-- #center_column -->
+                          </div><!--.large-left-->
+                </div><!--.row-->
+                      </div><!-- .row -->
+                </div><!-- #columns -->
+                                                  </div><!-- .columns-container -->
+                                                  <div class="footer-container">
+                                                            <div id="footer">
+                                                              <div class="wrapper it_JADNISTKBNNA footer-1">
+                                                              <div class="row it_ZIWFFSDESZUD full-width">
+                                                              <div class="it_OTDNUESIOQFX col-xs-12    container">
+                                                              <div class="row it_TMLVSLJZPFCD ">
+                                                              <div class="it_YDIZQZQNWRBK col-xs-12 col-sm-8   ">
                                                               </div>
-                                                            </section>
-                                                            <!-- /Block myaccount module --></div>
-                                                            <div class="it_CGFNKPAEBTMT col-xs-12 col-sm-4   "><!-- Block myaccount module -->
-                                                            <section class="footer-block">
+                                                              </div></div></div></div>
+                        <div class="wrapper it_YEWVYNBVYLBM ">
+                        <div class="row it_KSMNOOTVQKYH full-width">
+                        <div class="it_DZDNDVWOMRPR col-xs-12    container cms-info">
+                        <div class="row it_WZIBFUDLWJVN ">
+                        <div class="it_YTSDYTDROFCP col-xs-12 col-sm-4 col-md-4  cms-info">  <!-- Block CMS module footer -->
+                                                                <section class="footer-block" id="block_various_links_footer">
+                                                                  <h4>Información</h4>
+                                                                  <ul class="toggle-footer">
+                                                                                              <li class="item">
+                                                                        <a href="terminoslog.php" title="Nuestras tiendas">
+                                                                          Términos y condiciones
+                                                                        </a>
+                                                                      </li>
+                                                                                  <li class="item">
+                                                                        <a href="Avisolog.php" title="Términos y condiciones">
+                                                                          Aviso de privacidad
+                                                                        </a>
+                                                                      </li>
+                                                                  </ul>
 
-                                                            </section>
-                                                            <!-- /Block myaccount module --></div>
-                                                            <div class="it_PVMULUPUDNYH col-xs-12 col-sm-4 col-md-4  "><!-- MODULE Block contact infos -->
-                                                            <section id="block_contact_infos" class="footer-block">
-                                                              <div>
-                                                                <h4>Redes sociales</h4>
+                                                                </section>
+                                                                    <div class="bottom-footer">
+                                                                    <div class="container">
+                                                                      <a class="_blank" href="index_.php"> © 2017 - R.S. Textil </a>
+                                                                    </div>
+                                                                  </div>
+                                                                  <!-- /Block CMS module footer -->
+                                                              </div>
+                                                              <div class="it_CGFNKPAEBTMT col-xs-12 col-sm-4   "><!-- Block myaccount module -->
+                                                              <section class="footer-block">
+                                                                <h4>
+                                                                  Notros
+                                                                </h4>
                                                                 <div class="block_content toggle-footer">
                                                                   <ul class="bullet">
                                                                     <li>
-                                                                      <a title="Mis compras" rel="nofollow">Síguenos en nuestras redes sociales y dales LIKE</a>
+                                                                      <a href="Quien y quelog.php" title="Mis compras" rel="nofollow">¿Quiénes somos?<br>¿Qué hacemos?</a>
                                                                     </li>
                                                                         </ul>
                                                                 </div>
-                                                              </div>
-                                                            </section>
-                                                            <!-- /MODULE Block contact infos --><section id="social_block">
-                                                              <ul>
-                                                                      <li class="facebook">
-                                                                    <a target="_blank" href="https://www.facebook.com/AstorgusAsociados/" title="Facebook">
-                                                                      <span>Facebook</span>
-                                                                    </a>
-                                                                  </li>
-                                                                          <li class="twitter">
-                                                                    <a target="_blank" href="https://mobile.twitter.com/rs_textil" title="Twitter">
-                                                                      <span>Twitter</span>
-                                                                    </a>
-                                                                  </li>
-                                                                          <li class="youtube">
-                                                                    <a target="_blank" href="https://m.youtube.com/channel/UCl7PpI7rt27vB8qBAPXlA8g" title="Youtube">
-                                                                      <span>Youtube</span>
-                                                                    </a>
-                                                                  </li>
-                                                                              <li class="instagram">
-                                                                    <a class="_blank" href="https://www.instagram.com/astorgusasociados/">
-                                                                      <span>Instagram</span>
-                                                                    </a>
-                                                                  </li>
-                                                                  </ul>
-                                                              <h4>Síganos</h4>
-                                                            </section>
-                                                            <div class="clearfix"></div></div></div></div></div></div>
-                                                            <div class="wrapper it_BBNZRPDZHJXZ ">
-                                                            <div class="row it_RTICFYJVLNIL ">
-                                                            <div class="it_LNTHOJLQFGRA col-xs-12    footer_hidden">
-                                                            <!-- begin olark code -->
-                                                            <script data-cfasync="false" type='text/javascript'>
-                                                            /*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
-                                                            f[z]=function(){
-                                                            (a.s=a.s||[]).push(arguments)};var a=f[z]._={
-                                                            },q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
-                                                            f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
-                                                            0:+new Date};a.P=function(u){
-                                                            a.p[u]=new Date-a.p[0]};function s(){
-                                                            a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
-                                                            hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
-                                                            return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
-                                                            b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
-                                                            b.contentWindow[g].open()}catch(w){
-                                                            c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
-                                                            var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
-                                                            b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
-                                                            loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
+                                                              </section>
+                                                              <!-- /Block myaccount module --></div>
+                                                              <div class="it_CGFNKPAEBTMT col-xs-12 col-sm-4   "><!-- Block myaccount module -->
+                                                              <section class="footer-block">
 
-                                                            /* custom configuration goes here (www.olark.com/documentation) */
+                                                              </section>
+                                                              <!-- /Block myaccount module --></div>
+                                                              <div class="it_PVMULUPUDNYH col-xs-12 col-sm-4 col-md-4  "><!-- MODULE Block contact infos -->
+                                                              <section id="block_contact_infos" class="footer-block">
+                                                                <div>
+                                                                  <h4>Redes sociales</h4>
+                                                                  <div class="block_content toggle-footer">
+                                                                    <ul class="bullet">
+                                                                      <li>
+                                                                        <a title="Mis compras" rel="nofollow">Síguenos en nuestras redes sociales y dales LIKE</a>
+                                                                      </li>
+                                                                          </ul>
+                                                                  </div>
+                                                                </div>
+                                                              </section>
+                                                              <!-- /MODULE Block contact infos --><section id="social_block">
+                                                                <ul>
+                                                                        <li class="facebook">
+                                                                      <a target="_blank" href="https://www.facebook.com/AstorgusAsociados/" title="Facebook">
+                                                                        <span>Facebook</span>
+                                                                      </a>
+                                                                    </li>
+                                                                            <li class="twitter">
+                                                                      <a target="_blank" href="https://mobile.twitter.com/rs_textil" title="Twitter">
+                                                                        <span>Twitter</span>
+                                                                      </a>
+                                                                    </li>
+                                                                            <li class="youtube">
+                                                                      <a target="_blank" href="https://m.youtube.com/channel/UCl7PpI7rt27vB8qBAPXlA8g" title="Youtube">
+                                                                        <span>Youtube</span>
+                                                                      </a>
+                                                                    </li>
+                                                                                <li class="instagram">
+                                                                      <a class="_blank" href="https://www.instagram.com/astorgusasociados/">
+                                                                        <span>Instagram</span>
+                                                                      </a>
+                                                                    </li>
+                                                                    </ul>
+                                                                <h4>Síganos</h4>
+                                                              </section>
+                                                              <div class="clearfix"></div></div></div></div></div></div>
+                                                              <div class="wrapper it_BBNZRPDZHJXZ ">
+                                                              <div class="row it_RTICFYJVLNIL ">
+                                                              <div class="it_LNTHOJLQFGRA col-xs-12    footer_hidden">
+                                                              <!-- begin olark code -->
+                                                              <script data-cfasync="false" type='text/javascript'>
+                                                              /*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
+                                                              f[z]=function(){
+                                                              (a.s=a.s||[]).push(arguments)};var a=f[z]._={
+                                                              },q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
+                                                              f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
+                                                              0:+new Date};a.P=function(u){
+                                                              a.p[u]=new Date-a.p[0]};function s(){
+                                                              a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
+                                                              hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
+                                                              return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
+                                                              b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
+                                                              b.contentWindow[g].open()}catch(w){
+                                                              c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
+                                                              var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
+                                                              b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
+                                                              loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
 
-                                                            olark.identify('7830-582-10-3714');
+                                                              /* custom configuration goes here (www.olark.com/documentation) */
+
+                                                              olark.identify('7830-582-10-3714');
 
 
 
-                                                            /*]]>*/</script>
-                                                            <!-- end olark code --></div></div></div>
-                                                                                </div>
-                                                                                        </div>
-                                                                        </div><!-- #page -->
+                                                              /*]]>*/</script>
+                                                              <!-- end olark code --></div></div></div>
+                                                                                  </div>
+                                                                                          </div>
+                                                                          </div><!-- #page -->
 
 
-                                                            <script type="text/javascript" src="themes/theme1362/js/ga.js"></script>
-                                                            </body><!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.php?id=GTM-P9FT69"height="" width="" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');</script><!-- End Google Tag Manager --></html>
+                                                              <script type="text/javascript" src="themes/theme1362/js/ga.js"></script>
+                                                              </body><!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.php?id=GTM-P9FT69"height="" width="" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');</script><!-- End Google Tag Manager --></html>

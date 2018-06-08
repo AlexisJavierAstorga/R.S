@@ -33,7 +33,6 @@ $modificar2 = " UPDATE tbl_clientes SET password='$passwordnew' WHERE correo='".
 	$resultado2=$con->query($modificar2);
 	if ($resultado2) {
 			echo '<script>
-			alert("Tu contraseña ha cambiado");
 			window.history.go(-1);
 			</script>';
 	}else{

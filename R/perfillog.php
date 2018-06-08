@@ -344,71 +344,71 @@ var wishlistProductsIds = false;
 
         <form action=".php" method="post" class="box">
 
-<label for="email">Correo electrónico:</label>
+<label for="email">Correo electrónico:</label><br>
 <?php
 echo "<input value='".$_SESSION['u_usuario']."' disabled>";
 ?>
 
 <br><br>
-<label for="username">Nombre(s):</label>
+<label for="username">Nombre(s):</label><br>
 <?php
 echo "<input value='".$_SESSION['nombre']."' disabled>";
  ?>
 <br><br>
-<label for="apellidoPat">Apellido paterno:</label>
+<label for="apellidoPat">Apellido paterno:</label><br>
 <?php
 echo "<input value='".$_SESSION['apellidoPat']."' disabled>";
  ?>
 <br><br>
-<label for="apellidoMat">Apellido materno:</label>
+<label for="apellidoMat">Apellido materno:</label><br>
 <?php
 echo "<input value='".$_SESSION['apellidoMat']."' disabled>";
  ?>
 <br><br>
-<label for="fech">Fecha de nacimiento:</label>
+<label for="fech">Fecha de nacimiento:</label><br>
 <?php
 echo "<input value='".$_SESSION['fecha']."' disabled>";
  ?>
 <br><br>
-<label for="password">Password:</label>
+<label for="password">Password:</label><br>
 <?php
 echo "<input value='............' disabled>";
  ?>
  <br><br>
  <h3>Dirección</h3><br>
- <label for="estado">Estado:</label>
+ <label for="estado">Estado:</label><br>
  <?php
 echo "<input value='".$_SESSION['estado']."' disabled>";
   ?>
   <br><br>
 
-     <label for="delegacion">Delegación:</label>
+     <label for="delegacion">Delegación:</label><br>
      <?php
 echo "<input value='".$_SESSION['delegacion']."' disabled>";
       ?>
      <br><br>
 
-<label for="colonia">Colonia:</label>
+<label for="colonia">Colonia:</label><br>
 <?php
 echo "<input value='".$_SESSION['colonia']."' disabled>";
  ?>
 <br><br>
-<label for="calle">Calle:</label>
+<label for="calle">Calle:</label><br>
 <?php
 echo "<input value='".$_SESSION['calle']."' disabled>";
  ?>
 <br><br>
-<label for="numex">Número exterior:</label>
+<label for="numex">Número exterior:</label><br>
 <?php
 echo "<input value='".$_SESSION['numex']."' disabled>";
  ?>
 <br><br>
-<label for="numin">Número interior:</label>
+<label for="numin">Número interior:</label><br>
 <?php
 echo "<input value='".$_SESSION['numin']."' disabled>";
  ?>
 <br><br>
-<label for="postal">Código postal:</label>
+<label for="postal">Código postal:</label><br>
 <?php
 echo "<input value='".$_SESSION['postal']."' disabled>";
  ?>

@@ -402,8 +402,9 @@ var wishlistProductsIds = false;
 <?php echo "<input type='text' name='postal' maxlength='5' id='postal' value='".$_SESSION['postal']."' onkeypress='return valida(event)'>"?><br><br>
 
 <label for="password">Password antiguo:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<label for="password">Password nuevo:</label><br>
-<?php echo "<input type='password' name='password' maxlength='8' dir='password' value='".$_SESSION['password']."'>"?>
-<?php echo "<input type='password' name='passwordnew' maxlength='8' dir='password' value='".$_SESSION['password']."'>"?>
+<input type="password" name="password" maxlength="8" dir="password" value="">
+<input type="password" name="passwordnew" maxlength="8" dir="password" value="">
+<input type="password" name="reppass" maxlength="8" dir="password" value="">
 <br><br>
 
  <!--Nombre Usuario-->
